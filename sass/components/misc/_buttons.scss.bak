@@ -10,9 +10,9 @@
 
   background-color: $buttonbak;
 
-  border:none;
-  box-shadow: 0 2px 2px #999;
-  color: $link;
+  border: none;
+
+  color:$link ;
   font-weight: 700;
   font-family: inherit;
   font-size: 100%;

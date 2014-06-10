@@ -33,9 +33,8 @@
     -moz-border-radius:$socisize;
     -webkit-border-radius:$socisize;
     background-color: $buttonbak;
-
+    &:hover {color: $linkhover;}
 }
-.socicon:hover {color: $linkhover;}
 .socicon {
   @include socialcircle;
 }
