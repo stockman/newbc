@@ -8,11 +8,11 @@
   margin: 0;
   padding: 0 1.2em;
 
-  background-color: $fontcolour;
+  background-color: $buttonbak;
 
-  border: none;
-
-  color: #fff;
+  border:none;
+  box-shadow: 0 2px 2px #999;
+  color: $link;
   font-weight: 700;
   font-family: inherit;
   font-size: 100%;
@@ -34,7 +34,7 @@
   }
 
   &:hover {
-    background-color: $bordercolour;
+    background-color: $buttonbak2;
   }
 
   &:active,

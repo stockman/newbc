@@ -17,6 +17,7 @@ stylesheets[all][] = css/newbc.no-query.css
 ; Scripts
 ; ========================================
 scripts[] = js/newbc.behaviors.js
+scripts[] = js/Rand.js
 
 ; ========================================
 ; Regions
