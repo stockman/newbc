@@ -1,5 +1,10 @@
 //Superfish menus
 
+//this controls the child ul
+.sf-menu li.sfHover > ul {
+  left: 0;
+  top: 1.5em;
+}
 .superfisher {
   display: inline-block;
   vertical-align: bottom;
@@ -8,7 +13,8 @@
 
 .sf-menu {
 	vertical-align: bottom;
-	ul {background-color:$headerbackground;}
+	ul {background-color:$headerbackground;
+		opacity: .8}
 	li {float: left;
 		font-size: 1.5rem;
 		margin-left: .6rem;
@@ -31,7 +37,6 @@
  // display: block;
   margin-right: 2em;
   font-size: 20px;
-  background-color:pink;
   vertical-align: bottom;
   //asd
 }

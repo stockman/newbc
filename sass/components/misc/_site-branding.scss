@@ -28,7 +28,7 @@
 //--- Header ---
 //size logo
 #logo > img {
-  width: 25rem;
+  height: 3rem;
 }
 
 // colour and size header row
@@ -49,6 +49,7 @@
 // social icons
 .follow {
   display: inline;
+  vertical-align: bottom;
   @include breakpoint ($firstbreak){
   display: none;
   }
