@@ -12,10 +12,6 @@
   float: left;
 }
 
-.site-branding__logo {
-  width: 50px;
-  margin-right: $horz-spacing-unit;
-}
 .site-branding__name {
   @extend .gamma;
   color: #fff;
@@ -26,5 +22,34 @@
   }
   &:hover {
     color: $h_hover_colour;
+  }
+}
+
+//--- Header ---
+//size logo
+#logo > img {
+  width: 25rem;
+}
+
+// colour and size header row
+.headerrow {
+  width: 100%;
+  background-color: $headerbackground;
+  }
+  
+//show header items as inline
+.headerrow, .pane-page-logo, .usermenu {
+  display: inline-block;
+}
+// center header
+.header {width: 100%;
+  text-align: center;
+}
+
+// social icons
+.follow {
+  display: inline;
+  @include breakpoint ($firstbreak){
+  display: none;
   }
 }

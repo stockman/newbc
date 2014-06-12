@@ -1,0 +1,77 @@
+//Superfish menus
+
+.superfisher {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+
+.sf-menu {
+	vertical-align: bottom;
+	ul {background-color:$headerbackground;}
+	li {float: left;
+		font-size: 1.5rem;
+		margin-left: .6rem;
+		line-height: 1.5rem;
+	}
+	li a{text-decoration: none;
+	color: $headerlink;
+	padding-bottom: 1px;
+	display: inline;
+	//border-bottom: 1px solid;
+
+	&:hover {color:$headerlinkhover;
+			border-bottom:1px solid;
+			padding-bottom: 0
+			}
+	}
+}
+
+#superfish-1 {
+ // display: block;
+  margin-right: 2em;
+  font-size: 20px;
+  background-color:pink;
+  vertical-align: bottom;
+  //asd
+}
+/*
+.superfisher, .follow {vertical-align: bottom;}
+
+
+.sf-menu a {text-decoration: none}
+.sf-menu ul li {
+left : 0%;
+background-color: red;
+top: -.2em;
+
+}
+.sf-menu ul li a{
+ color: black;
+}
+.sf-menu ul li a:hover{
+color: purple
+}
+
+//spacing between sf words
+.sf-menu li {
+left : -50%;
+padding: .2rem;
+color: white;
+}
+
+.sf-menu li:hover {
+//  background-color:$h_colour;
+
+}
+.sf-menu li:hover a {color: orange;}
+
+
+// menu items
+#superfish-1 {
+ // display: block;
+  margin-right: 2em;
+  font-size: 20px;
+  //asd
+}
+*/
