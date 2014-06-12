@@ -1,34 +1,12 @@
 /**
  * $SITE-BRANDING
  */
-.site-branding {
-  padding: 1em 0;
-  @include clearfix(true);
-}
-
-.site-branding__name,
-.site-branding__logo {
-  display: block;
-  float: left;
-}
-
-.site-branding__name {
-  @extend .gamma;
-  color: #fff;
-  text-decoration: none;
-
-  &:visited {
-    color: #fff;
-  }
-  &:hover {
-    color: $h_hover_colour;
-  }
-}
 
 //--- Header ---
 //size logo
 #logo > img {
   height: 3rem;
+  @include breakpoint ($secondbreak){padding: .1rem .5rem; }
 }
 
 // colour and size header row
@@ -44,6 +22,8 @@
 // center header
 .header {width: 100%;
   text-align: center;
+// this is for the logo etc.
+ @include breakpoint ($secondbreak){text-align: left }
 }
 
 // social icons
