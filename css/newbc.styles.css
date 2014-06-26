@@ -138,11 +138,11 @@ td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000327}}
 tr.odd {
-  background: #ffd4dc; }
+  background: #238ae5; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000330}}
 tr.even {
-  background: #ffe9ed; }
+  background: #3594e7; }
 
 /**
  * $FONT-FACE
@@ -2330,7 +2330,7 @@ also I like the thin arrows in the velocity header.
   border: solid;
   height: 7rem;
   width: 7rem;
-  border-color: red; }
+  border-color: #1a80d9; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blog\.scss}line{font-family:\0000333}}
 .submitted {
@@ -2450,6 +2450,41 @@ also I like the thin arrows in the velocity header.
   border-top-width: 1px;
   height: 100%;
   position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\000035}}
+.views-view-grid td:first-child, .views-row-odd {
+  background-color: #1a80d9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000310}}
+.views-view-grid td:nth-child(2n), .views-row-even {
+  background-color: #0f4a7e; }
+
+/*.node--blog-content {
+	margin: 10px;
+}
+.node__title {
+  padding-top: 15px;
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000321}}
+article {
+  position: relative;
+  headerposition: absolute;
+  bottom: 0;
+  left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000329}}
+.statistics_counter {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000338}}
+.node__content {
+  padding: 1rem;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000340}}
+  .node__content p {
+    overflow: hidden; }
 
 /**
  * $BORDER-LIST
@@ -2647,38 +2682,6 @@ vertical-align: super;
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000342}}
     .follow {
       display: none; } }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/node\/_blogposts\.scss}line{font-family:\000033}}
-.views-view-grid td:first-child, .views-row-odd {
-  background-color: pink; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/node\/_blogposts\.scss}line{font-family:\000034}}
-.views-view-grid td:nth-child(2n), .views-row-even {
-  background-color: #ff5a77; }
-
-/*.node--blog-content {
-	margin: 10px;
-}
-.node__title {
-  padding-top: 15px;
-}*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/node\/_blogposts\.scss}line{font-family:\0000312}}
-article {
-  position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/node\/_blogposts\.scss}line{font-family:\0000313}}
-  article header {
-    position: absolute;
-    bottom: 0;
-    left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/node\/_blogposts\.scss}line{font-family:\0000314}}
-  article .statistics_counter {
-    position: absolute;
-    right: 0;
-    top: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/node\/_blogposts\.scss}line{font-family:\0000320}}
-.node__content img {
-  width: 100%; }
 
 /**
  * $NODE-BASIC-PAGE

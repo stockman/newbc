@@ -1,0 +1,43 @@
+@import "compass/layout/grid-background";
+
+//first child of grid mode or first row of blog posts (unformatted)
+.views-view-grid td:first-child,.views-row-odd
+{
+	background-color:$headerbackground;
+}
+
+.views-view-grid td:nth-child(2n),.views-row-even
+{
+	background-color:darken($headerbackground,20%)
+}
+
+/*.node--blog-content {
+	margin: 10px;
+}
+.node__title {
+  padding-top: 15px;
+}*/
+article
+{
+	position:relative;
+	headerposition:absolute;
+	bottom:0;
+	left:0
+}
+
+.statistics_counter
+{
+	position:absolute;
+	right:0;
+	top:0
+}	
+
+// june 26th:
+//merge this with blog.scss
+//try deleting both and adding back in each line.
+.node__content {
+	padding: 1rem;
+	p {overflow: hidden;}
+	text-align: center;
+
+}

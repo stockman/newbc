@@ -25,10 +25,10 @@ td {
 }
 
 tr.odd {
-  background: lighten($oddrow, 4%);
+  background: lighten($headerbackground, 4%);
 }
 tr.even {
-  background: lighten($oddrow, 8%);
+  background: lighten($headerbackground, 8%);
 }
 
 caption {
