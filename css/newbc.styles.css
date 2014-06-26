@@ -282,7 +282,7 @@ blockquote {
   padding-bottom: 0em;
   margin-bottom: 1.42857em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000383}}
 p + img {
   float: left;
   margin-right: 1em; }
@@ -290,7 +290,7 @@ p + img {
 /**
  * $QUOTES
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000391}}
 blockquote {
   margin-top: 0em;
   padding-top: 1.42857em;
@@ -305,18 +305,18 @@ blockquote {
   padding-left: 0.71429em;
   font-style: italic;
   color: purple; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003101}}
   blockquote p {
     margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003106}}
 q {
   font-style: italic; }
 
 /**
  * $MARKS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003114}}
 mark,
 .marker {
   padding: 0.1em 0.5em;
@@ -680,9 +680,6 @@ html[xmlns] .slides {
 *********************************/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000363}}
 .flexslider {
-  margin: 0 0 60px;
-  background: #fff;
-  border: 4px solid #fff;
   position: relative;
   webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -727,7 +724,7 @@ html[xmlns] .slides {
   overflow: hidden;
   opacity: 0;
   cursor: pointer;
-  color: #1a80d9;
+  color: white;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
@@ -735,22 +732,20 @@ html[xmlns] .slides {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003104}}
 .flex-direction-nav .flex-prev {
-  left: -50px; }
+  left: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003105}}
 .flex-direction-nav .flex-next {
-  right: -50px;
+  right: 0;
   text-align: right; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003106}}
 .flexslider:hover .flex-prev {
-  opacity: 0.7;
-  left: 10px; }
+  opacity: 0.7; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003107}}
 .flexslider:hover .flex-next {
-  opacity: 0.7;
-  right: 10px; }
+  opacity: 0.7; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003108}}
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
@@ -762,34 +757,37 @@ html[xmlns] .slides {
   filter: alpha(opacity=0);
   cursor: default; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003111}}
 .flex-direction-nav a:before {
+  background-color: #ffff0d;
   font-family: "FontAwesome";
   font-size: 40px;
   line-height: 1;
-  display: inline-block;
-  content: '\f104'; }
+  display: block;
+  content: '\f104';
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003122}}
 .flex-direction-nav a.flex-next:before {
   content: '\f105'; }
 
 /* Control Nav */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003125}}
 .flex-control-nav {
   width: 100%;
   position: absolute;
   bottom: -40px;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003126}}
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
   *display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003127}}
 .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -804,101 +802,101 @@ html[xmlns] .slides {
   border-radius: 20px;
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003128}}
 .flex-control-paging li a:hover {
   background: #333;
   background: rgba(0, 0, 0, 0.7); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003129}}
 .flex-control-paging li a.flex-active {
   background: #000;
   background: rgba(0, 0, 0, 0.9);
   cursor: default; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003131}}
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003132}}
 .flex-control-thumbs li {
   width: 25%;
   float: left;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003133}}
 .flex-control-thumbs img {
   width: 100%;
   display: block;
   opacity: .7;
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003134}}
 .flex-control-thumbs img:hover {
   opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003135}}
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default; }
 
 @media screen and (max-width: 860px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003138}}
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003139}}
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003141}}
   .flex-caption-small {
     /*display:none*/ } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003146}}
 .flexslider .slides li {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003150}}
 .flex-caption, .flex-title {
   position: absolute;
   left: 0;
   right: 0;
-  top: 30%;
+  top: 35%;
   /*background:#000;*/
   z-index: 1;
-  padding-left: 5%;
+  padding: 0 10%;
   font-family: 'Lato', sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 900;
   letter-spacing: 1.5px;
-  color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003154}}
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003166}}
   .flex-caption a, .flex-title a {
     color: #ffff0d;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003155}}
-    .flex-caption a :hover, .flex-title a :hover {
-      color: #ffff0d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003167}}
+    .flex-caption a:hover, .flex-title a:hover {
+      color: #ffff0d;
+      text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003170}}
   .flex-caption h1, .flex-title h1 {
     font-size: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003171}}
   .flex-caption div, .flex-caption span, .flex-title div, .flex-title span {
-    background-color: #1a80d9;
-    opacity: 0.8;
     display: inline-block;
     padding: .5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003176}}
 .flex-title {
-  top: 5%;
+  top: 10%;
   font-size: 2rem;
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003178}}
 .flex-caption-small {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
@@ -908,7 +906,7 @@ html[xmlns] .slides {
   padding: 10px 0 10px 5%;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003187}}
 .small {
   position: absolute;
   left: 0;
