@@ -78,6 +78,7 @@ p,
 %p {
   margin: 0;
   @include rhythm(0, 0, 0, 1);
+  
 }
 p + img {
   float: left;
