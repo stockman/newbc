@@ -1,9 +1,38 @@
- .node__submitted .user-picture img {
+.node--promoted footer {top: 5rem;}
+
+.node--promoted div, .node--promoted header, .node--promoted footer {
+text-align: center;
+}
+
+.node__submitted .user-picture {
+  top: 25px;
+  border-radius: 50%;
+}
+
+.node__submitted .user-picture img {
 	$sizer: 5rem;
   border-radius: $sizer/2;
-  border: solid;
   height: $sizer;
   width: $sizer;
-  border-color: $headerbackground;
+//  border: solid;
+//  border-color: $headerbackground;
+//  border-width: thick;
   &:hover {border-color: $bcgren;}
 }
+
+.node--promoted .field--type-image {
+	position: relative;
+	overflow: hidden;
+	img {border-radius: 3px;}
+}
+
+
+.field-name-field-image img, .views-field-field-image img {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+// need to fix the submitted
+//is it worth adjusting the template so the divs are in better order?
