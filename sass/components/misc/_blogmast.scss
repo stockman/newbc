@@ -1,0 +1,9 @@
+ .node__submitted .user-picture img {
+	$sizer: 5rem;
+  border-radius: $sizer/2;
+  border: solid;
+  height: $sizer;
+  width: $sizer;
+  border-color: $headerbackground;
+  &:hover {border-color: $bcgren;}
+}

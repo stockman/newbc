@@ -233,7 +233,7 @@ h6, .zeta {
   h4 a:hover, .delta a:hover, caption a:hover,
   h5 a:hover, .epsilon a:hover,
   h6 a:hover, .zeta a:hover {
-    color: purple; }
+    color: #80cc28; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000350}}
 h1, .alpha {
@@ -246,7 +246,7 @@ h2, .beta {
   font-size: 34px;
   font-size: 2.42857rem;
   font-weight: 700;
-  color: red; }
+  color: #1a80d9; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000359}}
 h3, .gamma {
@@ -2300,191 +2300,16 @@ All this is done for any sub-level being entered.
   font-size: 20px;
   vertical-align: bottom; }
 
-/**
- * $Blog
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blog\.scss}line{font-family:\000035}}
-.node--blog-content.node--event--blog-content {
-  width: 100%; }
-
-/*
-
-.First things first
-
-set all the content fields 
-that will give you the information that you need to match
-the other version.
-
-then style it.
-
-also I like the thin arrows in the velocity header.
-
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blog\.scss}line{font-family:\0000324}}
-.user-picture {
-  text-align: center; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blog\.scss}line{font-family:\0000326}}
-.user-picture img {
-  border-radius: 4rem;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\000031}}
+.node__submitted .user-picture img {
+  border-radius: 2.5rem;
   border: solid;
-  height: 7rem;
-  width: 7rem;
+  height: 5rem;
+  width: 5rem;
   border-color: #1a80d9; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blog\.scss}line{font-family:\0000333}}
-.submitted {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blog\.scss}line{font-family:\0000335}}
-.article h1 {
-  font-size: 1.2rem; }
-
-/*.views-field-picture {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: #fafafa;
-  background-image: none;
-  background-origin: padding-box;
-  background-position: 0 0;
-  background-repeat: repeat;
-  background-size: auto auto;
-  border-bottom-color: #e8e8e8;
-  border-bottom-left-radius: 23px;
-  border-bottom-right-radius: 23px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-image-outset: 0 0 0 0;
-  border-image-repeat: stretch stretch;
-  border-image-slice: 100% 100% 100% 100%;
-  border-image-source: none;
-  border-image-width: 1 1 1 1;
-  border-left-color-ltr-source: physical;
-  border-left-color-rtl-source: physical;
-  border-left-color-value: #e8e8e8;
-  border-left-style-ltr-source: physical;
-  border-left-style-rtl-source: physical;
-  border-left-style-value: solid;
-  border-left-width-ltr-source: physical;
-  border-left-width-rtl-source: physical;
-  border-left-width-value: 1px;
-  border-right-color-ltr-source: physical;
-  border-right-color-rtl-source: physical;
-  border-right-color-value: #e8e8e8;
-  border-right-style-ltr-source: physical;
-  border-right-style-rtl-source: physical;
-  border-right-style-value: solid;
-  border-right-width-ltr-source: physical;
-  border-right-width-rtl-source: physical;
-  border-right-width-value: 1px;
-  border-top-color: #e8e8e8;
-  border-radius: 23px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  left: 50%;
-  margin-left: -25px;
-  padding-bottom: 3px;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-top: 3px;
-  position: relative;
-  top: -25px;
-  width: 40px;
-  z-index: 10;
-}
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blog\.scss}line{font-family:\0000396}}
-.node--promoted {
-  display: inline-block; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blog\.scss}line{font-family:\0000398}}
-.node--promoted {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: #fff;
-  background-image: none;
-  background-origin: padding-box;
-  background-position: 0 0;
-  background-repeat: repeat;
-  background-size: auto auto;
-  border-bottom-color: #ebebeb;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-image-outset: 0 0 0 0;
-  border-image-repeat: stretch stretch;
-  border-image-slice: 100% 100% 100% 100%;
-  border-image-source: none;
-  border-image-width: 1 1 1 1;
-  border-left-color-ltr-source: physical;
-  border-left-color-rtl-source: physical;
-  border-left-color-value: #ebebeb;
-  border-left-style-ltr-source: physical;
-  border-left-style-rtl-source: physical;
-  border-left-style-value: solid;
-  border-left-width-ltr-source: physical;
-  border-left-width-rtl-source: physical;
-  border-left-width-value: 1px;
-  border-right-color-ltr-source: physical;
-  border-right-color-rtl-source: physical;
-  border-right-color-value: #ebebeb;
-  border-right-style-ltr-source: physical;
-  border-right-style-rtl-source: physical;
-  border-right-style-value: solid;
-  border-right-width-ltr-source: physical;
-  border-right-width-rtl-source: physical;
-  border-right-width-value: 1px;
-  border-top-color: #ebebeb;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  height: 100%;
-  position: relative; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\000035}}
-.views-view-grid td:first-child, .views-row-odd {
-  background-color: #1a80d9; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000310}}
-.views-view-grid td:nth-child(2n), .views-row-even {
-  background-color: #0f4a7e; }
-
-/*.node--blog-content {
-	margin: 10px;
-}
-.node__title {
-  padding-top: 15px;
-}*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000321}}
-article {
-  position: relative;
-  headerposition: absolute;
-  bottom: 0;
-  left: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000329}}
-.statistics_counter {
-  position: absolute;
-  right: 0;
-  top: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000338}}
-.node__content {
-  padding: 1rem;
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogposts\.scss}line{font-family:\0000340}}
-  .node__content p {
-    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\000038}}
+  .node__submitted .user-picture img:hover {
+    border-color: #80cc28; }
 
 /**
  * $BORDER-LIST
