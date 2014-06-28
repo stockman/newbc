@@ -1,25 +1,48 @@
+
+
+
+
 .node--promoted footer {top: 5rem;}
 
 .node--promoted div, .node--promoted header, .node--promoted footer {
 text-align: center;
 }
 
-.node__submitted .user-picture {
-  top: 25px;
-  border-radius: 50%;
+@mixin circ {
+  border: solid; 
+  border-width: thin;
+  border-color: #e8e8e8;
 }
+
+//hide submitted data
+.submitted {display: none}
+
+//user picture container
+
+.node__submitted .user-picture {
+  padding: .3rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  @include circ;
+  &:hover {background-color: $bcgren;}
+  z-index: 1;
+  position: relative;
+  top: 40px; //half the size of the .node--submitted div.
+
+}
+
+//user picture
 
 .node__submitted .user-picture img {
 	$sizer: 5rem;
   border-radius: $sizer/2;
   height: $sizer;
   width: $sizer;
-//  border: solid;
-//  border-color: $headerbackground;
-//  border-width: thick;
-  &:hover {border-color: $bcgren;}
+  @include circ;
 }
 
+// blog image
 .node--promoted .field--type-image {
 	position: relative;
 	overflow: hidden;
@@ -32,6 +55,7 @@ text-align: center;
     border-bottom-right-radius: 3px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+    background-color: red;
 }
 
 // need to fix the submitted
