@@ -42,7 +42,8 @@
 .follow {
   display: inline;
   vertical-align: bottom;
-  @include breakpoint ($firstbreak){
+/*  @include breakpoint ($firstbreak){
   display: none;
   }
+*/
 }

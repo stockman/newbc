@@ -1,11 +1,9 @@
 
 
-
-
-.node--promoted footer {top: 5rem;}
-
-.node--promoted div, .node--promoted header, .node--promoted footer {
+.blog {
 text-align: center;
+background-color: rgba($headerbackground, .5);
+padding: 0 .5rem;
 }
 
 @mixin circ {
@@ -14,12 +12,10 @@ text-align: center;
   border-color: #e8e8e8;
 }
 
-//hide submitted data
-.submitted {display: none}
 
 //user picture container
 
-.node__submitted .user-picture {
+.blog .user-picture {
   padding: .3rem;
   border-radius: 50%;
   display: inline-block;
@@ -28,36 +24,35 @@ text-align: center;
   &:hover {background-color: $bcgren;}
   z-index: 1;
   position: relative;
-  top: 40px; //half the size of the .node--submitted div.
-
-}
-
-//user picture
-
-.node__submitted .user-picture img {
-	$sizer: 5rem;
-  border-radius: $sizer/2;
-  height: $sizer;
-  width: $sizer;
-  @include circ;
+  top: -40px; //half the size of the .node--submitted div.
+  //user picture
+  img {
+    $sizer: 5rem;
+    border-radius: $sizer/2;
+    height: $sizer;
+    width: $sizer;
+    @include circ;
+    }
 }
 
 // blog image
-.node--promoted .field--type-image {
+.blog .views-field-field-picture {
 	position: relative;
 	overflow: hidden;
 	img {border-radius: 3px;}
 }
 
-
-.field-name-field-image img, .views-field-field-image img {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    background-color: red;
+.blog .views-field-title a {
+  color: $headerlink;
+  &:hover {$headerlinkhover;}
+  font-size: 120%;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  position: relative;
+  top: -25px;
 }
 
-// need to fix the submitted
-//hide submitted and add the post date
-//is it worth adjusting the template so the divs are in better order?
+// add the awefonts for comments and blog post times
+//expand 2nd div to container
+// this page is now too bland?
