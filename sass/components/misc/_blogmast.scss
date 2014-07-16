@@ -1,4 +1,6 @@
 
+.blogpost {max-width: 400px}
+
 
 .blog {
 text-align: center;
@@ -44,7 +46,7 @@ padding: 0 .5rem;
 
 .blog .views-field-title a {
   color: $headerlink;
-  &:hover {$headerlinkhover;}
+  &:hover {color:$headerlinkhover;}
   font-size: 120%;
   font-weight: 600;
   line-height: 1.2;

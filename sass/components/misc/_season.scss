@@ -1,0 +1,29 @@
+/**
+ * $SEASONAL
+ */
+
+ //hide the submitted content
+.node--seasonal .node__submitted {display: none;}
+
+
+
+//padding for season
+.season .pane-node {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+// center the season title
+.season .pane-title {
+  text-align: center;
+}
+//hide the stat counter
+.season .statistics_counter{
+  display: none;
+}
+//shrinking this to look really neat inside
+.field__item.even {
+  @include center-block;
+  max-width: 200px;
+}

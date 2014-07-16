@@ -1,0 +1,22 @@
+/**
+ * $content layout
+ */
+@import "compass/layout/grid-background";
+
+body{
+    @include grid-background;
+}
+
+@import "compass/css3";
+ 
+
+//creating a padding mixin until I can find a better solution
+@mixin boxer {
+padding: 2rem;
+}
+
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
