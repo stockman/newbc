@@ -6,10 +6,12 @@
 
 //summer season
 //.panel-pane {padding:2rem}
+@import "susy";
 
 .season_calendar .inside {
   @include center-block;
-  max-width: 1200px;
+  max-width: 1200px
+//  @include span (4 at 2 of 12)
 //  background-color: white;
   }
 
@@ -67,7 +69,9 @@
 .flexslide_region {width: 100%}
 //the full site container
 .sitecontainer {
-background-color:lighten($headerbackground,45%);
+background-color:lighten($headerbackground,5%);
+//opacity: .75;
+
 //background: elopment/sites/bc.localhost/files/P3203252.png;
 //background:url('/files/P3203252.png') no-repeat fixed center ;
 //background-size: cover;

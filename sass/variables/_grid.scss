@@ -1,11 +1,32 @@
 // Set consistent vertical and horizontal spacing units.
+
+//see stats for screen res
+//$big-vert:1280px
+	//$big-vert/2 = 560 20 vert-spacing units
+
 $vert-spacing-unit: 18px;
 $horz-spacing-unit: 1em;
 
 $tab: 44em;
 $desk: 70em;
 
-$grids: 4;
-$grids: add-grid(12 at $tab);
-
+//$gutters: 10px;
 $gutters: 1/3;
+
+//$grids: ($vert-spacing-unit + $gutters);
+$grids: 10;
+//$grids: add-grid(12 at $tab);
+
+
+
+// turn grid on and off:
+@import "compass/layout/grid-background";
+
+body{
+	//sets the total number of columns to cover the entire screen See [[compass]] variables
+     $grid-background-total-columns: 48 ;
+//    $grid-background-baseline-height 1.5em
+//	 $grid-background-gutter-width: 10px  ;
+    $grid-background-column-width: $vert-spacing-unit*2;
+    @include grid-background;
+}

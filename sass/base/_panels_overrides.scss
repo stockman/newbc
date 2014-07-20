@@ -1,0 +1,7 @@
+/**
+ * $Override some of the panels defaultd settings
+ */
+
+// overriding the 99% default setting for panels inside
+//  give this class to the single row (settings).
+.fullwidth .inside>div {width: 100%}

@@ -5,7 +5,11 @@
  //hide the submitted content
 .node--seasonal .node__submitted {display: none;}
 
+.season .inside {max-height: $vert-spacing-unit;}
 
+//make the boxes in the middle lyrical speed boxes the Maxim lit with
+//me make those boxes and maximum width because it looks weird
+//last notes to RT
 
 //padding for season
 .season .pane-node {
@@ -23,7 +27,11 @@
   display: none;
 }
 //shrinking this to look really neat inside
-.field__item.even {
+.season .field__item.even {
   @include center-block;
   max-width: 200px;
+}
+
+.pane-node {background-color:lighten($headerbackground,45%);
+	color: $headerbackground;
 }

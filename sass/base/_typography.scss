@@ -10,7 +10,7 @@
  */
 html {
   font-family: $pt-sans;
-  color: $fontcolour;
+  color: $bcgren;
 }
 
 /**
@@ -54,7 +54,7 @@ h1, .alpha {
 h2, .beta {
   @include font-size(34px);
   font-weight: 700;
-  color: $headerbackground;
+  color: $bcgren;
 }
 h3, .gamma {
   @include font-size(21px);
