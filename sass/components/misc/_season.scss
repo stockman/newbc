@@ -35,3 +35,7 @@
 .season .pane-node {background-color:lighten($headerbackground,45%);
 	color: $headerbackground;
 }
+
+.season .views-field-body{max-height: 400px;
+overflow: hidden;
+}

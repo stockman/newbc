@@ -2615,6 +2615,11 @@ vertical-align: super;
   background-color: #deedfb;
   color: #1a80d9; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_season\.scss}line{font-family:\0000339}}
+.season .views-field-body {
+  max-height: 400px;
+  overflow: hidden; }
+
 /**
  * $SECTION-TITLE
  */
