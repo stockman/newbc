@@ -46,6 +46,19 @@ body {
   background-size: 100% 1.5em, auto;
   background-position: left top; }
 
+/*
+
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+*/
 /**
  * $ARROW
  */
@@ -2456,6 +2469,38 @@ vertical-align: super;
   display: none; }
 
 /**
+ * $home blurbs
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\000035}}
+.pane-views-homepage-blurbs-block-1.inside {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\000039}}
+.view-homepage-blurbs .views-row {
+  width: 29%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\0000311}}
+.view-homepage-blurbs .views-row {
+  float: left;
+  /*  padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    */
+  position: relative;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\0000326}}
+.blurbs .pane-node {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\0000331}}
+.blurbs .links {
+  display: none; }
+
+/**
  * $MESSAGES
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_messages\.scss}line{font-family:\000034}}
@@ -2566,7 +2611,7 @@ vertical-align: super;
   max-width: 200px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_season\.scss}line{font-family:\0000335}}
-.pane-node {
+.season .pane-node {
   background-color: #deedfb;
   color: #1a80d9; }
 

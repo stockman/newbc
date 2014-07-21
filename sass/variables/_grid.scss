@@ -30,3 +30,16 @@ body{
     $grid-background-column-width: $vert-spacing-unit*2;
     @include grid-background;
 }
+/*
+
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+*/
