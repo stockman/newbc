@@ -1,4 +1,48 @@
 
+
+.bodycontent {
+    //show the grid as a background
+    $gutter-styles: 'split';    
+    @include background-grid($color: $headerbackground);
+    width: 100%
+}  
+
+.blogposts, .blurbs, .season {
+  width: 100%;
+}
+
+
+.season {
+  .pane-node {@include grid-span(6, 1);}
+  .pane-views-full-calendar-block {@include grid-span(6, 7);}
+  // temp below
+  .pane-calendarheader {display: none}
+}
+
+
+.blogposts, .blurbs {
+  .views-row {
+  @include grid-span(4, 1, $output-style: 'float');
+  background-color: green;
+  @include padder;
+  }
+}
+
+.blurbs {
+  h2 {font-size: 1.5rem;}
+  .views-field-field-icon, .views-field-title {
+    display: inline-block;
+  }
+}
+
+
+
+
+// july 25, 2014 legacy rebuild below.
+
+/*
+
+
 .blogpost {max-width: $vert-spacing-unit*18}
 
 
@@ -58,3 +102,5 @@ padding: 0 .5rem;
 // add the awefonts for comments and blog post times
 //expand 2nd div to container
 // this page is now too bland?
+
+*/

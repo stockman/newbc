@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,700);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.newbc\/gems\/singularitygs-1\.1\.2\/stylesheets\/singularitygs\/helpers\/_clearfix\.scss}line{font-family:\0000382}}
 .comment__content, .field--type-taxonomy-term-reference .field__items, .pager {
   /* for IE 6/7 */
@@ -33,32 +32,9 @@
   .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after {
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/variables\/_grid\.scss}line{font-family:\0000325}}
-body {
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 2208 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(1.63043%, rgba(100, 100, 225, 0.25)), color-stop(1.63043%, rgba(0, 0, 0, 0)), color-stop(2.08333%, rgba(0, 0, 0, 0)), color-stop(2.08333%, rgba(100, 100, 225, 0.25)), color-stop(3.71377%, rgba(100, 100, 225, 0.25)), color-stop(3.71377%, rgba(0, 0, 0, 0)), color-stop(4.16667%, rgba(0, 0, 0, 0)), color-stop(4.16667%, rgba(100, 100, 225, 0.25)), color-stop(5.7971%, rgba(100, 100, 225, 0.25)), color-stop(5.7971%, rgba(0, 0, 0, 0)), color-stop(6.25%, rgba(0, 0, 0, 0)), color-stop(6.25%, rgba(100, 100, 225, 0.25)), color-stop(7.88043%, rgba(100, 100, 225, 0.25)), color-stop(7.88043%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(100, 100, 225, 0.25)), color-stop(9.96377%, rgba(100, 100, 225, 0.25)), color-stop(9.96377%, rgba(0, 0, 0, 0)), color-stop(10.41667%, rgba(0, 0, 0, 0)), color-stop(10.41667%, rgba(100, 100, 225, 0.25)), color-stop(12.0471%, rgba(100, 100, 225, 0.25)), color-stop(12.0471%, rgba(0, 0, 0, 0)), color-stop(12.5%, rgba(0, 0, 0, 0)), color-stop(12.5%, rgba(100, 100, 225, 0.25)), color-stop(14.13043%, rgba(100, 100, 225, 0.25)), color-stop(14.13043%, rgba(0, 0, 0, 0)), color-stop(14.58333%, rgba(0, 0, 0, 0)), color-stop(14.58333%, rgba(100, 100, 225, 0.25)), color-stop(16.21377%, rgba(100, 100, 225, 0.25)), color-stop(16.21377%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(100, 100, 225, 0.25)), color-stop(18.2971%, rgba(100, 100, 225, 0.25)), color-stop(18.2971%, rgba(0, 0, 0, 0)), color-stop(18.75%, rgba(0, 0, 0, 0)), color-stop(18.75%, rgba(100, 100, 225, 0.25)), color-stop(20.38043%, rgba(100, 100, 225, 0.25)), color-stop(20.38043%, rgba(0, 0, 0, 0)), color-stop(20.83333%, rgba(0, 0, 0, 0)), color-stop(20.83333%, rgba(100, 100, 225, 0.25)), color-stop(22.46377%, rgba(100, 100, 225, 0.25)), color-stop(22.46377%, rgba(0, 0, 0, 0)), color-stop(22.91667%, rgba(0, 0, 0, 0)), color-stop(22.91667%, rgba(100, 100, 225, 0.25)), color-stop(24.5471%, rgba(100, 100, 225, 0.25)), color-stop(24.5471%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(26.63043%, rgba(100, 100, 225, 0.25)), color-stop(26.63043%, rgba(0, 0, 0, 0)), color-stop(27.08333%, rgba(0, 0, 0, 0)), color-stop(27.08333%, rgba(100, 100, 225, 0.25)), color-stop(28.71377%, rgba(100, 100, 225, 0.25)), color-stop(28.71377%, rgba(0, 0, 0, 0)), color-stop(29.16667%, rgba(0, 0, 0, 0)), color-stop(29.16667%, rgba(100, 100, 225, 0.25)), color-stop(30.7971%, rgba(100, 100, 225, 0.25)), color-stop(30.7971%, rgba(0, 0, 0, 0)), color-stop(31.25%, rgba(0, 0, 0, 0)), color-stop(31.25%, rgba(100, 100, 225, 0.25)), color-stop(32.88043%, rgba(100, 100, 225, 0.25)), color-stop(32.88043%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(100, 100, 225, 0.25)), color-stop(34.96377%, rgba(100, 100, 225, 0.25)), color-stop(34.96377%, rgba(0, 0, 0, 0)), color-stop(35.41667%, rgba(0, 0, 0, 0)), color-stop(35.41667%, rgba(100, 100, 225, 0.25)), color-stop(37.0471%, rgba(100, 100, 225, 0.25)), color-stop(37.0471%, rgba(0, 0, 0, 0)), color-stop(37.5%, rgba(0, 0, 0, 0)), color-stop(37.5%, rgba(100, 100, 225, 0.25)), color-stop(39.13043%, rgba(100, 100, 225, 0.25)), color-stop(39.13043%, rgba(0, 0, 0, 0)), color-stop(39.58333%, rgba(0, 0, 0, 0)), color-stop(39.58333%, rgba(100, 100, 225, 0.25)), color-stop(41.21377%, rgba(100, 100, 225, 0.25)), color-stop(41.21377%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(100, 100, 225, 0.25)), color-stop(43.2971%, rgba(100, 100, 225, 0.25)), color-stop(43.2971%, rgba(0, 0, 0, 0)), color-stop(43.75%, rgba(0, 0, 0, 0)), color-stop(43.75%, rgba(100, 100, 225, 0.25)), color-stop(45.38043%, rgba(100, 100, 225, 0.25)), color-stop(45.38043%, rgba(0, 0, 0, 0)), color-stop(45.83333%, rgba(0, 0, 0, 0)), color-stop(45.83333%, rgba(100, 100, 225, 0.25)), color-stop(47.46377%, rgba(100, 100, 225, 0.25)), color-stop(47.46377%, rgba(0, 0, 0, 0)), color-stop(47.91667%, rgba(0, 0, 0, 0)), color-stop(47.91667%, rgba(100, 100, 225, 0.25)), color-stop(49.5471%, rgba(100, 100, 225, 0.25)), color-stop(49.5471%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(100, 100, 225, 0.25)), color-stop(51.63043%, rgba(100, 100, 225, 0.25)), color-stop(51.63043%, rgba(0, 0, 0, 0)), color-stop(52.08333%, rgba(0, 0, 0, 0)), color-stop(52.08333%, rgba(100, 100, 225, 0.25)), color-stop(53.71377%, rgba(100, 100, 225, 0.25)), color-stop(53.71377%, rgba(0, 0, 0, 0)), color-stop(54.16667%, rgba(0, 0, 0, 0)), color-stop(54.16667%, rgba(100, 100, 225, 0.25)), color-stop(55.7971%, rgba(100, 100, 225, 0.25)), color-stop(55.7971%, rgba(0, 0, 0, 0)), color-stop(56.25%, rgba(0, 0, 0, 0)), color-stop(56.25%, rgba(100, 100, 225, 0.25)), color-stop(57.88043%, rgba(100, 100, 225, 0.25)), color-stop(57.88043%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(100, 100, 225, 0.25)), color-stop(59.96377%, rgba(100, 100, 225, 0.25)), color-stop(59.96377%, rgba(0, 0, 0, 0)), color-stop(60.41667%, rgba(0, 0, 0, 0)), color-stop(60.41667%, rgba(100, 100, 225, 0.25)), color-stop(62.0471%, rgba(100, 100, 225, 0.25)), color-stop(62.0471%, rgba(0, 0, 0, 0)), color-stop(62.5%, rgba(0, 0, 0, 0)), color-stop(62.5%, rgba(100, 100, 225, 0.25)), color-stop(64.13043%, rgba(100, 100, 225, 0.25)), color-stop(64.13043%, rgba(0, 0, 0, 0)), color-stop(64.58333%, rgba(0, 0, 0, 0)), color-stop(64.58333%, rgba(100, 100, 225, 0.25)), color-stop(66.21377%, rgba(100, 100, 225, 0.25)), color-stop(66.21377%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(100, 100, 225, 0.25)), color-stop(68.2971%, rgba(100, 100, 225, 0.25)), color-stop(68.2971%, rgba(0, 0, 0, 0)), color-stop(68.75%, rgba(0, 0, 0, 0)), color-stop(68.75%, rgba(100, 100, 225, 0.25)), color-stop(70.38043%, rgba(100, 100, 225, 0.25)), color-stop(70.38043%, rgba(0, 0, 0, 0)), color-stop(70.83333%, rgba(0, 0, 0, 0)), color-stop(70.83333%, rgba(100, 100, 225, 0.25)), color-stop(72.46377%, rgba(100, 100, 225, 0.25)), color-stop(72.46377%, rgba(0, 0, 0, 0)), color-stop(72.91667%, rgba(0, 0, 0, 0)), color-stop(72.91667%, rgba(100, 100, 225, 0.25)), color-stop(74.5471%, rgba(100, 100, 225, 0.25)), color-stop(74.5471%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(76.63043%, rgba(100, 100, 225, 0.25)), color-stop(76.63043%, rgba(0, 0, 0, 0)), color-stop(77.08333%, rgba(0, 0, 0, 0)), color-stop(77.08333%, rgba(100, 100, 225, 0.25)), color-stop(78.71377%, rgba(100, 100, 225, 0.25)), color-stop(78.71377%, rgba(0, 0, 0, 0)), color-stop(79.16667%, rgba(0, 0, 0, 0)), color-stop(79.16667%, rgba(100, 100, 225, 0.25)), color-stop(80.7971%, rgba(100, 100, 225, 0.25)), color-stop(80.7971%, rgba(0, 0, 0, 0)), color-stop(81.25%, rgba(0, 0, 0, 0)), color-stop(81.25%, rgba(100, 100, 225, 0.25)), color-stop(82.88043%, rgba(100, 100, 225, 0.25)), color-stop(82.88043%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(100, 100, 225, 0.25)), color-stop(84.96377%, rgba(100, 100, 225, 0.25)), color-stop(84.96377%, rgba(0, 0, 0, 0)), color-stop(85.41667%, rgba(0, 0, 0, 0)), color-stop(85.41667%, rgba(100, 100, 225, 0.25)), color-stop(87.0471%, rgba(100, 100, 225, 0.25)), color-stop(87.0471%, rgba(0, 0, 0, 0)), color-stop(87.5%, rgba(0, 0, 0, 0)), color-stop(87.5%, rgba(100, 100, 225, 0.25)), color-stop(89.13043%, rgba(100, 100, 225, 0.25)), color-stop(89.13043%, rgba(0, 0, 0, 0)), color-stop(89.58333%, rgba(0, 0, 0, 0)), color-stop(89.58333%, rgba(100, 100, 225, 0.25)), color-stop(91.21377%, rgba(100, 100, 225, 0.25)), color-stop(91.21377%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(100, 100, 225, 0.25)), color-stop(93.2971%, rgba(100, 100, 225, 0.25)), color-stop(93.2971%, rgba(0, 0, 0, 0)), color-stop(93.75%, rgba(0, 0, 0, 0)), color-stop(93.75%, rgba(100, 100, 225, 0.25)), color-stop(95.38043%, rgba(100, 100, 225, 0.25)), color-stop(95.38043%, rgba(0, 0, 0, 0)), color-stop(95.83333%, rgba(0, 0, 0, 0)), color-stop(95.83333%, rgba(100, 100, 225, 0.25)), color-stop(97.46377%, rgba(100, 100, 225, 0.25)), color-stop(97.46377%, rgba(0, 0, 0, 0)), color-stop(97.91667%, rgba(0, 0, 0, 0)), color-stop(97.91667%, rgba(100, 100, 225, 0.25)), color-stop(99.5471%, rgba(100, 100, 225, 0.25)), color-stop(99.5471%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 36px, rgba(0, 0, 0, 0) 36px, rgba(0, 0, 0, 0) 46px, rgba(100, 100, 225, 0.25) 46px, rgba(100, 100, 225, 0.25) 82px, rgba(0, 0, 0, 0) 82px, rgba(0, 0, 0, 0) 92px, rgba(100, 100, 225, 0.25) 92px, rgba(100, 100, 225, 0.25) 128px, rgba(0, 0, 0, 0) 128px, rgba(0, 0, 0, 0) 138px, rgba(100, 100, 225, 0.25) 138px, rgba(100, 100, 225, 0.25) 174px, rgba(0, 0, 0, 0) 174px, rgba(0, 0, 0, 0) 184px, rgba(100, 100, 225, 0.25) 184px, rgba(100, 100, 225, 0.25) 220px, rgba(0, 0, 0, 0) 220px, rgba(0, 0, 0, 0) 230px, rgba(100, 100, 225, 0.25) 230px, rgba(100, 100, 225, 0.25) 266px, rgba(0, 0, 0, 0) 266px, rgba(0, 0, 0, 0) 276px, rgba(100, 100, 225, 0.25) 276px, rgba(100, 100, 225, 0.25) 312px, rgba(0, 0, 0, 0) 312px, rgba(0, 0, 0, 0) 322px, rgba(100, 100, 225, 0.25) 322px, rgba(100, 100, 225, 0.25) 358px, rgba(0, 0, 0, 0) 358px, rgba(0, 0, 0, 0) 368px, rgba(100, 100, 225, 0.25) 368px, rgba(100, 100, 225, 0.25) 404px, rgba(0, 0, 0, 0) 404px, rgba(0, 0, 0, 0) 414px, rgba(100, 100, 225, 0.25) 414px, rgba(100, 100, 225, 0.25) 450px, rgba(0, 0, 0, 0) 450px, rgba(0, 0, 0, 0) 460px, rgba(100, 100, 225, 0.25) 460px, rgba(100, 100, 225, 0.25) 496px, rgba(0, 0, 0, 0) 496px, rgba(0, 0, 0, 0) 506px, rgba(100, 100, 225, 0.25) 506px, rgba(100, 100, 225, 0.25) 542px, rgba(0, 0, 0, 0) 542px, rgba(0, 0, 0, 0) 552px, rgba(100, 100, 225, 0.25) 552px, rgba(100, 100, 225, 0.25) 588px, rgba(0, 0, 0, 0) 588px, rgba(0, 0, 0, 0) 598px, rgba(100, 100, 225, 0.25) 598px, rgba(100, 100, 225, 0.25) 634px, rgba(0, 0, 0, 0) 634px, rgba(0, 0, 0, 0) 644px, rgba(100, 100, 225, 0.25) 644px, rgba(100, 100, 225, 0.25) 680px, rgba(0, 0, 0, 0) 680px, rgba(0, 0, 0, 0) 690px, rgba(100, 100, 225, 0.25) 690px, rgba(100, 100, 225, 0.25) 726px, rgba(0, 0, 0, 0) 726px, rgba(0, 0, 0, 0) 736px, rgba(100, 100, 225, 0.25) 736px, rgba(100, 100, 225, 0.25) 772px, rgba(0, 0, 0, 0) 772px, rgba(0, 0, 0, 0) 782px, rgba(100, 100, 225, 0.25) 782px, rgba(100, 100, 225, 0.25) 818px, rgba(0, 0, 0, 0) 818px, rgba(0, 0, 0, 0) 828px, rgba(100, 100, 225, 0.25) 828px, rgba(100, 100, 225, 0.25) 864px, rgba(0, 0, 0, 0) 864px, rgba(0, 0, 0, 0) 874px, rgba(100, 100, 225, 0.25) 874px, rgba(100, 100, 225, 0.25) 910px, rgba(0, 0, 0, 0) 910px, rgba(0, 0, 0, 0) 920px, rgba(100, 100, 225, 0.25) 920px, rgba(100, 100, 225, 0.25) 956px, rgba(0, 0, 0, 0) 956px, rgba(0, 0, 0, 0) 966px, rgba(100, 100, 225, 0.25) 966px, rgba(100, 100, 225, 0.25) 1002px, rgba(0, 0, 0, 0) 1002px, rgba(0, 0, 0, 0) 1012px, rgba(100, 100, 225, 0.25) 1012px, rgba(100, 100, 225, 0.25) 1048px, rgba(0, 0, 0, 0) 1048px, rgba(0, 0, 0, 0) 1058px, rgba(100, 100, 225, 0.25) 1058px, rgba(100, 100, 225, 0.25) 1094px, rgba(0, 0, 0, 0) 1094px, rgba(0, 0, 0, 0) 1104px, rgba(100, 100, 225, 0.25) 1104px, rgba(100, 100, 225, 0.25) 1140px, rgba(0, 0, 0, 0) 1140px, rgba(0, 0, 0, 0) 1150px, rgba(100, 100, 225, 0.25) 1150px, rgba(100, 100, 225, 0.25) 1186px, rgba(0, 0, 0, 0) 1186px, rgba(0, 0, 0, 0) 1196px, rgba(100, 100, 225, 0.25) 1196px, rgba(100, 100, 225, 0.25) 1232px, rgba(0, 0, 0, 0) 1232px, rgba(0, 0, 0, 0) 1242px, rgba(100, 100, 225, 0.25) 1242px, rgba(100, 100, 225, 0.25) 1278px, rgba(0, 0, 0, 0) 1278px, rgba(0, 0, 0, 0) 1288px, rgba(100, 100, 225, 0.25) 1288px, rgba(100, 100, 225, 0.25) 1324px, rgba(0, 0, 0, 0) 1324px, rgba(0, 0, 0, 0) 1334px, rgba(100, 100, 225, 0.25) 1334px, rgba(100, 100, 225, 0.25) 1370px, rgba(0, 0, 0, 0) 1370px, rgba(0, 0, 0, 0) 1380px, rgba(100, 100, 225, 0.25) 1380px, rgba(100, 100, 225, 0.25) 1416px, rgba(0, 0, 0, 0) 1416px, rgba(0, 0, 0, 0) 1426px, rgba(100, 100, 225, 0.25) 1426px, rgba(100, 100, 225, 0.25) 1462px, rgba(0, 0, 0, 0) 1462px, rgba(0, 0, 0, 0) 1472px, rgba(100, 100, 225, 0.25) 1472px, rgba(100, 100, 225, 0.25) 1508px, rgba(0, 0, 0, 0) 1508px, rgba(0, 0, 0, 0) 1518px, rgba(100, 100, 225, 0.25) 1518px, rgba(100, 100, 225, 0.25) 1554px, rgba(0, 0, 0, 0) 1554px, rgba(0, 0, 0, 0) 1564px, rgba(100, 100, 225, 0.25) 1564px, rgba(100, 100, 225, 0.25) 1600px, rgba(0, 0, 0, 0) 1600px, rgba(0, 0, 0, 0) 1610px, rgba(100, 100, 225, 0.25) 1610px, rgba(100, 100, 225, 0.25) 1646px, rgba(0, 0, 0, 0) 1646px, rgba(0, 0, 0, 0) 1656px, rgba(100, 100, 225, 0.25) 1656px, rgba(100, 100, 225, 0.25) 1692px, rgba(0, 0, 0, 0) 1692px, rgba(0, 0, 0, 0) 1702px, rgba(100, 100, 225, 0.25) 1702px, rgba(100, 100, 225, 0.25) 1738px, rgba(0, 0, 0, 0) 1738px, rgba(0, 0, 0, 0) 1748px, rgba(100, 100, 225, 0.25) 1748px, rgba(100, 100, 225, 0.25) 1784px, rgba(0, 0, 0, 0) 1784px, rgba(0, 0, 0, 0) 1794px, rgba(100, 100, 225, 0.25) 1794px, rgba(100, 100, 225, 0.25) 1830px, rgba(0, 0, 0, 0) 1830px, rgba(0, 0, 0, 0) 1840px, rgba(100, 100, 225, 0.25) 1840px, rgba(100, 100, 225, 0.25) 1876px, rgba(0, 0, 0, 0) 1876px, rgba(0, 0, 0, 0) 1886px, rgba(100, 100, 225, 0.25) 1886px, rgba(100, 100, 225, 0.25) 1922px, rgba(0, 0, 0, 0) 1922px, rgba(0, 0, 0, 0) 1932px, rgba(100, 100, 225, 0.25) 1932px, rgba(100, 100, 225, 0.25) 1968px, rgba(0, 0, 0, 0) 1968px, rgba(0, 0, 0, 0) 1978px, rgba(100, 100, 225, 0.25) 1978px, rgba(100, 100, 225, 0.25) 2014px, rgba(0, 0, 0, 0) 2014px, rgba(0, 0, 0, 0) 2024px, rgba(100, 100, 225, 0.25) 2024px, rgba(100, 100, 225, 0.25) 2060px, rgba(0, 0, 0, 0) 2060px, rgba(0, 0, 0, 0) 2070px, rgba(100, 100, 225, 0.25) 2070px, rgba(100, 100, 225, 0.25) 2106px, rgba(0, 0, 0, 0) 2106px, rgba(0, 0, 0, 0) 2116px, rgba(100, 100, 225, 0.25) 2116px, rgba(100, 100, 225, 0.25) 2152px, rgba(0, 0, 0, 0) 2152px, rgba(0, 0, 0, 0) 2162px, rgba(100, 100, 225, 0.25) 2162px, rgba(100, 100, 225, 0.25) 2198px, rgba(0, 0, 0, 0) 2198px, rgba(0, 0, 0, 0) 2208px);
-  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 36px, rgba(0, 0, 0, 0) 36px, rgba(0, 0, 0, 0) 46px, rgba(100, 100, 225, 0.25) 46px, rgba(100, 100, 225, 0.25) 82px, rgba(0, 0, 0, 0) 82px, rgba(0, 0, 0, 0) 92px, rgba(100, 100, 225, 0.25) 92px, rgba(100, 100, 225, 0.25) 128px, rgba(0, 0, 0, 0) 128px, rgba(0, 0, 0, 0) 138px, rgba(100, 100, 225, 0.25) 138px, rgba(100, 100, 225, 0.25) 174px, rgba(0, 0, 0, 0) 174px, rgba(0, 0, 0, 0) 184px, rgba(100, 100, 225, 0.25) 184px, rgba(100, 100, 225, 0.25) 220px, rgba(0, 0, 0, 0) 220px, rgba(0, 0, 0, 0) 230px, rgba(100, 100, 225, 0.25) 230px, rgba(100, 100, 225, 0.25) 266px, rgba(0, 0, 0, 0) 266px, rgba(0, 0, 0, 0) 276px, rgba(100, 100, 225, 0.25) 276px, rgba(100, 100, 225, 0.25) 312px, rgba(0, 0, 0, 0) 312px, rgba(0, 0, 0, 0) 322px, rgba(100, 100, 225, 0.25) 322px, rgba(100, 100, 225, 0.25) 358px, rgba(0, 0, 0, 0) 358px, rgba(0, 0, 0, 0) 368px, rgba(100, 100, 225, 0.25) 368px, rgba(100, 100, 225, 0.25) 404px, rgba(0, 0, 0, 0) 404px, rgba(0, 0, 0, 0) 414px, rgba(100, 100, 225, 0.25) 414px, rgba(100, 100, 225, 0.25) 450px, rgba(0, 0, 0, 0) 450px, rgba(0, 0, 0, 0) 460px, rgba(100, 100, 225, 0.25) 460px, rgba(100, 100, 225, 0.25) 496px, rgba(0, 0, 0, 0) 496px, rgba(0, 0, 0, 0) 506px, rgba(100, 100, 225, 0.25) 506px, rgba(100, 100, 225, 0.25) 542px, rgba(0, 0, 0, 0) 542px, rgba(0, 0, 0, 0) 552px, rgba(100, 100, 225, 0.25) 552px, rgba(100, 100, 225, 0.25) 588px, rgba(0, 0, 0, 0) 588px, rgba(0, 0, 0, 0) 598px, rgba(100, 100, 225, 0.25) 598px, rgba(100, 100, 225, 0.25) 634px, rgba(0, 0, 0, 0) 634px, rgba(0, 0, 0, 0) 644px, rgba(100, 100, 225, 0.25) 644px, rgba(100, 100, 225, 0.25) 680px, rgba(0, 0, 0, 0) 680px, rgba(0, 0, 0, 0) 690px, rgba(100, 100, 225, 0.25) 690px, rgba(100, 100, 225, 0.25) 726px, rgba(0, 0, 0, 0) 726px, rgba(0, 0, 0, 0) 736px, rgba(100, 100, 225, 0.25) 736px, rgba(100, 100, 225, 0.25) 772px, rgba(0, 0, 0, 0) 772px, rgba(0, 0, 0, 0) 782px, rgba(100, 100, 225, 0.25) 782px, rgba(100, 100, 225, 0.25) 818px, rgba(0, 0, 0, 0) 818px, rgba(0, 0, 0, 0) 828px, rgba(100, 100, 225, 0.25) 828px, rgba(100, 100, 225, 0.25) 864px, rgba(0, 0, 0, 0) 864px, rgba(0, 0, 0, 0) 874px, rgba(100, 100, 225, 0.25) 874px, rgba(100, 100, 225, 0.25) 910px, rgba(0, 0, 0, 0) 910px, rgba(0, 0, 0, 0) 920px, rgba(100, 100, 225, 0.25) 920px, rgba(100, 100, 225, 0.25) 956px, rgba(0, 0, 0, 0) 956px, rgba(0, 0, 0, 0) 966px, rgba(100, 100, 225, 0.25) 966px, rgba(100, 100, 225, 0.25) 1002px, rgba(0, 0, 0, 0) 1002px, rgba(0, 0, 0, 0) 1012px, rgba(100, 100, 225, 0.25) 1012px, rgba(100, 100, 225, 0.25) 1048px, rgba(0, 0, 0, 0) 1048px, rgba(0, 0, 0, 0) 1058px, rgba(100, 100, 225, 0.25) 1058px, rgba(100, 100, 225, 0.25) 1094px, rgba(0, 0, 0, 0) 1094px, rgba(0, 0, 0, 0) 1104px, rgba(100, 100, 225, 0.25) 1104px, rgba(100, 100, 225, 0.25) 1140px, rgba(0, 0, 0, 0) 1140px, rgba(0, 0, 0, 0) 1150px, rgba(100, 100, 225, 0.25) 1150px, rgba(100, 100, 225, 0.25) 1186px, rgba(0, 0, 0, 0) 1186px, rgba(0, 0, 0, 0) 1196px, rgba(100, 100, 225, 0.25) 1196px, rgba(100, 100, 225, 0.25) 1232px, rgba(0, 0, 0, 0) 1232px, rgba(0, 0, 0, 0) 1242px, rgba(100, 100, 225, 0.25) 1242px, rgba(100, 100, 225, 0.25) 1278px, rgba(0, 0, 0, 0) 1278px, rgba(0, 0, 0, 0) 1288px, rgba(100, 100, 225, 0.25) 1288px, rgba(100, 100, 225, 0.25) 1324px, rgba(0, 0, 0, 0) 1324px, rgba(0, 0, 0, 0) 1334px, rgba(100, 100, 225, 0.25) 1334px, rgba(100, 100, 225, 0.25) 1370px, rgba(0, 0, 0, 0) 1370px, rgba(0, 0, 0, 0) 1380px, rgba(100, 100, 225, 0.25) 1380px, rgba(100, 100, 225, 0.25) 1416px, rgba(0, 0, 0, 0) 1416px, rgba(0, 0, 0, 0) 1426px, rgba(100, 100, 225, 0.25) 1426px, rgba(100, 100, 225, 0.25) 1462px, rgba(0, 0, 0, 0) 1462px, rgba(0, 0, 0, 0) 1472px, rgba(100, 100, 225, 0.25) 1472px, rgba(100, 100, 225, 0.25) 1508px, rgba(0, 0, 0, 0) 1508px, rgba(0, 0, 0, 0) 1518px, rgba(100, 100, 225, 0.25) 1518px, rgba(100, 100, 225, 0.25) 1554px, rgba(0, 0, 0, 0) 1554px, rgba(0, 0, 0, 0) 1564px, rgba(100, 100, 225, 0.25) 1564px, rgba(100, 100, 225, 0.25) 1600px, rgba(0, 0, 0, 0) 1600px, rgba(0, 0, 0, 0) 1610px, rgba(100, 100, 225, 0.25) 1610px, rgba(100, 100, 225, 0.25) 1646px, rgba(0, 0, 0, 0) 1646px, rgba(0, 0, 0, 0) 1656px, rgba(100, 100, 225, 0.25) 1656px, rgba(100, 100, 225, 0.25) 1692px, rgba(0, 0, 0, 0) 1692px, rgba(0, 0, 0, 0) 1702px, rgba(100, 100, 225, 0.25) 1702px, rgba(100, 100, 225, 0.25) 1738px, rgba(0, 0, 0, 0) 1738px, rgba(0, 0, 0, 0) 1748px, rgba(100, 100, 225, 0.25) 1748px, rgba(100, 100, 225, 0.25) 1784px, rgba(0, 0, 0, 0) 1784px, rgba(0, 0, 0, 0) 1794px, rgba(100, 100, 225, 0.25) 1794px, rgba(100, 100, 225, 0.25) 1830px, rgba(0, 0, 0, 0) 1830px, rgba(0, 0, 0, 0) 1840px, rgba(100, 100, 225, 0.25) 1840px, rgba(100, 100, 225, 0.25) 1876px, rgba(0, 0, 0, 0) 1876px, rgba(0, 0, 0, 0) 1886px, rgba(100, 100, 225, 0.25) 1886px, rgba(100, 100, 225, 0.25) 1922px, rgba(0, 0, 0, 0) 1922px, rgba(0, 0, 0, 0) 1932px, rgba(100, 100, 225, 0.25) 1932px, rgba(100, 100, 225, 0.25) 1968px, rgba(0, 0, 0, 0) 1968px, rgba(0, 0, 0, 0) 1978px, rgba(100, 100, 225, 0.25) 1978px, rgba(100, 100, 225, 0.25) 2014px, rgba(0, 0, 0, 0) 2014px, rgba(0, 0, 0, 0) 2024px, rgba(100, 100, 225, 0.25) 2024px, rgba(100, 100, 225, 0.25) 2060px, rgba(0, 0, 0, 0) 2060px, rgba(0, 0, 0, 0) 2070px, rgba(100, 100, 225, 0.25) 2070px, rgba(100, 100, 225, 0.25) 2106px, rgba(0, 0, 0, 0) 2106px, rgba(0, 0, 0, 0) 2116px, rgba(100, 100, 225, 0.25) 2116px, rgba(100, 100, 225, 0.25) 2152px, rgba(0, 0, 0, 0) 2152px, rgba(0, 0, 0, 0) 2162px, rgba(100, 100, 225, 0.25) 2162px, rgba(100, 100, 225, 0.25) 2198px, rgba(0, 0, 0, 0) 2198px, rgba(0, 0, 0, 0) 2208px);
-  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -o-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 36px, rgba(0, 0, 0, 0) 36px, rgba(0, 0, 0, 0) 46px, rgba(100, 100, 225, 0.25) 46px, rgba(100, 100, 225, 0.25) 82px, rgba(0, 0, 0, 0) 82px, rgba(0, 0, 0, 0) 92px, rgba(100, 100, 225, 0.25) 92px, rgba(100, 100, 225, 0.25) 128px, rgba(0, 0, 0, 0) 128px, rgba(0, 0, 0, 0) 138px, rgba(100, 100, 225, 0.25) 138px, rgba(100, 100, 225, 0.25) 174px, rgba(0, 0, 0, 0) 174px, rgba(0, 0, 0, 0) 184px, rgba(100, 100, 225, 0.25) 184px, rgba(100, 100, 225, 0.25) 220px, rgba(0, 0, 0, 0) 220px, rgba(0, 0, 0, 0) 230px, rgba(100, 100, 225, 0.25) 230px, rgba(100, 100, 225, 0.25) 266px, rgba(0, 0, 0, 0) 266px, rgba(0, 0, 0, 0) 276px, rgba(100, 100, 225, 0.25) 276px, rgba(100, 100, 225, 0.25) 312px, rgba(0, 0, 0, 0) 312px, rgba(0, 0, 0, 0) 322px, rgba(100, 100, 225, 0.25) 322px, rgba(100, 100, 225, 0.25) 358px, rgba(0, 0, 0, 0) 358px, rgba(0, 0, 0, 0) 368px, rgba(100, 100, 225, 0.25) 368px, rgba(100, 100, 225, 0.25) 404px, rgba(0, 0, 0, 0) 404px, rgba(0, 0, 0, 0) 414px, rgba(100, 100, 225, 0.25) 414px, rgba(100, 100, 225, 0.25) 450px, rgba(0, 0, 0, 0) 450px, rgba(0, 0, 0, 0) 460px, rgba(100, 100, 225, 0.25) 460px, rgba(100, 100, 225, 0.25) 496px, rgba(0, 0, 0, 0) 496px, rgba(0, 0, 0, 0) 506px, rgba(100, 100, 225, 0.25) 506px, rgba(100, 100, 225, 0.25) 542px, rgba(0, 0, 0, 0) 542px, rgba(0, 0, 0, 0) 552px, rgba(100, 100, 225, 0.25) 552px, rgba(100, 100, 225, 0.25) 588px, rgba(0, 0, 0, 0) 588px, rgba(0, 0, 0, 0) 598px, rgba(100, 100, 225, 0.25) 598px, rgba(100, 100, 225, 0.25) 634px, rgba(0, 0, 0, 0) 634px, rgba(0, 0, 0, 0) 644px, rgba(100, 100, 225, 0.25) 644px, rgba(100, 100, 225, 0.25) 680px, rgba(0, 0, 0, 0) 680px, rgba(0, 0, 0, 0) 690px, rgba(100, 100, 225, 0.25) 690px, rgba(100, 100, 225, 0.25) 726px, rgba(0, 0, 0, 0) 726px, rgba(0, 0, 0, 0) 736px, rgba(100, 100, 225, 0.25) 736px, rgba(100, 100, 225, 0.25) 772px, rgba(0, 0, 0, 0) 772px, rgba(0, 0, 0, 0) 782px, rgba(100, 100, 225, 0.25) 782px, rgba(100, 100, 225, 0.25) 818px, rgba(0, 0, 0, 0) 818px, rgba(0, 0, 0, 0) 828px, rgba(100, 100, 225, 0.25) 828px, rgba(100, 100, 225, 0.25) 864px, rgba(0, 0, 0, 0) 864px, rgba(0, 0, 0, 0) 874px, rgba(100, 100, 225, 0.25) 874px, rgba(100, 100, 225, 0.25) 910px, rgba(0, 0, 0, 0) 910px, rgba(0, 0, 0, 0) 920px, rgba(100, 100, 225, 0.25) 920px, rgba(100, 100, 225, 0.25) 956px, rgba(0, 0, 0, 0) 956px, rgba(0, 0, 0, 0) 966px, rgba(100, 100, 225, 0.25) 966px, rgba(100, 100, 225, 0.25) 1002px, rgba(0, 0, 0, 0) 1002px, rgba(0, 0, 0, 0) 1012px, rgba(100, 100, 225, 0.25) 1012px, rgba(100, 100, 225, 0.25) 1048px, rgba(0, 0, 0, 0) 1048px, rgba(0, 0, 0, 0) 1058px, rgba(100, 100, 225, 0.25) 1058px, rgba(100, 100, 225, 0.25) 1094px, rgba(0, 0, 0, 0) 1094px, rgba(0, 0, 0, 0) 1104px, rgba(100, 100, 225, 0.25) 1104px, rgba(100, 100, 225, 0.25) 1140px, rgba(0, 0, 0, 0) 1140px, rgba(0, 0, 0, 0) 1150px, rgba(100, 100, 225, 0.25) 1150px, rgba(100, 100, 225, 0.25) 1186px, rgba(0, 0, 0, 0) 1186px, rgba(0, 0, 0, 0) 1196px, rgba(100, 100, 225, 0.25) 1196px, rgba(100, 100, 225, 0.25) 1232px, rgba(0, 0, 0, 0) 1232px, rgba(0, 0, 0, 0) 1242px, rgba(100, 100, 225, 0.25) 1242px, rgba(100, 100, 225, 0.25) 1278px, rgba(0, 0, 0, 0) 1278px, rgba(0, 0, 0, 0) 1288px, rgba(100, 100, 225, 0.25) 1288px, rgba(100, 100, 225, 0.25) 1324px, rgba(0, 0, 0, 0) 1324px, rgba(0, 0, 0, 0) 1334px, rgba(100, 100, 225, 0.25) 1334px, rgba(100, 100, 225, 0.25) 1370px, rgba(0, 0, 0, 0) 1370px, rgba(0, 0, 0, 0) 1380px, rgba(100, 100, 225, 0.25) 1380px, rgba(100, 100, 225, 0.25) 1416px, rgba(0, 0, 0, 0) 1416px, rgba(0, 0, 0, 0) 1426px, rgba(100, 100, 225, 0.25) 1426px, rgba(100, 100, 225, 0.25) 1462px, rgba(0, 0, 0, 0) 1462px, rgba(0, 0, 0, 0) 1472px, rgba(100, 100, 225, 0.25) 1472px, rgba(100, 100, 225, 0.25) 1508px, rgba(0, 0, 0, 0) 1508px, rgba(0, 0, 0, 0) 1518px, rgba(100, 100, 225, 0.25) 1518px, rgba(100, 100, 225, 0.25) 1554px, rgba(0, 0, 0, 0) 1554px, rgba(0, 0, 0, 0) 1564px, rgba(100, 100, 225, 0.25) 1564px, rgba(100, 100, 225, 0.25) 1600px, rgba(0, 0, 0, 0) 1600px, rgba(0, 0, 0, 0) 1610px, rgba(100, 100, 225, 0.25) 1610px, rgba(100, 100, 225, 0.25) 1646px, rgba(0, 0, 0, 0) 1646px, rgba(0, 0, 0, 0) 1656px, rgba(100, 100, 225, 0.25) 1656px, rgba(100, 100, 225, 0.25) 1692px, rgba(0, 0, 0, 0) 1692px, rgba(0, 0, 0, 0) 1702px, rgba(100, 100, 225, 0.25) 1702px, rgba(100, 100, 225, 0.25) 1738px, rgba(0, 0, 0, 0) 1738px, rgba(0, 0, 0, 0) 1748px, rgba(100, 100, 225, 0.25) 1748px, rgba(100, 100, 225, 0.25) 1784px, rgba(0, 0, 0, 0) 1784px, rgba(0, 0, 0, 0) 1794px, rgba(100, 100, 225, 0.25) 1794px, rgba(100, 100, 225, 0.25) 1830px, rgba(0, 0, 0, 0) 1830px, rgba(0, 0, 0, 0) 1840px, rgba(100, 100, 225, 0.25) 1840px, rgba(100, 100, 225, 0.25) 1876px, rgba(0, 0, 0, 0) 1876px, rgba(0, 0, 0, 0) 1886px, rgba(100, 100, 225, 0.25) 1886px, rgba(100, 100, 225, 0.25) 1922px, rgba(0, 0, 0, 0) 1922px, rgba(0, 0, 0, 0) 1932px, rgba(100, 100, 225, 0.25) 1932px, rgba(100, 100, 225, 0.25) 1968px, rgba(0, 0, 0, 0) 1968px, rgba(0, 0, 0, 0) 1978px, rgba(100, 100, 225, 0.25) 1978px, rgba(100, 100, 225, 0.25) 2014px, rgba(0, 0, 0, 0) 2014px, rgba(0, 0, 0, 0) 2024px, rgba(100, 100, 225, 0.25) 2024px, rgba(100, 100, 225, 0.25) 2060px, rgba(0, 0, 0, 0) 2060px, rgba(0, 0, 0, 0) 2070px, rgba(100, 100, 225, 0.25) 2070px, rgba(100, 100, 225, 0.25) 2106px, rgba(0, 0, 0, 0) 2106px, rgba(0, 0, 0, 0) 2116px, rgba(100, 100, 225, 0.25) 2116px, rgba(100, 100, 225, 0.25) 2152px, rgba(0, 0, 0, 0) 2152px, rgba(0, 0, 0, 0) 2162px, rgba(100, 100, 225, 0.25) 2162px, rgba(100, 100, 225, 0.25) 2198px, rgba(0, 0, 0, 0) 2198px, rgba(0, 0, 0, 0) 2208px);
-  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 36px, rgba(0, 0, 0, 0) 36px, rgba(0, 0, 0, 0) 46px, rgba(100, 100, 225, 0.25) 46px, rgba(100, 100, 225, 0.25) 82px, rgba(0, 0, 0, 0) 82px, rgba(0, 0, 0, 0) 92px, rgba(100, 100, 225, 0.25) 92px, rgba(100, 100, 225, 0.25) 128px, rgba(0, 0, 0, 0) 128px, rgba(0, 0, 0, 0) 138px, rgba(100, 100, 225, 0.25) 138px, rgba(100, 100, 225, 0.25) 174px, rgba(0, 0, 0, 0) 174px, rgba(0, 0, 0, 0) 184px, rgba(100, 100, 225, 0.25) 184px, rgba(100, 100, 225, 0.25) 220px, rgba(0, 0, 0, 0) 220px, rgba(0, 0, 0, 0) 230px, rgba(100, 100, 225, 0.25) 230px, rgba(100, 100, 225, 0.25) 266px, rgba(0, 0, 0, 0) 266px, rgba(0, 0, 0, 0) 276px, rgba(100, 100, 225, 0.25) 276px, rgba(100, 100, 225, 0.25) 312px, rgba(0, 0, 0, 0) 312px, rgba(0, 0, 0, 0) 322px, rgba(100, 100, 225, 0.25) 322px, rgba(100, 100, 225, 0.25) 358px, rgba(0, 0, 0, 0) 358px, rgba(0, 0, 0, 0) 368px, rgba(100, 100, 225, 0.25) 368px, rgba(100, 100, 225, 0.25) 404px, rgba(0, 0, 0, 0) 404px, rgba(0, 0, 0, 0) 414px, rgba(100, 100, 225, 0.25) 414px, rgba(100, 100, 225, 0.25) 450px, rgba(0, 0, 0, 0) 450px, rgba(0, 0, 0, 0) 460px, rgba(100, 100, 225, 0.25) 460px, rgba(100, 100, 225, 0.25) 496px, rgba(0, 0, 0, 0) 496px, rgba(0, 0, 0, 0) 506px, rgba(100, 100, 225, 0.25) 506px, rgba(100, 100, 225, 0.25) 542px, rgba(0, 0, 0, 0) 542px, rgba(0, 0, 0, 0) 552px, rgba(100, 100, 225, 0.25) 552px, rgba(100, 100, 225, 0.25) 588px, rgba(0, 0, 0, 0) 588px, rgba(0, 0, 0, 0) 598px, rgba(100, 100, 225, 0.25) 598px, rgba(100, 100, 225, 0.25) 634px, rgba(0, 0, 0, 0) 634px, rgba(0, 0, 0, 0) 644px, rgba(100, 100, 225, 0.25) 644px, rgba(100, 100, 225, 0.25) 680px, rgba(0, 0, 0, 0) 680px, rgba(0, 0, 0, 0) 690px, rgba(100, 100, 225, 0.25) 690px, rgba(100, 100, 225, 0.25) 726px, rgba(0, 0, 0, 0) 726px, rgba(0, 0, 0, 0) 736px, rgba(100, 100, 225, 0.25) 736px, rgba(100, 100, 225, 0.25) 772px, rgba(0, 0, 0, 0) 772px, rgba(0, 0, 0, 0) 782px, rgba(100, 100, 225, 0.25) 782px, rgba(100, 100, 225, 0.25) 818px, rgba(0, 0, 0, 0) 818px, rgba(0, 0, 0, 0) 828px, rgba(100, 100, 225, 0.25) 828px, rgba(100, 100, 225, 0.25) 864px, rgba(0, 0, 0, 0) 864px, rgba(0, 0, 0, 0) 874px, rgba(100, 100, 225, 0.25) 874px, rgba(100, 100, 225, 0.25) 910px, rgba(0, 0, 0, 0) 910px, rgba(0, 0, 0, 0) 920px, rgba(100, 100, 225, 0.25) 920px, rgba(100, 100, 225, 0.25) 956px, rgba(0, 0, 0, 0) 956px, rgba(0, 0, 0, 0) 966px, rgba(100, 100, 225, 0.25) 966px, rgba(100, 100, 225, 0.25) 1002px, rgba(0, 0, 0, 0) 1002px, rgba(0, 0, 0, 0) 1012px, rgba(100, 100, 225, 0.25) 1012px, rgba(100, 100, 225, 0.25) 1048px, rgba(0, 0, 0, 0) 1048px, rgba(0, 0, 0, 0) 1058px, rgba(100, 100, 225, 0.25) 1058px, rgba(100, 100, 225, 0.25) 1094px, rgba(0, 0, 0, 0) 1094px, rgba(0, 0, 0, 0) 1104px, rgba(100, 100, 225, 0.25) 1104px, rgba(100, 100, 225, 0.25) 1140px, rgba(0, 0, 0, 0) 1140px, rgba(0, 0, 0, 0) 1150px, rgba(100, 100, 225, 0.25) 1150px, rgba(100, 100, 225, 0.25) 1186px, rgba(0, 0, 0, 0) 1186px, rgba(0, 0, 0, 0) 1196px, rgba(100, 100, 225, 0.25) 1196px, rgba(100, 100, 225, 0.25) 1232px, rgba(0, 0, 0, 0) 1232px, rgba(0, 0, 0, 0) 1242px, rgba(100, 100, 225, 0.25) 1242px, rgba(100, 100, 225, 0.25) 1278px, rgba(0, 0, 0, 0) 1278px, rgba(0, 0, 0, 0) 1288px, rgba(100, 100, 225, 0.25) 1288px, rgba(100, 100, 225, 0.25) 1324px, rgba(0, 0, 0, 0) 1324px, rgba(0, 0, 0, 0) 1334px, rgba(100, 100, 225, 0.25) 1334px, rgba(100, 100, 225, 0.25) 1370px, rgba(0, 0, 0, 0) 1370px, rgba(0, 0, 0, 0) 1380px, rgba(100, 100, 225, 0.25) 1380px, rgba(100, 100, 225, 0.25) 1416px, rgba(0, 0, 0, 0) 1416px, rgba(0, 0, 0, 0) 1426px, rgba(100, 100, 225, 0.25) 1426px, rgba(100, 100, 225, 0.25) 1462px, rgba(0, 0, 0, 0) 1462px, rgba(0, 0, 0, 0) 1472px, rgba(100, 100, 225, 0.25) 1472px, rgba(100, 100, 225, 0.25) 1508px, rgba(0, 0, 0, 0) 1508px, rgba(0, 0, 0, 0) 1518px, rgba(100, 100, 225, 0.25) 1518px, rgba(100, 100, 225, 0.25) 1554px, rgba(0, 0, 0, 0) 1554px, rgba(0, 0, 0, 0) 1564px, rgba(100, 100, 225, 0.25) 1564px, rgba(100, 100, 225, 0.25) 1600px, rgba(0, 0, 0, 0) 1600px, rgba(0, 0, 0, 0) 1610px, rgba(100, 100, 225, 0.25) 1610px, rgba(100, 100, 225, 0.25) 1646px, rgba(0, 0, 0, 0) 1646px, rgba(0, 0, 0, 0) 1656px, rgba(100, 100, 225, 0.25) 1656px, rgba(100, 100, 225, 0.25) 1692px, rgba(0, 0, 0, 0) 1692px, rgba(0, 0, 0, 0) 1702px, rgba(100, 100, 225, 0.25) 1702px, rgba(100, 100, 225, 0.25) 1738px, rgba(0, 0, 0, 0) 1738px, rgba(0, 0, 0, 0) 1748px, rgba(100, 100, 225, 0.25) 1748px, rgba(100, 100, 225, 0.25) 1784px, rgba(0, 0, 0, 0) 1784px, rgba(0, 0, 0, 0) 1794px, rgba(100, 100, 225, 0.25) 1794px, rgba(100, 100, 225, 0.25) 1830px, rgba(0, 0, 0, 0) 1830px, rgba(0, 0, 0, 0) 1840px, rgba(100, 100, 225, 0.25) 1840px, rgba(100, 100, 225, 0.25) 1876px, rgba(0, 0, 0, 0) 1876px, rgba(0, 0, 0, 0) 1886px, rgba(100, 100, 225, 0.25) 1886px, rgba(100, 100, 225, 0.25) 1922px, rgba(0, 0, 0, 0) 1922px, rgba(0, 0, 0, 0) 1932px, rgba(100, 100, 225, 0.25) 1932px, rgba(100, 100, 225, 0.25) 1968px, rgba(0, 0, 0, 0) 1968px, rgba(0, 0, 0, 0) 1978px, rgba(100, 100, 225, 0.25) 1978px, rgba(100, 100, 225, 0.25) 2014px, rgba(0, 0, 0, 0) 2014px, rgba(0, 0, 0, 0) 2024px, rgba(100, 100, 225, 0.25) 2024px, rgba(100, 100, 225, 0.25) 2060px, rgba(0, 0, 0, 0) 2060px, rgba(0, 0, 0, 0) 2070px, rgba(100, 100, 225, 0.25) 2070px, rgba(100, 100, 225, 0.25) 2106px, rgba(0, 0, 0, 0) 2106px, rgba(0, 0, 0, 0) 2116px, rgba(100, 100, 225, 0.25) 2116px, rgba(100, 100, 225, 0.25) 2152px, rgba(0, 0, 0, 0) 2152px, rgba(0, 0, 0, 0) 2162px, rgba(100, 100, 225, 0.25) 2162px, rgba(100, 100, 225, 0.25) 2198px, rgba(0, 0, 0, 0) 2198px, rgba(0, 0, 0, 0) 2208px);
-  -webkit-background-size: 100% 1.5em, auto;
-  -moz-background-size: 100% 1.5em, auto;
-  -o-background-size: 100% 1.5em, auto;
-  background-size: 100% 1.5em, auto;
-  background-position: left top; }
-
-/*
-
-@import "susy";
-
-$susy: (
-  columns: 12,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: inside,
-);
-
-*/
+/**
+ * $content layout
+ */
 /**
  * $ARROW
  */
@@ -106,16 +82,6 @@ $susy: (
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/abstractions\/_island\.scss}line{font-family:\0000316}}
 .comment__content {
   padding: 18px 1em; }
-
-/**
- * $content layout
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_content_layout\%20and\%20mixins\.scss}line{font-family:\0000318}}
-.view-homepage-blurbs .views-row .views-field-field-icon, .view-homepage-blurbs .views-row .views-field-title {
-  display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_content_layout\%20and\%20mixins\.scss}line{font-family:\0000321}}
-.view-homepage-blurbs h2 {
-  font-size: 2rem; }
 
 /**
  * $FONT-FACE
@@ -205,15 +171,15 @@ html {
 /**
  * $BASE-TYPOGRAPHY
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000312}}
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #80cc28; }
 
 /**
  * $LINKS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000320}}
 a {
   color: green; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.newbc\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
@@ -229,14 +195,14 @@ a {
   a:active {
     color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000324}}
 a:hover {
   color: #00267f; }
 
 /**
  * $HEADINGS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
 h1, .alpha,
 h2, .beta,
 h3, .gamma,
@@ -248,9 +214,9 @@ h6, .zeta {
   padding-bottom: 0em;
   margin-bottom: 0.28571em;
   color: #464a4e;
-  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000342}}
   h1 a,
   h1 a:visited, .alpha a,
   .alpha a:visited,
@@ -272,7 +238,7 @@ h6, .zeta {
   .zeta a:visited {
     color: inherit;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000346}}
   h1 a:hover, .alpha a:hover,
   h2 a:hover, .beta a:hover,
   h3 a:hover, .gamma a:hover,
@@ -281,36 +247,36 @@ h6, .zeta {
   h6 a:hover, .zeta a:hover {
     color: #80cc28; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000351}}
 h1, .alpha {
   font-size: 55px;
   font-size: 3.92857rem;
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000355}}
 h2, .beta {
   font-size: 34px;
   font-size: 2.42857rem;
   font-weight: 700;
   color: #80cc28; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000360}}
 h3, .gamma {
   font-size: 21px;
   font-size: 1.5rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000363}}
 h4, .delta, caption {
   font-size: 18px;
   font-size: 1.28571rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000366}}
 h5, .epsilon {
   font-size: 16px;
   font-size: 1.14286rem;
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000370}}
 h6, .zeta {
   font-size: 16px;
   font-size: 1.14286rem;
@@ -319,7 +285,7 @@ h6, .zeta {
 /**
  * $PARAGRAPHS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000379}}
 p,
 blockquote {
   margin: 0;
@@ -328,7 +294,7 @@ blockquote {
   padding-bottom: 0em;
   margin-bottom: 1.42857em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000384}}
 p + img {
   float: left;
   margin-right: 1em; }
@@ -336,7 +302,7 @@ p + img {
 /**
  * $QUOTES
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000392}}
 blockquote {
   margin-top: 0em;
   padding-top: 1.42857em;
@@ -351,18 +317,18 @@ blockquote {
   padding-left: 0.71429em;
   font-style: italic;
   color: purple; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003102}}
   blockquote p {
     margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003107}}
 q {
   font-style: italic; }
 
 /**
  * $MARKS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003115}}
 mark,
 .marker {
   padding: 0.1em 0.5em;
@@ -648,24 +614,15 @@ div.password-indicator {
  *
  * Contributing author: Tyler Smith (@mbmufffin)
  */
-/* Font-face Icons */
-@font-face {
-  font-family: "FontAwesome";
-  src: url("../tempfontawesome/fonts/fontawesome-webfont.eot");
-  src: url("../tempfontawesome/fonts/fontawesome-webfont.eot?#iefix") format("eot"), url("../tempfontawesome/fonts/fontawesome-webfont.woff") format("woff"), url("../tempfontawesome/fonts/fontawesome-webfont.ttf") format("truetype"), url("../tempfontawesome/fonts/fontawesome-webfont.svg#FontAwesome") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased; }
-
 /* Browser Resets */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000313}}
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
 .flexslider a:focus {
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000316}}
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -675,29 +632,29 @@ div.password-indicator {
 
 /* FlexSlider Necessary Styles
 *********************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000320}}
 .flexslider {
   margin: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000321}}
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000322}}
 .flexslider .slides img {
   display: block;
   width: 100%;
   height: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000323}}
 .flex-pauseplay span {
   text-transform: capitalize; }
 
 /* Clearfix for the .slides element */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000326}}
 .slides:after {
   content: ".";
   display: block;
@@ -706,24 +663,24 @@ div.password-indicator {
   line-height: 0;
   height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000327}}
 html[xmlns] .slides {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000328}}
 * html .slides {
   height: 1%; }
 
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000333}}
 .no-js .slides > li:first-child {
   display: block; }
 
 /* FlexSlider Default Theme
 *********************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000339}}
 .flexslider {
   position: relative;
   webkit-border-radius: 4px;
@@ -732,31 +689,31 @@ html[xmlns] .slides {
   border-radius: 4px;
   zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000358}}
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   transition: all 1s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000359}}
 .loading .flex-viewport {
   max-height: 300px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000360}}
 .flexslider .slides {
   zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000362}}
 .carousel li {
   margin-right: 5px; }
 
 /* Direction Nav */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000366}}
 .flex-direction-nav {
   *height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000368}}
 .flex-direction-nav a {
   text-decoration: none;
   display: block;
@@ -775,37 +732,37 @@ html[xmlns] .slides {
   -moz-transition: all .3s ease;
   transition: all 0.3s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000387}}
 .flex-direction-nav .flex-prev {
   left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000388}}
 .flex-direction-nav .flex-next {
   right: 0;
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000389}}
 .flexslider:hover .flex-prev {
   opacity: 0.7; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000390}}
 .flexslider:hover .flex-next {
   opacity: 0.7; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000391}}
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
   opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000392}}
 .flex-direction-nav .flex-disabled {
   opacity: 0 !important;
   filter: alpha(opacity=0);
   cursor: default; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\0000394}}
 .flex-direction-nav a:before {
   background-color: #ffff0d;
-  font-family: "FontAwesome";
+  font-family: FontAwesome;
   font-size: 40px;
   line-height: 1;
   display: block;
@@ -813,26 +770,26 @@ html[xmlns] .slides {
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003105}}
 .flex-direction-nav a.flex-next:before {
   content: '\f105'; }
 
 /* Control Nav */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003108}}
 .flex-control-nav {
   width: 100%;
   position: absolute;
   bottom: -40px;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003109}}
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
   *display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003110}}
 .flex-control-paging li a {
   width: 11px;
   height: 11px;
@@ -847,64 +804,64 @@ html[xmlns] .slides {
   border-radius: 20px;
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003111}}
 .flex-control-paging li a:hover {
   background: #333;
   background: rgba(0, 0, 0, 0.7); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003112}}
 .flex-control-paging li a.flex-active {
   background: #000;
   background: rgba(0, 0, 0, 0.9);
   cursor: default; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003114}}
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003115}}
 .flex-control-thumbs li {
   width: 25%;
   float: left;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003116}}
 .flex-control-thumbs img {
   width: 100%;
   display: block;
   opacity: .7;
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003117}}
 .flex-control-thumbs img:hover {
   opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003118}}
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default; }
 
 @media screen and (max-width: 860px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003121}}
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003122}}
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003124}}
   .flex-caption-small {
     /*display:none*/ } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003129}}
 .flexslider .slides li {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003133}}
 .flex-caption, .flex-title {
   position: absolute;
   left: 0;
@@ -919,29 +876,29 @@ html[xmlns] .slides {
   letter-spacing: 1.5px;
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003149}}
   .flex-caption a, .flex-title a {
     color: #ffff0d;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003150}}
     .flex-caption a:hover, .flex-title a:hover {
       color: #ffff0d;
       text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003153}}
   .flex-caption h1, .flex-title h1 {
     font-size: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003154}}
   .flex-caption div, .flex-caption span, .flex-title div, .flex-title span {
     display: inline-block;
     padding: .5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003159}}
 .flex-title {
   top: 10%;
   font-size: 2rem;
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003161}}
 .flex-caption-small {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
@@ -951,7 +908,7 @@ html[xmlns] .slides {
   padding: 10px 0 10px 5%;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003170}}
 .small {
   position: absolute;
   left: 0;
@@ -1258,7 +1215,7 @@ html[xmlns] .slides {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_action-links\.scss}line{font-family:\000038}}
   .action-links li {
     padding-left: 16px;
-    background: transparent url('../images/../images/plus-blue.png?1400601710') left center no-repeat; }
+    background: transparent url('../images/../images/plus-blue.png?1406311760') left center no-repeat; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_action-links\.scss}line{font-family:\0000313}}
     .action-links li a {
       color: white;
@@ -2345,61 +2302,6 @@ All this is done for any sub-level being entered.
   font-size: 20px;
   vertical-align: bottom; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\000032}}
-.blogpost {
-  max-width: 324px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\000035}}
-.blog {
-  text-align: center;
-  background-color: rgba(26, 128, 217, 0.5);
-  padding: 0 .5rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\0000320}}
-.blog .user-picture {
-  padding: .3rem;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: white;
-  border: solid;
-  border-width: thin;
-  border-color: #e8e8e8;
-  z-index: 1;
-  position: relative;
-  top: -40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\0000326}}
-  .blog .user-picture:hover {
-    background-color: #80cc28; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\0000331}}
-  .blog .user-picture img {
-    border-radius: 2.5rem;
-    height: 5rem;
-    width: 5rem;
-    border: solid;
-    border-width: thin;
-    border-color: #e8e8e8; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\0000341}}
-.blog .views-field-field-picture {
-  position: relative;
-  overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\0000344}}
-  .blog .views-field-field-picture img {
-    border-radius: 3px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\0000347}}
-.blog .views-field-title a {
-  color: white;
-  font-size: 120%;
-  font-weight: 600;
-  line-height: 1.2;
-  text-transform: uppercase;
-  position: relative;
-  top: -25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_blogmast\.scss}line{font-family:\0000349}}
-  .blog .views-field-title a:hover {
-    color: #ffff0d; }
-
 /**
  * $BORDER-LIST
  */
@@ -2498,6 +2400,54 @@ vertical-align: super;
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\0000331}}
 .blurbs .links {
   display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\000033}}
+.bodycontent {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(26, 128, 217, 0.25)), color-stop(1.25%, rgba(26, 128, 217, 0.25)), color-stop(1.25%, rgba(26, 128, 217, 0.5)), color-stop(7.5%, rgba(26, 128, 217, 0.5)), color-stop(7.5%, rgba(26, 128, 217, 0.25)), color-stop(10%, rgba(26, 128, 217, 0.25)), color-stop(10%, rgba(26, 128, 217, 0.5)), color-stop(17.5%, rgba(26, 128, 217, 0.5)), color-stop(17.5%, rgba(26, 128, 217, 0.25)), color-stop(20%, rgba(26, 128, 217, 0.25)), color-stop(20%, rgba(26, 128, 217, 0.5)), color-stop(27.5%, rgba(26, 128, 217, 0.5)), color-stop(27.5%, rgba(26, 128, 217, 0.25)), color-stop(30.0%, rgba(26, 128, 217, 0.25)), color-stop(30.0%, rgba(26, 128, 217, 0.5)), color-stop(37.5%, rgba(26, 128, 217, 0.5)), color-stop(37.5%, rgba(26, 128, 217, 0.25)), color-stop(40.0%, rgba(26, 128, 217, 0.25)), color-stop(40.0%, rgba(26, 128, 217, 0.5)), color-stop(47.5%, rgba(26, 128, 217, 0.5)), color-stop(47.5%, rgba(26, 128, 217, 0.25)), color-stop(50%, rgba(26, 128, 217, 0.25)), color-stop(50%, rgba(26, 128, 217, 0.5)), color-stop(57.5%, rgba(26, 128, 217, 0.5)), color-stop(57.5%, rgba(26, 128, 217, 0.25)), color-stop(60.0%, rgba(26, 128, 217, 0.25)), color-stop(60.0%, rgba(26, 128, 217, 0.5)), color-stop(67.5%, rgba(26, 128, 217, 0.5)), color-stop(67.5%, rgba(26, 128, 217, 0.25)), color-stop(70%, rgba(26, 128, 217, 0.25)), color-stop(70%, rgba(26, 128, 217, 0.5)), color-stop(77.5%, rgba(26, 128, 217, 0.5)), color-stop(77.5%, rgba(26, 128, 217, 0.25)), color-stop(80%, rgba(26, 128, 217, 0.25)), color-stop(80%, rgba(26, 128, 217, 0.5)), color-stop(87.5%, rgba(26, 128, 217, 0.5)), color-stop(87.5%, rgba(26, 128, 217, 0.25)), color-stop(90%, rgba(26, 128, 217, 0.25)), color-stop(90%, rgba(26, 128, 217, 0.5)), color-stop(97.5%, rgba(26, 128, 217, 0.5)), color-stop(97.5%, rgba(26, 128, 217, 0.25)), color-stop(98.75%, rgba(26, 128, 217, 0.25)));
+  background-image: -webkit-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.25%, rgba(26, 128, 217, 0.5) 1.25%, rgba(26, 128, 217, 0.5) 7.5%, rgba(26, 128, 217, 0.25) 7.5%, rgba(26, 128, 217, 0.25) 10%, rgba(26, 128, 217, 0.5) 10%, rgba(26, 128, 217, 0.5) 17.5%, rgba(26, 128, 217, 0.25) 17.5%, rgba(26, 128, 217, 0.25) 20%, rgba(26, 128, 217, 0.5) 20%, rgba(26, 128, 217, 0.5) 27.5%, rgba(26, 128, 217, 0.25) 27.5%, rgba(26, 128, 217, 0.25) 30.0%, rgba(26, 128, 217, 0.5) 30.0%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 40.0%, rgba(26, 128, 217, 0.5) 40.0%, rgba(26, 128, 217, 0.5) 47.5%, rgba(26, 128, 217, 0.25) 47.5%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 57.5%, rgba(26, 128, 217, 0.25) 57.5%, rgba(26, 128, 217, 0.25) 60.0%, rgba(26, 128, 217, 0.5) 60.0%, rgba(26, 128, 217, 0.5) 67.5%, rgba(26, 128, 217, 0.25) 67.5%, rgba(26, 128, 217, 0.25) 70%, rgba(26, 128, 217, 0.5) 70%, rgba(26, 128, 217, 0.5) 77.5%, rgba(26, 128, 217, 0.25) 77.5%, rgba(26, 128, 217, 0.25) 80%, rgba(26, 128, 217, 0.5) 80%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 90%, rgba(26, 128, 217, 0.5) 90%, rgba(26, 128, 217, 0.5) 97.5%, rgba(26, 128, 217, 0.25) 97.5%, rgba(26, 128, 217, 0.25) 98.75%);
+  background-image: -moz-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.25%, rgba(26, 128, 217, 0.5) 1.25%, rgba(26, 128, 217, 0.5) 7.5%, rgba(26, 128, 217, 0.25) 7.5%, rgba(26, 128, 217, 0.25) 10%, rgba(26, 128, 217, 0.5) 10%, rgba(26, 128, 217, 0.5) 17.5%, rgba(26, 128, 217, 0.25) 17.5%, rgba(26, 128, 217, 0.25) 20%, rgba(26, 128, 217, 0.5) 20%, rgba(26, 128, 217, 0.5) 27.5%, rgba(26, 128, 217, 0.25) 27.5%, rgba(26, 128, 217, 0.25) 30.0%, rgba(26, 128, 217, 0.5) 30.0%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 40.0%, rgba(26, 128, 217, 0.5) 40.0%, rgba(26, 128, 217, 0.5) 47.5%, rgba(26, 128, 217, 0.25) 47.5%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 57.5%, rgba(26, 128, 217, 0.25) 57.5%, rgba(26, 128, 217, 0.25) 60.0%, rgba(26, 128, 217, 0.5) 60.0%, rgba(26, 128, 217, 0.5) 67.5%, rgba(26, 128, 217, 0.25) 67.5%, rgba(26, 128, 217, 0.25) 70%, rgba(26, 128, 217, 0.5) 70%, rgba(26, 128, 217, 0.5) 77.5%, rgba(26, 128, 217, 0.25) 77.5%, rgba(26, 128, 217, 0.25) 80%, rgba(26, 128, 217, 0.5) 80%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 90%, rgba(26, 128, 217, 0.5) 90%, rgba(26, 128, 217, 0.5) 97.5%, rgba(26, 128, 217, 0.25) 97.5%, rgba(26, 128, 217, 0.25) 98.75%);
+  background-image: -o-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.25%, rgba(26, 128, 217, 0.5) 1.25%, rgba(26, 128, 217, 0.5) 7.5%, rgba(26, 128, 217, 0.25) 7.5%, rgba(26, 128, 217, 0.25) 10%, rgba(26, 128, 217, 0.5) 10%, rgba(26, 128, 217, 0.5) 17.5%, rgba(26, 128, 217, 0.25) 17.5%, rgba(26, 128, 217, 0.25) 20%, rgba(26, 128, 217, 0.5) 20%, rgba(26, 128, 217, 0.5) 27.5%, rgba(26, 128, 217, 0.25) 27.5%, rgba(26, 128, 217, 0.25) 30.0%, rgba(26, 128, 217, 0.5) 30.0%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 40.0%, rgba(26, 128, 217, 0.5) 40.0%, rgba(26, 128, 217, 0.5) 47.5%, rgba(26, 128, 217, 0.25) 47.5%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 57.5%, rgba(26, 128, 217, 0.25) 57.5%, rgba(26, 128, 217, 0.25) 60.0%, rgba(26, 128, 217, 0.5) 60.0%, rgba(26, 128, 217, 0.5) 67.5%, rgba(26, 128, 217, 0.25) 67.5%, rgba(26, 128, 217, 0.25) 70%, rgba(26, 128, 217, 0.5) 70%, rgba(26, 128, 217, 0.5) 77.5%, rgba(26, 128, 217, 0.25) 77.5%, rgba(26, 128, 217, 0.25) 80%, rgba(26, 128, 217, 0.5) 80%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 90%, rgba(26, 128, 217, 0.5) 90%, rgba(26, 128, 217, 0.5) 97.5%, rgba(26, 128, 217, 0.25) 97.5%, rgba(26, 128, 217, 0.25) 98.75%);
+  background-image: linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.25%, rgba(26, 128, 217, 0.5) 1.25%, rgba(26, 128, 217, 0.5) 7.5%, rgba(26, 128, 217, 0.25) 7.5%, rgba(26, 128, 217, 0.25) 10%, rgba(26, 128, 217, 0.5) 10%, rgba(26, 128, 217, 0.5) 17.5%, rgba(26, 128, 217, 0.25) 17.5%, rgba(26, 128, 217, 0.25) 20%, rgba(26, 128, 217, 0.5) 20%, rgba(26, 128, 217, 0.5) 27.5%, rgba(26, 128, 217, 0.25) 27.5%, rgba(26, 128, 217, 0.25) 30.0%, rgba(26, 128, 217, 0.5) 30.0%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 40.0%, rgba(26, 128, 217, 0.5) 40.0%, rgba(26, 128, 217, 0.5) 47.5%, rgba(26, 128, 217, 0.25) 47.5%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 57.5%, rgba(26, 128, 217, 0.25) 57.5%, rgba(26, 128, 217, 0.25) 60.0%, rgba(26, 128, 217, 0.5) 60.0%, rgba(26, 128, 217, 0.5) 67.5%, rgba(26, 128, 217, 0.25) 67.5%, rgba(26, 128, 217, 0.25) 70%, rgba(26, 128, 217, 0.5) 70%, rgba(26, 128, 217, 0.5) 77.5%, rgba(26, 128, 217, 0.25) 77.5%, rgba(26, 128, 217, 0.25) 80%, rgba(26, 128, 217, 0.5) 80%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 90%, rgba(26, 128, 217, 0.5) 90%, rgba(26, 128, 217, 0.5) 97.5%, rgba(26, 128, 217, 0.25) 97.5%, rgba(26, 128, 217, 0.25) 98.75%);
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000310}}
+.blogposts, .blurbs, .season {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000316}}
+.season .pane-node {
+  width: 57.5%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 1.25%;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000317}}
+.season .pane-views-full-calendar-block {
+  width: 57.5%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 61.25%;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000319}}
+.season .pane-calendarheader {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000324}}
+.blogposts .views-row, .blurbs .views-row {
+  width: 37.5%;
+  clear: right;
+  float: left;
+  margin-left: 1.25%;
+  margin-right: 1.25%;
+  background-color: green;
+  padding: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000332}}
+.blurbs h2 {
+  font-size: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000333}}
+.blurbs .views-field-field-icon, .blurbs .views-field-title {
+  display: inline-block; }
 
 /**
  * $MESSAGES
@@ -2631,50 +2581,43 @@ vertical-align: super;
 /**
  * $SITE-BRANDING
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000311}}
-.season_calendar .inside {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\000035}}
 .node--seasonal .node__submitted {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000311}}
 .header div, .header li, .header a {
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000312}}
   .header div:hover, .header li:hover, .header a:hover {
     color: #ffff0d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000314}}
 .header input {
   color: green;
   background-color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000316}}
   .header input:hover {
     color: #00267f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000321}}
 #logo > img {
   height: 3rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000327}}
 .headerrow {
   width: 100%;
   background-color: #1a80d9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000333}}
 .headerrow, .pane-page-logo, .usermenu {
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000337}}
 .header {
   width: 100%;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000344}}
 .follow {
   display: inline;
   vertical-align: bottom;
@@ -2683,15 +2626,15 @@ vertical-align: super;
     }
   */ }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000354}}
 .bodycontent {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000356}}
 .flexslide_region {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000358}}
 .sitecontainer {
   background-color: #278de5; }
 

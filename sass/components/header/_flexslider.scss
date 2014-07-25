@@ -6,30 +6,6 @@
  * Contributing author: Tyler Smith (@mbmufffin)
  */
 
-
-//Rand move the fonts into a some base thing so they can be used by
-// everything
- // font stack
-$FontAwesome: 'FontAwesome';
-
-/* Font-face Icons */
-@font-face {
-  font-family: "FontAwesome";
-  src: url('../tempfontawesome/fonts/fontawesome-webfont.eot');
-  src: url('../tempfontawesome/fonts/fontawesome-webfont.eot?#iefix') format('eot'),
-       url('../tempfontawesome/fonts/fontawesome-webfont.woff') format('woff'),
-       url('../tempfontawesome/fonts/fontawesome-webfont.ttf') format('truetype'),
-       url('../tempfontawesome/fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-}
-
-
-
-//
-
-
 /* Browser Resets */
 .flex-container a:active,
 .flexslider a:active,
@@ -117,7 +93,7 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav a:before
 {
   background-color:$headerlinkhover;
-  font-family:$FontAwesome;
+  font-family:FontAwesome;
   font-size:40px;
   line-height:1;
   display:block;

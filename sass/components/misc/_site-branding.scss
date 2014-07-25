@@ -2,19 +2,6 @@
  * $SITE-BRANDING
  */
 
-// rt this is the center priece testing
-
-//summer season
-//.panel-pane {padding:2rem}
-@import "susy";
-
-.season_calendar .inside {
-  @include center-block;
-  max-width: 1200px
-//  @include span (4 at 2 of 12)
-//  background-color: white;
-  }
-
 .node--seasonal .node__submitted {display: none;}
 
 //--- Header ---
