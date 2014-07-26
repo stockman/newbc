@@ -870,37 +870,42 @@ html[xmlns] .slides {
   /*background:#000;*/
   z-index: 1;
   padding: 0 10%;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.2em;
-  font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
   letter-spacing: 1.5px;
+  /*   font-family: $ft-family;
+      font-size: 1.2em;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+   */
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003151}}
   .flex-caption a, .flex-title a {
     color: #ffff0d;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003152}}
     .flex-caption a:hover, .flex-title a:hover {
       color: #ffff0d;
       text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003155}}
   .flex-caption h1, .flex-title h1 {
     font-size: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003156}}
   .flex-caption div, .flex-caption span, .flex-title div, .flex-title span {
     display: inline-block;
     padding: .5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003161}}
 .flex-title {
   top: 10%;
   font-size: 2rem;
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003163}}
 .flex-caption-small {
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   font-weight: 900;
   line-height: 0.9;
@@ -908,7 +913,7 @@ html[xmlns] .slides {
   padding: 10px 0 10px 5%;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_flexslider\.scss}line{font-family:\00003172}}
 .small {
   position: absolute;
   left: 0;
@@ -917,7 +922,7 @@ html[xmlns] .slides {
   /*background:#000;*/
   z-index: 1;
   padding-left: 5%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.7em;
   font-weight: 500;
   color: #fff;
@@ -2372,42 +2377,13 @@ vertical-align: super;
 /**
  * $home blurbs
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\000035}}
-.pane-views-homepage-blurbs-block-1.inside {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\000039}}
-.view-homepage-blurbs .views-row {
-  width: 29%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\0000311}}
-.view-homepage-blurbs .views-row {
-  float: left;
-  /*  padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    */
-  position: relative;
-  display: inline-block; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\0000326}}
-.blurbs .pane-node {
-  text-align: center; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblurbs\.scss}line{font-family:\0000331}}
-.blurbs .links {
-  display: none; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\000033}}
 .bodycontent {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(26, 128, 217, 0.25)), color-stop(1.25%, rgba(26, 128, 217, 0.25)), color-stop(1.25%, rgba(26, 128, 217, 0.5)), color-stop(7.5%, rgba(26, 128, 217, 0.5)), color-stop(7.5%, rgba(26, 128, 217, 0.25)), color-stop(10%, rgba(26, 128, 217, 0.25)), color-stop(10%, rgba(26, 128, 217, 0.5)), color-stop(17.5%, rgba(26, 128, 217, 0.5)), color-stop(17.5%, rgba(26, 128, 217, 0.25)), color-stop(20%, rgba(26, 128, 217, 0.25)), color-stop(20%, rgba(26, 128, 217, 0.5)), color-stop(27.5%, rgba(26, 128, 217, 0.5)), color-stop(27.5%, rgba(26, 128, 217, 0.25)), color-stop(30.0%, rgba(26, 128, 217, 0.25)), color-stop(30.0%, rgba(26, 128, 217, 0.5)), color-stop(37.5%, rgba(26, 128, 217, 0.5)), color-stop(37.5%, rgba(26, 128, 217, 0.25)), color-stop(40.0%, rgba(26, 128, 217, 0.25)), color-stop(40.0%, rgba(26, 128, 217, 0.5)), color-stop(47.5%, rgba(26, 128, 217, 0.5)), color-stop(47.5%, rgba(26, 128, 217, 0.25)), color-stop(50%, rgba(26, 128, 217, 0.25)), color-stop(50%, rgba(26, 128, 217, 0.5)), color-stop(57.5%, rgba(26, 128, 217, 0.5)), color-stop(57.5%, rgba(26, 128, 217, 0.25)), color-stop(60.0%, rgba(26, 128, 217, 0.25)), color-stop(60.0%, rgba(26, 128, 217, 0.5)), color-stop(67.5%, rgba(26, 128, 217, 0.5)), color-stop(67.5%, rgba(26, 128, 217, 0.25)), color-stop(70%, rgba(26, 128, 217, 0.25)), color-stop(70%, rgba(26, 128, 217, 0.5)), color-stop(77.5%, rgba(26, 128, 217, 0.5)), color-stop(77.5%, rgba(26, 128, 217, 0.25)), color-stop(80%, rgba(26, 128, 217, 0.25)), color-stop(80%, rgba(26, 128, 217, 0.5)), color-stop(87.5%, rgba(26, 128, 217, 0.5)), color-stop(87.5%, rgba(26, 128, 217, 0.25)), color-stop(90%, rgba(26, 128, 217, 0.25)), color-stop(90%, rgba(26, 128, 217, 0.5)), color-stop(97.5%, rgba(26, 128, 217, 0.5)), color-stop(97.5%, rgba(26, 128, 217, 0.25)), color-stop(98.75%, rgba(26, 128, 217, 0.25)));
-  background-image: -webkit-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.25%, rgba(26, 128, 217, 0.5) 1.25%, rgba(26, 128, 217, 0.5) 7.5%, rgba(26, 128, 217, 0.25) 7.5%, rgba(26, 128, 217, 0.25) 10%, rgba(26, 128, 217, 0.5) 10%, rgba(26, 128, 217, 0.5) 17.5%, rgba(26, 128, 217, 0.25) 17.5%, rgba(26, 128, 217, 0.25) 20%, rgba(26, 128, 217, 0.5) 20%, rgba(26, 128, 217, 0.5) 27.5%, rgba(26, 128, 217, 0.25) 27.5%, rgba(26, 128, 217, 0.25) 30.0%, rgba(26, 128, 217, 0.5) 30.0%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 40.0%, rgba(26, 128, 217, 0.5) 40.0%, rgba(26, 128, 217, 0.5) 47.5%, rgba(26, 128, 217, 0.25) 47.5%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 57.5%, rgba(26, 128, 217, 0.25) 57.5%, rgba(26, 128, 217, 0.25) 60.0%, rgba(26, 128, 217, 0.5) 60.0%, rgba(26, 128, 217, 0.5) 67.5%, rgba(26, 128, 217, 0.25) 67.5%, rgba(26, 128, 217, 0.25) 70%, rgba(26, 128, 217, 0.5) 70%, rgba(26, 128, 217, 0.5) 77.5%, rgba(26, 128, 217, 0.25) 77.5%, rgba(26, 128, 217, 0.25) 80%, rgba(26, 128, 217, 0.5) 80%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 90%, rgba(26, 128, 217, 0.5) 90%, rgba(26, 128, 217, 0.5) 97.5%, rgba(26, 128, 217, 0.25) 97.5%, rgba(26, 128, 217, 0.25) 98.75%);
-  background-image: -moz-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.25%, rgba(26, 128, 217, 0.5) 1.25%, rgba(26, 128, 217, 0.5) 7.5%, rgba(26, 128, 217, 0.25) 7.5%, rgba(26, 128, 217, 0.25) 10%, rgba(26, 128, 217, 0.5) 10%, rgba(26, 128, 217, 0.5) 17.5%, rgba(26, 128, 217, 0.25) 17.5%, rgba(26, 128, 217, 0.25) 20%, rgba(26, 128, 217, 0.5) 20%, rgba(26, 128, 217, 0.5) 27.5%, rgba(26, 128, 217, 0.25) 27.5%, rgba(26, 128, 217, 0.25) 30.0%, rgba(26, 128, 217, 0.5) 30.0%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 40.0%, rgba(26, 128, 217, 0.5) 40.0%, rgba(26, 128, 217, 0.5) 47.5%, rgba(26, 128, 217, 0.25) 47.5%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 57.5%, rgba(26, 128, 217, 0.25) 57.5%, rgba(26, 128, 217, 0.25) 60.0%, rgba(26, 128, 217, 0.5) 60.0%, rgba(26, 128, 217, 0.5) 67.5%, rgba(26, 128, 217, 0.25) 67.5%, rgba(26, 128, 217, 0.25) 70%, rgba(26, 128, 217, 0.5) 70%, rgba(26, 128, 217, 0.5) 77.5%, rgba(26, 128, 217, 0.25) 77.5%, rgba(26, 128, 217, 0.25) 80%, rgba(26, 128, 217, 0.5) 80%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 90%, rgba(26, 128, 217, 0.5) 90%, rgba(26, 128, 217, 0.5) 97.5%, rgba(26, 128, 217, 0.25) 97.5%, rgba(26, 128, 217, 0.25) 98.75%);
-  background-image: -o-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.25%, rgba(26, 128, 217, 0.5) 1.25%, rgba(26, 128, 217, 0.5) 7.5%, rgba(26, 128, 217, 0.25) 7.5%, rgba(26, 128, 217, 0.25) 10%, rgba(26, 128, 217, 0.5) 10%, rgba(26, 128, 217, 0.5) 17.5%, rgba(26, 128, 217, 0.25) 17.5%, rgba(26, 128, 217, 0.25) 20%, rgba(26, 128, 217, 0.5) 20%, rgba(26, 128, 217, 0.5) 27.5%, rgba(26, 128, 217, 0.25) 27.5%, rgba(26, 128, 217, 0.25) 30.0%, rgba(26, 128, 217, 0.5) 30.0%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 40.0%, rgba(26, 128, 217, 0.5) 40.0%, rgba(26, 128, 217, 0.5) 47.5%, rgba(26, 128, 217, 0.25) 47.5%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 57.5%, rgba(26, 128, 217, 0.25) 57.5%, rgba(26, 128, 217, 0.25) 60.0%, rgba(26, 128, 217, 0.5) 60.0%, rgba(26, 128, 217, 0.5) 67.5%, rgba(26, 128, 217, 0.25) 67.5%, rgba(26, 128, 217, 0.25) 70%, rgba(26, 128, 217, 0.5) 70%, rgba(26, 128, 217, 0.5) 77.5%, rgba(26, 128, 217, 0.25) 77.5%, rgba(26, 128, 217, 0.25) 80%, rgba(26, 128, 217, 0.5) 80%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 90%, rgba(26, 128, 217, 0.5) 90%, rgba(26, 128, 217, 0.5) 97.5%, rgba(26, 128, 217, 0.25) 97.5%, rgba(26, 128, 217, 0.25) 98.75%);
-  background-image: linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.25%, rgba(26, 128, 217, 0.5) 1.25%, rgba(26, 128, 217, 0.5) 7.5%, rgba(26, 128, 217, 0.25) 7.5%, rgba(26, 128, 217, 0.25) 10%, rgba(26, 128, 217, 0.5) 10%, rgba(26, 128, 217, 0.5) 17.5%, rgba(26, 128, 217, 0.25) 17.5%, rgba(26, 128, 217, 0.25) 20%, rgba(26, 128, 217, 0.5) 20%, rgba(26, 128, 217, 0.5) 27.5%, rgba(26, 128, 217, 0.25) 27.5%, rgba(26, 128, 217, 0.25) 30.0%, rgba(26, 128, 217, 0.5) 30.0%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 40.0%, rgba(26, 128, 217, 0.5) 40.0%, rgba(26, 128, 217, 0.5) 47.5%, rgba(26, 128, 217, 0.25) 47.5%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 57.5%, rgba(26, 128, 217, 0.25) 57.5%, rgba(26, 128, 217, 0.25) 60.0%, rgba(26, 128, 217, 0.5) 60.0%, rgba(26, 128, 217, 0.5) 67.5%, rgba(26, 128, 217, 0.25) 67.5%, rgba(26, 128, 217, 0.25) 70%, rgba(26, 128, 217, 0.5) 70%, rgba(26, 128, 217, 0.5) 77.5%, rgba(26, 128, 217, 0.25) 77.5%, rgba(26, 128, 217, 0.25) 80%, rgba(26, 128, 217, 0.5) 80%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 90%, rgba(26, 128, 217, 0.5) 90%, rgba(26, 128, 217, 0.5) 97.5%, rgba(26, 128, 217, 0.25) 97.5%, rgba(26, 128, 217, 0.25) 98.75%);
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(26, 128, 217, 0.25)), color-stop(1.04167%, rgba(26, 128, 217, 0.25)), color-stop(1.04167%, rgba(26, 128, 217, 0.5)), color-stop(6.25%, rgba(26, 128, 217, 0.5)), color-stop(6.25%, rgba(26, 128, 217, 0.25)), color-stop(8.33333%, rgba(26, 128, 217, 0.25)), color-stop(8.33333%, rgba(26, 128, 217, 0.5)), color-stop(14.58333%, rgba(26, 128, 217, 0.5)), color-stop(14.58333%, rgba(26, 128, 217, 0.25)), color-stop(16.66667%, rgba(26, 128, 217, 0.25)), color-stop(16.66667%, rgba(26, 128, 217, 0.5)), color-stop(22.91667%, rgba(26, 128, 217, 0.5)), color-stop(22.91667%, rgba(26, 128, 217, 0.25)), color-stop(25.0%, rgba(26, 128, 217, 0.25)), color-stop(25.0%, rgba(26, 128, 217, 0.5)), color-stop(31.25%, rgba(26, 128, 217, 0.5)), color-stop(31.25%, rgba(26, 128, 217, 0.25)), color-stop(33.33333%, rgba(26, 128, 217, 0.25)), color-stop(33.33333%, rgba(26, 128, 217, 0.5)), color-stop(39.58333%, rgba(26, 128, 217, 0.5)), color-stop(39.58333%, rgba(26, 128, 217, 0.25)), color-stop(41.66667%, rgba(26, 128, 217, 0.25)), color-stop(41.66667%, rgba(26, 128, 217, 0.5)), color-stop(47.91667%, rgba(26, 128, 217, 0.5)), color-stop(47.91667%, rgba(26, 128, 217, 0.25)), color-stop(50%, rgba(26, 128, 217, 0.25)), color-stop(50%, rgba(26, 128, 217, 0.5)), color-stop(56.25%, rgba(26, 128, 217, 0.5)), color-stop(56.25%, rgba(26, 128, 217, 0.25)), color-stop(58.33333%, rgba(26, 128, 217, 0.25)), color-stop(58.33333%, rgba(26, 128, 217, 0.5)), color-stop(64.58333%, rgba(26, 128, 217, 0.5)), color-stop(64.58333%, rgba(26, 128, 217, 0.25)), color-stop(66.66667%, rgba(26, 128, 217, 0.25)), color-stop(66.66667%, rgba(26, 128, 217, 0.5)), color-stop(72.91667%, rgba(26, 128, 217, 0.5)), color-stop(72.91667%, rgba(26, 128, 217, 0.25)), color-stop(75.0%, rgba(26, 128, 217, 0.25)), color-stop(75.0%, rgba(26, 128, 217, 0.5)), color-stop(81.25%, rgba(26, 128, 217, 0.5)), color-stop(81.25%, rgba(26, 128, 217, 0.25)), color-stop(83.33333%, rgba(26, 128, 217, 0.25)), color-stop(83.33333%, rgba(26, 128, 217, 0.5)), color-stop(89.58333%, rgba(26, 128, 217, 0.5)), color-stop(89.58333%, rgba(26, 128, 217, 0.25)), color-stop(91.66667%, rgba(26, 128, 217, 0.25)), color-stop(91.66667%, rgba(26, 128, 217, 0.5)), color-stop(97.91667%, rgba(26, 128, 217, 0.5)), color-stop(97.91667%, rgba(26, 128, 217, 0.25)), color-stop(98.95833%, rgba(26, 128, 217, 0.25)));
+  background-image: -webkit-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.04167%, rgba(26, 128, 217, 0.5) 1.04167%, rgba(26, 128, 217, 0.5) 6.25%, rgba(26, 128, 217, 0.25) 6.25%, rgba(26, 128, 217, 0.25) 8.33333%, rgba(26, 128, 217, 0.5) 8.33333%, rgba(26, 128, 217, 0.5) 14.58333%, rgba(26, 128, 217, 0.25) 14.58333%, rgba(26, 128, 217, 0.25) 16.66667%, rgba(26, 128, 217, 0.5) 16.66667%, rgba(26, 128, 217, 0.5) 22.91667%, rgba(26, 128, 217, 0.25) 22.91667%, rgba(26, 128, 217, 0.25) 25.0%, rgba(26, 128, 217, 0.5) 25.0%, rgba(26, 128, 217, 0.5) 31.25%, rgba(26, 128, 217, 0.25) 31.25%, rgba(26, 128, 217, 0.25) 33.33333%, rgba(26, 128, 217, 0.5) 33.33333%, rgba(26, 128, 217, 0.5) 39.58333%, rgba(26, 128, 217, 0.25) 39.58333%, rgba(26, 128, 217, 0.25) 41.66667%, rgba(26, 128, 217, 0.5) 41.66667%, rgba(26, 128, 217, 0.5) 47.91667%, rgba(26, 128, 217, 0.25) 47.91667%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 56.25%, rgba(26, 128, 217, 0.25) 56.25%, rgba(26, 128, 217, 0.25) 58.33333%, rgba(26, 128, 217, 0.5) 58.33333%, rgba(26, 128, 217, 0.5) 64.58333%, rgba(26, 128, 217, 0.25) 64.58333%, rgba(26, 128, 217, 0.25) 66.66667%, rgba(26, 128, 217, 0.5) 66.66667%, rgba(26, 128, 217, 0.5) 72.91667%, rgba(26, 128, 217, 0.25) 72.91667%, rgba(26, 128, 217, 0.25) 75.0%, rgba(26, 128, 217, 0.5) 75.0%, rgba(26, 128, 217, 0.5) 81.25%, rgba(26, 128, 217, 0.25) 81.25%, rgba(26, 128, 217, 0.25) 83.33333%, rgba(26, 128, 217, 0.5) 83.33333%, rgba(26, 128, 217, 0.5) 89.58333%, rgba(26, 128, 217, 0.25) 89.58333%, rgba(26, 128, 217, 0.25) 91.66667%, rgba(26, 128, 217, 0.5) 91.66667%, rgba(26, 128, 217, 0.5) 97.91667%, rgba(26, 128, 217, 0.25) 97.91667%, rgba(26, 128, 217, 0.25) 98.95833%);
+  background-image: -moz-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.04167%, rgba(26, 128, 217, 0.5) 1.04167%, rgba(26, 128, 217, 0.5) 6.25%, rgba(26, 128, 217, 0.25) 6.25%, rgba(26, 128, 217, 0.25) 8.33333%, rgba(26, 128, 217, 0.5) 8.33333%, rgba(26, 128, 217, 0.5) 14.58333%, rgba(26, 128, 217, 0.25) 14.58333%, rgba(26, 128, 217, 0.25) 16.66667%, rgba(26, 128, 217, 0.5) 16.66667%, rgba(26, 128, 217, 0.5) 22.91667%, rgba(26, 128, 217, 0.25) 22.91667%, rgba(26, 128, 217, 0.25) 25.0%, rgba(26, 128, 217, 0.5) 25.0%, rgba(26, 128, 217, 0.5) 31.25%, rgba(26, 128, 217, 0.25) 31.25%, rgba(26, 128, 217, 0.25) 33.33333%, rgba(26, 128, 217, 0.5) 33.33333%, rgba(26, 128, 217, 0.5) 39.58333%, rgba(26, 128, 217, 0.25) 39.58333%, rgba(26, 128, 217, 0.25) 41.66667%, rgba(26, 128, 217, 0.5) 41.66667%, rgba(26, 128, 217, 0.5) 47.91667%, rgba(26, 128, 217, 0.25) 47.91667%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 56.25%, rgba(26, 128, 217, 0.25) 56.25%, rgba(26, 128, 217, 0.25) 58.33333%, rgba(26, 128, 217, 0.5) 58.33333%, rgba(26, 128, 217, 0.5) 64.58333%, rgba(26, 128, 217, 0.25) 64.58333%, rgba(26, 128, 217, 0.25) 66.66667%, rgba(26, 128, 217, 0.5) 66.66667%, rgba(26, 128, 217, 0.5) 72.91667%, rgba(26, 128, 217, 0.25) 72.91667%, rgba(26, 128, 217, 0.25) 75.0%, rgba(26, 128, 217, 0.5) 75.0%, rgba(26, 128, 217, 0.5) 81.25%, rgba(26, 128, 217, 0.25) 81.25%, rgba(26, 128, 217, 0.25) 83.33333%, rgba(26, 128, 217, 0.5) 83.33333%, rgba(26, 128, 217, 0.5) 89.58333%, rgba(26, 128, 217, 0.25) 89.58333%, rgba(26, 128, 217, 0.25) 91.66667%, rgba(26, 128, 217, 0.5) 91.66667%, rgba(26, 128, 217, 0.5) 97.91667%, rgba(26, 128, 217, 0.25) 97.91667%, rgba(26, 128, 217, 0.25) 98.95833%);
+  background-image: -o-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.04167%, rgba(26, 128, 217, 0.5) 1.04167%, rgba(26, 128, 217, 0.5) 6.25%, rgba(26, 128, 217, 0.25) 6.25%, rgba(26, 128, 217, 0.25) 8.33333%, rgba(26, 128, 217, 0.5) 8.33333%, rgba(26, 128, 217, 0.5) 14.58333%, rgba(26, 128, 217, 0.25) 14.58333%, rgba(26, 128, 217, 0.25) 16.66667%, rgba(26, 128, 217, 0.5) 16.66667%, rgba(26, 128, 217, 0.5) 22.91667%, rgba(26, 128, 217, 0.25) 22.91667%, rgba(26, 128, 217, 0.25) 25.0%, rgba(26, 128, 217, 0.5) 25.0%, rgba(26, 128, 217, 0.5) 31.25%, rgba(26, 128, 217, 0.25) 31.25%, rgba(26, 128, 217, 0.25) 33.33333%, rgba(26, 128, 217, 0.5) 33.33333%, rgba(26, 128, 217, 0.5) 39.58333%, rgba(26, 128, 217, 0.25) 39.58333%, rgba(26, 128, 217, 0.25) 41.66667%, rgba(26, 128, 217, 0.5) 41.66667%, rgba(26, 128, 217, 0.5) 47.91667%, rgba(26, 128, 217, 0.25) 47.91667%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 56.25%, rgba(26, 128, 217, 0.25) 56.25%, rgba(26, 128, 217, 0.25) 58.33333%, rgba(26, 128, 217, 0.5) 58.33333%, rgba(26, 128, 217, 0.5) 64.58333%, rgba(26, 128, 217, 0.25) 64.58333%, rgba(26, 128, 217, 0.25) 66.66667%, rgba(26, 128, 217, 0.5) 66.66667%, rgba(26, 128, 217, 0.5) 72.91667%, rgba(26, 128, 217, 0.25) 72.91667%, rgba(26, 128, 217, 0.25) 75.0%, rgba(26, 128, 217, 0.5) 75.0%, rgba(26, 128, 217, 0.5) 81.25%, rgba(26, 128, 217, 0.25) 81.25%, rgba(26, 128, 217, 0.25) 83.33333%, rgba(26, 128, 217, 0.5) 83.33333%, rgba(26, 128, 217, 0.5) 89.58333%, rgba(26, 128, 217, 0.25) 89.58333%, rgba(26, 128, 217, 0.25) 91.66667%, rgba(26, 128, 217, 0.5) 91.66667%, rgba(26, 128, 217, 0.5) 97.91667%, rgba(26, 128, 217, 0.25) 97.91667%, rgba(26, 128, 217, 0.25) 98.95833%);
+  background-image: linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 1.04167%, rgba(26, 128, 217, 0.5) 1.04167%, rgba(26, 128, 217, 0.5) 6.25%, rgba(26, 128, 217, 0.25) 6.25%, rgba(26, 128, 217, 0.25) 8.33333%, rgba(26, 128, 217, 0.5) 8.33333%, rgba(26, 128, 217, 0.5) 14.58333%, rgba(26, 128, 217, 0.25) 14.58333%, rgba(26, 128, 217, 0.25) 16.66667%, rgba(26, 128, 217, 0.5) 16.66667%, rgba(26, 128, 217, 0.5) 22.91667%, rgba(26, 128, 217, 0.25) 22.91667%, rgba(26, 128, 217, 0.25) 25.0%, rgba(26, 128, 217, 0.5) 25.0%, rgba(26, 128, 217, 0.5) 31.25%, rgba(26, 128, 217, 0.25) 31.25%, rgba(26, 128, 217, 0.25) 33.33333%, rgba(26, 128, 217, 0.5) 33.33333%, rgba(26, 128, 217, 0.5) 39.58333%, rgba(26, 128, 217, 0.25) 39.58333%, rgba(26, 128, 217, 0.25) 41.66667%, rgba(26, 128, 217, 0.5) 41.66667%, rgba(26, 128, 217, 0.5) 47.91667%, rgba(26, 128, 217, 0.25) 47.91667%, rgba(26, 128, 217, 0.25) 50%, rgba(26, 128, 217, 0.5) 50%, rgba(26, 128, 217, 0.5) 56.25%, rgba(26, 128, 217, 0.25) 56.25%, rgba(26, 128, 217, 0.25) 58.33333%, rgba(26, 128, 217, 0.5) 58.33333%, rgba(26, 128, 217, 0.5) 64.58333%, rgba(26, 128, 217, 0.25) 64.58333%, rgba(26, 128, 217, 0.25) 66.66667%, rgba(26, 128, 217, 0.5) 66.66667%, rgba(26, 128, 217, 0.5) 72.91667%, rgba(26, 128, 217, 0.25) 72.91667%, rgba(26, 128, 217, 0.25) 75.0%, rgba(26, 128, 217, 0.5) 75.0%, rgba(26, 128, 217, 0.5) 81.25%, rgba(26, 128, 217, 0.25) 81.25%, rgba(26, 128, 217, 0.25) 83.33333%, rgba(26, 128, 217, 0.5) 83.33333%, rgba(26, 128, 217, 0.5) 89.58333%, rgba(26, 128, 217, 0.25) 89.58333%, rgba(26, 128, 217, 0.25) 91.66667%, rgba(26, 128, 217, 0.5) 91.66667%, rgba(26, 128, 217, 0.5) 97.91667%, rgba(26, 128, 217, 0.25) 97.91667%, rgba(26, 128, 217, 0.25) 98.95833%);
   width: 100%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000310}}
@@ -2416,17 +2392,17 @@ vertical-align: super;
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000316}}
 .season .pane-node {
-  width: 57.5%;
+  width: 47.91667%;
   float: left;
   margin-right: -100%;
-  margin-left: 1.25%;
+  margin-left: 1.04167%;
   clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000317}}
 .season .pane-views-full-calendar-block {
-  width: 57.5%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 61.25%;
+  width: 47.91667%;
+  float: right;
+  margin-left: 0;
+  margin-right: 1.04167%;
   clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000319}}
 .season .pane-calendarheader {
@@ -2434,18 +2410,17 @@ vertical-align: super;
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000324}}
 .blogposts .views-row, .blurbs .views-row {
-  width: 37.5%;
+  width: 29.16667%;
   clear: right;
   float: left;
-  margin-left: 1.25%;
-  margin-right: 1.25%;
-  background-color: green;
-  padding: 2rem; }
+  margin-left: 2.08333%;
+  margin-right: 2.08333%;
+  background-color: green; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000333}}
 .blurbs h2 {
   font-size: 1.5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000334}}
 .blurbs .views-field-field-icon, .blurbs .views-field-title {
   display: inline-block; }
 
@@ -2633,10 +2608,6 @@ vertical-align: super;
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000356}}
 .flexslide_region {
   width: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000358}}
-.sitecontainer {
-  background-color: #278de5; }
 
 /**
  * $NODE-BASIC-PAGE

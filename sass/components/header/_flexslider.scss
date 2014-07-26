@@ -138,10 +138,12 @@ html[xmlns] .slides {display: block;}
     /*background:#000;*/ 
     z-index:1;
     padding:0 10%;
-    font-family: 'Lato', sans-serif;
+    @include flexfont;
+/*   font-family: $ft-family;
     font-size: 1.2em;
     font-weight: 900;
     letter-spacing: 1.5px;
+ */
 //    line-height:0.8;
 //    text-transform: uppercase;
     color: $headerlink;
@@ -159,7 +161,7 @@ html[xmlns] .slides {display: block;}
 .flex-title {top:10%; font-size: 2rem;color:$headerlink }
 
 .flex-caption-small {
-    font-family: 'Lato', sans-serif;
+    font-family: $ft-family;
     font-size: 1em;
     font-weight: 900;
     line-height:0.9;
@@ -175,7 +177,7 @@ html[xmlns] .slides {display: block;}
     /*background:#000;*/ 
     z-index:1;
     padding-left:5%;
-    font-family: 'Lato', sans-serif;
+    font-family: $ft-family;
     font-size: 0.7em;
     font-weight: 500;
     color: #fff;

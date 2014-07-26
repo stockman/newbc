@@ -1,7 +1,16 @@
 //$pt-sans    : 'PT Sans', Helvetica, Arial, sans-serif;
 //$maven-pro  : 'Maven Pro', Helvetica, Arial, sans-serif;
 $ft-family  : 'Open Sans', sans-serif;
+// or lato ? from office libre?
+
 $ft2-family : $ft-family;
 
 $base-font-size: 14px;
 $base-line-height: 20px;
+
+@mixin flexfont {
+	font-family: $ft-family;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}

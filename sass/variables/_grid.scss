@@ -10,9 +10,11 @@ $horz-spacing-unit: 1em;
 $tab: 44em;
 $desk: 70em;
 
-//$gutters: 10px;
-$gutters: 1/3;
+$grids: 12;
+//$grids: add-grid(6 at 500px);
+//$grids: add-grid(12 at 700px);
+//$grids: add-grid(2 8 2 at 900px);
+//$grids: add-grid(1 3 5 7 9 at 1100px);
 
-//$grids: ($vert-spacing-unit + $gutters);
-$grids: 10;
-//$grids: add-grid(12 at $tab);
+$gutters: 1/3;
+//$gutters: add-gutter(.25 at 900px);

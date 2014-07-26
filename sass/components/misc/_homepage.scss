@@ -22,9 +22,10 @@
 
 .blogposts, .blurbs {
   .views-row {
+  $gutters: 3/3; //this looks good but still doesn't line up with the background grid
   @include grid-span(4, 1, $output-style: 'float');
   background-color: green;
-  @include padder;
+//  @include padder;
   }
 }
 
