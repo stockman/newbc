@@ -7,7 +7,7 @@
     width: 100%
 }  
 
-.blogposts, .blurbs, .season {
+.blogposts, .blurbs, .season .blurbsdesc {
   width: 100%;
 }
 
@@ -25,15 +25,33 @@
   $gutters: 3/3; //this looks good but still doesn't line up with the background grid
   @include grid-span(4, 1, $output-style: 'float');
   background-color: green;
-//  @include padder;
+  @include padder;
   }
 }
+
+.blurbsdesc {
+ $gutter-styles: 'fixed';   
+ @include grid-span(12, 1);
+ background-color: green;
+ //@include center-styler
+  .pane-title {text-align: center;}
+  //shrinking this to look really neat inside
+  .field__item.even {
+  @include center-block;
+  max-width: 50%;
+  }
+  //hide the stat counter
+  .statistics_counter{ display: none;}
+  .pane-node {@include padder;}
+}
+
 
 .blurbs {
   h2 {font-size: 1.5rem;}
   .views-field-field-icon, .views-field-title {
     display: inline-block;
   }
+  .pane-node {@include padder;}
 }
 
 
@@ -41,7 +59,7 @@
 
 // july 25, 2014 legacy rebuild below.
 
-/*
+
 
 
 .blogpost {max-width: $vert-spacing-unit*18}
@@ -104,4 +122,3 @@ padding: 0 .5rem;
 //expand 2nd div to container
 // this page is now too bland?
 
-*/

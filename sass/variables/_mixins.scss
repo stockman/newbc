@@ -16,3 +16,15 @@
 @mixin padder { //temp padding one.
 	padding: 2rem;
 }
+
+//center header cool text
+@mixin center-styler {
+  .pane-title {text-align: center;}
+  //shrinking this to look really neat inside
+  .field__item.even {
+  @include center-block;
+  max-width: 50%;
+  }
+  //hide the stat counter
+  .statistics_counter{ display: none;}
+}

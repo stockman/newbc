@@ -12,8 +12,8 @@ stylesheets[all][] = css/newbc.normalize.css
 stylesheets[all][] = css/newbc.hacks.css
 stylesheets[all][] = css/newbc.styles.css
 stylesheets[all][] = css/newbc.no-query.css
-; Font awesome
 stylesheets[all][] = fonts/font-awesome/fonts/font-awesome.css
+
 ; ========================================
 ; Scripts
 ; ========================================

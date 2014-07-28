@@ -19,21 +19,21 @@
   padding-top: 2rem;
 }
 // center the season title
-.season .pane-title {
-  text-align: center;
-}
-//hide the stat counter
-.season .statistics_counter{
-  display: none;
-}
-//shrinking this to look really neat inside
-.season .field__item.even {
-  @include center-block;
-  max-width: 200px;
-}
 
-.season .pane-node {background-color:lighten($headerbackground,45%);
+
+.season {
+	.pane-title {text-align: center;}
+	//shrinking this to look really neat inside
+	.field__item.even {
+	@include center-block;
+	max-width: 200px;
+	}
+	//hide the stat counter
+	.statistics_counter{ display: none;}
+	//background colour it
+	.pane-node {background-color:lighten($headerbackground,45%);
 	color: $headerbackground;
+	}
 }
 
 .season .views-field-body{max-height: 400px;
