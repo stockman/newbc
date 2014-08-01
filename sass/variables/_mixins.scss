@@ -28,3 +28,18 @@
   //hide the stat counter
   .statistics_counter{ display: none;}
 }
+
+// to share the h2 with other things.
+@mixin h2 {
+  color: $headerlinkhover;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+@mixin headercol {
+    color: $headerlink;
+    text-shadow:0 1px 2px rgba(0,0,0,0.6);
+}
+@mixin backgro {
+  //change this to blur.
+  background-color: rgba($headerbackground, .5);
+}

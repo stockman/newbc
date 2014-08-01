@@ -13,10 +13,11 @@
 
 
 .season {
-  .pane-node {@include grid-span(6, 1);}
-  .pane-views-full-calendar-block {@include grid-span(6, 7);}
+  .pane-node {@include grid-span(4, 1);}
+  .pane-views-full-calendar-block {@include grid-span(4, 5);}
   // temp below
   .pane-calendarheader {display: none}
+  .pane-forum-active {@include grid-span(4, 9);}
 }
 
 
@@ -24,15 +25,18 @@
   .views-row {
   $gutters: 3/3; //this looks good but still doesn't line up with the background grid
   @include grid-span(4, 1, $output-style: 'float');
-  background-color: green;
+  @include backgro;
   @include padder;
+  //add some spacing between 
+  margin-top: 2rem;
+  margin-bottom:2rem;
   }
 }
 
 .blurbsdesc {
  $gutter-styles: 'fixed';   
  @include grid-span(12, 1);
- background-color: green;
+ @include backgro;
  //@include center-styler
   .pane-title {text-align: center;}
   //shrinking this to look really neat inside
@@ -67,7 +71,6 @@
 
 .blog {
 text-align: center;
-background-color: rgba($headerbackground, .5);
 padding: 0 .5rem;
 }
 

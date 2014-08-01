@@ -7,33 +7,54 @@
 
 .season .inside {max-height: $vert-spacing-unit;}
 
+
+.s_art {
+	@include padder;
+	@include backgro;
+}
+
+
+
+
+
+
+
 //make the boxes in the middle lyrical speed boxes the Maxim lit with
 //me make those boxes and maximum width because it looks weird
 //last notes to RT
 
 //padding for season
-.season .pane-node {
+/* .season .pane-node {
   padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 2rem;
 }
+*/
 // center the season title
 
+@mixin season {
+	.glass::before {background-color: blue;}
+	.glass::before {background-color: blue;
+	  @include filter(grayscale, 100%);
+	}
+
+}
 
 .season {
 	.pane-title {text-align: center;}
 	//shrinking this to look really neat inside
-	.field__item.even {
-	@include center-block;
-	max-width: 200px;
-	}
+//	.field__item.even {
+//	@include center-block;
+//	max-width: 200px;
+//	}
 	//hide the stat counter
 	.statistics_counter{ display: none;}
 	//background colour it
-	.pane-node {background-color:lighten($headerbackground,45%);
-	color: $headerbackground;
-	}
+//	.pane-node {background-color:lighten($headerbackground,45%);
+//	color: $headerbackground;
+//		  @include filter(grayscale, 50%);
+//	}
 }
 
 .season .views-field-body{max-height: 400px;
