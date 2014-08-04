@@ -1,4 +1,20 @@
+/**
+ * $homepage basic grid
+ */
 
+// summer season
+.season .pane-node {@include grid-span(4, 1);}
+
+//active forum topics
+.season .pane-forum-active {@include grid-span(4, 1);}
+
+.pane-views-homepage-blog-block-3 {@include grid-span(8, 5);}
+
+
+
+/**
+ * End $homepage basic grid
+ */
 
 .bodycontent {
     //show the grid as a background
@@ -7,31 +23,18 @@
     width: 100%
 }  
 
+
+// Do to all grid parts:
+
+
 .blogposts, .blurbs, .season .blurbsdesc {
   width: 100%;
 }
 
 
-.season {
-  .pane-node {@include grid-span(4, 1);}
-  .pane-views-full-calendar-block {@include grid-span(4, 5);}
-  // temp below
-  .pane-calendarheader {display: none}
-  .pane-forum-active {@include grid-span(4, 9);}
-}
+ // Calendar
+.season .pane-views-full-calendar-block {@include grid-span(4, 5);}
 
-
-.blogposts, .blurbs {
-  .views-row {
-  $gutters: 3/3; //this looks good but still doesn't line up with the background grid
-  @include grid-span(4, 1, $output-style: 'float');
-  @include backgro;
-  @include padder;
-  //add some spacing between 
-  margin-top: 2rem;
-  margin-bottom:2rem;
-  }
-}
 
 .blurbsdesc {
  $gutter-styles: 'fixed';   
@@ -49,79 +52,4 @@
   .pane-node {@include padder;}
 }
 
-
-.blurbs {
-  h2 {font-size: 1.5rem;}
-  .views-field-field-icon, .views-field-title {
-    display: inline-block;
-  }
-  .pane-node {@include padder;}
-}
-
-
-
-
-// july 25, 2014 legacy rebuild below.
-
-
-
-
-.blogpost {max-width: $vert-spacing-unit*18}
-
-
-.blog {
-text-align: center;
-padding: 0 .5rem;
-}
-
-@mixin circ {
-  border: solid; 
-  border-width: thin;
-  border-color: #e8e8e8;
-}
-
-
-//user picture container
-
-.blog .user-picture {
-  padding: .3rem;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: white;
-  @include circ;
-  &:hover {background-color: $bcgren;}
-  z-index: 1;
-  position: relative;
-  top: -40px; //half the size of the .node--submitted div.
-  //user picture
-  img {
-    $sizer: 5rem;
-    border-radius: $sizer/2;
-    height: $sizer;
-    width: $sizer;
-    @include circ;
-    }
-}
-
-// blog image
-.blog .views-field-field-picture {
-	position: relative;
-	overflow: hidden;
-	img {border-radius: 3px;}
-}
-
-.blog .views-field-title a {
-  color: $headerlink;
-  &:hover {color:$headerlinkhover;}
-  font-size: 120%;
-  font-weight: 600;
-  line-height: 1.2;
-  text-transform: uppercase;
-  position: relative;
-  top: -25px;
-}
-
-// add the awefonts for comments and blog post times
-//expand 2nd div to container
-// this page is now too bland?
 

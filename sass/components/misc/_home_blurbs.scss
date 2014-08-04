@@ -2,37 +2,11 @@
  * $home blurbs
  */
 
- /*
-
-.pane-views-homepage-blurbs-block-1.inside {
-	@include center-block;
+.blurbs {
+  h2 {font-size: 1.5rem;}
+  .views-field-field-icon, .views-field-title {
+    display: inline-block;
+  }
+  .pane-node {@include padder;}
 }
 
-.view-homepage-blurbs .views-row {width: 29%}
-
-.view-homepage-blurbs .views-row {
-  float: left;
-//  margin-bottom: 0;
-//  margin-right: 4%;
-/*  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  */
-
-
-  /*
-  position: relative;
-  display: inline-block;
-}
-
-.blurbs {}
-
-.blurbs .pane-node {text-align: center;
-}
-
-//do we need to remove this here? or somewhere else?
-// the service links?
-.blurbs .links {display: none;}
-
-*/
