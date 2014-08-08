@@ -51,11 +51,14 @@
 }
 
 // to compensate for Ctools body with 99% as default
-.bodycontent {width: 100%}
+.bodycontent {width: 100%;}
+//another ctools fix
+.sitecontainer .panels-flexible-row {padding: 0;}
+
 //To expand flexslider to the full size of screen
 .flexslide_region {width: 100%}
 //the full site container
-.sitecontainer {
+ .sitecontainer {
 // RT temp disable jul 26
 
 //background-color:lighten($headerbackground,5%);

@@ -13,10 +13,6 @@
   margin-right: auto;
 }
 
-@mixin padder { //temp padding one.
-	padding: 2rem;
-}
-
 //center header cool text
 @mixin center-styler {
   .pane-title {text-align: center;}
@@ -42,4 +38,13 @@
 @mixin backgro {
   //change this to blur.
   background-color: rgba($headerbackground, .5);
+}
+
+@mixin threespan {
+  //change gutter style
+  $gutter-styles: 'split'; 
+//  $gutters: 1; //this looks good but still doesn't line up with the background grid
+  @include grid-span($grids/3, 1, $output-style: 'float');
+  //change back gutter style
+  $gutter-styles: 'opposite';  
 }

@@ -2374,13 +2374,80 @@ vertical-align: super;
 /**
  * $home blurbs
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\000036}}
+.blog_row {
+  width: 65.95745%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000312}}
 .views-field-created {
   border-bottom: 1px solid grey; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog\.scss}line{font-family:\000038}}
-.blogpublished {
-  padding: .5rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000318}}
+.pane-views-homepage-blog-block-3 .views-row {
+  width: 31.25%;
+  clear: right;
+  float: left;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
+  background-color: rgba(26, 128, 217, 0.5);
+  padding: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000329}}
+.views-field-created {
+  border-bottom: 1px solid grey; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000342}}
+.blogpost {
+  max-width: 324px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000359}}
+.blog .user-picture {
+  padding: .3rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  border: solid;
+  border-width: thin;
+  border-color: #e8e8e8;
+  z-index: 1;
+  position: relative;
+  top: -40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000365}}
+  .blog .user-picture:hover {
+    background-color: #80cc28; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000370}}
+  .blog .user-picture img {
+    border-radius: 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border: solid;
+    border-width: thin;
+    border-color: #e8e8e8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000380}}
+.blog .views-field-field-picture {
+  position: relative;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000383}}
+  .blog .views-field-field-picture img {
+    border-radius: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000386}}
+.blog .views-field-title a {
+  color: white;
+  font-size: 120%;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  position: relative;
+  top: -25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_blog_2\.scss}line{font-family:\0000388}}
+  .blog .views-field-title a:hover {
+    color: #ffff0d; }
 
 /**
  * $home blurbs
@@ -2405,190 +2472,32 @@ vertical-align: super;
 /**
  * $SEASONAL
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_season\.scss}line{font-family:\000036}}
-.node--seasonal .node__submitted {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_season\.scss}line{font-family:\000038}}
-.season .inside {
-  max-height: 18px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_season\.scss}line{font-family:\0000311}}
-.s_art {
-  padding: 2rem;
-  background-color: rgba(26, 128, 217, 0.5); }
-
-/* .season .pane-node {
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 2rem;
-}
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_season\.scss}line{font-family:\0000345}}
-.season .pane-title {
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_season\.scss}line{font-family:\0000352}}
-.season .statistics_counter {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_season\.scss}line{font-family:\0000360}}
-.season .views-field-body {
-  max-height: 400px;
-  overflow: hidden; }
-
-/**
- * $home blogs posts
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\000037}}
-.views-field-created {
-  border-bottom: 1px solid grey; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\000038}}
-.blogpublished {
-  padding: .5rem 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000313}}
-.blogposts .views-row, .blurbs .views-row {
-  width: 30.43478%;
-  clear: right;
-  float: left;
-  margin-left: 0;
-  margin-right: 4.34783%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_season\.scss}line{font-family:\000037}}
+.season_row {
   background-color: rgba(26, 128, 217, 0.5);
-  padding: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000330}}
-.blogpost {
-  max-width: 324px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000333}}
-.blog {
-  text-align: center;
-  padding: 0 .5rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000347}}
-.blog .user-picture {
-  padding: .3rem;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: white;
-  border: solid;
-  border-width: thin;
-  border-color: #e8e8e8;
-  z-index: 1;
-  position: relative;
-  top: -40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000353}}
-  .blog .user-picture:hover {
-    background-color: #80cc28; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000358}}
-  .blog .user-picture img {
-    border-radius: 2.5rem;
-    height: 5rem;
-    width: 5rem;
-    border: solid;
-    border-width: thin;
-    border-color: #e8e8e8; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000368}}
-.blog .views-field-field-picture {
-  position: relative;
-  overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000371}}
-  .blog .views-field-field-picture img {
-    border-radius: 3px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000374}}
-.blog .views-field-title a {
-  color: white;
-  font-size: 120%;
-  font-weight: 600;
-  line-height: 1.2;
-  text-transform: uppercase;
-  position: relative;
-  top: -25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homeblog\.scss}line{font-family:\0000376}}
-  .blog .views-field-title a:hover {
-    color: #ffff0d; }
+  width: 31.91489%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_home_season\.scss}line{font-family:\0000312}}
+  .season_row .statistics_counter {
+    display: none; }
 
 /**
  * $homepage basic grid
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\000036}}
-.season .pane-node {
-  width: 30.43478%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0%;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\000039}}
-.season .pane-forum-active {
-  width: 30.43478%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0%;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000311}}
-.pane-views-homepage-blog-block-3 {
-  width: 65.21739%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none; }
-
 /**
- * End $homepage basic grid
+ * $homepage basic grid
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage_temp\.scss}line{font-family:\000036}}
 .bodycontent {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(26, 128, 217, 0.25)), color-stop(2.08333%, rgba(26, 128, 217, 0.25)), color-stop(2.08333%, rgba(26, 128, 217, 0.5)), color-stop(4.16667%, rgba(26, 128, 217, 0.5)), color-stop(4.16667%, rgba(26, 128, 217, 0.25)), color-stop(8.33333%, rgba(26, 128, 217, 0.25)), color-stop(8.33333%, rgba(26, 128, 217, 0.5)), color-stop(12.5%, rgba(26, 128, 217, 0.5)), color-stop(12.5%, rgba(26, 128, 217, 0.25)), color-stop(16.66667%, rgba(26, 128, 217, 0.25)), color-stop(16.66667%, rgba(26, 128, 217, 0.5)), color-stop(20.83333%, rgba(26, 128, 217, 0.5)), color-stop(20.83333%, rgba(26, 128, 217, 0.25)), color-stop(25%, rgba(26, 128, 217, 0.25)), color-stop(25%, rgba(26, 128, 217, 0.5)), color-stop(29.16667%, rgba(26, 128, 217, 0.5)), color-stop(29.16667%, rgba(26, 128, 217, 0.25)), color-stop(33.33333%, rgba(26, 128, 217, 0.25)), color-stop(33.33333%, rgba(26, 128, 217, 0.5)), color-stop(37.5%, rgba(26, 128, 217, 0.5)), color-stop(37.5%, rgba(26, 128, 217, 0.25)), color-stop(41.66667%, rgba(26, 128, 217, 0.25)), color-stop(41.66667%, rgba(26, 128, 217, 0.5)), color-stop(45.83333%, rgba(26, 128, 217, 0.5)), color-stop(45.83333%, rgba(26, 128, 217, 0.25)), color-stop(50.0%, rgba(26, 128, 217, 0.25)), color-stop(50.0%, rgba(26, 128, 217, 0.5)), color-stop(54.16667%, rgba(26, 128, 217, 0.5)), color-stop(54.16667%, rgba(26, 128, 217, 0.25)), color-stop(58.33333%, rgba(26, 128, 217, 0.25)), color-stop(58.33333%, rgba(26, 128, 217, 0.5)), color-stop(62.5%, rgba(26, 128, 217, 0.5)), color-stop(62.5%, rgba(26, 128, 217, 0.25)), color-stop(66.66667%, rgba(26, 128, 217, 0.25)), color-stop(66.66667%, rgba(26, 128, 217, 0.5)), color-stop(70.83333%, rgba(26, 128, 217, 0.5)), color-stop(70.83333%, rgba(26, 128, 217, 0.25)), color-stop(75.0%, rgba(26, 128, 217, 0.25)), color-stop(75.0%, rgba(26, 128, 217, 0.5)), color-stop(79.16667%, rgba(26, 128, 217, 0.5)), color-stop(79.16667%, rgba(26, 128, 217, 0.25)), color-stop(83.33333%, rgba(26, 128, 217, 0.25)), color-stop(83.33333%, rgba(26, 128, 217, 0.5)), color-stop(87.5%, rgba(26, 128, 217, 0.5)), color-stop(87.5%, rgba(26, 128, 217, 0.25)), color-stop(91.66667%, rgba(26, 128, 217, 0.25)), color-stop(91.66667%, rgba(26, 128, 217, 0.5)), color-stop(95.83333%, rgba(26, 128, 217, 0.5)), color-stop(95.83333%, rgba(26, 128, 217, 0.25)), color-stop(97.91667%, rgba(26, 128, 217, 0.25)));
-  background-image: -webkit-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 2.08333%, rgba(26, 128, 217, 0.5) 2.08333%, rgba(26, 128, 217, 0.5) 4.16667%, rgba(26, 128, 217, 0.25) 4.16667%, rgba(26, 128, 217, 0.25) 8.33333%, rgba(26, 128, 217, 0.5) 8.33333%, rgba(26, 128, 217, 0.5) 12.5%, rgba(26, 128, 217, 0.25) 12.5%, rgba(26, 128, 217, 0.25) 16.66667%, rgba(26, 128, 217, 0.5) 16.66667%, rgba(26, 128, 217, 0.5) 20.83333%, rgba(26, 128, 217, 0.25) 20.83333%, rgba(26, 128, 217, 0.25) 25%, rgba(26, 128, 217, 0.5) 25%, rgba(26, 128, 217, 0.5) 29.16667%, rgba(26, 128, 217, 0.25) 29.16667%, rgba(26, 128, 217, 0.25) 33.33333%, rgba(26, 128, 217, 0.5) 33.33333%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 41.66667%, rgba(26, 128, 217, 0.5) 41.66667%, rgba(26, 128, 217, 0.5) 45.83333%, rgba(26, 128, 217, 0.25) 45.83333%, rgba(26, 128, 217, 0.25) 50.0%, rgba(26, 128, 217, 0.5) 50.0%, rgba(26, 128, 217, 0.5) 54.16667%, rgba(26, 128, 217, 0.25) 54.16667%, rgba(26, 128, 217, 0.25) 58.33333%, rgba(26, 128, 217, 0.5) 58.33333%, rgba(26, 128, 217, 0.5) 62.5%, rgba(26, 128, 217, 0.25) 62.5%, rgba(26, 128, 217, 0.25) 66.66667%, rgba(26, 128, 217, 0.5) 66.66667%, rgba(26, 128, 217, 0.5) 70.83333%, rgba(26, 128, 217, 0.25) 70.83333%, rgba(26, 128, 217, 0.25) 75.0%, rgba(26, 128, 217, 0.5) 75.0%, rgba(26, 128, 217, 0.5) 79.16667%, rgba(26, 128, 217, 0.25) 79.16667%, rgba(26, 128, 217, 0.25) 83.33333%, rgba(26, 128, 217, 0.5) 83.33333%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 91.66667%, rgba(26, 128, 217, 0.5) 91.66667%, rgba(26, 128, 217, 0.5) 95.83333%, rgba(26, 128, 217, 0.25) 95.83333%, rgba(26, 128, 217, 0.25) 97.91667%);
-  background-image: -moz-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 2.08333%, rgba(26, 128, 217, 0.5) 2.08333%, rgba(26, 128, 217, 0.5) 4.16667%, rgba(26, 128, 217, 0.25) 4.16667%, rgba(26, 128, 217, 0.25) 8.33333%, rgba(26, 128, 217, 0.5) 8.33333%, rgba(26, 128, 217, 0.5) 12.5%, rgba(26, 128, 217, 0.25) 12.5%, rgba(26, 128, 217, 0.25) 16.66667%, rgba(26, 128, 217, 0.5) 16.66667%, rgba(26, 128, 217, 0.5) 20.83333%, rgba(26, 128, 217, 0.25) 20.83333%, rgba(26, 128, 217, 0.25) 25%, rgba(26, 128, 217, 0.5) 25%, rgba(26, 128, 217, 0.5) 29.16667%, rgba(26, 128, 217, 0.25) 29.16667%, rgba(26, 128, 217, 0.25) 33.33333%, rgba(26, 128, 217, 0.5) 33.33333%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 41.66667%, rgba(26, 128, 217, 0.5) 41.66667%, rgba(26, 128, 217, 0.5) 45.83333%, rgba(26, 128, 217, 0.25) 45.83333%, rgba(26, 128, 217, 0.25) 50.0%, rgba(26, 128, 217, 0.5) 50.0%, rgba(26, 128, 217, 0.5) 54.16667%, rgba(26, 128, 217, 0.25) 54.16667%, rgba(26, 128, 217, 0.25) 58.33333%, rgba(26, 128, 217, 0.5) 58.33333%, rgba(26, 128, 217, 0.5) 62.5%, rgba(26, 128, 217, 0.25) 62.5%, rgba(26, 128, 217, 0.25) 66.66667%, rgba(26, 128, 217, 0.5) 66.66667%, rgba(26, 128, 217, 0.5) 70.83333%, rgba(26, 128, 217, 0.25) 70.83333%, rgba(26, 128, 217, 0.25) 75.0%, rgba(26, 128, 217, 0.5) 75.0%, rgba(26, 128, 217, 0.5) 79.16667%, rgba(26, 128, 217, 0.25) 79.16667%, rgba(26, 128, 217, 0.25) 83.33333%, rgba(26, 128, 217, 0.5) 83.33333%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 91.66667%, rgba(26, 128, 217, 0.5) 91.66667%, rgba(26, 128, 217, 0.5) 95.83333%, rgba(26, 128, 217, 0.25) 95.83333%, rgba(26, 128, 217, 0.25) 97.91667%);
-  background-image: -o-linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 2.08333%, rgba(26, 128, 217, 0.5) 2.08333%, rgba(26, 128, 217, 0.5) 4.16667%, rgba(26, 128, 217, 0.25) 4.16667%, rgba(26, 128, 217, 0.25) 8.33333%, rgba(26, 128, 217, 0.5) 8.33333%, rgba(26, 128, 217, 0.5) 12.5%, rgba(26, 128, 217, 0.25) 12.5%, rgba(26, 128, 217, 0.25) 16.66667%, rgba(26, 128, 217, 0.5) 16.66667%, rgba(26, 128, 217, 0.5) 20.83333%, rgba(26, 128, 217, 0.25) 20.83333%, rgba(26, 128, 217, 0.25) 25%, rgba(26, 128, 217, 0.5) 25%, rgba(26, 128, 217, 0.5) 29.16667%, rgba(26, 128, 217, 0.25) 29.16667%, rgba(26, 128, 217, 0.25) 33.33333%, rgba(26, 128, 217, 0.5) 33.33333%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 41.66667%, rgba(26, 128, 217, 0.5) 41.66667%, rgba(26, 128, 217, 0.5) 45.83333%, rgba(26, 128, 217, 0.25) 45.83333%, rgba(26, 128, 217, 0.25) 50.0%, rgba(26, 128, 217, 0.5) 50.0%, rgba(26, 128, 217, 0.5) 54.16667%, rgba(26, 128, 217, 0.25) 54.16667%, rgba(26, 128, 217, 0.25) 58.33333%, rgba(26, 128, 217, 0.5) 58.33333%, rgba(26, 128, 217, 0.5) 62.5%, rgba(26, 128, 217, 0.25) 62.5%, rgba(26, 128, 217, 0.25) 66.66667%, rgba(26, 128, 217, 0.5) 66.66667%, rgba(26, 128, 217, 0.5) 70.83333%, rgba(26, 128, 217, 0.25) 70.83333%, rgba(26, 128, 217, 0.25) 75.0%, rgba(26, 128, 217, 0.5) 75.0%, rgba(26, 128, 217, 0.5) 79.16667%, rgba(26, 128, 217, 0.25) 79.16667%, rgba(26, 128, 217, 0.25) 83.33333%, rgba(26, 128, 217, 0.5) 83.33333%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 91.66667%, rgba(26, 128, 217, 0.5) 91.66667%, rgba(26, 128, 217, 0.5) 95.83333%, rgba(26, 128, 217, 0.25) 95.83333%, rgba(26, 128, 217, 0.25) 97.91667%);
-  background-image: linear-gradient(left, rgba(26, 128, 217, 0.25), rgba(26, 128, 217, 0.25) 2.08333%, rgba(26, 128, 217, 0.5) 2.08333%, rgba(26, 128, 217, 0.5) 4.16667%, rgba(26, 128, 217, 0.25) 4.16667%, rgba(26, 128, 217, 0.25) 8.33333%, rgba(26, 128, 217, 0.5) 8.33333%, rgba(26, 128, 217, 0.5) 12.5%, rgba(26, 128, 217, 0.25) 12.5%, rgba(26, 128, 217, 0.25) 16.66667%, rgba(26, 128, 217, 0.5) 16.66667%, rgba(26, 128, 217, 0.5) 20.83333%, rgba(26, 128, 217, 0.25) 20.83333%, rgba(26, 128, 217, 0.25) 25%, rgba(26, 128, 217, 0.5) 25%, rgba(26, 128, 217, 0.5) 29.16667%, rgba(26, 128, 217, 0.25) 29.16667%, rgba(26, 128, 217, 0.25) 33.33333%, rgba(26, 128, 217, 0.5) 33.33333%, rgba(26, 128, 217, 0.5) 37.5%, rgba(26, 128, 217, 0.25) 37.5%, rgba(26, 128, 217, 0.25) 41.66667%, rgba(26, 128, 217, 0.5) 41.66667%, rgba(26, 128, 217, 0.5) 45.83333%, rgba(26, 128, 217, 0.25) 45.83333%, rgba(26, 128, 217, 0.25) 50.0%, rgba(26, 128, 217, 0.5) 50.0%, rgba(26, 128, 217, 0.5) 54.16667%, rgba(26, 128, 217, 0.25) 54.16667%, rgba(26, 128, 217, 0.25) 58.33333%, rgba(26, 128, 217, 0.5) 58.33333%, rgba(26, 128, 217, 0.5) 62.5%, rgba(26, 128, 217, 0.25) 62.5%, rgba(26, 128, 217, 0.25) 66.66667%, rgba(26, 128, 217, 0.5) 66.66667%, rgba(26, 128, 217, 0.5) 70.83333%, rgba(26, 128, 217, 0.25) 70.83333%, rgba(26, 128, 217, 0.25) 75.0%, rgba(26, 128, 217, 0.5) 75.0%, rgba(26, 128, 217, 0.5) 79.16667%, rgba(26, 128, 217, 0.25) 79.16667%, rgba(26, 128, 217, 0.25) 83.33333%, rgba(26, 128, 217, 0.5) 83.33333%, rgba(26, 128, 217, 0.5) 87.5%, rgba(26, 128, 217, 0.25) 87.5%, rgba(26, 128, 217, 0.25) 91.66667%, rgba(26, 128, 217, 0.5) 91.66667%, rgba(26, 128, 217, 0.5) 95.83333%, rgba(26, 128, 217, 0.25) 95.83333%, rgba(26, 128, 217, 0.25) 97.91667%);
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(26, 128, 217, 0.5)), color-stop(6.38298%, rgba(26, 128, 217, 0.5)), color-stop(6.38298%, rgba(26, 128, 217, 0.25)), color-stop(8.51064%, rgba(26, 128, 217, 0.25)), color-stop(8.51064%, rgba(26, 128, 217, 0.5)), color-stop(14.89362%, rgba(26, 128, 217, 0.5)), color-stop(14.89362%, rgba(26, 128, 217, 0.25)), color-stop(17.02128%, rgba(26, 128, 217, 0.25)), color-stop(17.02128%, rgba(26, 128, 217, 0.5)), color-stop(23.40426%, rgba(26, 128, 217, 0.5)), color-stop(23.40426%, rgba(26, 128, 217, 0.25)), color-stop(25.53191%, rgba(26, 128, 217, 0.25)), color-stop(25.53191%, rgba(26, 128, 217, 0.5)), color-stop(31.91489%, rgba(26, 128, 217, 0.5)), color-stop(31.91489%, rgba(26, 128, 217, 0.25)), color-stop(34.04255%, rgba(26, 128, 217, 0.25)), color-stop(34.04255%, rgba(26, 128, 217, 0.5)), color-stop(40.42553%, rgba(26, 128, 217, 0.5)), color-stop(40.42553%, rgba(26, 128, 217, 0.25)), color-stop(42.55319%, rgba(26, 128, 217, 0.25)), color-stop(42.55319%, rgba(26, 128, 217, 0.5)), color-stop(48.93617%, rgba(26, 128, 217, 0.5)), color-stop(48.93617%, rgba(26, 128, 217, 0.25)), color-stop(51.06383%, rgba(26, 128, 217, 0.25)), color-stop(51.06383%, rgba(26, 128, 217, 0.5)), color-stop(57.44681%, rgba(26, 128, 217, 0.5)), color-stop(57.44681%, rgba(26, 128, 217, 0.25)), color-stop(59.57447%, rgba(26, 128, 217, 0.25)), color-stop(59.57447%, rgba(26, 128, 217, 0.5)), color-stop(65.95745%, rgba(26, 128, 217, 0.5)), color-stop(65.95745%, rgba(26, 128, 217, 0.25)), color-stop(68.08511%, rgba(26, 128, 217, 0.25)), color-stop(68.08511%, rgba(26, 128, 217, 0.5)), color-stop(74.46809%, rgba(26, 128, 217, 0.5)), color-stop(74.46809%, rgba(26, 128, 217, 0.25)), color-stop(76.59574%, rgba(26, 128, 217, 0.25)), color-stop(76.59574%, rgba(26, 128, 217, 0.5)), color-stop(82.97872%, rgba(26, 128, 217, 0.5)), color-stop(82.97872%, rgba(26, 128, 217, 0.25)), color-stop(85.10638%, rgba(26, 128, 217, 0.25)), color-stop(85.10638%, rgba(26, 128, 217, 0.5)), color-stop(91.48936%, rgba(26, 128, 217, 0.5)), color-stop(91.48936%, rgba(26, 128, 217, 0.25)), color-stop(93.61702%, rgba(26, 128, 217, 0.25)), color-stop(93.61702%, rgba(26, 128, 217, 0.5)), color-stop(100%, rgba(26, 128, 217, 0.5)));
+  background-image: -webkit-linear-gradient(left, rgba(26, 128, 217, 0.5), rgba(26, 128, 217, 0.5) 6.38298%, rgba(26, 128, 217, 0.25) 6.38298%, rgba(26, 128, 217, 0.25) 8.51064%, rgba(26, 128, 217, 0.5) 8.51064%, rgba(26, 128, 217, 0.5) 14.89362%, rgba(26, 128, 217, 0.25) 14.89362%, rgba(26, 128, 217, 0.25) 17.02128%, rgba(26, 128, 217, 0.5) 17.02128%, rgba(26, 128, 217, 0.5) 23.40426%, rgba(26, 128, 217, 0.25) 23.40426%, rgba(26, 128, 217, 0.25) 25.53191%, rgba(26, 128, 217, 0.5) 25.53191%, rgba(26, 128, 217, 0.5) 31.91489%, rgba(26, 128, 217, 0.25) 31.91489%, rgba(26, 128, 217, 0.25) 34.04255%, rgba(26, 128, 217, 0.5) 34.04255%, rgba(26, 128, 217, 0.5) 40.42553%, rgba(26, 128, 217, 0.25) 40.42553%, rgba(26, 128, 217, 0.25) 42.55319%, rgba(26, 128, 217, 0.5) 42.55319%, rgba(26, 128, 217, 0.5) 48.93617%, rgba(26, 128, 217, 0.25) 48.93617%, rgba(26, 128, 217, 0.25) 51.06383%, rgba(26, 128, 217, 0.5) 51.06383%, rgba(26, 128, 217, 0.5) 57.44681%, rgba(26, 128, 217, 0.25) 57.44681%, rgba(26, 128, 217, 0.25) 59.57447%, rgba(26, 128, 217, 0.5) 59.57447%, rgba(26, 128, 217, 0.5) 65.95745%, rgba(26, 128, 217, 0.25) 65.95745%, rgba(26, 128, 217, 0.25) 68.08511%, rgba(26, 128, 217, 0.5) 68.08511%, rgba(26, 128, 217, 0.5) 74.46809%, rgba(26, 128, 217, 0.25) 74.46809%, rgba(26, 128, 217, 0.25) 76.59574%, rgba(26, 128, 217, 0.5) 76.59574%, rgba(26, 128, 217, 0.5) 82.97872%, rgba(26, 128, 217, 0.25) 82.97872%, rgba(26, 128, 217, 0.25) 85.10638%, rgba(26, 128, 217, 0.5) 85.10638%, rgba(26, 128, 217, 0.5) 91.48936%, rgba(26, 128, 217, 0.25) 91.48936%, rgba(26, 128, 217, 0.25) 93.61702%, rgba(26, 128, 217, 0.5) 93.61702%, rgba(26, 128, 217, 0.5) 100%);
+  background-image: -moz-linear-gradient(left, rgba(26, 128, 217, 0.5), rgba(26, 128, 217, 0.5) 6.38298%, rgba(26, 128, 217, 0.25) 6.38298%, rgba(26, 128, 217, 0.25) 8.51064%, rgba(26, 128, 217, 0.5) 8.51064%, rgba(26, 128, 217, 0.5) 14.89362%, rgba(26, 128, 217, 0.25) 14.89362%, rgba(26, 128, 217, 0.25) 17.02128%, rgba(26, 128, 217, 0.5) 17.02128%, rgba(26, 128, 217, 0.5) 23.40426%, rgba(26, 128, 217, 0.25) 23.40426%, rgba(26, 128, 217, 0.25) 25.53191%, rgba(26, 128, 217, 0.5) 25.53191%, rgba(26, 128, 217, 0.5) 31.91489%, rgba(26, 128, 217, 0.25) 31.91489%, rgba(26, 128, 217, 0.25) 34.04255%, rgba(26, 128, 217, 0.5) 34.04255%, rgba(26, 128, 217, 0.5) 40.42553%, rgba(26, 128, 217, 0.25) 40.42553%, rgba(26, 128, 217, 0.25) 42.55319%, rgba(26, 128, 217, 0.5) 42.55319%, rgba(26, 128, 217, 0.5) 48.93617%, rgba(26, 128, 217, 0.25) 48.93617%, rgba(26, 128, 217, 0.25) 51.06383%, rgba(26, 128, 217, 0.5) 51.06383%, rgba(26, 128, 217, 0.5) 57.44681%, rgba(26, 128, 217, 0.25) 57.44681%, rgba(26, 128, 217, 0.25) 59.57447%, rgba(26, 128, 217, 0.5) 59.57447%, rgba(26, 128, 217, 0.5) 65.95745%, rgba(26, 128, 217, 0.25) 65.95745%, rgba(26, 128, 217, 0.25) 68.08511%, rgba(26, 128, 217, 0.5) 68.08511%, rgba(26, 128, 217, 0.5) 74.46809%, rgba(26, 128, 217, 0.25) 74.46809%, rgba(26, 128, 217, 0.25) 76.59574%, rgba(26, 128, 217, 0.5) 76.59574%, rgba(26, 128, 217, 0.5) 82.97872%, rgba(26, 128, 217, 0.25) 82.97872%, rgba(26, 128, 217, 0.25) 85.10638%, rgba(26, 128, 217, 0.5) 85.10638%, rgba(26, 128, 217, 0.5) 91.48936%, rgba(26, 128, 217, 0.25) 91.48936%, rgba(26, 128, 217, 0.25) 93.61702%, rgba(26, 128, 217, 0.5) 93.61702%, rgba(26, 128, 217, 0.5) 100%);
+  background-image: -o-linear-gradient(left, rgba(26, 128, 217, 0.5), rgba(26, 128, 217, 0.5) 6.38298%, rgba(26, 128, 217, 0.25) 6.38298%, rgba(26, 128, 217, 0.25) 8.51064%, rgba(26, 128, 217, 0.5) 8.51064%, rgba(26, 128, 217, 0.5) 14.89362%, rgba(26, 128, 217, 0.25) 14.89362%, rgba(26, 128, 217, 0.25) 17.02128%, rgba(26, 128, 217, 0.5) 17.02128%, rgba(26, 128, 217, 0.5) 23.40426%, rgba(26, 128, 217, 0.25) 23.40426%, rgba(26, 128, 217, 0.25) 25.53191%, rgba(26, 128, 217, 0.5) 25.53191%, rgba(26, 128, 217, 0.5) 31.91489%, rgba(26, 128, 217, 0.25) 31.91489%, rgba(26, 128, 217, 0.25) 34.04255%, rgba(26, 128, 217, 0.5) 34.04255%, rgba(26, 128, 217, 0.5) 40.42553%, rgba(26, 128, 217, 0.25) 40.42553%, rgba(26, 128, 217, 0.25) 42.55319%, rgba(26, 128, 217, 0.5) 42.55319%, rgba(26, 128, 217, 0.5) 48.93617%, rgba(26, 128, 217, 0.25) 48.93617%, rgba(26, 128, 217, 0.25) 51.06383%, rgba(26, 128, 217, 0.5) 51.06383%, rgba(26, 128, 217, 0.5) 57.44681%, rgba(26, 128, 217, 0.25) 57.44681%, rgba(26, 128, 217, 0.25) 59.57447%, rgba(26, 128, 217, 0.5) 59.57447%, rgba(26, 128, 217, 0.5) 65.95745%, rgba(26, 128, 217, 0.25) 65.95745%, rgba(26, 128, 217, 0.25) 68.08511%, rgba(26, 128, 217, 0.5) 68.08511%, rgba(26, 128, 217, 0.5) 74.46809%, rgba(26, 128, 217, 0.25) 74.46809%, rgba(26, 128, 217, 0.25) 76.59574%, rgba(26, 128, 217, 0.5) 76.59574%, rgba(26, 128, 217, 0.5) 82.97872%, rgba(26, 128, 217, 0.25) 82.97872%, rgba(26, 128, 217, 0.25) 85.10638%, rgba(26, 128, 217, 0.5) 85.10638%, rgba(26, 128, 217, 0.5) 91.48936%, rgba(26, 128, 217, 0.25) 91.48936%, rgba(26, 128, 217, 0.25) 93.61702%, rgba(26, 128, 217, 0.5) 93.61702%, rgba(26, 128, 217, 0.5) 100%);
+  background-image: linear-gradient(left, rgba(26, 128, 217, 0.5), rgba(26, 128, 217, 0.5) 6.38298%, rgba(26, 128, 217, 0.25) 6.38298%, rgba(26, 128, 217, 0.25) 8.51064%, rgba(26, 128, 217, 0.5) 8.51064%, rgba(26, 128, 217, 0.5) 14.89362%, rgba(26, 128, 217, 0.25) 14.89362%, rgba(26, 128, 217, 0.25) 17.02128%, rgba(26, 128, 217, 0.5) 17.02128%, rgba(26, 128, 217, 0.5) 23.40426%, rgba(26, 128, 217, 0.25) 23.40426%, rgba(26, 128, 217, 0.25) 25.53191%, rgba(26, 128, 217, 0.5) 25.53191%, rgba(26, 128, 217, 0.5) 31.91489%, rgba(26, 128, 217, 0.25) 31.91489%, rgba(26, 128, 217, 0.25) 34.04255%, rgba(26, 128, 217, 0.5) 34.04255%, rgba(26, 128, 217, 0.5) 40.42553%, rgba(26, 128, 217, 0.25) 40.42553%, rgba(26, 128, 217, 0.25) 42.55319%, rgba(26, 128, 217, 0.5) 42.55319%, rgba(26, 128, 217, 0.5) 48.93617%, rgba(26, 128, 217, 0.25) 48.93617%, rgba(26, 128, 217, 0.25) 51.06383%, rgba(26, 128, 217, 0.5) 51.06383%, rgba(26, 128, 217, 0.5) 57.44681%, rgba(26, 128, 217, 0.25) 57.44681%, rgba(26, 128, 217, 0.25) 59.57447%, rgba(26, 128, 217, 0.5) 59.57447%, rgba(26, 128, 217, 0.5) 65.95745%, rgba(26, 128, 217, 0.25) 65.95745%, rgba(26, 128, 217, 0.25) 68.08511%, rgba(26, 128, 217, 0.5) 68.08511%, rgba(26, 128, 217, 0.5) 74.46809%, rgba(26, 128, 217, 0.25) 74.46809%, rgba(26, 128, 217, 0.25) 76.59574%, rgba(26, 128, 217, 0.5) 76.59574%, rgba(26, 128, 217, 0.5) 82.97872%, rgba(26, 128, 217, 0.25) 82.97872%, rgba(26, 128, 217, 0.25) 85.10638%, rgba(26, 128, 217, 0.5) 85.10638%, rgba(26, 128, 217, 0.5) 91.48936%, rgba(26, 128, 217, 0.25) 91.48936%, rgba(26, 128, 217, 0.25) 93.61702%, rgba(26, 128, 217, 0.5) 93.61702%, rgba(26, 128, 217, 0.5) 100%);
   width: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000330}}
-.blogposts, .blurbs, .season .blurbsdesc {
-  width: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000336}}
-.season .pane-views-full-calendar-block {
-  width: 29.16667%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 35.41667%;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000339}}
-.blurbsdesc {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
-  padding-right: 1;
-  background-color: rgba(26, 128, 217, 0.5); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000344}}
-  .blurbsdesc .pane-title {
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000346}}
-  .blurbsdesc .field__item.even {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000351}}
-  .blurbsdesc .statistics_counter {
-    display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_homepage\.scss}line{font-family:\0000352}}
-  .blurbsdesc .pane-node {
-    padding: 2rem; }
 
 /**
  * $MESSAGES
@@ -2729,6 +2638,10 @@ vertical-align: super;
   width: 100%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000356}}
+.sitecontainer .panels-flexible-row {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000359}}
 .flexslide_region {
   width: 100%; }
 

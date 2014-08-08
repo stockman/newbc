@@ -1,0 +1,11 @@
+/**
+ * $homepage basic grid
+ */
+
+ 
+.bodycontent {
+    //show the grid as a background
+//    $gutter-styles: 'split';    
+    @include background-grid($color: $headerbackground);
+    width: 100%
+}  

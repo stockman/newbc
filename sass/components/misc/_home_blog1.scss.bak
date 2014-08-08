@@ -9,17 +9,7 @@
   padding: .5rem 0;
 }
 
-.blogposts, .blurbs {
-  .views-row {
-  $gutters: 3/3; //this looks good but still doesn't line up with the background grid
-  @include grid-span(4, 1, $output-style: 'float');
-  @include backgro;
-  @include padder;
-  //add some spacing between 
-  margin-top: 2rem;
-  margin-bottom:2rem;
-  }
-}
+
 
 
 
