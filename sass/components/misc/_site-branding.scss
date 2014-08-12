@@ -20,7 +20,7 @@
 //size logo
 #logo > img {
   height: 3rem;
-  @include breakpoint ($secondbreak){padding: .1rem .5rem; }
+  @include breakpoint ($breakii){padding: .1rem .5rem; }
 }
 
 // colour and size header row
@@ -37,7 +37,7 @@
 .header {width: 100%;
   text-align: center;
 // this is for the logo etc.
- @include breakpoint ($secondbreak){text-align: left }
+ @include breakpoint ($breakii){text-align: left }
 }
 
 // social icons

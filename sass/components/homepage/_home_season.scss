@@ -1,0 +1,14 @@
+/**
+ * $SEASONAL
+ */
+
+//set grid for the seasona and recent posts
+
+.season_row { 
+	@include backgro;
+//	$gutter-styles: 'split';
+//	$gutters: 2; 
+	@include grid-span(4, 1);
+	.statistics_counter {display: none;}
+}
+
