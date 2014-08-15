@@ -20,6 +20,9 @@
 
 .pane-views-homepage-blog-block-3 {
   .views-row {
+  @include breakpoint($breakii) {
+  display: none;
+    }
   @include threespan;
   @include backgro;
   padding: 1rem;

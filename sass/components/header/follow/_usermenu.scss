@@ -2,8 +2,8 @@
  * $SITE-BRANDING
  */
 
-//
 .usermenu {
+  max-width: 500px;
   //center the block and center text within block
   @include center-block;
   .menu {display: inline-block;}
