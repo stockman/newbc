@@ -33,8 +33,10 @@
 .pane-page-logo {
   @include breakpoint ($breakii){
   position: absolute;
-  left: 3.5rem; 
-  top: 0.55rem
+  left: 3.5rem;
+  }
+  @include breakpoint ($breaki){
+  top: 0.5rem
   }
 }
 
