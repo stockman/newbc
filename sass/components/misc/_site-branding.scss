@@ -17,10 +17,25 @@
   }
 }
 
+/* 
+********* Logo
+*/
+
 //size logo
 #logo > img {
   height: 3rem;
-  @include breakpoint ($breakii){padding: .1rem .5rem; }
+  //@include breakpoint ($breakii){
+    padding: .1rem .5rem; 
+    //}
+}
+
+// re-posittion logo on mobile view
+.pane-page-logo {
+  @include breakpoint ($breakii){
+  position: absolute;
+  left: 3.5rem; 
+  top: 0.55rem
+  }
 }
 
 // colour and size header row
@@ -30,24 +45,26 @@
   }
   
 //show header items as inline
-.headerrow, .pane-page-logo, .usermenu {
+/*.headerrow, .pane-page-logo {
   display: inline-block;
 }
+*/
+
 // center header
 .header {width: 100%;
   text-align: center;
 // this is for the logo etc.
- @include breakpoint ($breakii){text-align: left }
+ @include breakpoint ($breakii){text-align: left;
+   margin: 0.5rem; }
 }
 
 // social icons
 .follow {
   display: inline;
   vertical-align: bottom;
-/*  @include breakpoint ($firstbreak){
+  @include breakpoint ($breakii){
   display: none;
   }
-*/
 }
 
 // to compensate for Ctools body with 99% as default
@@ -55,8 +72,6 @@
 //another ctools fix
 .sitecontainer .panels-flexible-row {padding: 0;}
 
-//To expand flexslider to the full size of screen
-.flexslide_region {width: 100%}
 //the full site container
  .sitecontainer {
 // RT temp disable jul 26

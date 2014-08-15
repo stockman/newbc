@@ -1,3 +1,25 @@
 /**
  * $homepage basic grid
  */
+
+/*
+Flexslider
+*/
+
+//To expand flexslider to the full size of screen
+.flexslide_region {
+  width: 100%;
+  //for smallest screens remove follow menu, flexslider
+  @include breakpoint($breaki) {
+  display: none;
+  }
+ }
+
+
+/*
+****** Homepage hacks
+*/
+//hides the page title whitespace
+.pane-page-title {
+//  display: none;
+}

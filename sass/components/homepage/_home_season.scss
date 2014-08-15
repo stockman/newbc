@@ -4,7 +4,11 @@
 
 //set grid for the seasona and recent posts
 
-.season_row { 
+.season_row {
+	//mobile breakpoint
+	@include breakpoint($breakii) {
+	  width:100%;
+    }
 	@include backgro;
 //	$gutter-styles: 'split';
 //	$gutters: 2; 

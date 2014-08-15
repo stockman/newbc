@@ -3,14 +3,19 @@
 //this controls the child ul
 .sf-menu li.sfHover > ul {
   left: 0;
-  top: 1.5em;
+  //below parent
+  top: 2em;
+  // give ul background a little more length for hover underline.
+  padding-bottom: .5rem;
 }
+
 .superfisher {
   display: inline-block;
   vertical-align: bottom;
+  margin: .5rem 0.5rem;
 }
 
-
+//this is the drop down menus
 .sf-menu {
 	vertical-align: bottom;
 	ul {background-color:$headerbackground;
@@ -18,14 +23,11 @@
 	li {float: left;
 		font-size: 1.5rem;
 		margin-left: .6rem;
-		line-height: 1.5rem;
+		line-height: 2rem;
 	}
 	li a{text-decoration: none;
 	color: $headerlink;
-	padding-bottom: 1px;
 	display: inline;
-	//border-bottom: 1px solid;
-
 	&:hover {color:$headerlinkhover;
 			border-bottom:1px solid;
 			padding-bottom: 0

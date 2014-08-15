@@ -1,0 +1,10 @@
+/**
+ * $SITE-BRANDING
+ */
+
+//
+.usermenu {
+  //center the block and center text within block
+  @include center-block;
+  .menu {display: inline-block;}
+}

@@ -4,7 +4,7 @@
 //@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,700);
 //@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@include establish-baseline($base-font-size);
+//@include establish-baseline($base-font-size);
 
 /**
  * $BASE-TYPOGRAPHY
@@ -33,7 +33,8 @@ h3, .gamma,
 h4, .delta,
 h5, .epsilon,
 h6, .zeta {
-  @include rhythm(0, 0, 0, 0.2);;
+  // was previously set to @include rhythm(0, 0, 0, 0.2);
+  @include rhythm(0, 0, 0, 0);
   color: darken($bordercolour, 15%);
   font-family: $ft2-family;
   text-transform: uppercase;
