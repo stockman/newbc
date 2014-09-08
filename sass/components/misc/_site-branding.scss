@@ -69,8 +69,15 @@
   }
 }
 
+/** Body
+*/
 // to compensate for Ctools body with 99% as default
 .bodycontent {width: 100%;}
+//body styling
+.bodycontent {
+  h2, article, #tabs {padding: 0 1rem;}
+}
+
 //another ctools fix
 .sitecontainer .panels-flexible-row {padding: 0;}
 

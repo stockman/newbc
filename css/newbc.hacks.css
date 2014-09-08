@@ -7,24 +7,3 @@
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
     margin-top: 0 !important; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/newbc\.hacks\.scss}line{font-family:\0000323}}
-.views-field-body {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/newbc\.hacks\.scss}line{font-family:\0000324}}
-.fa {
-  font-size: 4rem;
-  display: block !important; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/newbc\.hacks\.scss}line{font-family:\0000328}}
-.views-row {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 1rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/newbc\.hacks\.scss}line{font-family:\0000338}}
-.blurbs .views-field-field-icon, .blurbs .views-field-title {
-  display: block; }

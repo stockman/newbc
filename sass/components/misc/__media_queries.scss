@@ -1,0 +1,43 @@
+/**
+ * $Media_queries
+ */
+
+
+//.season_row {display: none}
+//hide blog on small screen
+.blog_row {display: none;}
+
+
+// home page mobile idea, 2 columns with the symbols and clicakble.
+// 3 columns was too small
+
+//divide the categories up into about 6 ones and on bigger it will show all
+//summer season should be a category.
+.blurbs {
+//  @include breakpoint($breakii) {
+		.view-content {
+		  background-color: hsla(0, 0%, 0%, .4 );
+		  //spaces out the things.
+		  text-align: justify;
+		}
+		.views-field-body{display: none;}
+		.fa {font-size: 5rem;
+			//use the fittext js to make this big and small.
+		  display: block !important;
+		}
+		.views-row {
+//		  display: block;
+//		  margin-left: auto;
+//		  margin-right: auto;
+		  text-align: center;
+		//  width: 50%; //make this 50 and add the singluraity columns
+		  padding: 1rem;
+//		  width: (100%)/3;
+		  display: inline-table;
+		}
+
+		.views-field-field-icon, .views-field-title {
+		  display: block;
+		}
+//	}
+}
