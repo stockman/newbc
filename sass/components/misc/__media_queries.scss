@@ -43,9 +43,14 @@
 //	}
 }
 */
+body {
+	@include breakpoint($breaki) {
+		background-color: $colouriii;
+	}
+}
+
 .blurbs {
 	@include breakpoint($breaki) {
-	background-color: $colouriii;
 		.fa {display: list-item;
 			list-style: none;
 			text-align: center;
@@ -65,7 +70,7 @@
 //  	  border: medium solid yellow;	  
 	}
 	h2 {font-size: 1.2rem;
-		color: $colouri;
+		color: $colourv;
 		:hover {color: $colourii}
 	}
 	

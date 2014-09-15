@@ -12,21 +12,16 @@ stylesheets[all][] = css/newbc.normalize.css
 stylesheets[all][] = css/newbc.hacks.css
 stylesheets[all][] = css/newbc.styles.css
 stylesheets[all][] = css/newbc.no-query.css
-;placed here so I could compile with the rest of the scss
-;font-awesome scss files sass/component/font-awesome/*
 stylesheets[all][] = css/font-awesome/font-awesome.css
 
 ; ========================================
 ; Scripts
 ; ========================================
-; Large Text Resizing
 scripts[] = js/jquery.fittext.js
-; Theme additional Jquery
 scripts[] = js/additional_theme_jquery.js
 scripts[] = js/jquery.slabtext.js
 scripts[] = js/newbc.behaviors.js
 scripts[] = js/Rand.js
-
 
 ; ========================================
 ; Regions
@@ -65,7 +60,7 @@ settings[omega_toggle_extension_layouts] = 0
 settings[omega_layout] = ""
 settings[omega_toggle_extension_development] = 1
 settings[omega_rebuild_theme_registry] = 0
-settings[omega_rebuild_aggregates] = 0
+settings[omega_rebuild_aggregates] = 1
 settings[omega_browser_width_indicator] = 1
 settings[omega_livereload] = 1
 settings[omega_livereload_script] = http://localhost:35729/livereload.js

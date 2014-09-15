@@ -22,12 +22,25 @@
 */
 
 //size logo
+
 #logo > img {
   height: 3rem;
+//  padding: .2rem;
+  box-sizing:content-box;
   //@include breakpoint ($breakii){
-    padding: .1rem .5rem; 
+//    padding: .1rem .5rem; 
     //}
 }
+
+//set the positition of the menu and logo in screen.
+$menu_and_logo: .3rem;
+
+  #logo > img { 
+  padding: $menu_and_logo;
+  }
+  .dl-menuwrapper button {
+     margin: $menu_and_logo + 0.05rem;
+  }
 
 // re-posittion logo on mobile view
 .pane-page-logo {
@@ -36,7 +49,7 @@
   left: 3.5rem;
   }
   @include breakpoint ($breaki){
-  top: 0.5rem
+//  top: 0.5rem
   }
 }
 
@@ -57,7 +70,8 @@
   text-align: center;
 // this is for the logo etc.
  @include breakpoint ($breakii){text-align: left;
-   margin: 0.5rem; }
+//   margin: 0.5rem;
+ }
 }
 
 // social icons
