@@ -13,6 +13,7 @@
 
 //divide the categories up into about 6 ones and on bigger it will show all
 //summer season should be a category.
+/*
 .blurbs {
 //  @include breakpoint($breakii) {
 		.view-content {
@@ -21,10 +22,10 @@
 		  text-align: justify;
 		}
 		.views-field-body{display: none;}
-		.fa {font-size: 5rem;
+//		.fa {font-size: 3rem;
 			//use the fittext js to make this big and small.
-		  display: block !important;
-		}
+//			display: block !important;
+//		}
 		.views-row {
 //		  display: block;
 //		  margin-left: auto;
@@ -40,4 +41,33 @@
 		  display: block;
 		}
 //	}
+}
+*/
+.blurbs {
+	@include breakpoint($breaki) {
+	background-color: $colouriii;
+		.fa {display: list-item;
+			list-style: none;
+			text-align: center;
+		//	font-size: 3rem;
+		}
+		h2 {text-align: center;}
+//	max-width: 33%;
+	.views-field-body {display: none;}
+//	.views-row {max-width: 100px;}
+	.view-content {
+//		border: medium solid yellow;
+	}
+	.views-row {
+	  float: left;
+	  width: 50%;
+	  padding: .5rem .2rem;
+//  	  border: medium solid yellow;	  
+	}
+	h2 {font-size: 1.2rem;
+		color: $colouri;
+		:hover {color: $colourii}
+	}
+	
+	}
 }

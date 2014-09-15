@@ -12,13 +12,21 @@ stylesheets[all][] = css/newbc.normalize.css
 stylesheets[all][] = css/newbc.hacks.css
 stylesheets[all][] = css/newbc.styles.css
 stylesheets[all][] = css/newbc.no-query.css
-stylesheets[all][] = fonts/font-awesome/fonts/font-awesome.css
+;placed here so I could compile with the rest of the scss
+;font-awesome scss files sass/component/font-awesome/*
+stylesheets[all][] = css/font-awesome/font-awesome.css
 
 ; ========================================
 ; Scripts
 ; ========================================
+; Large Text Resizing
+scripts[] = js/jquery.fittext.js
+; Theme additional Jquery
+scripts[] = js/additional_theme_jquery.js
+scripts[] = js/jquery.slabtext.js
 scripts[] = js/newbc.behaviors.js
 scripts[] = js/Rand.js
+
 
 ; ========================================
 ; Regions
