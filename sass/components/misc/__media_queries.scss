@@ -43,6 +43,7 @@
 //	}
 }
 */
+
 body {
 	@include breakpoint($breaki) {
 		background-color: $colouriii;
@@ -67,11 +68,13 @@ body {
 	  float: left;
 	  width: 50%;
 	  padding: .5rem .2rem;
-//  	  border: medium solid yellow;	  
+	  :hover {background-color: $colouriv;
+	  	color: $colouri}  
 	}
 	h2 {font-size: 1.2rem;
 		color: $colourv;
-		:hover {color: $colourii}
+		padding: .3rem;
+		box-sizing:border-box;
 	}
 	
 	}

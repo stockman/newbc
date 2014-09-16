@@ -24,22 +24,23 @@
 //size logo
 
 #logo > img {
-  height: 3rem;
+  height: $menu_size;
 //  padding: .2rem;
   box-sizing:content-box;
-  //@include breakpoint ($breakii){
-//    padding: .1rem .5rem; 
-    //}
+  @include breakpoint ($breaki) {
+    height:$menu_size2;
+  }
 }
 
 //set the positition of the menu and logo in screen.
-$menu_and_logo: .3rem;
+$menu_logo_padding: .3rem;
 
-  #logo > img { 
-  padding: $menu_and_logo;
+
+#logo > img { 
+  padding: $menu_logo_padding;
   }
   .dl-menuwrapper button {
-     margin: $menu_and_logo + 0.05rem;
+     margin: $menu_logo_padding + 0.05rem;
   }
 
 // re-posittion logo on mobile view
