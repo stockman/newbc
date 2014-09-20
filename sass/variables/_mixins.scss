@@ -48,3 +48,27 @@
   //change back gutter style
   $gutter-styles: 'opposite';  
 }
+
+  // $socisize is the circle size
+@mixin circle($socisize,$circlebakcolor,$circlecolor,$circlecolorhover) {
+  // font size controls the actual size
+  font-size: 1.3rem;
+  font-family: 'socicon';
+  display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: $socisize*2;
+    height: $socisize*2;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: $circlecolor;
+    font-weight: normal;
+    line-height: $socisize*2;
+    border-radius: $socisize;
+    -moz-border-radius:$socisize;
+    -webkit-border-radius:$socisize;
+    background-color: $circlebakcolor;
+    &:hover {color: $circlecolorhover;}
+}

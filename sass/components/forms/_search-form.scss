@@ -7,3 +7,12 @@
     padding: 0.4em;
   }
 }
+
+.pane-search-form {
+//	display: inline-block;
+display: none;
+	input {background-color: red;
+		//@include circle(50px,#999);
+	}
+	input:after {content:'>&nbsp;'}
+}

@@ -11,10 +11,6 @@
     div, li, a {color:$headerlink;
   &:hover {color:$headerlinkhover}
   }
-  input {color: $link;
-  background-color: $buttonbak;
-  &:hover {color:$linkhover;}
-  }
 }
 
 /* 
