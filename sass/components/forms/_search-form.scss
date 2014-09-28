@@ -1,18 +1,14 @@
 /**
  * $SEARCH-FORM
  */
-.search-block-form {
-  .form-text {
-    width: auto;
-    padding: 0.4em;
-  }
-}
-
-.pane-search-form {
-//	display: inline-block;
-display: none;
-	input {background-color: red;
-		//@include circle(50px,#999);
+ 
+.search_block {
+	.form-submit {
+	margin-left: .2rem;
 	}
-	input:after {content:'>&nbsp;'}
+    display: inline-block;
+    #input_box{
+		height: 2rem;
+		vertical-align: bottom;
+	}
 }

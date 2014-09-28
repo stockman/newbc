@@ -50,11 +50,11 @@
 }
 
   // $socisize is the circle size
-@mixin circle($socisize,$circlebakcolor,$circlecolor,$circlecolorhover) {
+@mixin circle($socisize: 0.8em,$circlebakcolor:$colourv,$circlecolor:$colouriii,$circlecolorhover:$colourvi) {
   // font size controls the actual size
   font-size: 1.3rem;
-  font-family: 'socicon';
-  display: inline-block;
+//  font-family: 'socicon';
+    display: inline-block;
     position: relative;
     cursor: pointer;
     width: $socisize*2;

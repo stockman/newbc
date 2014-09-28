@@ -6,6 +6,7 @@
   text-align: center;
 }
 
+/*
 .not-logged-in .bodycontent {
 $maxer: 320px;
 max-width: $maxer;
@@ -16,10 +17,11 @@ top: 50%;
 transform: translateY(-50%);
 box-shawdow:4px 4px 35px 5px $colouriii;
 }
+*/
 
 //need to make the site container 100% of the screen
 .not-logged-in .sitecontainer {
 	height: 100%;
 	//extra spacing
-	.bodycontent{padding: 1rem;}
+//	.bodycontent{padding: 1rem;}
 }

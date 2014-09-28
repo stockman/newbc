@@ -5,6 +5,9 @@ textarea {
     @include box-shadow(0 0 4px 1px rgba(lighten($link, 15%), 0.3));
     outline: 1px solid lighten($link, 15%);
   }
+    border-width: 0;
+    padding: 0 .2em;
+    color: $colouriv;
 }
 
 fieldset {

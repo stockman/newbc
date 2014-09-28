@@ -11,7 +11,8 @@
 }
 
 .socicon {
-  @include circle(.8em,$buttonbak,$headerbackground,$linkhover)
+  font-family: 'socicon';
+  @include circle();
 }
 
 .socicon-easid:before { content: "5"; }

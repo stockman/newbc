@@ -30,17 +30,28 @@ $buttonbak2: #FFFFFF;
 //green
 $bcgren:#80CC28;
 //blue
-$bcblue:#00267F;
+$bcblue:$linkhover;
+
 
 
 //Even Better
 
+// main font colour
 $colouri:$bcgren;
+// main page background
 $colourii:$headerlinkhover;
+// header / contrast background
 $colouriii:$headerbackground;
+// header / contrast colour
 $colouriv:$bcblue;
+
+//white contrast background
 $colourv:$headerlink;
-$colourvi:$bcgren;
+$colourvi:$bcblue;
+
+
+//   @include circle(.8em,$colourv,$colouriii,$colourvi)
+
 
 /* 
 Breakpoints
