@@ -12,23 +12,11 @@
 
 */
             // toggles both user menus by usermenu class
-            $(".button").click(function() {
-                $("#mini-panel-usermenu").toggle();
-            });
-
-            /*
-                $('.view-full-calendar').fullCalendar({
-                    eventMouseover: function(event, jsEvent, view) {
-                    $('.fc-event-inner', this).append('<div id=\"'+event.id+'\" class=\"hover-end\">'+$.fullCalendar.formatDate(event.end, 'h:mmt')+'</div>');
-                    };
-
-                    eventMouseout: function(event, jsEvent, view) {
-                    $('#'+event.id).remove();
-                    };
+                $(".fa-search").click(function() {
+                    $(".search_form").toggleClass('showinline');
 
                 });
-*/
-            //code ends
+
         }
     };
 })(jQuery);

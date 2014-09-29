@@ -11,4 +11,21 @@
 		height: 2rem;
 		vertical-align: bottom;
 	}
+	@include breakpoint ($breakii){
+	display: block;
+	position: fixed;
+	bottom: 0;
+	background-color:$colouriv;
+	padding: 0 .3rem;
+	right: 0;
+	.textarea {display: none;}
+	.form-submit {display: none;}
+	font-size: 1.85rem;
+	float: right;
+	:hover {background-color: $colourv;color: $colouriv;}
+  }
 }
+
+.search_form {display: none;}
+
+.showinline {display:inline-block; }

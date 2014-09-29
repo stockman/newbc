@@ -635,6 +635,14 @@ div.password-indicator {
     height: 2rem;
     vertical-align: bottom; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000329}}
+.search_form {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000331}}
+.showinline {
+  display: inline-block; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_userlogin\.scss}line{font-family:\000032}}
 #mini-panel-usermenu {
   display: none; }
@@ -2488,6 +2496,13 @@ Flexslider
   display: none; }
 
 /**
+ * $Shared Sass for all components
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/__sharedsass\.scss}line{font-family:\000035}}
+.showinline {
+  display: inline-block; }
+
+/**
  * $BORDER-LIST
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_border-list\.scss}line{font-family:\000034}}
@@ -2695,11 +2710,11 @@ box-shawdow:4px 4px 35px 5px $colouriii;
 
 /** Body
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000394}}
 .bodycontent {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\00003101}}
 .sitecontainer .panels-flexible-row {
   padding: 0; }
 
