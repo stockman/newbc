@@ -1,0 +1,38 @@
+/**
+ * $Follow Menu
+ */
+
+
+// social icons
+.follow {
+  display: inline;
+  vertical-align: bottom;
+}
+
+.follow_menu {
+  position: absolute;
+  right: $horz-spacing-unit;
+  top: $vert-spacing-unit*2;
+  z-index: 10;
+  @include breakpoint ($breakii){
+//  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color:$colouriv;
+  width: 100%;
+  padding: .3rem;
+//  font-size: $vert-spacing-unit;
+  top: inherit;
+  button {display: none;}
+  }
+}
+
+//temp
+
+.fullwidth {position: absolute;
+top: 0;}
+
+.flexslider .slides img {
+  height: 500px;
+}

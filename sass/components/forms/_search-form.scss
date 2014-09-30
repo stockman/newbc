@@ -2,6 +2,12 @@
  * $SEARCH-FORM
  */
  
+
+
+.search_block {
+   display: inline-block;
+}
+  /*
 .search_block {
 	.form-submit {
 	margin-left: .2rem;
@@ -25,7 +31,16 @@
 	:hover {background-color: $colourv;color: $colouriv;}
   }
 }
+*/
 
-.search_form {display: none;}
-
-.showinline {display:inline-block; }
+.search_form {display: none;
+	position: absolute;
+	top: 3rem;
+	right: 0;
+	* {margin: .2rem;}
+	@include breakpoint($breakii) {
+		top: inherit;
+		bottom: 4rem;
+		left: 0;
+	}
+}

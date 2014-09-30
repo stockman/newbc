@@ -18,10 +18,11 @@
 */
 
 //size logo
+#logo {z-index: 9999;}
 
 #logo > img {
   height: $menu_size;
-//  padding: .2rem;
+  margin-left: $vert-spacing-unit;
   box-sizing:content-box;
   @include breakpoint ($breaki) {
     height:$menu_size2;
@@ -53,49 +54,15 @@ $menu_logo_padding: .3rem;
 // colour and size header row
 .headerrow {
   width: 100%;
-  background-color: $headerbackground;
+//  background-color: $headerbackground;
+  font-size: $vert-spacing-unit*1.7;
   }
   
-//show header items as inline
-/*.headerrow, .pane-page-logo {
-  display: inline-block;
-}
-*/
-
-// center header
-.header {width: 100%;
-  text-align: center;
-// this is for the logo etc.
- @include breakpoint ($breakii){text-align: left;
-//   margin: 0.5rem;
- }
-}
-
-// social icons
-.follow {
-  display: inline;
-  vertical-align: bottom;
-  @include breakpoint ($breakii){
-  display: block;
-  position: fixed;
-  bottom: 0;
-  background-color:$colouriv;
-  width: 100%;
-  padding: .3rem;
-  font-size: 1.4rem;
-  button {display: none;}
-//  border-top: 2px solid $colouriv;
-  }
-}
 
 /** Body
 */
 // to compensate for Ctools body with 99% as default
 .bodycontent {width: 100%;}
-//body styling
-.bodycontent {
-//  h2, article, #tabs {padding: 0 1rem;}
-}
 
 //another ctools fix
 .sitecontainer .panels-flexible-row {padding: 0;}
