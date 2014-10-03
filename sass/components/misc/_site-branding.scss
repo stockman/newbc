@@ -17,7 +17,26 @@
 ********* Logo
 */
 
-//size logo
+// re-posittion logo on mobile view
+.pane-page-logo {
+  img {height: $menu_size;}
+  display: inline;
+  position: absolute;
+  top: $vert-spacing-unit/2;
+  padding: 0 $horz-spacing-unit/2;
+  @include breakpoint ($breakii){
+    left: 2rem;
+    top: 0;
+    img {height: $menu_size2;}
+  }
+  @include breakpoint ($breaki){
+
+  }
+}
+
+/*
+
+
 #logo {z-index: 9999;}
 
 #logo > img {
@@ -41,16 +60,7 @@ $menu_logo_padding: .3rem;
      margin: $menu_logo_padding + 0.05rem;
   }
 
-// re-posittion logo on mobile view
-.pane-page-logo {
-  @include breakpoint ($breakii){
-  position: absolute;
-  left: 3.5rem;
-  }
-  @include breakpoint ($breaki){
-//  top: 0.5rem
-  }
-}
+*/
 
 // colour and size header row
 .headerrow {
@@ -64,6 +74,10 @@ $menu_logo_padding: .3rem;
   background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
   height: 450px;
   width: 100%;
+  @include breakpoint ($breakii){
+    background: none;
+    height: 0;
+  }
 }
 /** Body
 */

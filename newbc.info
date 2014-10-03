@@ -21,7 +21,6 @@ scripts[] = js/jquery.fittext.js
 scripts[] = js/additional_theme_jquery.js
 scripts[] = js/jquery.slabtext.js
 scripts[] = js/newbc.behaviors.js
-scripts[] = js/Rand.js
 
 ; ========================================
 ; Regions

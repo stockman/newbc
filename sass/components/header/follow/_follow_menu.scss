@@ -8,7 +8,24 @@
   display: inline;
   vertical-align: bottom;
 }
+.followpop {
+  @include breakpoint ($breakii){
+  display: none;
+  position: absolute;
+  bottom: 52.5px;
+  background-color: $colouriv;
+  padding: .2rem .5rem;
+  width: 3.5rem;
+  left: 0;
+  }
+}
 
+.popper {
+  display: none;
+  @include breakpoint ($breakii){
+  display: inline-block;
+  }
+}
 .follow_menu {
   position: absolute;
   right: $horz-spacing-unit;

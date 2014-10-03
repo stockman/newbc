@@ -15,7 +15,7 @@
 }
 //oct 1st is this right?
 #superfish-1 {
-@include center-block() 
+@include center-block;
 //rt fix this
 margin-top: $vert-spacing-unit;
 }

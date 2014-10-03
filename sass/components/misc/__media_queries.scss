@@ -2,47 +2,8 @@
  * $Media_queries
  */
 
-
-//.season_row {display: none}
-//hide blog on small screen
 .blog_row {display: none;}
 
-
-// home page mobile idea, 2 columns with the symbols and clicakble.
-// 3 columns was too small
-
-//divide the categories up into about 6 ones and on bigger it will show all
-//summer season should be a category.
-/*
-.blurbs {
-//  @include breakpoint($breakii) {
-		.view-content {
-		  background-color: hsla(0, 0%, 0%, .4 );
-		  //spaces out the things.
-		  text-align: justify;
-		}
-		.views-field-body{display: none;}
-//		.fa {font-size: 3rem;
-			//use the fittext js to make this big and small.
-//			display: block !important;
-//		}
-		.views-row {
-//		  display: block;
-//		  margin-left: auto;
-//		  margin-right: auto;
-		  text-align: center;
-		//  width: 50%; //make this 50 and add the singluraity columns
-		  padding: 1rem;
-//		  width: (100%)/3;
-		  display: inline-table;
-		}
-
-		.views-field-field-icon, .views-field-title {
-		  display: block;
-		}
-//	}
-}
-*/
 
 body {
 	@include breakpoint($breaki) {
@@ -65,16 +26,45 @@ body {
 //		border: medium solid yellow;
 	}
 	.views-row {
-	  float: left;
-	  width: 50%;
-	  padding: .5rem .2rem;
 	  :hover {
 	  	//background-color: $colouriv;
 	  	color: $colourii}  
 	}
-	h2 {font-size: 1.2rem;
+//looks ok, but would look much better with auto sizing divs and 
+//fittext type scaling
+$iconsize: 4.5rem;
+
+.view-content {
+//    border: 2px dashed #444;
+    height: $iconsize;
+    
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    
+}
+
+.view-content > div {
+    width:155px;
+//    height: 125px; 
+	height: $iconsize;
+    vertical-align: middle;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+.view-content:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+	h2 {font-size: $iconsize/4.5;
 		color: $colourv;
-		padding: .3rem;
+		vertical-align: middle;
+		padding: $iconsize/9  $iconsize/18;
 		box-sizing:border-box;
 	}
 	
