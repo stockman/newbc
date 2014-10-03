@@ -29,8 +29,8 @@ Uses Font-Awesome for the directional arrows
 .dl-menuwrapper button {
 	background: $linkhover;
 	border: none;
-	width: $menu_size;
-	height: $menu_size;
+	width: $menu_size2;
+	height: $menu_size2;
 	text-indent: -900em;
 	overflow: hidden;
 	position: relative;
@@ -52,13 +52,13 @@ Uses Font-Awesome for the directional arrows
 	position: absolute;
 	width: 67%;
 	//this is the thickness of the lines.
-	height: $menu_size/11;
+	height: $menu_size2/11;
 	background: $headerbackground;
-	top: $menu_size/4.8;
+	top: $menu_size2/4.8;
 	left: 16%;
 	box-shadow: 
-		0 $menu_size/4 0 $headerbackground, 
-		0 $menu_size/2 0 $headerbackground;
+		0 $menu_size2/4 0 $headerbackground, 
+		0 $menu_size2/2 0 $headerbackground;
 }
 .dl-menuwrapper ul {
 	padding: 0;

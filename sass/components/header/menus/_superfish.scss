@@ -4,17 +4,21 @@
 .sf-menu li.sfHover > ul {
   left: 0;
   //below parent
-  top: 2em;
+//  top: 2em;
   // give ul background a little more length for hover underline.
   padding-bottom: .5rem;
 }
-/*
-.superfisher {
-  display: inline-block;
-  vertical-align: bottom;
-  margin: .5rem 0.5rem;
+
+//oct 1st is this right?
+.pane-superfish-1 {
+  display: flex;
 }
-*/
+//oct 1st is this right?
+#superfish-1 {
+@include center-block() 
+//rt fix this
+margin-top: $vert-spacing-unit;
+}
 
 //this is the drop down menus
 .sf-menu {
@@ -36,6 +40,7 @@
 	}
 }
 
+/*
 .pane-site-menus {
   display: table;
   left: 0;
@@ -45,3 +50,4 @@
   right: 0;
   top: 2.6rem;
 }
+*/

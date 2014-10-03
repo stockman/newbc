@@ -135,12 +135,15 @@ html[xmlns] .slides {display: block;}
      @include breakpoint($breakii) {
      font-size: 1rem;
      letter-spacing: 0;
-     top: 25%;
+//     top: 25%;
+//    top: 40%
     }
-    position:absolute;
+//    position:absolute;
+//    top:35%;
+    position: fixed;
+//    top: 49%;
     left:0;
     right:0;
-    top:35%;
     /*background:#000;*/ 
     z-index:1;
     padding:0 5%;

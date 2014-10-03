@@ -12,7 +12,7 @@
 .follow_menu {
   position: absolute;
   right: $horz-spacing-unit;
-  top: $vert-spacing-unit*2;
+  top: $vert-spacing-unit/2;
   z-index: 10;
   @include breakpoint ($breakii){
 //  display: block;
