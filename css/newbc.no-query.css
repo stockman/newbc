@@ -624,44 +624,26 @@ div.password-indicator {
 /**
  * $SEARCH-FORM
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000035}}
 .search_block {
   display: inline-block; }
 
-  /*
-.search_block {
-	.form-submit {
-	margin-left: .2rem;
-	}
-    display: inline-block;
-    #input_box{
-		height: 2rem;
-		vertical-align: bottom;
-	}
-	@include breakpoint ($breakii){
-	display: block;
-	position: fixed;
-	bottom: 0;
-	background-color:$colouriv;
-	padding: 0 .3rem;
-	right: 0;
-	.textarea {display: none;}
-	.form-submit {display: none;}
-	font-size: 1.85rem;
-	float: right;
-	:hover {background-color: $colourv;color: $colouriv;}
-  }
-}
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000039}}
 .search_form {
   display: none;
   position: absolute;
   top: 3rem;
   right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000313}}
   .search_form * {
     margin: .2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000323}}
+.fa-times-circle-o {
+  color: grey;
+  font-size: 1.5rem !important;
+  margin-left: -1.7rem;
+  margin-top: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_userlogin\.scss}line{font-family:\000032}}
 #mini-panel-usermenu {
@@ -982,23 +964,31 @@ html[xmlns] .slides {
   display: inline;
   vertical-align: bottom; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000312}}
+.followpop {
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000326}}
 .popper {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000332}}
 .follow_menu {
   position: absolute;
   right: 1em;
   top: 9px;
   z-index: 10; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000338}}
+  .follow_menu .fa {
+    font-size: 36px;
+    vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000357}}
 .fullwidth {
   position: absolute;
   top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000360}}
 .flexslider .slides img {
   height: 500px; }
 
@@ -1339,7 +1329,7 @@ RT my modded Responsive Menu Sass
 Uses Font-Awesome for the directional arrows
 */
 /* Common styles of menus */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000310}}
 .dl-menuwrapper {
   width: 100%;
   float: left;
@@ -1352,11 +1342,11 @@ Uses Font-Awesome for the directional arrows
   perspective-origin: 50% 200%;
   z-index: 500; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000324}}
 .dl-menuwrapper:first-child {
   margin-right: 100px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000328}}
 .dl-menuwrapper button {
   background: #00267f;
   border: none;
@@ -1368,22 +1358,22 @@ Uses Font-Awesome for the directional arrows
   cursor: pointer;
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000340}}
 .dl-menuwrapper button:hover {
   background-color: #ffff0d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000341}}
 .dl-menuwrapper button .dl-active {
   background: #ffff0d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000344}}
 .dl-menuwrapper ul {
   background: #00267f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000345}}
 .dl-menuwrapper ul:active {
   color: #ffff0d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000349}}
 .dl-menuwrapper button:after {
   content: '';
   position: absolute;
@@ -1394,7 +1384,7 @@ Uses Font-Awesome for the directional arrows
   left: 16%;
   box-shadow: 0 0.625rem 0 #1a80d9, 0 1.25rem 0 #1a80d9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000362}}
 .dl-menuwrapper ul {
   padding: 0;
   list-style: none;
@@ -1403,61 +1393,61 @@ Uses Font-Awesome for the directional arrows
   transform-style: preserve-3d;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000371}}
 .dl-menuwrapper li {
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000374}}
   .dl-menuwrapper li:hover {
     background-color: #1a80d9; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000375}}
   .dl-menuwrapper li a {
     color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000376}}
   .dl-menuwrapper li a:hover {
     color: #ffff0d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000379}}
 .dl-menuwrapper li a {
   display: block;
   position: relative;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
   font-weight: 300;
   outline: none;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000391}}
 .no-touch .dl-menuwrapper li a:hover {
   background: rgba(255, 248, 213, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000395}}
 .dl-menuwrapper li.dl-back > a {
   padding-left: 30px;
   background: rgba(0, 0, 0, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003101}}
 .dl-menuwrapper li.dl-back:after,
 .dl-menuwrapper li > a:not(:only-child):after {
   position: absolute;
   top: 0;
-  line-height: 55px;
+  line-height: 2.6rem;
   font-family: FontAwesome;
   content: "\f0da";
-  font-size: 3rem; }
+  font-size: 2.6rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003110}}
 .dl-menuwrapper li.dl-back:after {
   left: .5rem;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   transform: rotate(180deg); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003118}}
 .dl-menuwrapper li > a:after {
   right: 1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003122}}
 .dl-menuwrapper .dl-menu {
   margin: 5px 0 0 0;
   position: absolute;
@@ -1470,13 +1460,13 @@ Uses Font-Awesome for the directional arrows
   -moz-backface-visibility: hidden;
   backface-visibility: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003137}}
 .dl-menuwrapper .dl-menu.dl-menu-toggle {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003143}}
 .dl-menuwrapper .dl-menu.dl-menuopen {
   opacity: 1;
   pointer-events: auto;
@@ -1485,7 +1475,7 @@ Uses Font-Awesome for the directional arrows
   transform: translateY(0px); }
 
 /* Hide the inner submenus */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003152}}
 .dl-menuwrapper li .dl-submenu {
   display: none; }
 
@@ -1496,13 +1486,13 @@ We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003165}}
 .dl-menu.dl-subview li,
 .dl-menu.dl-subview li.dl-subviewopen > a,
 .dl-menu.dl-subview li.dl-subview > a {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003173}}
 .dl-menu.dl-subview li.dl-subview,
 .dl-menu.dl-subview li.dl-subview .dl-submenu,
 .dl-menu.dl-subview li.dl-subviewopen,
@@ -1511,7 +1501,7 @@ All this is done for any sub-level being entered.
   display: block; }
 
 /* Dynamically added submenu outside of the menu context */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003178}}
 .dl-menuwrapper > .dl-submenu {
   position: absolute;
   width: 100%;
@@ -1520,755 +1510,755 @@ All this is done for any sub-level being entered.
   margin: 0; }
 
 /* Animation classes for moving out and in */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003188}}
 .dl-menu.dl-animate-out-1 {
   -webkit-animation: MenuAnimOut1 0.4s;
   -moz-animation: MenuAnimOut1 0.4s;
   animation: MenuAnimOut1 0.4s; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003194}}
 .dl-menu.dl-animate-out-2 {
   -webkit-animation: MenuAnimOut2 0.3s ease-in-out;
   -moz-animation: MenuAnimOut2 0.3s ease-in-out;
   animation: MenuAnimOut2 0.3s ease-in-out; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003200}}
 .dl-menu.dl-animate-out-3 {
   -webkit-animation: MenuAnimOut3 0.4s ease;
   -moz-animation: MenuAnimOut3 0.4s ease;
   animation: MenuAnimOut3 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003206}}
 .dl-menu.dl-animate-out-4 {
   -webkit-animation: MenuAnimOut4 0.4s ease;
   -moz-animation: MenuAnimOut4 0.4s ease;
   animation: MenuAnimOut4 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003212}}
 .dl-menu.dl-animate-out-5 {
   -webkit-animation: MenuAnimOut5 0.4s ease;
   -moz-animation: MenuAnimOut5 0.4s ease;
   animation: MenuAnimOut5 0.4s ease; }
 
 @-webkit-keyframes MenuAnimOut1 {
-  /* line 220, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 219, ../sass/components/header/menus/_responsive_menus.scss */
   50% {
     -webkit-transform: translateZ(-250px) rotateY(30deg); }
 
-  /* line 223, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 222, ../sass/components/header/menus/_responsive_menus.scss */
   75% {
     -webkit-transform: translateZ(-372.5px) rotateY(15deg);
     opacity: .5; }
 
-  /* line 227, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 226, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(-500px) rotateY(0deg);
     opacity: 0; } }
 
 @-webkit-keyframes MenuAnimOut2 {
-  /* line 234, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 233, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateX(-100%);
     opacity: 0; } }
 
 @-webkit-keyframes MenuAnimOut3 {
-  /* line 241, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 240, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(300px);
     opacity: 0; } }
 
 @-webkit-keyframes MenuAnimOut4 {
-  /* line 248, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 247, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(-300px);
     opacity: 0; } }
 
 @-webkit-keyframes MenuAnimOut5 {
-  /* line 255, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 254, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateY(40%);
     opacity: 0; } }
 
 @-moz-keyframes MenuAnimOut1 {
-  /* line 262, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 261, ../sass/components/header/menus/_responsive_menus.scss */
   50% {
     -moz-transform: translateZ(-250px) rotateY(30deg); }
 
-  /* line 265, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 264, ../sass/components/header/menus/_responsive_menus.scss */
   75% {
     -moz-transform: translateZ(-372.5px) rotateY(15deg);
     opacity: .5; }
 
-  /* line 269, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 268, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(-500px) rotateY(0deg);
     opacity: 0; } }
 
 @-moz-keyframes MenuAnimOut2 {
-  /* line 276, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 275, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateX(-100%);
     opacity: 0; } }
 
 @-moz-keyframes MenuAnimOut3 {
-  /* line 283, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 282, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(300px);
     opacity: 0; } }
 
 @-moz-keyframes MenuAnimOut4 {
-  /* line 290, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 289, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(-300px);
     opacity: 0; } }
 
 @-moz-keyframes MenuAnimOut5 {
-  /* line 297, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 296, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateY(40%);
     opacity: 0; } }
 
 @keyframes MenuAnimOut1 {
-  /* line 304, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 303, ../sass/components/header/menus/_responsive_menus.scss */
   50% {
     transform: translateZ(-250px) rotateY(30deg); }
 
-  /* line 307, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 306, ../sass/components/header/menus/_responsive_menus.scss */
   75% {
     transform: translateZ(-372.5px) rotateY(15deg);
     opacity: .5; }
 
-  /* line 311, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 310, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(-500px) rotateY(0deg);
     opacity: 0; } }
 
 @keyframes MenuAnimOut2 {
-  /* line 318, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 317, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateX(-100%);
     opacity: 0; } }
 
 @keyframes MenuAnimOut3 {
-  /* line 325, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 324, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(300px);
     opacity: 0; } }
 
 @keyframes MenuAnimOut4 {
-  /* line 332, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 331, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(-300px);
     opacity: 0; } }
 
 @keyframes MenuAnimOut5 {
-  /* line 339, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 338, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateY(40%);
     opacity: 0; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003344}}
 .dl-menu.dl-animate-in-1 {
   -webkit-animation: MenuAnimIn1 0.3s;
   -moz-animation: MenuAnimIn1 0.3s;
   animation: MenuAnimIn1 0.3s; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003350}}
 .dl-menu.dl-animate-in-2 {
   -webkit-animation: MenuAnimIn2 0.3s ease-in-out;
   -moz-animation: MenuAnimIn2 0.3s ease-in-out;
   animation: MenuAnimIn2 0.3s ease-in-out; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003356}}
 .dl-menu.dl-animate-in-3 {
   -webkit-animation: MenuAnimIn3 0.4s ease;
   -moz-animation: MenuAnimIn3 0.4s ease;
   animation: MenuAnimIn3 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003362}}
 .dl-menu.dl-animate-in-4 {
   -webkit-animation: MenuAnimIn4 0.4s ease;
   -moz-animation: MenuAnimIn4 0.4s ease;
   animation: MenuAnimIn4 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003368}}
 .dl-menu.dl-animate-in-5 {
   -webkit-animation: MenuAnimIn5 0.4s ease;
   -moz-animation: MenuAnimIn5 0.4s ease;
   animation: MenuAnimIn5 0.4s ease; }
 
 @-webkit-keyframes MenuAnimIn1 {
-  /* line 376, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 375, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateZ(-500px) rotateY(0deg);
     opacity: 0; }
 
-  /* line 380, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 379, ../sass/components/header/menus/_responsive_menus.scss */
   20% {
     -webkit-transform: translateZ(-250px) rotateY(30deg);
     opacity: 0.5; }
 
-  /* line 384, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 383, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(0px) rotateY(0deg);
     opacity: 1; } }
 
 @-webkit-keyframes MenuAnimIn2 {
-  /* line 391, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 390, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateX(-100%);
     opacity: 0; }
 
-  /* line 395, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 394, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateX(0px);
     opacity: 1; } }
 
 @-webkit-keyframes MenuAnimIn3 {
-  /* line 402, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 401, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateZ(300px);
     opacity: 0; }
 
-  /* line 406, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 405, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(0px);
     opacity: 1; } }
 
 @-webkit-keyframes MenuAnimIn4 {
-  /* line 413, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 412, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateZ(-300px);
     opacity: 0; }
 
-  /* line 417, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 416, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(0px);
     opacity: 1; } }
 
 @-webkit-keyframes MenuAnimIn5 {
-  /* line 424, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 423, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateY(40%);
     opacity: 0; }
 
-  /* line 428, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 427, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateY(0);
     opacity: 1; } }
 
 @-moz-keyframes MenuAnimIn1 {
-  /* line 435, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 434, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateZ(-500px) rotateY(0deg);
     opacity: 0; }
 
-  /* line 439, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 438, ../sass/components/header/menus/_responsive_menus.scss */
   20% {
     -moz-transform: translateZ(-250px) rotateY(30deg);
     opacity: 0.5; }
 
-  /* line 443, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 442, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(0px) rotateY(0deg);
     opacity: 1; } }
 
 @-moz-keyframes MenuAnimIn2 {
-  /* line 450, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 449, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateX(-100%);
     opacity: 0; }
 
-  /* line 454, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 453, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateX(0px);
     opacity: 1; } }
 
 @-moz-keyframes MenuAnimIn3 {
-  /* line 461, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 460, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateZ(300px);
     opacity: 0; }
 
-  /* line 465, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 464, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(0px);
     opacity: 1; } }
 
 @-moz-keyframes MenuAnimIn4 {
-  /* line 472, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 471, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateZ(-300px);
     opacity: 0; }
 
-  /* line 476, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 475, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(0px);
     opacity: 1; } }
 
 @-moz-keyframes MenuAnimIn5 {
-  /* line 483, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 482, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateY(40%);
     opacity: 0; }
 
-  /* line 487, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 486, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateY(0);
     opacity: 1; } }
 
 @keyframes MenuAnimIn1 {
-  /* line 494, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 493, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateZ(-500px) rotateY(0deg);
     opacity: 0; }
 
-  /* line 498, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 497, ../sass/components/header/menus/_responsive_menus.scss */
   20% {
     transform: translateZ(-250px) rotateY(30deg);
     opacity: 0.5; }
 
-  /* line 502, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 501, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(0px) rotateY(0deg);
     opacity: 1; } }
 
 @keyframes MenuAnimIn2 {
-  /* line 509, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 508, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateX(-100%);
     opacity: 0; }
 
-  /* line 513, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 512, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateX(0px);
     opacity: 1; } }
 
 @keyframes MenuAnimIn3 {
-  /* line 520, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 519, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateZ(300px);
     opacity: 0; }
 
-  /* line 524, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 523, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(0px);
     opacity: 1; } }
 
 @keyframes MenuAnimIn4 {
-  /* line 531, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 530, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateZ(-300px);
     opacity: 0; }
 
-  /* line 535, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 534, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(0px);
     opacity: 1; } }
 
 @keyframes MenuAnimIn5 {
-  /* line 542, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 541, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateY(40%);
     opacity: 0; }
 
-  /* line 546, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 545, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateY(0);
     opacity: 1; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003551}}
 .dl-menuwrapper > .dl-submenu.dl-animate-in-1 {
   -webkit-animation: SubMenuAnimIn1 0.4s ease;
   -moz-animation: SubMenuAnimIn1 0.4s ease;
   animation: SubMenuAnimIn1 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003558}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003557}}
 .dl-menuwrapper > .dl-submenu.dl-animate-in-2 {
   -webkit-animation: SubMenuAnimIn2 0.3s ease-in-out;
   -moz-animation: SubMenuAnimIn2 0.3s ease-in-out;
   animation: SubMenuAnimIn2 0.3s ease-in-out; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003564}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003563}}
 .dl-menuwrapper > .dl-submenu.dl-animate-in-3 {
   -webkit-animation: SubMenuAnimIn3 0.4s ease;
   -moz-animation: SubMenuAnimIn3 0.4s ease;
   animation: SubMenuAnimIn3 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003570}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003569}}
 .dl-menuwrapper > .dl-submenu.dl-animate-in-4 {
   -webkit-animation: SubMenuAnimIn4 0.4s ease;
   -moz-animation: SubMenuAnimIn4 0.4s ease;
   animation: SubMenuAnimIn4 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003576}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003575}}
 .dl-menuwrapper > .dl-submenu.dl-animate-in-5 {
   -webkit-animation: SubMenuAnimIn5 0.4s ease;
   -moz-animation: SubMenuAnimIn5 0.4s ease;
   animation: SubMenuAnimIn5 0.4s ease; }
 
 @-webkit-keyframes SubMenuAnimIn1 {
-  /* line 583, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 582, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateX(50%);
     opacity: 0; }
 
-  /* line 587, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 586, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateX(0px);
     opacity: 1; } }
 
 @-webkit-keyframes SubMenuAnimIn2 {
-  /* line 594, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 593, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateX(100%);
     opacity: 0; }
 
-  /* line 598, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 597, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateX(0px);
     opacity: 1; } }
 
 @-webkit-keyframes SubMenuAnimIn3 {
-  /* line 605, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 604, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateZ(-300px);
     opacity: 0; }
 
-  /* line 609, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 608, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(0px);
     opacity: 1; } }
 
 @-webkit-keyframes SubMenuAnimIn4 {
-  /* line 616, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 615, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateZ(300px);
     opacity: 0; }
 
-  /* line 620, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 619, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(0px);
     opacity: 1; } }
 
 @-webkit-keyframes SubMenuAnimIn5 {
-  /* line 627, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 626, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateZ(-200px);
     opacity: 0; }
 
-  /* line 631, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 630, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(0);
     opacity: 1; } }
 
 @-moz-keyframes SubMenuAnimIn1 {
-  /* line 638, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 637, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateX(50%);
     opacity: 0; }
 
-  /* line 642, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 641, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateX(0px);
     opacity: 1; } }
 
 @-moz-keyframes SubMenuAnimIn2 {
-  /* line 649, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 648, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateX(100%);
     opacity: 0; }
 
-  /* line 653, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 652, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateX(0px);
     opacity: 1; } }
 
 @-moz-keyframes SubMenuAnimIn3 {
-  /* line 660, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 659, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateZ(-300px);
     opacity: 0; }
 
-  /* line 664, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 663, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(0px);
     opacity: 1; } }
 
 @-moz-keyframes SubMenuAnimIn4 {
-  /* line 671, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 670, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateZ(300px);
     opacity: 0; }
 
-  /* line 675, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 674, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(0px);
     opacity: 1; } }
 
 @-moz-keyframes SubMenuAnimIn5 {
-  /* line 682, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 681, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateZ(-200px);
     opacity: 0; }
 
-  /* line 686, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 685, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(0);
     opacity: 1; } }
 
 @keyframes SubMenuAnimIn1 {
-  /* line 693, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 692, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateX(50%);
     opacity: 0; }
 
-  /* line 697, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 696, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateX(0px);
     opacity: 1; } }
 
 @keyframes SubMenuAnimIn2 {
-  /* line 704, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 703, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateX(100%);
     opacity: 0; }
 
-  /* line 708, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 707, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateX(0px);
     opacity: 1; } }
 
 @keyframes SubMenuAnimIn3 {
-  /* line 715, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 714, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateZ(-300px);
     opacity: 0; }
 
-  /* line 719, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 718, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(0px);
     opacity: 1; } }
 
 @keyframes SubMenuAnimIn4 {
-  /* line 726, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 725, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateZ(300px);
     opacity: 0; }
 
-  /* line 730, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 729, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(0px);
     opacity: 1; } }
 
 @keyframes SubMenuAnimIn5 {
-  /* line 737, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 736, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateZ(-200px);
     opacity: 0; }
 
-  /* line 741, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 740, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(0);
     opacity: 1; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003747}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003746}}
 .dl-menuwrapper > .dl-submenu.dl-animate-out-1 {
   -webkit-animation: SubMenuAnimOut1 0.4s ease;
   -moz-animation: SubMenuAnimOut1 0.4s ease;
   animation: SubMenuAnimOut1 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003753}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003752}}
 .dl-menuwrapper > .dl-submenu.dl-animate-out-2 {
   -webkit-animation: SubMenuAnimOut2 0.3s ease-in-out;
   -moz-animation: SubMenuAnimOut2 0.3s ease-in-out;
   animation: SubMenuAnimOut2 0.3s ease-in-out; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003759}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003758}}
 .dl-menuwrapper > .dl-submenu.dl-animate-out-3 {
   -webkit-animation: SubMenuAnimOut3 0.4s ease;
   -moz-animation: SubMenuAnimOut3 0.4s ease;
   animation: SubMenuAnimOut3 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003765}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003764}}
 .dl-menuwrapper > .dl-submenu.dl-animate-out-4 {
   -webkit-animation: SubMenuAnimOut4 0.4s ease;
   -moz-animation: SubMenuAnimOut4 0.4s ease;
   animation: SubMenuAnimOut4 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003771}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003770}}
 .dl-menuwrapper > .dl-submenu.dl-animate-out-5 {
   -webkit-animation: SubMenuAnimOut5 0.4s ease;
   -moz-animation: SubMenuAnimOut5 0.4s ease;
   animation: SubMenuAnimOut5 0.4s ease; }
 
 @-webkit-keyframes SubMenuAnimOut1 {
-  /* line 778, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 777, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateX(0%);
     opacity: 1; }
 
-  /* line 782, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 781, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateX(50%);
     opacity: 0; } }
 
 @-webkit-keyframes SubMenuAnimOut2 {
-  /* line 789, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 788, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateX(0%);
     opacity: 1; }
 
-  /* line 793, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 792, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateX(100%);
     opacity: 0; } }
 
 @-webkit-keyframes SubMenuAnimOut3 {
-  /* line 800, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 799, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateZ(0px);
     opacity: 1; }
 
-  /* line 804, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 803, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(-300px);
     opacity: 0; } }
 
 @-webkit-keyframes SubMenuAnimOut4 {
-  /* line 811, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 810, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateZ(0px);
     opacity: 1; }
 
-  /* line 815, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 814, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(300px);
     opacity: 0; } }
 
 @-webkit-keyframes SubMenuAnimOut5 {
-  /* line 822, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 821, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -webkit-transform: translateZ(0);
     opacity: 1; }
 
-  /* line 826, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 825, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -webkit-transform: translateZ(-200px);
     opacity: 0; } }
 
 @-moz-keyframes SubMenuAnimOut1 {
-  /* line 833, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 832, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateX(0%);
     opacity: 1; }
 
-  /* line 837, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 836, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateX(50%);
     opacity: 0; } }
 
 @-moz-keyframes SubMenuAnimOut2 {
-  /* line 844, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 843, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateX(0%);
     opacity: 1; }
 
-  /* line 848, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 847, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateX(100%);
     opacity: 0; } }
 
 @-moz-keyframes SubMenuAnimOut3 {
-  /* line 855, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 854, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateZ(0px);
     opacity: 1; }
 
-  /* line 859, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 858, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(-300px);
     opacity: 0; } }
 
 @-moz-keyframes SubMenuAnimOut4 {
-  /* line 866, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 865, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateZ(0px);
     opacity: 1; }
 
-  /* line 870, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 869, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(300px);
     opacity: 0; } }
 
 @-moz-keyframes SubMenuAnimOut5 {
-  /* line 877, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 876, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     -moz-transform: translateZ(0);
     opacity: 1; }
 
-  /* line 881, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 880, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     -moz-transform: translateZ(-200px);
     opacity: 0; } }
 
 @keyframes SubMenuAnimOut1 {
-  /* line 888, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 887, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateX(0%);
     opacity: 1; }
 
-  /* line 892, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 891, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateX(50%);
     opacity: 0; } }
 
 @keyframes SubMenuAnimOut2 {
-  /* line 899, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 898, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateX(0%);
     opacity: 1; }
 
-  /* line 903, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 902, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateX(100%);
     opacity: 0; } }
 
 @keyframes SubMenuAnimOut3 {
-  /* line 910, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 909, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateZ(0px);
     opacity: 1; }
 
-  /* line 914, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 913, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(-300px);
     opacity: 0; } }
 
 @keyframes SubMenuAnimOut4 {
-  /* line 921, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 920, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateZ(0px);
     opacity: 1; }
 
-  /* line 925, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 924, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(300px);
     opacity: 0; } }
 
 @keyframes SubMenuAnimOut5 {
-  /* line 932, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 931, ../sass/components/header/menus/_responsive_menus.scss */
   0% {
     transform: translateZ(0);
     opacity: 1; }
 
-  /* line 936, ../sass/components/header/menus/_responsive_menus.scss */
+  /* line 935, ../sass/components/header/menus/_responsive_menus.scss */
   100% {
     transform: translateZ(-200px);
     opacity: 0; } }
 
 /* No JS Fallback */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003943}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003942}}
 .no-js .dl-menuwrapper .dl-menu {
   position: relative;
   opacity: 1;
@@ -2276,73 +2266,73 @@ All this is done for any sub-level being entered.
   -moz-transform: none;
   transform: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003951}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003950}}
 .no-js .dl-menuwrapper li .dl-submenu {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003955}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003954}}
 .no-js .dl-menuwrapper li.dl-back {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003959}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003958}}
 .no-js .dl-menuwrapper li > a:not(:only-child) {
   background: rgba(0, 0, 0, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003963}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003962}}
 .no-js .dl-menuwrapper li > a:not(:only-child):after {
   content: ''; }
 
 /* Colors for demos */
 /* Demo 1 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003970}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003969}}
 .demo-1 .dl-menuwrapper button {
   background: #c62860; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003976}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003975}}
 .demo-1 .dl-menuwrapper button:hover,
 .demo-1 .dl-menuwrapper button.dl-active,
 .demo-1 .dl-menuwrapper ul {
   background: #9e1847; }
 
 /* Demo 2 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003981}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003980}}
 .demo-2 .dl-menuwrapper button {
   background: #e86814; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003987}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003986}}
 .demo-2 .dl-menuwrapper button:hover,
 .demo-2 .dl-menuwrapper button.dl-active,
 .demo-2 .dl-menuwrapper ul {
   background: #D35400; }
 
 /* Demo 3 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003992}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003991}}
 .demo-3 .dl-menuwrapper button {
   background: #08cbc4; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003998}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003997}}
 .demo-3 .dl-menuwrapper button:hover,
 .demo-3 .dl-menuwrapper button.dl-active,
 .demo-3 .dl-menuwrapper ul {
   background: #00b4ae; }
 
 /* Demo 4 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031003}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031002}}
 .demo-4 .dl-menuwrapper button {
   background: #90b912; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031009}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031008}}
 .demo-4 .dl-menuwrapper button:hover,
 .demo-4 .dl-menuwrapper button.dl-active,
 .demo-4 .dl-menuwrapper ul {
   background: #79a002; }
 
 /* Demo 5 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031014}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031013}}
 .demo-5 .dl-menuwrapper button {
   background: #744783; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031020}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031019}}
 .demo-5 .dl-menuwrapper button:hover,
 .demo-5 .dl-menuwrapper button.dl-active,
 .demo-5 .dl-menuwrapper ul {
@@ -2557,17 +2547,6 @@ Flexslider
   display: none; }
 
 /**
- * $Shared Sass for all components
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/__sharedsass\.scss}line{font-family:\000035}}
-.showinline {
-  display: inline-block; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/__sharedsass\.scss}line{font-family:\000037}}
-.show {
-  display: inline-block; }
-
-/**
  * $BORDER-LIST
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_border-list\.scss}line{font-family:\000034}}
@@ -2754,7 +2733,7 @@ box-shawdow:4px 4px 35px 5px $colouriii;
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000366}}
 .headerrow {
   width: 100%;
-  font-size: 30.6px; }
+  font-size: 18px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000373}}
 .headerrow {

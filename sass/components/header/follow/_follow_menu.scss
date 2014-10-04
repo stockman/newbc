@@ -8,15 +8,18 @@
   display: inline;
   vertical-align: bottom;
 }
+
 .followpop {
+  display: inline-block;
   @include breakpoint ($breakii){
   display: none;
   position: absolute;
   bottom: 52.5px;
   background-color: $colouriv;
-  padding: .2rem .5rem;
-  width: 3.5rem;
+  width: $menu_size;
   left: 0;
+  border-radius: 4px 4px 0 0;
+  span {margin-left: ($menu_size - $menu_size2)/2}
   }
 }
 
@@ -31,6 +34,10 @@
   right: $horz-spacing-unit;
   top: $vert-spacing-unit/2;
   z-index: 10;
+  //icons size (user and search)
+  .fa {  font-size: $vert-spacing-unit*2;
+  vertical-align: middle;
+  }
   @include breakpoint ($breakii){
 //  display: block;
   position: fixed;

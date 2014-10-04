@@ -12,20 +12,26 @@
 
 */
             // toggles both user menus by usermenu class
+            var sf = $(".search_form");
                 $(".fa-search").click(function() {             
                     $(".dl-menuwrapper button").removeClass('dl-active');
                     $("#rm-dl-menu").removeClass('dl-menuopen');
-                    $(".followpop").hide();
-                    $(".search_form").toggle();
-//                    alert("add http://www.w3schools.com/jquerymobile/tryit.asp?filename=tryjqmob_forms_clear");                    
-                    // you already added the data-btn=true to the input
-                    //might be able now to just add jquery mobile.
+                    $(".mobile").hide();
+                    sf.toggle();
+                    sf.children('.textarea').focus();
+                    $('.fa-times-circle-o').click(function() {
+                       $(this).closest('form').find("input[type=text], textarea").val("");
+                    });
 
+
+                    //reset();         
+//                    $(".search_form .textarea").focus();
                 });
                 $(".fa-share-square-o").click(function() {
                     $(".dl-menuwrapper button").removeClass('dl-active');
                     $("#rm-dl-menu").removeClass('dl-menuopen');
-                    $(".search_form").hide();
+                    sf.hide();
+                    $(".followpop").addClass('mobile');
                     $(".followpop").toggle();
                 });
 

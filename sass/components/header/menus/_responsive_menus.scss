@@ -5,6 +5,8 @@ Uses Font-Awesome for the directional arrows
 
 /* Common styles of menus */
 
+$font-sizer: 1.3rem;
+
 .dl-menuwrapper {
 	width: 100%;
 //	max-width: 300px;
@@ -22,9 +24,6 @@ Uses Font-Awesome for the directional arrows
 .dl-menuwrapper:first-child {
 	margin-right: 100px;
 }
-
-
-
 
 .dl-menuwrapper button {
 	background: $linkhover;
@@ -81,8 +80,8 @@ Uses Font-Awesome for the directional arrows
 	display: block;
 	position: relative;
 	padding: 1rem 2rem;
-	font-size: 1.5rem;
-	line-height: 1.5rem;
+	font-size: $font-sizer;
+	line-height: $font-sizer;
 	font-weight: 300;
 	outline: none;
 	text-decoration: none;
@@ -102,10 +101,10 @@ Uses Font-Awesome for the directional arrows
 .dl-menuwrapper li > a:not(:only-child):after {
 	position: absolute;
 	top: 0;
-	line-height: 55px;
+	line-height: $font-sizer*2;
 	font-family: FontAwesome;
 	content: "\f0da";
-	font-size: 3rem;
+	font-size: $font-sizer*2;
 }
 
 .dl-menuwrapper li.dl-back:after {

@@ -2,46 +2,27 @@
  * $SEARCH-FORM
  */
  
-
-
 .search_block {
    display: inline-block;
 }
-  /*
-.search_block {
-	.form-submit {
-	margin-left: .2rem;
-	}
-    display: inline-block;
-    #input_box{
-		height: 2rem;
-		vertical-align: bottom;
-	}
-	@include breakpoint ($breakii){
-	display: block;
-	position: fixed;
-	bottom: 0;
-	background-color:$colouriv;
-	padding: 0 .3rem;
-	right: 0;
-	.textarea {display: none;}
-	.form-submit {display: none;}
-	font-size: 1.85rem;
-	float: right;
-	:hover {background-color: $colourv;color: $colouriv;}
-  }
-}
-*/
 
 .search_form {display: none;
 	position: absolute;
 	top: 3rem;
 	right: 0;
 	* {margin: .2rem;}
+	.textarea {}
 	@include breakpoint($breakii) {
 		top: inherit;
 		bottom: 4rem;
 		left: 0;
 		select, input, textarea {padding: 0.1rem}
 	}
+}
+
+.fa-times-circle-o {
+  color: grey;
+  font-size: 1.5rem !important;
+  margin-left: -1.7rem;
+  margin-top: 0;
 }
