@@ -2,9 +2,6 @@
  * $Media_queries
  */
 
-.blog_row {display: none;}
-
-
 body {
 	@include breakpoint($breaki) {
 		background-color: $colouriii;
@@ -26,9 +23,12 @@ body {
 //		border: medium solid yellow;
 	}
 	.views-row {
-	  :hover {
-	  	//background-color: $colouriv;
-	  	color: $colourii}  
+		border-bottom:1px solid $colourv;
+	  &:hover, &:active {
+		border-color:$colouri;
+		border-width: 2px;
+		h2 {color:$colouri}
+		}
 	}
 //looks ok, but would look much better with auto sizing divs and 
 //fittext type scaling

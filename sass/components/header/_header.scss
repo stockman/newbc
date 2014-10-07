@@ -1,0 +1,50 @@
+/**
+ * Header
+ */
+
+.header {
+  background: $colourvii;
+}
+
+
+// colour and size header row
+.headerrow {
+  width: 100%;
+  background-color: $colourii;
+  font-size: $vert-spacing-unit;
+  }
+ 
+//could be called anything empty to add frontpage background 
+.headerrow {
+  background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
+  height: 450px;
+  width: 100%;
+  @include breakpoint ($breakii){
+    background: none;
+    height: 0;
+  }
+}
+
+
+/* 
+********* Logo
+*/
+
+// re-posittion logo on mobile view
+.pane-page-logo {
+  img {height: $menu_size;}
+  display: inline;
+  position: absolute;
+  top: $vert-spacing-unit/3;
+  padding: 0 $horz-spacing-unit;
+  @include breakpoint ($breakii){
+    left: 2rem;
+    top: 0;
+    img {height: $menu_size2;}
+  }
+  @include breakpoint ($breaki){
+
+  }
+}
+
+

@@ -3,9 +3,9 @@
 //Better variables
 $link  : green;
 $linkhover : #00267F;
-$headerlink: #FFFFFF;
+$headerlink: #FFFFFF; //aka $colourv:#FFFFFF;
 $headerlinkhover:#FFFF0D;
-$headerbackground:  #1A80D9; //blue
+$headerbackground:  #1A80D9; //blue aka $colouriii: #1A80D9;
 $h2_colour :red; //is also table header, comment instruct
 $h_hover_colour: purple;
 $fontcolour: #222222;
@@ -41,14 +41,16 @@ $colouri:$bcgren;
 // main page background
 $colourii:$headerlinkhover;
 // header / contrast background
-$colouriii:$headerbackground;
+$colouriii: #1A80D9;
 // header / contrast colour
 $colouriv:$bcblue;
 
 //white contrast background
-$colourv:$headerlink;
+$colourv:#FFFFFF;
 $colourvi:$bcblue;
 
+//header colour opaque
+$colourvii: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
 
 //   @include circle(.8em,$colourv,$colouriii,$colourvi)
 

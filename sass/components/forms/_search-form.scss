@@ -14,8 +14,10 @@
 	.textarea {}
 	@include breakpoint($breakii) {
 		top: inherit;
-		bottom: 4rem;
+		bottom: 3rem;
 		left: 0;
+		#edit-submit{position: absolute;right:0;width: 25%}
+		#input_box{width: 70%;height: 2rem;}
 		select, input, textarea {padding: 0.1rem}
 	}
 }
