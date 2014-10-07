@@ -31,7 +31,8 @@
 	display: inline;
 	.menu {
 		display: none;
-		background: $colourvii;
+//		background: $colourvii;
+		background-color: grey; //for temp seeing
 		font-size: 1.3rem;
 		position: fixed;
 		right: 1rem;

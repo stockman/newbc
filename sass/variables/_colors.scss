@@ -53,15 +53,3 @@ $colourvi:#00267F;
 $colourvii: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
 
 //   @include circle(.8em,$colourv,$colouriii,$colourvi)
-
-
-/* 
-Breakpoints
-*/
-
-//iphone
-$breaki:max-width 640px;
-// other breakpoint
-// ipad could make this 1024px if I make the header better
-$breakii:max-width 1125px;
-//$brekiii: max-width 1266px;

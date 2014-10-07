@@ -28,6 +28,17 @@ $gutters: 1/3;
   }
 */
 
+/* 
+Breakpoints
+*/
+
+//iphone
+$breaki:max-width 640px;
+// other breakpoint
+// ipad could make this 1024px if I make the header better
+$breakii:max-width 1125px;
+//$brekiii: max-width 1266px;
+
 //vertical rhythm
 //large
 $line-high: 2.5rem;

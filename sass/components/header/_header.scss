@@ -14,14 +14,32 @@
   font-size: $vert-spacing-unit;
   }
  
+//header size on homepage only.
+ .page-home .headerrow{
+//  background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
+  height: 450px;
+  width: 100%;
+  @include breakpoint ($breakii){
+    background: none;
+    height: 0;
+  }
+}
+
+
 //could be called anything empty to add frontpage background 
 .headerrow {
   background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
   height: 52px;
   width: 100%;
-  @include breakpoint ($breakii){
-    background: none;
-    height: 0;
+}
+
+//--- Header ---
+
+//normalize header
+//?? what is this for?
+.header {
+    div, li, a {color:$headerlink;
+  &:hover {color:$headerlinkhover}
   }
 }
 
@@ -35,15 +53,14 @@
   img {height: $menu_size;}
   display: inline;
   position: absolute;
-  top: $vert-spacing-unit/3;
+  top: 3rem;
+//  top: $vert-spacing-unit/3;
   padding: 0 $horz-spacing-unit;
+  z-index: 99999;
   @include breakpoint ($breakii){
     left: 2rem;
     top: 0;
     img {height: $menu_size2;}
-  }
-  @include breakpoint ($breaki){
-
   }
 }
 

@@ -3,28 +3,8 @@
  */
 
 
-.page-home .headerrow{
-//  background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
-  height: 450px;
-  width: 100%;
-}
-
-
-
-
-
-
 
 .node--seasonal .node__submitted {display: none;}
-
-//--- Header ---
-
-//normalize header
-.header {
-    div, li, a {color:$headerlink;
-  &:hover {color:$headerlinkhover}
-  }
-}
 
 
 /*
