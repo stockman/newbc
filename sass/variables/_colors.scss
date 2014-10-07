@@ -2,7 +2,7 @@
 
 //Better variables
 $link  : green;
-$linkhover : #00267F;
+$linkhover : #00267F; //$colouriv:#00267F;
 $headerlink: #FFFFFF; //aka $colourv:#FFFFFF;
 $headerlinkhover:#FFFF0D;
 $headerbackground:  #1A80D9; //blue aka $colouriii: #1A80D9;
@@ -28,7 +28,7 @@ $buttonbak2: #FFFFFF;
 
 // BC Logo Colours:
 //green
-$bcgren:#80CC28;
+$bcgren:#80CC28; // aka $colouri:#80CC28;
 //blue
 $bcblue:$linkhover;
 
@@ -37,17 +37,17 @@ $bcblue:$linkhover;
 //Even Better
 
 // main font colour
-$colouri:$bcgren;
+$colouri:#80CC28;
 // main page background
 $colourii:$headerlinkhover;
 // header / contrast background
 $colouriii: #1A80D9;
 // header / contrast colour
-$colouriv:$bcblue;
+$colouriv:#00267F;
 
 //white contrast background
 $colourv:#FFFFFF;
-$colourvi:$bcblue;
+$colourvi:#00267F;
 
 //header colour opaque
 $colourvii: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
