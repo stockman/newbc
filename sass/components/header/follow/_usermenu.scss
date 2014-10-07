@@ -8,3 +8,47 @@
   @include center-block;
   .menu {display: inline-block;}
 }
+
+/*
+.pane-system-user-menu {
+	display: inline;
+	.menu{
+	//display: none;
+	position: absolute;
+	top: 3rem;
+	right: 0;
+	* {margin: .2rem;}
+	@include breakpoint($breakii) {
+		top: inherit;
+		bottom: 3rem;
+		left: 0;
+		//.{position: absolute;right:0;width: 25%}
+		//#input_box{width: 70%;height: 2rem;}
+		//select, input, textarea {padding: 0.1rem}
+	}
+*/
+.pane-system-user-menu {
+	display: inline;
+	.menu {
+		display: none;
+		background: $colourvii;
+		font-size: 1.3rem;
+		position: fixed;
+		right: 1rem;
+		top: 3rem;
+		width: 310px;
+		li {list-style: none;
+			a {text-decoration: none;}
+		}
+		@include breakpoint ($breakii){
+		top: inherit;
+		font-size: inherit;
+		line-height: inherit;
+		bottom: 2.9rem;
+		left: 0;
+		padding: .5rem;
+		width: 100%;
+		text-align: center;
+		}
+	}
+}

@@ -11,7 +11,6 @@
 	top: 3rem;
 	right: 0;
 	* {margin: .2rem;}
-	.textarea {}
 	@include breakpoint($breakii) {
 		top: inherit;
 		bottom: 3rem;

@@ -638,7 +638,7 @@ div.password-indicator {
   .search_form * {
     margin: .2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000324}}
 .fa-times-circle-o {
   color: grey;
   font-size: 1.5rem !important;
@@ -1327,6 +1327,43 @@ html[xmlns] .slides {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\000039}}
   .usermenu .menu {
     display: inline-block; }
+
+/*
+.pane-system-user-menu {
+	display: inline;
+	.menu{
+	//display: none;
+	position: absolute;
+	top: 3rem;
+	right: 0;
+	* {margin: .2rem;}
+	@include breakpoint($breakii) {
+		top: inherit;
+		bottom: 3rem;
+		left: 0;
+		//.{position: absolute;right:0;width: 25%}
+		//#input_box{width: 70%;height: 2rem;}
+		//select, input, textarea {padding: 0.1rem}
+	}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000330}}
+.pane-system-user-menu {
+  display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000332}}
+  .pane-system-user-menu .menu {
+    display: none;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    position: fixed;
+    right: 1rem;
+    top: 3rem;
+    width: 310px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000340}}
+    .pane-system-user-menu .menu li {
+      list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000341}}
+      .pane-system-user-menu .menu li a {
+        text-decoration: none; }
 
 /**
  * $ACTION-LINKS

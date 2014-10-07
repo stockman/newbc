@@ -11,28 +11,35 @@
             });
 
 */
-            // toggles both user menus by usermenu class
+            // hide the responsive menu (when another menu is clicked)
+            var hidedl = function(){
+            $(".dl-menuwrapper button").removeClass('dl-active');
+            $("#rm-dl-menu").removeClass('dl-menuopen');  
+            }
+            var user = $(".fa-user").find(' > .menu')
+
             var sf = $(".search_form");
                 $(".fa-search").click(function() {             
-                    $(".dl-menuwrapper button").removeClass('dl-active');
-                    $("#rm-dl-menu").removeClass('dl-menuopen');
+                    hidedl();
                     $(".mobile").hide();
                     sf.toggle();
+                    user.hide();
                     sf.children('.textarea').focus();
                     $('.fa-times-circle-o').click(function() {
                        $(this).closest('form').find("input[type=text], textarea").val("");
                     });
-
-
-                    //reset();         
-//                    $(".search_form .textarea").focus();
                 });
                 $(".fa-share-square-o").click(function() {
-                    $(".dl-menuwrapper button").removeClass('dl-active');
-                    $("#rm-dl-menu").removeClass('dl-menuopen');
+                    hidedl();
                     sf.hide();
+                    user.hide();
                     $(".followpop").addClass('mobile');
                     $(".followpop").toggle();
+                });
+                $(".fa-user").click(function() {              
+                    hidedl();
+                    sf.hide();
+                    user.toggle();
                 });
 
         }
