@@ -16,17 +16,27 @@
             $(".dl-menuwrapper button").removeClass('dl-active');
             $("#rm-dl-menu").removeClass('dl-menuopen');  
             }
-            var user = $(".fa-user").find(' > .menu')
+            //toggles show/hide and responsive menu.
+            //so that when 1 ones another closes.
+            var pop = function (h) {
+                if (h.hasClass('pop')) {
+                h.removeClass('pop');
+                }
+                else {
+                hidedl();
+                $('.pop').removeClass('pop');
+                h.addClass('pop');
+                };
+            }
 
+            var user = $(".fa-user").find(' > .menu')
             var sf = $(".search_form");
             var share = $(".followpop");
             var toboggan = $('.pane-logintoboggan-logintoboggan-logged-in');
                 //search menu
                 $(".fa-search").click(function() {             
-                    hidedl();
-                    $(".mobile").hide();
-                    sf.toggle();
-                    user.hide();
+                    pop(sf);
+                    //search autofocus
                     sf.children('.textarea').focus();
                     $('.fa-times-circle-o').click(function() {
                        $(this).closest('form').find("input[type=text], textarea").val("");
@@ -34,20 +44,13 @@
                 });
                 //share menu
                 $(".fa-share-square-o").click(function() {
-                    hidedl();
-                    sf.hide();
-                    user.hide();
-                    share.addClass('mobile');
-                    share.toggle();
+                    pop(share);
                 });
                 //usermenu if user is logged in then toggle toboggan a/c info.
                 $(".fa-user").click(function() {              
-                    hidedl();
-                    sf.hide();
-                    user.toggle();
                     if (toboggan.length) {
-                        $(".pane-block-26 a").removeAttr("href");
-                       toboggan.toggle();
+                        $(".pane-block-26 a").removeAttr("href").css("cursor","pointer");
+                     pop(toboggan);
                     }; 
                 });
 

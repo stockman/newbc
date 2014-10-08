@@ -627,37 +627,41 @@ div.password-indicator {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000035}}
 .search_block {
-  display: inline-block; }
+  display: initial; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000039}}
-.search_form {
+.pane-logintoboggan-logintoboggan-logged-in, .search_form {
   display: none;
-  position: absolute;
-  top: 3rem;
   right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000313}}
-  .search_form * {
-    margin: .2rem; }
   @media (max-width: 1125px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000039}}
-    .search_form {
+    .pane-logintoboggan-logintoboggan-logged-in, .search_form {
+      position: absolute;
       top: inherit;
       bottom: 3rem;
       left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000313}}
+      .pane-logintoboggan-logintoboggan-logged-in *, .search_form * {
+        margin: .2rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000318}}
-      .search_form #edit-submit {
+      .pane-logintoboggan-logintoboggan-logged-in #edit-submit, .search_form #edit-submit {
         position: absolute;
         right: 0;
         width: 25%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000319}}
-      .search_form #input_box {
+      .pane-logintoboggan-logintoboggan-logged-in #input_box, .search_form #input_box {
         width: 70%;
         height: 2rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000320}}
-      .search_form select, .search_form input, .search_form textarea {
+      .pane-logintoboggan-logintoboggan-logged-in select, .pane-logintoboggan-logintoboggan-logged-in input, .pane-logintoboggan-logintoboggan-logged-in textarea, .search_form select, .search_form input, .search_form textarea {
         padding: 0.1rem; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000324}}
+.pane-logintoboggan-logintoboggan-logged-in {
+  background-color: #00267f;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000329}}
 .fa-times-circle-o {
   color: grey;
   font-size: 1.5rem !important;
@@ -2943,17 +2947,21 @@ box-shawdow:4px 4px 35px 5px $colouriii;
 /**
  * $SITE-BRANDING
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\000036}}
+.pop {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\000038}}
 .node--seasonal .node__submitted {
   display: none; }
 
 /** Body
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000349}}
 .bodycontent {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000352}}
 .sitecontainer .panels-flexible-row {
   padding: 0; }
 

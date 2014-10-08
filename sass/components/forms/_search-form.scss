@@ -3,15 +3,15 @@
  */
  
 .search_block {
-   display: inline-block;
+   display: initial;
 }
 
-.search_form {display: none;
-	position: absolute;
-	top: 3rem;
+.pane-logintoboggan-logintoboggan-logged-in, .search_form {
+	display: none;
 	right: 0;
-	* {margin: .2rem;}
 	@include breakpoint($breakii) {
+    	* {margin: .2rem;}
+		position: absolute;
 		top: inherit;
 		bottom: 3rem;
 		left: 0;
@@ -21,9 +21,15 @@
 	}
 }
 
+.pane-logintoboggan-logintoboggan-logged-in {
+  background-color: $colouriv;
+  width: 100%;
+}
+
 .fa-times-circle-o {
   color: grey;
   font-size: 1.5rem !important;
   margin-left: -1.7rem;
   margin-top: 0;
 }
+
