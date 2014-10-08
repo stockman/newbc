@@ -32,9 +32,16 @@
   }
 }
 .follow_menu {
+  /*
   position: absolute;
   right: $horz-spacing-unit;
   top: $vert-spacing-unit/2;
+  */
+  //test
+  float: right;
+  width: 316px;
+  margin-top: -2.8rem;
+  //test
   z-index: 10;
   //icons size (user and search)
   .fa {font-size: $vert-spacing-unit*2;

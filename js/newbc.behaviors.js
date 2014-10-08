@@ -20,6 +20,8 @@
 
             var sf = $(".search_form");
             var share = $(".followpop");
+            var toboggan = $('.pane-logintoboggan-logintoboggan-logged-in');
+                //search menu
                 $(".fa-search").click(function() {             
                     hidedl();
                     $(".mobile").hide();
@@ -30,6 +32,7 @@
                        $(this).closest('form').find("input[type=text], textarea").val("");
                     });
                 });
+                //share menu
                 $(".fa-share-square-o").click(function() {
                     hidedl();
                     sf.hide();
@@ -37,11 +40,15 @@
                     share.addClass('mobile');
                     share.toggle();
                 });
+                //usermenu if user is logged in then toggle toboggan a/c info.
                 $(".fa-user").click(function() {              
                     hidedl();
                     sf.hide();
                     user.toggle();
-                    $(".mobile").hide();
+                    if (toboggan.length) {
+                        $(".pane-block-26 a").removeAttr("href");
+                       toboggan.toggle();
+                    }; 
                 });
 
         }

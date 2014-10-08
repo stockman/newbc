@@ -1,6 +1,15 @@
 /**
- * $SITE-BRANDING
+ * $Usermenu
  */
+
+
+.pane-logintoboggan-logintoboggan-logged-in {
+	display: none;
+	float: right;
+	margin-right: 1rem;
+}
+
+.pane-block-26 {display: inline-block;}
 
 .usermenu {
   max-width: 500px;
@@ -27,6 +36,7 @@
 		//select, input, textarea {padding: 0.1rem}
 	}
 */
+/*
 .pane-system-user-menu {
 	display: inline;
 	.menu {
@@ -52,4 +62,14 @@
 		text-align: center;
 		}
 	}
+}
+*/
+
+.pane-system-user-menu {
+	a, li, .menu, ul, li a {content: "\f0d9";
+	font-family: FontAwesome;
+	}
+	content: "\f0d9";
+	font-family: FontAwesome;
+	li {list-style: none;}
 }
