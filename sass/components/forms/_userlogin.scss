@@ -3,10 +3,23 @@
   display: none;
 }
 
-.toboggan-unified.login {
-  display: block;
-  font-size: 16px;
-  margin-left: auto;
-  margin-right: auto;
+.page-user-login .headerrow{
+//  background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
+  height: 876px;
+  width: 100%;
+}
+
+.page-user-login .toboggan-unified.login {
+  left: 50%;
+  margin-left: -160px;
   max-width: 320px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: $colourvii;
+  padding: 1rem;
+  border-radius: 4px;
+  div {line-height: 1.5rem;
+  text-align: center;
+  }
 }

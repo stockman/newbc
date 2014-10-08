@@ -45,3 +45,9 @@
   margin-bottom: 0;
   width: 33.66%;
 }
+
+.blog_row {
+	@include breakpoint($breaki) {
+		display: none;
+	}
+}

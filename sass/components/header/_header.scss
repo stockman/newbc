@@ -2,6 +2,27 @@
  * Header
  */
 
+.logged-in {
+  .pane-page-logo {
+    top: 2.2rem;
+    @include breakpoint($breakii) {
+    top: 4.2rem;
+    }
+//    @include breakpoint($breaki) {
+ //   top: 0;
+  //  }
+  }
+
+  .follow_menu {
+    top: 2.2rem;
+    @include breakpoint($breakii) {
+    top: inherit;
+    }
+  }
+}
+
+
+
 .header {
   background: $colourvii;
 }
@@ -53,10 +74,10 @@
   img {height: $menu_size;}
   display: inline;
   position: absolute;
-  top: 3rem;
+  top: .3rem;
 //  top: $vert-spacing-unit/3;
   padding: 0 $horz-spacing-unit;
-  z-index: 99999;
+  z-index: 200;
   @include breakpoint ($breakii){
     left: 2rem;
     top: 0;

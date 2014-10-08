@@ -1,7 +1,11 @@
+/*
+
 // Hide the toolbar or admin menu on small screens.
-@media all and (max-width: 800px) {
+@import 'breakpoint';
   #toolbar, #admin-menu {
+  	@include breakpoint($breakii){
     display: none;
+	}
   }
 
   html {
@@ -10,4 +14,5 @@
       margin-top: 0 !important;
     }
   }
-}
+
+*/

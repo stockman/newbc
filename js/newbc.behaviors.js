@@ -19,6 +19,7 @@
             var user = $(".fa-user").find(' > .menu')
 
             var sf = $(".search_form");
+            var share = $(".followpop");
                 $(".fa-search").click(function() {             
                     hidedl();
                     $(".mobile").hide();
@@ -33,13 +34,14 @@
                     hidedl();
                     sf.hide();
                     user.hide();
-                    $(".followpop").addClass('mobile');
-                    $(".followpop").toggle();
+                    share.addClass('mobile');
+                    share.toggle();
                 });
                 $(".fa-user").click(function() {              
                     hidedl();
                     sf.hide();
                     user.toggle();
+                    $(".mobile").hide();
                 });
 
         }
