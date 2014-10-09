@@ -18,17 +18,20 @@
             }
             //toggles show/hide and responsive menu.
             //so that when 1 ones another closes.
+            var mobilepop = function (h) {
+                pop(h);
+                hidedl();
+            }
             var pop = function (h) {
                 if (h.hasClass('pop')) {
                 h.removeClass('pop');
                 }
                 else {
-                hidedl();
+//                hidedl();
                 $('.pop').removeClass('pop');
                 h.addClass('pop');
                 };
             }
-
             var user = $(".fa-user").find(' > .menu')
             var sf = $(".search_form");
             var share = $(".followpop");
@@ -53,6 +56,46 @@
                      pop(toboggan);
                     }; 
                 });
+/*                $('.bikecalgary').click(function(event) {
+//                    alert('fdsdlo');
+
+                $('.pane-forum-active').addClass('pop')();
+//                removeclass('pop');    
+                $('.pane-block-27').show();
+                //addclass('pop');
+//                    pop($('.pane-block-27'));
+                    /* Act on the event */
+//                });*/
+
+                //clean this up later
+                $('.pane-block-28').addClass('pop');
+                var recent = $('.pane-block-29');
+                var sw = function(t){
+                    $('.news').find('.pop').removeClass('pop');
+                    $(t).addClass('pop');
+                }
+                var swit = function (r,j) {
+                recent.children(r).click(function(event) {
+                sw(j);
+                });
+                }
+                swit('.bikecalgary', '.pane-block-27');
+                swit('.yycbike', '.pane-block-28');
+                swit('.recentcomments', '.pane-comment-recent');
+                swit('.forumtopics', '.pane-forum-new');                                
+/*                /                   alert($('button:nth-child(1)').html());
+                alert($(this).text());
+                });
+                }
+
+.pane-forum-active
+                .pane-comment-recent, .pane-block-27, .pane-block-28 
+                $('.pane-block-29 .button').click(function(event) {
+                /  /*
+//                   alert($('button:nth-child(1)').html());
+                alert($(this).text());
+                });
+*/
 
         }
     };

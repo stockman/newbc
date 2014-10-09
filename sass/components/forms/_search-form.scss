@@ -5,6 +5,16 @@
 .search_block {
    display: initial;
 }
+.search_form {
+	margin: .5rem 0;
+	width: 100%;
+	#edit-submit{width: 30%;
+		margin-left: 1rem;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#input_box{width: 65%;height: 2rem;}
+}
 
 .pane-logintoboggan-logintoboggan-logged-in, .search_form {
 	display: none;
@@ -21,10 +31,7 @@
 	}
 }
 
-.pane-logintoboggan-logintoboggan-logged-in {
-  background-color: $colouriv;
-  width: 100%;
-}
+
 
 .fa-times-circle-o {
   color: grey;
@@ -33,3 +40,8 @@
   margin-top: 0;
 }
 
+element.style {
+  margin-left: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}

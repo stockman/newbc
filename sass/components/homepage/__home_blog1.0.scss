@@ -47,7 +47,24 @@
 }
 
 .blog_row {
+	.pane-views-frontpage-block-3 {
+		@include grid-span(8, 1);		
+	}
+	.pane-news-feed {
+		@include grid-span(4, 9);
+	}
 	@include breakpoint($breaki) {
 		display: none;
 	}
+}
+/*
+.pane-forum-active {display: block;}
+.pane-comment-recent, .pane-block-27, .pane-block-28 {
+	display: none;
+} 
+*/
+.news .pane-block {display: none}
+.pane-block-29 button {
+  font-size: 1rem;
+  padding: 0.1rem;
 }
