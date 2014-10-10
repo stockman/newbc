@@ -1,11 +1,15 @@
 /**
- * $home blog
+ * $home Section 2
  */
 
-.blog_row .views-row {
-// this should be calculated with the picture sized to
-//match the size of the row
-//but I think the picture size is set by the medium blog image handler.
+
+.section_2	{
+	@include grid-span(8, 1);
+
+	.views-row {
+	// this should be calculated with the picture sized to
+	//match the size of the row
+	//but I think the picture size is set by the medium blog image handler.
 	height: 320px;
 	overflow: hidden;
 	text-align: center;
@@ -13,26 +17,21 @@
 	border-bottom: 1px solid black;
 	padding: 20px;
 	box-sizing: border-box;
-}
-.blog_row .views-row section {
-  box-sizing: border-box;
-  float: right;
-  padding-left: 30px;
-  width: 66.34%;
-}
 
-.blog_row .views-row .views-field-field-picture {
-  box-sizing: border-box;
-  float: left;
-  margin-bottom: 0;
-  width: 33.66%;
-}
+		section {
+		box-sizing: border-box;
+		float: right;
+		padding-left: 30px;
+		width: 66.34%;
+		}
 
-.blog_row {
-	.pane-views-frontpage-block-3 {
-		@include grid-span(8, 1);		
+		.views-field-field-picture {
+		box-sizing: border-box;
+		float: left;
+		margin-bottom: 0;
+		width: 33.66%;
+		}
+
 	}
-	@include breakpoint($breaki) {
-		display: none;
-	}
+	
 }

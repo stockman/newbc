@@ -1,16 +1,47 @@
 /**
- * $home section 2 news
+ * $home section 2.1
  */
 
-.pane-news-feed {
-		@include grid-span(4, 9);
+
+.section_2_1	{
+	@include grid-span(4, 9);
+
+	.panels-flexible-row-15-main-row {height: 120px}
+
+	.pane-news-feed{height: 520px}
+
+	.s_art {
+		height: 320px;
+		//to align with the views-row set in the site containter
+		margin-top: 1rem;
+		//hide the page node counts etc
+		article ul { display: none}
+	}
+
+	
 }
 
 //inital
 .news .pane-block {display: none}
 
-//button overrides
-.pane-block-29 button {
-  font-size: 1rem;
-  padding: 0.1rem;
+/*
+
+
+.pane-news-feed {
+		@include grid-span(4, 9);
+		margin: 1rem;
+		background-color: white;
+
 }
+
+//inital
+.news .pane-block {display: none}
+//button overrides
+.pane-block-29{
+	button {
+	font-size: 1rem;
+//	box-sizing:	border-box;
+	}
+}
+
+*/
