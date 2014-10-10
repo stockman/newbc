@@ -2,30 +2,12 @@
  * $home blog
  */
 
-
-//.blog_row {display: none;}
-/*
-.blog_row {
-	background-color: $colourv;
-	.views-row {border-bottom: 1px solid black;
-		footer {width: 20%;
-			//text-align: right;
-			p{content: '';
-			//	.username {display: block;}
-			}
-
-		}
-	}
-	.user-picture {display: none;}
-}
-*/
 .blog_row .views-row {
 // this should be calculated with the picture sized to
 //match the size of the row
 //but I think the picture size is set by the medium blog image handler.
 	height: 320px;
 	overflow: hidden;
-	margin: 0 .5rem;
 	text-align: center;
 	background-color: white;
 	border-bottom: 1px solid black;
@@ -50,21 +32,7 @@
 	.pane-views-frontpage-block-3 {
 		@include grid-span(8, 1);		
 	}
-	.pane-news-feed {
-		@include grid-span(4, 9);
-	}
 	@include breakpoint($breaki) {
 		display: none;
 	}
-}
-/*
-.pane-forum-active {display: block;}
-.pane-comment-recent, .pane-block-27, .pane-block-28 {
-	display: none;
-} 
-*/
-.news .pane-block {display: none}
-.pane-block-29 button {
-  font-size: 1rem;
-  padding: 0.1rem;
 }

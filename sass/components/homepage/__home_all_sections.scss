@@ -1,0 +1,24 @@
+/**
+ * $home all sections
+ */
+
+
+.panels-flexible-row-sitecontainer-main-row {
+	background-color: #d3d3d3;
+		
+	.pane-block, .blurbs .inside {
+	padding: 0 1rem;
+//	border: 2px solid red;
+	}
+	.views-row {
+		background-color: $colourv;
+		margin-top: 1rem;
+	}
+	.s_art {
+		background-color: white;
+	}
+	// because it has 2 margin tops added
+	.pane-views-homepage-blurbs-block-1 .views-row{
+		margin-top: 0;
+	}
+}

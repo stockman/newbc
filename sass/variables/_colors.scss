@@ -50,6 +50,12 @@ $colourv:#FFFFFF;
 $colourvi:#00267F;
 
 //header colour opaque
-$colourvii: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
-
-//   @include circle(.8em,$colourv,$colouriii,$colourvi)
+//$shad:255; //white
+$shad:126; //grey
+//$shad:0; //black
+//white
+//$colourvii: none repeat scroll 0 0 rgba($shad, $shad, $shad, 0.6);
+//grey
+$colourvii: none repeat scroll 0 0 rgba($shad,$shad,$shad, 0.6);
+//black
+//$colourvii: none repeat scroll 0 0 rgba(0,0,0, 0.2);

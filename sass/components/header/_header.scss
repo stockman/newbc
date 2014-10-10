@@ -2,6 +2,13 @@
  * Header
  */
 
+
+ //another ctools fix
+ //.panels-flexible-row-sitecontainer-1 is the site header row
+.panels-flexible-row-sitecontainer-1{
+  .panels-flexible-row {padding: 0;}
+}
+
 .logged-in {
   .pane-page-logo {
     top: 2.2rem;
@@ -50,6 +57,7 @@
 //could be called anything empty to add frontpage background 
 .headerrow {
   background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
+  background-position: bottom;
   height: auto;
   width: 100%;
 }

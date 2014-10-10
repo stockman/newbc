@@ -1,0 +1,16 @@
+/**
+ * $home section 2 news
+ */
+
+.pane-news-feed {
+		@include grid-span(4, 9);
+}
+
+//inital
+.news .pane-block {display: none}
+
+//button overrides
+.pane-block-29 button {
+  font-size: 1rem;
+  padding: 0.1rem;
+}
