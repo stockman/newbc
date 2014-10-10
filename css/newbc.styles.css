@@ -2638,18 +2638,20 @@ All this is done for any sub-level being entered.
 .panels-flexible-row-sitecontainer-main-row {
   background-color: #d3d3d3; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_all_sections\.scss}line{font-family:\000039}}
-  .panels-flexible-row-sitecontainer-main-row .pane-block, .panels-flexible-row-sitecontainer-main-row .blurbs .inside {
-    padding: 0 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_all_sections\.scss}line{font-family:\0000313}}
-  .panels-flexible-row-sitecontainer-main-row .views-row {
-    background-color: white;
-    margin-top: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_all_sections\.scss}line{font-family:\0000317}}
   .panels-flexible-row-sitecontainer-main-row .s_art {
     background-color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_all_sections\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_all_sections\.scss}line{font-family:\0000313}}
   .panels-flexible-row-sitecontainer-main-row .pane-views-homepage-blurbs-block-1 .views-row {
     margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_all_sections\.scss}line{font-family:\0000319}}
+.panels-flexible-region {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_all_sections\.scss}line{font-family:\0000322}}
+.sitecontainer .panels-flexible-region-inside {
+  padding-left: 0;
+  padding-right: 0; }
 
 /**
  * $home Section 2
@@ -2662,26 +2664,34 @@ All this is done for any sub-level being entered.
   margin-left: 0%;
   clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section1_blog1\.0\.scss}line{font-family:\000039}}
+  .section_2 > .inside {
+    margin-left: 2rem;
+    margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section1_blog1\.0\.scss}line{font-family:\0000314}}
   .section_2 .views-row {
+    padding: 2rem;
     height: 320px;
     overflow: hidden;
     text-align: center;
     background-color: white;
     border-bottom: 1px solid black;
-    padding: 20px;
-    box-sizing: border-box; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section1_blog1\.0\.scss}line{font-family:\0000321}}
+    box-sizing: border-box;
+    margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section1_blog1\.0\.scss}line{font-family:\0000328}}
     .section_2 .views-row section {
       box-sizing: border-box;
       float: right;
       padding-left: 30px;
       width: 66.34%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section1_blog1\.0\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section1_blog1\.0\.scss}line{font-family:\0000335}}
     .section_2 .views-row .views-field-field-picture {
       box-sizing: border-box;
       float: left;
       margin-bottom: 0;
       width: 33.66%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section1_blog1\.0\.scss}line{font-family:\0000343}}
+  .section_2 .more-link {
+    border-bottom: 1px solid blue; }
 
 /**
  * $home section 2.1
@@ -2693,21 +2703,49 @@ All this is done for any sub-level being entered.
   margin-left: 0;
   margin-right: 0;
   clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\000039}}
-  .section_2_1 .panels-flexible-row-15-main-row {
-    height: 120px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000311}}
-  .section_2_1 .pane-news-feed {
-    height: 520px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000313}}
-  .section_2_1 .s_art {
-    height: 320px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000310}}
+  .section_2_1 > .inside {
+    margin-right: 2rem;
     margin-top: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000313}}
+    .section_2_1 > .inside > div {
+      margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000317}}
+  .section_2_1 .pane-news-feed {
+    background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000319}}
+    .section_2_1 .pane-news-feed .panels-flexible-region-inside-last {
+      padding-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000322}}
+    .section_2_1 .pane-news-feed .pane-block-29 {
+      height: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000323}}
+      .section_2_1 .pane-news-feed .pane-block-29 button {
+        font-size: 1.1rem;
+        padding: 0 .35rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000327}}
+    .section_2_1 .pane-news-feed .news_feeds {
+      height: 510px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000332}}
+  .section_2_1 .news {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000333}}
+    .section_2_1 .news ul {
+      text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000335}}
+  .section_2_1 .pane-block-29, .section_2_1 .s_art {
+    padding: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000337}}
+    .section_2_1 .pane-block-29 h2, .section_2_1 .s_art h2 {
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000340}}
+  .section_2_1 .s_art {
+    height: 320px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000344}}
     .section_2_1 .s_art article ul {
       display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/__home_section2_news\.scss}line{font-family:\0000350}}
 .news .pane-block {
   display: none; }
 
@@ -2796,11 +2834,15 @@ Flexslider
 /**
  * $Fix default behaviours
  */
- /*
-
-.panels-flexible-region {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/__fix_default_behaviours\.scss}line{font-family:\000038}}
+.panels-flexible-region-sitecontainer-header {
   float: left;
-  width: 100%;
+  width: 100%; }
+
+/*
+.sitecontainer .panels-flexible-region-inside-last {
+	//override ctool padding-right:0;
+	padding-right: .5rem;
 }
 */
 /**

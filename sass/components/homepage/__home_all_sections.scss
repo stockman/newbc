@@ -2,18 +2,10 @@
  * $home all sections
  */
 
-
+//this is the body
 .panels-flexible-row-sitecontainer-main-row {
 	background-color: #d3d3d3;
 		
-	.pane-block, .blurbs .inside {
-	padding: 0 1rem;
-//	border: 2px solid red;
-	}
-	.views-row {
-		background-color: $colourv;
-		margin-top: 1rem;
-	}
 	.s_art {
 		background-color: white;
 	}
@@ -21,4 +13,13 @@
 	.pane-views-homepage-blurbs-block-1 .views-row{
 		margin-top: 0;
 	}
+}
+
+//ctools override
+.panels-flexible-region {width: 100%}
+
+//ctools override 
+.sitecontainer .panels-flexible-region-inside {
+  padding-left: 0;
+  padding-right: 0;
 }

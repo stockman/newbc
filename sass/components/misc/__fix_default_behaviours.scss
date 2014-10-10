@@ -2,10 +2,19 @@
  * $Fix default behaviours
  */
 
- /*
 
-.panels-flexible-region {
+ //ctools overrides
+
+.panels-flexible-region-sitecontainer-header {
   float: left;
   width: 100%;
 }
+
+/*
+.sitecontainer .panels-flexible-region-inside-last {
+	//override ctool padding-right:0;
+	padding-right: .5rem;
+}
 */
+
+//ctools overrides * end *
