@@ -8,9 +8,7 @@
 	//override ctools to make nice
 	
 	> .inside {
-	  margin-right: $padder;
-	  margin-top: $padder/2;
-	  > div {margin-bottom: $padder;}
+		@include regioner_r;
 	}
 
 

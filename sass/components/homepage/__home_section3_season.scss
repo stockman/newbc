@@ -2,6 +2,17 @@
  * $home section 3 season
  */
 
- .s_art {
-//	@include grid-span(4, 9);
- }
+.section_3 {
+		@include grid-span(4, 1);
+	> .inside {
+		@include regioner_l;
+	}
+}
+
+.section_3_1 {
+		@include grid-span(8, 5);
+	> .inside {
+		@include regioner_r;
+	}
+	@include blogstyle;
+}

@@ -7,11 +7,39 @@
 
 /** Mixins!!!
 **/
+
+
+/** positioning
+*/
+
+//float center block
 @mixin center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+//other center block
+
+//panels regions
+
+//* these coudl ben combined
+
+//override ctools to make nice
+@mixin regioner_r {
+    margin-right: $padder;
+    margin-top: $padder/2;
+    > div {margin-bottom: $padder;}
+}
+
+@mixin regioner_l {
+    margin-left: $padder;
+    margin-top: $padder/2;
+    > div {margin-bottom: $padder;}
+}
+
+
+//* end  these coudl ben combined
 
 //center header cool text
 @mixin center-styler {
@@ -71,4 +99,37 @@
     -webkit-border-radius:$socisize;
     background-color: $circlebakcolor;
     &:hover {color: $circlecolorhover;}
+}
+
+//blog mixin 
+@mixin blogstyle {
+    .views-row {
+  padding: 2rem;    
+  // this should be calculated with the picture sized to
+  //match the size of the row
+  //but I think the picture size is set by the medium blog image handler.
+  height: 320px;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid black;
+
+  box-sizing: border-box;
+  margin-bottom: $padder;
+
+    section {
+    box-sizing: border-box;
+    float: right;
+    padding-left: 30px;
+    width: 66.34%;
+    }
+
+    .views-field-field-picture {
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 0;
+    width: 33.66%;
+    }
+
+  }
 }
