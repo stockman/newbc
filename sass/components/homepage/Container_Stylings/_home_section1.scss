@@ -1,0 +1,12 @@
+/**
+ * $home Section 1
+ */
+@import "../components/*";
+
+.section_2	{
+//	$gutter-styles: 'split';
+	@include grid-span(8, 1);
+	> .inside {@include regioner(left, top);}
+	@include blogstyle;
+	
+}

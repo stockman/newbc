@@ -2,16 +2,37 @@
  * $home section 4 blurbs
  */
 
-
+.section_4, .section_4_1, .section_4_2 {
+	> .inside {	background-color:white;}
+}
 
 .section_4	{
-	@include grid-span(4, 9);
-	//override ctools to make nice
-	
+	@include grid-span(4, 1);
 	> .inside {
-		@include regioner_r;
+		@include regioner(left);
 	}
 }
+
+.section_4_1	{
+	@include grid-span(4, 5);
+	> .inside {
+		@include regioner(middle);
+	}
+}
+
+.section_4_2	{
+	@include grid-span(4, 9);
+	> .inside {
+		@include regioner(right);
+	}
+}
+
+
+
+
+
+
+
 
 
 

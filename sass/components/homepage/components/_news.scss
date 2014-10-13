@@ -1,0 +1,37 @@
+/**
+ * $news stylings (do not include conatiner stylings)
+ */
+
+  .pane-news-feed{
+    // and now re-add ctools, fix this something is going on!!
+    .panels-flexible-region-inside-last {
+    padding-right: 0;
+    }
+    .pane-block-29 {height: 150px;
+      button {font-size: 1.1rem;
+      padding: 0 .35rem;
+      }
+    }
+    .news_feeds {height: 510px;}
+    background-color: $colourv;
+//    margin-top: 1rem;
+    }
+    //align the extra feeds cemter and internal feeds, left
+    .news {text-align: center;
+      ul {text-align: left;}
+    }
+  .pane-block-29, .s_art {
+    padding: 2rem;
+    h2 {text-align: center;}
+  }
+
+  .s_art {
+    height: 320px;
+    //to align with the views-row set in the site containter
+    //hide the page node counts etc
+    article ul { display: none}
+//    margin-bottom: $padder;
+  }
+
+//inital news 
+.news .pane-block {display: none}

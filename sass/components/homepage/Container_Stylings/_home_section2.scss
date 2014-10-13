@@ -1,0 +1,11 @@
+/**
+ * $home section 2.1
+ */
+@import "../components/*";
+
+.section_2_1	{
+	@include grid-span(4, 9);
+	> .inside {
+	@include regioner(right, top);
+	}
+}

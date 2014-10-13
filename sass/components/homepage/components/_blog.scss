@@ -1,0 +1,41 @@
+/**
+ * $blog stylings (do not include conatiner stylings)
+ */
+
+//blog mixin 
+@mixin blogstyle {
+    .views-row {
+  padding: 2rem;    
+  // this should be calculated with the picture sized to
+  //match the size of the row
+  //but I think the picture size is set by the medium blog image handler.
+  height: 320px;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid black;
+
+  box-sizing: border-box;
+  margin-bottom: $padder;
+
+    section {
+    box-sizing: border-box;
+    float: right;
+    padding-left: 30px;
+    width: 66.34%;
+    }
+
+    .views-field-field-picture {
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 0;
+    width: 33.66%;
+    }
+  }
+  .more-link {
+  top: -4rem;
+  position: relative;
+  right: 1rem;
+  height: 0;
+  }
+ }

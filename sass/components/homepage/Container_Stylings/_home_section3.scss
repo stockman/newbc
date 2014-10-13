@@ -5,14 +5,14 @@
 .section_3 {
 		@include grid-span(4, 1);
 	> .inside {
-		@include regioner_l;
+		@include regioner(left, t);
 	}
 }
 
 .section_3_1 {
 		@include grid-span(8, 5);
 	> .inside {
-		@include regioner_r;
+		@include regioner(right, t);
 	}
 	@include blogstyle;
 }
