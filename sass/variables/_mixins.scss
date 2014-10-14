@@ -43,6 +43,12 @@
     }
 }
 
+@mixin breakspan {
+      @include breakpoint($breakii) {
+      @include grid-span(12, 1);
+    }
+}
+
 //center header cool text
 @mixin center-styler {
   .pane-title {text-align: center;}

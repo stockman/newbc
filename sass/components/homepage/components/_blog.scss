@@ -43,11 +43,18 @@
 /*** media queries  ***/
 
   @include breakpoint($breakii) {
+
+    /*
+next thing to work on is to make the mobile header and blog posts and everything 
+else on the page a good ratio or the same size or whatever.
+
+    */
+
     .views-row {
       margin: 0;
       padding: .5rem;
       height: 80px;
-      h2 {font-size: 1.1rem}
+      h2 {font-size: 1.1rem;}
       img {height: 65px}
       border-bottom: 1px solid lighten($colourviii,30%);
       section {padding-left: .5rem;}

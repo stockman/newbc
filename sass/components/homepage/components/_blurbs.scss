@@ -20,18 +20,39 @@ $iconsize:1rem;
   .view-content {
     display: inline-block;
   }
-.view {
-  @include center-block2;
-  position: relative;
-  left: 3rem;
-}
+  .view {
+    
+    @include center-block2;
+    position: relative;
+    left: 3rem;
+    
+  }
+  $sizerton: 2rem;
+  @include breakpoint($breakii) {
+    .view {
+      left: 0;
+      top: 0;
+      transform: translateY(0);
+    }
+    .view-content {display: block;}
+    h2 {font-size: $sizerton;
+        padding-bottom: 0}
+    .views-row {border: $sizerton/2 solid $colouri;
+      background-color: $colourv;
+      height: 8rem;
+      @include center-block;
+    }
 
 
+  }
+$other: 3.5;
 
-
-
-
-
+  @include breakpoint($breaki) {
+    h2 {font-size: $sizerton/$other;}
+    .views-row {border: $sizerton/($other*1.5) solid $colouri;
+    height: 4rem;
+    }
+  }
   
 }
 /*

@@ -15,8 +15,6 @@
 		@include regioner(right, t);
 	}
 	@include blogstyle;
-	@include breakpoint($breakii) {
-		@include grid-span(12, 1);
-	}
+	@include breakspan;
 	
 }

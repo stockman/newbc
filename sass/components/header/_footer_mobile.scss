@@ -1,0 +1,17 @@
+/**
+ * _footer_mobile
+ */
+
+#mini-panel-followmenu .inside{
+	display: flex;
+	> div {
+	display: inline-block;
+	width: 25%;
+	&:first-child {border-left: 1px solid;}
+	border-right: 1px solid;
+	.fa {display: block;
+		text-align: center;
+	}
+	padding: 0;
+	}
+}

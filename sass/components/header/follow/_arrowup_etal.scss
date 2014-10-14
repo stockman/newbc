@@ -1,0 +1,10 @@
+/**
+ * Arrow up and other stuff
+ */
+
+.pane-block-30 {
+  display: none;
+  @include breakpoint($breakii) {
+  display: inline-block;
+  }
+}
