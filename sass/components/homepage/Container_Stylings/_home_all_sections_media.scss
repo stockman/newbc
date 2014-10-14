@@ -2,7 +2,7 @@
  * $home all sections media queries
  */
 
-.section_2, .section_2_1	{
+.section_2_1	{
 	@include breakpoint($breakii) {
 	display: none;
 	}

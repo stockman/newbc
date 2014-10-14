@@ -1,0 +1,10 @@
+/**
+ * $blog stylings (do not include conatiner stylings)
+ */
+
+//blog mixin 
+.s_art {
+  @include breakpoint($breakii) {
+    display: none;
+  }
+}

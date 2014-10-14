@@ -4,6 +4,9 @@
 
 .section_4, .section_4_1, .section_4_2 {
 	> .inside {	background-color:white;}
+	  @include breakpoint($breakii) {
+    display: none;
+  }
 }
 
 .section_4	{

@@ -4,6 +4,7 @@
 
 //blog mixin 
 @mixin blogstyle {
+
     .views-row {
   padding: 2rem;    
   // this should be calculated with the picture sized to
@@ -38,4 +39,23 @@
   right: 1rem;
   height: 0;
   }
- }
+
+/*** media queries  ***/
+
+  @include breakpoint($breakii) {
+    .views-row {
+      margin: 0;
+      padding: .5rem;
+      height: 80px;
+      h2 {font-size: 1.1rem}
+      img {height: 65px}
+      border-bottom: 1px solid lighten($colourviii,30%);
+      section {padding-left: .5rem;}
+      text-align: left;
+    }
+    .views-field-name {font-size: .70rem}
+    .views-field-body,
+     //.views-field-name,
+     .more-link  {display: none;}
+  }
+}

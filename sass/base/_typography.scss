@@ -12,6 +12,8 @@
 html {
   font-family: $ft-family;
   color: $bcblue;
+//  rt added oct 14
+  font-weight: 300;
 }
 
 /**
@@ -19,6 +21,7 @@ html {
  */
 a {
   @include link-colors($link, #000, $linkactive, $link, #000);
+  text-decoration: none;
 }
 //rt added
 a:hover {
