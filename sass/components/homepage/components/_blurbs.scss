@@ -21,11 +21,13 @@ $iconsize:1rem;
     display: inline-block;
   }
   .view {
-    
-    @include center-block2;
+    // a bit hacky. fix.
+    height: 30%;
+    left: 15%;
+    margin: auto;
     position: relative;
-    left: 3rem;
-    
+    top: 27%;
+    width: 100%;
   }
   $sizerton: 2rem;
   @include breakpoint($breakii) {

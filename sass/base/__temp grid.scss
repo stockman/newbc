@@ -1,11 +1,20 @@
 /**
- * $homepage basic grid
+ * $temp for development
  */
 
- 
-.bodycontent {
+//horizontal grid
+
+/* disabled
+
+html, .bodycontent {
     //show the grid as a background
 //    $gutter-styles: 'split';    
     @include background-grid($color: $headerbackground);
     width: 100%
-}  
+}
+
+*/
+
+//vertical grid
+
+//@import compass grid?

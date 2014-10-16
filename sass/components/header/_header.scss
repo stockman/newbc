@@ -21,7 +21,9 @@
   }
 
   .follow_menu {
-    top: 2.2rem;
+//    top: 2.2rem;
+    z-index: 3;
+    position: relative;
     @include breakpoint($breakii) {
     top: inherit;
     }

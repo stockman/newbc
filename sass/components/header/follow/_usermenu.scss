@@ -6,8 +6,7 @@
 .pane-logintoboggan-logintoboggan-logged-in {
 	display: none;
 	float: right;
-	margin: .25rem 0;
-	margin-right: 2.5rem;
+	margin: .75rem 2.5rem 0 0;
 	@include breakpoint($breakii) {
  		background: $colouriv;
 		width: 100%;

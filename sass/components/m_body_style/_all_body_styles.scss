@@ -1,0 +1,38 @@
+/**
+ * $body styles, break them down if it gets too bike
+ */
+
+//blurb inside pages
+
+.not-front {
+//  body {background-color: blue}
+
+  /* using the below for blurbs inside */
+
+  .field--name-field-picture img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+//    z-index: 1
+  }
+  .pane-page-tabs, .field--name-body, .panel-pane.pane-page-title {
+    z-index: 3;
+    position: relative;
+    text-align: center;
+  }
+  .field--name-body, .tabs a {
+    color: $colourv;
+    text-shadow:0 1px 1px #00267f;
+  }
+  .tabs a {background-color: rgba(0, 0, 0, 0.5);
+      border-radius: $radius;
+  }
+
+
+
+
+
+
+
+
+}
