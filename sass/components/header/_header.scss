@@ -34,7 +34,10 @@
 
 
 .header {
-  background: $colouriii;
+  background: $colourvii;
+  @include breakpoint($breakii){
+  background: $colouriii; 
+  }
 }
 
 
