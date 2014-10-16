@@ -8,8 +8,8 @@
 /** Mixins!!!
 **/
 
-/** positioning
-*/
+/* positioning
+*********************************/
 
 //float center block
 @mixin center-block {
@@ -61,7 +61,14 @@
   .statistics_counter{ display: none;}
 }
 
+/* Typography 
+*********************************/
 // to share the h2 with other things.
+
+@mixin shader {
+ text-shadow: 0 1px 1px $colourvi;  
+}
+
 @mixin headerdecorate {
   color: $colouriii;
 //  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
@@ -71,20 +78,9 @@
     color: $headerlink;
     text-shadow:0 1px 2px rgba(0,0,0,0.6);
 }
-@mixin backgro {
-  //change this to blur.
-  background-color: rgba($headerbackground, .5);
-}
 
-@mixin threespan {
-  //change gutter style
-  $gutter-styles: 'split'; 
-//  $gutters: 1; //this looks good but still doesn't line up with the background grid
-  @include grid-span($grids/3, 1, $output-style: 'float');
-  //change back gutter style
-  $gutter-styles: 'opposite';  
-}
-
+/* Social Icons
+*********************************/
   // $socisize is the circle size
 @mixin circle($socisize: $vert-spacing-unit,$circlebakcolor:$colourv,$circlecolor:$colouriii,$circlecolorhover:$colourvi) {
   // font size controls the actual size
@@ -107,4 +103,21 @@
     -webkit-border-radius:$socisize;
     background-color: $circlebakcolor;
     &:hover {color: $circlecolorhover;}
+}
+
+/* Misc, check these.
+*********************************/
+
+@mixin backgro {
+  //change this to blur.
+  background-color: rgba($headerbackground, .5);
+}
+
+@mixin threespan {
+  //change gutter style
+  $gutter-styles: 'split'; 
+//  $gutters: 1; //this looks good but still doesn't line up with the background grid
+  @include grid-span($grids/3, 1, $output-style: 'float');
+  //change back gutter style
+  $gutter-styles: 'opposite';  
 }

@@ -15,23 +15,8 @@
     @include breakpoint($breakii) {
     top: 4.2rem;
     }
-//    @include breakpoint($breaki) {
- //   top: 0;
-  //  }
-  }
-
-  .follow_menu {
-//    top: 2.2rem;
-    z-index: 3;
-    position: relative;
-    @include breakpoint($breakii) {
-    top: inherit;
-    position: absolute;
-    }
   }
 }
-
-
 
 .header {
   background: $colourvii;
@@ -44,13 +29,11 @@
 // colour and size header row
 .headerrow {
   width: 100%;
-  background-color: $colourii;
   font-size: $vert-spacing-unit;
   }
  
 //header size on homepage only.
  .page-home .headerrow{
-//  background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
   height: 450px;
   width: 100%;
   @include breakpoint ($breakii){
