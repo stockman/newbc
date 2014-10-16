@@ -39,7 +39,8 @@ $iconsize:1rem;
     .view-content {display: block;}
     h2 {font-size: $sizerton;
         padding-bottom: 0}
-    .views-row {border: $sizerton/2 solid $colouri;
+    .views-row {
+      border: $sizerton/2 solid $colouriii;
       background-color: $colourv;
       height: 8rem;
       @include center-block;
@@ -51,7 +52,7 @@ $other: 3.5;
 
   @include breakpoint($breaki) {
     h2 {font-size: $sizerton/$other;}
-    .views-row {border: $sizerton/($other*1.5) solid $colouri;
+    .views-row {border: $sizerton/($other*1.5) solid $colouriii;
     height: 4rem;
     }
   }
