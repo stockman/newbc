@@ -16,7 +16,8 @@
 	#input_box{width: 65%;height: 2rem;}
 }
 
-.pane-logintoboggan-logintoboggan-logged-in, .search_form {
+
+.pane-logintoboggan-logintoboggan-logged-in { //, .search_form {
 	display: none;
 	right: 0;
 	@include breakpoint($breakii) {
@@ -30,7 +31,6 @@
 		select, input, textarea {padding: 0.1rem}
 	}
 }
-
 
 
 .fa-times-circle-o {

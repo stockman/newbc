@@ -29,10 +29,11 @@
                 };
             }
             var user = $(".fa-user").find(' > .menu')
-            var sf = $(".search_form");
+            var sf = $(".outer_search");
             var share = $(".followpop");
             var toboggan = $('.pane-logintoboggan-logintoboggan-logged-in');
-                //search menu
+                //*** Follow Menu ***
+                // search menu
                 $(".fa-search").click(function() {             
                     pop(sf);
                     //search autofocus
@@ -49,14 +50,14 @@
                 //usermenu if user is logged in then toggle toboggan a/c info.
                 $(".fa-user").click(function() {              
                     if (toboggan.length) {
-                        $(".pane-block-26 a").removeAttr("href").css("cursor","pointer");
+                        $(".userloginblok a").removeAttr("href").css("cursor","pointer");
                      pop(toboggan);
                     }; 
                 });
 
-                //switch between news tabs
-                $('.pane-block-28').addClass('pop');
-                var recent = $('.pane-block-29');
+                //***** News feed ****** switch between news tabs
+                $('.twt_feed_yycbike').addClass('pop');
+                var recent = $('.newsfeedheader');
                 var sw = function(t){
                     $('.news').find('.pop').removeClass('pop');
                     $(t).addClass('pop');
@@ -66,8 +67,8 @@
                 sw(j);
                 });
                 }
-                swit('.bikecalgary', '.pane-block-27');
-                swit('.yycbike', '.pane-block-28');
+                swit('.bikecalgary', '.twt_feed_bc');
+                swit('.yycbike', '.twt_feed_yycbike');
                 swit('.recentcomments', '.pane-comment-recent');
                 swit('.forumtopics', '.pane-forum-new');                                
 

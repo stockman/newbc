@@ -669,8 +669,8 @@ div.password-indicator {
     width: 65%;
     height: 2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000319}}
-.pane-logintoboggan-logintoboggan-logged-in, .search_form {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000320}}
+.pane-logintoboggan-logintoboggan-logged-in {
   display: none;
   right: 0; }
 
@@ -1104,19 +1104,19 @@ html[xmlns] .slides {
 .popper {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000336}}
 .follow_menu {
   position: relative;
   float: right;
   width: 316px;
   margin-top: -2.8rem;
   z-index: 10; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000343}}
   .follow_menu .fa {
     font-size: 36px;
     vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000365}}
 .flexslider .slides img {
   height: 500px; }
 

@@ -23,3 +23,19 @@
 		}
 	}
 }
+
+
+
+.outer_search {
+	@include breakpoint($breakii){
+	display: none;
+	position: absolute;
+	bottom: 2.92rem;
+	width: 100%;
+	height: auto;
+	left: 0;
+	background-color: $colouriv;
+	.form-submit {background-color: $colouri;}	
+	.search_form {display: inline-flex;}
+}
+}

@@ -28,7 +28,8 @@
 .popper {
   display: none;
   @include breakpoint ($breakii){
-  display: inline-block;
+  //center the share icon
+  display: inline;
   }
 }
 
