@@ -38,7 +38,7 @@ $menuffontsize: 1.5rem;
 //this is the drop down menus
 .sf-menu {
 	vertical-align: bottom;
-//	ul {background-color:$headerbackground;
+//	ul {background-color:$colourii;
 //		opacity: .8}
 	ul {background: $colourvii;}
 	li {float: left;
@@ -50,7 +50,7 @@ $menuffontsize: 1.5rem;
 	color: $colourv;
 	text-shadow: 0 1px 1px $colouriv;
 	display: inline;
-	&:hover {color:$headerlinkhover;
+	&:hover {color:$colourvhover;
 			border-bottom:1px solid;
 			padding-bottom: 0
 			}

@@ -95,6 +95,19 @@ Breakpoints
   padding: 18px 1em; }
 
 /**
+ * $drupal Styling
+ */
+/***************** tabs ***************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/__drupal_base\.scss}line{font-family:\000037}}
+.tabs--primary {
+  margin: 0.2rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/__drupal_base\.scss}line{font-family:\0000311}}
+.links--inline li {
+  float: left;
+  margin-right: .5rem; }
+
+/**
  * $temp for development
  */
 /**
@@ -115,7 +128,8 @@ button, .form-submit {
   vertical-align: top;
   white-space: nowrap;
   font-size: 1.3rem;
-  height: 1.6em; }
+  height: 1.6em;
+  margin: 0.2rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_buttons\.scss}line{font-family:\0000314}}
   button:hover, .form-submit:hover {
     background-color: white;
@@ -135,10 +149,10 @@ textarea {
   select:focus,
   input:focus,
   textarea:focus {
-    -webkit-box-shadow: 0 0 4px 1px rgba(0, 204, 0, 0.3);
-    -moz-box-shadow: 0 0 4px 1px rgba(0, 204, 0, 0.3);
-    box-shadow: 0 0 4px 1px rgba(0, 204, 0, 0.3);
-    outline: 1px solid #00cc00; }
+    -webkit-box-shadow: 0 0 4px 1px rgba(165, 224, 97, 0.3);
+    -moz-box-shadow: 0 0 4px 1px rgba(165, 224, 97, 0.3);
+    box-shadow: 0 0 4px 1px rgba(165, 224, 97, 0.3);
+    outline: 1px solid #a5e061; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_forms\.scss}line{font-family:\0000313}}
 fieldset {
@@ -195,11 +209,11 @@ td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000327}}
 tr.odd {
-  background: #238ae5; }
+  background: #ffff21; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000330}}
 tr.even {
-  background: #3594e7; }
+  background: #ffff36; }
 
 /**
  * $FONT-FACE
@@ -213,20 +227,16 @@ html {
   color: #00267f;
   font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000319}}
-html, .bodycontent {
-  background-color: #1a80d9; }
-
 /**
- * $LINKS
+ * $colouriS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000322}}
 a {
-  color: green;
+  color: #ffff0d;
   text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.newbc\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
   a:visited {
-    color: green; }
+    color: #00267f; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.newbc\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
   a:focus {
     color: black; }
@@ -235,16 +245,16 @@ a {
     color: black; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.newbc\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
   a:active {
-    color: white; }
+    color: purple; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000327}}
 a:hover {
-  color: #00267f; }
+  color: #80cc28; }
 
 /**
  * $HEADINGS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000338}}
 h1, .alpha,
 h2, .beta,
 h3, .gamma,
@@ -259,7 +269,7 @@ h6, .zeta {
   font-family: 13px/1.25 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #1a80d9; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000346}}
   h1 a,
   h1 a:visited, .alpha a,
   .alpha a:visited,
@@ -281,7 +291,7 @@ h6, .zeta {
   .zeta a:visited {
     color: inherit;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000350}}
   h1 a:hover, .alpha a:hover,
   h2 a:hover, .beta a:hover,
   h3 a:hover, .gamma a:hover,
@@ -290,35 +300,35 @@ h6, .zeta {
   h6 a:hover, .zeta a:hover {
     color: #80cc28; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000355}}
 h1, .alpha {
   font-size: 67.773px;
   font-size: 4.84093rem;
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000359}}
 h2, .beta {
   font-size: 41.887px;
   font-size: 2.99193rem;
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000363}}
 h3, .gamma {
   font-size: 25.888px;
   font-size: 1.84914rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000366}}
 h4, .delta, caption {
   font-size: 16px;
   font-size: 1.14286rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000369}}
 h5, .epsilon {
   font-size: 16px;
   font-size: 1.14286rem;
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000373}}
 h6, .zeta {
   font-size: 16px;
   font-size: 1.14286rem;
@@ -327,7 +337,7 @@ h6, .zeta {
 /**
  * $PARAGRAPHS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000382}}
 p,
 blockquote {
   margin: 0;
@@ -336,7 +346,7 @@ blockquote {
   padding-bottom: 0em;
   margin-bottom: 1.42857em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000387}}
 p + img {
   float: left;
   margin-right: 1em; }
@@ -344,7 +354,7 @@ p + img {
 /**
  * $QUOTES
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\0000395}}
 blockquote {
   margin-top: 0em;
   padding-top: 1.42857em;
@@ -359,18 +369,18 @@ blockquote {
   padding-left: 0.71429em;
   font-style: italic;
   color: purple; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003105}}
   blockquote p {
     margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003110}}
 q {
   font-style: italic; }
 
 /**
  * $MARKS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_typography\.scss}line{font-family:\00003118}}
 mark,
 .marker {
   padding: 0.1em 0.5em;
@@ -391,7 +401,7 @@ mark,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/blocks\/_block-user-menu\.scss}line{font-family:\000038}}
 .block--system-user-menu a {
   padding: 0 0.6em;
-  border-right: 1px solid green; }
+  border-right: 1px solid #80cc28; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/blocks\/_block-user-menu\.scss}line{font-family:\0000312}}
 .block--system-user-menu li:first-child a {
   padding-left: 0; }
@@ -427,10 +437,10 @@ mark,
 /**
  * $COMMENT-WRAPPER
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/comments\/_comment-wrapper\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/comments\/_comment-wrapper\.scss}line{font-family:\000035}}
 .comment-wrapper {
   padding: 18px 1em;
-  background-color: pink; }
+  background-color: #80cc28; }
 
 /**
  * $COMMENT
@@ -631,7 +641,7 @@ div.password-indicator {
   border: 1px solid #dddddd; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\000039}}
   .password-indicator .indicator {
-    background: white; }
+    background: purple; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\0000314}}
 .password-strength-title {
@@ -1045,7 +1055,7 @@ html[xmlns] .slides {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000347}}
 .headerrow {
-  background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center/cover rgba(0, 0, 0, 0);
+  background: url("/files/_site_branding_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center/cover rgba(0, 0, 0, 0);
   background-position: bottom;
   height: auto;
   width: 100%; }
@@ -1074,39 +1084,39 @@ html[xmlns] .slides {
 /**
  * Arrow up and other stuff
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_arrowup_etal\.scss}line{font-family:\000035}}
-.pane-block-30 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_arrowup_etal\.scss}line{font-family:\000035}}
+.uparrow {
   display: none; }
 
 /**
  * $Follow Menu
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\000037}}
 .follow {
   display: inline;
   vertical-align: bottom; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000312}}
 .followpop {
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000328}}
 .popper {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000335}}
 .follow_menu {
   position: relative;
   float: right;
   width: 316px;
   margin-top: -2.8rem;
   z-index: 10; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000342}}
   .follow_menu .fa {
     font-size: 36px;
     vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_follow_menu\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_follow_menu\.scss}line{font-family:\0000364}}
 .flexslider .slides img {
   height: 500px; }
 
@@ -1117,7 +1127,7 @@ html[xmlns] .slides {
   font-weight: normal;
   font-style: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000313}}
 .socicon {
   font-family: 'socicon';
   font-size: 18px;
@@ -1141,262 +1151,262 @@ html[xmlns] .slides {
   .socicon:hover {
     color: #00267f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000318}}
 .socicon-easid:before {
   content: "5"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000319}}
 .socicon-twitter:before {
   content: "a"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000320}}
 .socicon-facebook:before {
   content: "b"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000321}}
 .socicon-google:before {
   content: "c"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000322}}
 .socicon-pinterest:before {
   content: "d"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000323}}
 .socicon-foursquare:before {
   content: "e"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000324}}
 .socicon-yahoo:before {
   content: "f"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000325}}
 .socicon-skype:before {
   content: "g"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000326}}
 .socicon-yelp:before {
   content: "h"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000327}}
 .socicon-feedburner:before {
   content: "i"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000328}}
 .socicon-linkedin:before {
   content: "j"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000329}}
 .socicon-viadeo:before {
   content: "k"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000330}}
 .socicon-xing:before {
   content: "l"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000331}}
 .socicon-myspace:before {
   content: "m"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000332}}
 .socicon-soundcloud:before {
   content: "n"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000333}}
 .socicon-spotify:before {
   content: "o"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000334}}
 .socicon-grooveshark:before {
   content: "p"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000335}}
 .socicon-lastfm:before {
   content: "q"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000336}}
 .socicon-youtube:before {
   content: "r"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000337}}
 .socicon-vimeo:before {
   content: "s"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000338}}
 .socicon-dailymotion:before {
   content: "t"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000339}}
 .socicon-vine:before {
   content: "u"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000340}}
 .socicon-flickr:before {
   content: "v"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000341}}
 .socicon-500px:before {
   content: "w"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000342}}
 .socicon-instagram:before {
   content: "x"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000343}}
 .socicon-wordpress:before {
   content: "y"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000344}}
 .socicon-tumblr:before {
   content: "z"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000345}}
 .socicon-blogger:before {
   content: "A"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000346}}
 .socicon-technorati:before {
   content: "B"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000347}}
 .socicon-reddit:before {
   content: "C"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000348}}
 .socicon-dribbble:before {
   content: "D"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000349}}
 .socicon-stumbleupon:before {
   content: "E"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000350}}
 .socicon-digg:before {
   content: "F"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000351}}
 .socicon-envato:before {
   content: "G"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000352}}
 .socicon-behance:before {
   content: "H"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000353}}
 .socicon-delicious:before {
   content: "I"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000354}}
 .socicon-deviantart:before {
   content: "J"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000355}}
 .socicon-forrst:before {
   content: "K"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000356}}
 .socicon-play:before {
   content: "L"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000357}}
 .socicon-zerply:before {
   content: "M"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000358}}
 .socicon-wikipedia:before {
   content: "N"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000359}}
 .socicon-apple:before {
   content: "O"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000360}}
 .socicon-flattr:before {
   content: "P"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000361}}
 .socicon-github:before {
   content: "Q"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000362}}
 .socicon-chimein:before {
   content: "R"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000363}}
 .socicon-friendfeed:before {
   content: "S"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000364}}
 .socicon-newsvine:before {
   content: "T"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000365}}
 .socicon-identica:before {
   content: "U"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000366}}
 .socicon-bebo:before {
   content: "V"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000367}}
 .socicon-zynga:before {
   content: "W"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000368}}
 .socicon-steam:before {
   content: "X"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000369}}
 .socicon-xbox:before {
   content: "Y"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000370}}
 .socicon-windows:before {
   content: "Z"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000371}}
 .socicon-outlook:before {
   content: "1"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000372}}
 .socicon-coderwall:before {
   content: "2"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000373}}
 .socicon-tripadvisor:before {
   content: "3"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000374}}
 .socicon-netcodes:before {
   content: "4"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000375}}
 .socicon-lanyrd:before {
   content: "7"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000376}}
 .socicon-slideshare:before {
   content: "8"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000377}}
 .socicon-buffer:before {
   content: "9"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000378}}
 .socicon-rss:before {
   content: ","; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000379}}
 .socicon-vkontakte:before {
   content: ";"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_socialicons\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_socialicons\.scss}line{font-family:\0000380}}
 .socicon-disqus:before {
   content: ":"; }
 
 /**
  * $Usermenu
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_usermenu\.scss}line{font-family:\000035}}
 .pane-logintoboggan-logintoboggan-logged-in {
   display: none;
   float: right;
@@ -1404,29 +1414,29 @@ html[xmlns] .slides {
   margin: .25rem 0;
   text-shadow: 0 1px 1px #00267f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000319}}
-.pane-block-26 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_usermenu\.scss}line{font-family:\0000319}}
+.userloginblok {
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_usermenu\.scss}line{font-family:\0000321}}
 .usermenu {
   max-width: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_usermenu\.scss}line{font-family:\0000325}}
   .usermenu .menu {
     display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_usermenu\.scss}line{font-family:\0000328}}
 .pane-system-user-menu {
   content: "\f0d9";
   font-family: FontAwesome; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_usermenu\.scss}line{font-family:\0000329}}
   .pane-system-user-menu a, .pane-system-user-menu li, .pane-system-user-menu .menu, .pane-system-user-menu ul, .pane-system-user-menu li a {
     content: "\f0d9";
     font-family: FontAwesome; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/follow\/_usermenu\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/followmenu\/_usermenu\.scss}line{font-family:\0000334}}
   .pane-system-user-menu li {
     list-style: none; }
 
@@ -1442,7 +1452,7 @@ html[xmlns] .slides {
     background: transparent url('../images/../images/plus-blue.png?1406587444') left center no-repeat; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_action-links\.scss}line{font-family:\0000313}}
     .action-links li a {
-      color: white;
+      color: purple;
       text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_action-links\.scss}line{font-family:\0000317}}
       .action-links li a:hover {
@@ -1521,10 +1531,10 @@ Uses Font-Awesome for the directional arrows
   position: absolute;
   width: 67%;
   height: 0.22727rem;
-  background: #1a80d9;
+  background: #ffff0d;
   top: 0.52083rem;
   left: 16%;
-  box-shadow: 0 0.625rem 0 #1a80d9, 0 1.25rem 0 #1a80d9; }
+  box-shadow: 0 0.625rem 0 #ffff0d, 0 1.25rem 0 #ffff0d; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000362}}
 .dl-menuwrapper ul {
@@ -1540,7 +1550,7 @@ Uses Font-Awesome for the directional arrows
   position: relative; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000374}}
   .dl-menuwrapper li:hover {
-    background-color: #1a80d9; }
+    background-color: #ffff0d; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000375}}
   .dl-menuwrapper li a {
     color: white; }
@@ -2537,22 +2547,23 @@ All this is done for any sub-level being entered.
 */
 /**
  * $home all sections
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\000036}}
-.panels-flexible-row-sitecontainer-main-row {
-  background-color: #d3d3d3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\000039}}
-  .panels-flexible-row-sitecontainer-main-row .s_art {
-    background-color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\0000313}}
-  .panels-flexible-row-sitecontainer-main-row .pane-views-homepage-blurbs-block-1 .views-row {
-    margin-top: 0; }
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\000037}}
+.front .bodycontent {
+  background-color: #1a80d9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\0000314}}
+.panels-flexible-row-sitecontainer-main-row .s_art {
+  background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\0000318}}
+.panels-flexible-row-sitecontainer-main-row .pane-views-homepage-blurbs-block-1 .views-row {
+  margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\0000324}}
 .panels-flexible-region {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_all_sections\.scss}line{font-family:\0000327}}
 .sitecontainer .panels-flexible-region-inside {
   padding-left: 0;
   padding-right: 0; }
@@ -2569,28 +2580,28 @@ All this is done for any sub-level being entered.
 /**
  * $blurb stylings (do not include conatiner stylings)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000039}}
 .pane-views-homepage-blurbs-block-1,
 .pane-views-homepage-blurbs-block-2,
 .pane-views-homepage-blurbs-block-3 {
   height: 320px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000311}}
   .pane-views-homepage-blurbs-block-1 .views-field-body,
   .pane-views-homepage-blurbs-block-2 .views-field-body,
   .pane-views-homepage-blurbs-block-3 .views-field-body {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000312}}
   .pane-views-homepage-blurbs-block-1 h2,
   .pane-views-homepage-blurbs-block-2 h2,
   .pane-views-homepage-blurbs-block-3 h2 {
     font-size: 1.5rem;
     padding-bottom: .5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000321}}
   .pane-views-homepage-blurbs-block-1 .view-content,
   .pane-views-homepage-blurbs-block-2 .view-content,
   .pane-views-homepage-blurbs-block-3 .view-content {
     display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000324}}
   .pane-views-homepage-blurbs-block-1 .view,
   .pane-views-homepage-blurbs-block-2 .view,
   .pane-views-homepage-blurbs-block-3 .view {
@@ -2611,10 +2622,10 @@ All this is done for any sub-level being entered.
   .pane-news-feed .panels-flexible-region-inside-last {
     padding-right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000310}}
-  .pane-news-feed .pane-block-29 {
+  .pane-news-feed .newsfeedheader {
     height: 150px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000311}}
-    .pane-news-feed .pane-block-29 button {
+    .pane-news-feed .newsfeedheader button {
       font-size: 1.1rem;
       padding: 0 .35rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000315}}
@@ -2629,10 +2640,10 @@ All this is done for any sub-level being entered.
     text-align: left; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000323}}
-.pane-block-29, .s_art {
+.newsfeedheader, .s_art {
   padding: 2rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000325}}
-  .pane-block-29 h2, .s_art h2 {
+  .newsfeedheader h2, .s_art h2 {
     text-align: center; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000328}}
@@ -2702,28 +2713,28 @@ All this is done for any sub-level being entered.
 /**
  * $blurb stylings (do not include conatiner stylings)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000039}}
 .pane-views-homepage-blurbs-block-1,
 .pane-views-homepage-blurbs-block-2,
 .pane-views-homepage-blurbs-block-3 {
   height: 320px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000311}}
   .pane-views-homepage-blurbs-block-1 .views-field-body,
   .pane-views-homepage-blurbs-block-2 .views-field-body,
   .pane-views-homepage-blurbs-block-3 .views-field-body {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000312}}
   .pane-views-homepage-blurbs-block-1 h2,
   .pane-views-homepage-blurbs-block-2 h2,
   .pane-views-homepage-blurbs-block-3 h2 {
     font-size: 1.5rem;
     padding-bottom: .5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000321}}
   .pane-views-homepage-blurbs-block-1 .view-content,
   .pane-views-homepage-blurbs-block-2 .view-content,
   .pane-views-homepage-blurbs-block-3 .view-content {
     display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000324}}
   .pane-views-homepage-blurbs-block-1 .view,
   .pane-views-homepage-blurbs-block-2 .view,
   .pane-views-homepage-blurbs-block-3 .view {
@@ -2744,10 +2755,10 @@ All this is done for any sub-level being entered.
   .pane-news-feed .panels-flexible-region-inside-last {
     padding-right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000310}}
-  .pane-news-feed .pane-block-29 {
+  .pane-news-feed .newsfeedheader {
     height: 150px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000311}}
-    .pane-news-feed .pane-block-29 button {
+    .pane-news-feed .newsfeedheader button {
       font-size: 1.1rem;
       padding: 0 .35rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000315}}
@@ -2762,10 +2773,10 @@ All this is done for any sub-level being entered.
     text-align: left; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000323}}
-.pane-block-29, .s_art {
+.newsfeedheader, .s_art {
   padding: 2rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000325}}
-  .pane-block-29 h2, .s_art h2 {
+  .newsfeedheader h2, .s_art h2 {
     text-align: center; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000328}}
@@ -2936,7 +2947,7 @@ All this is done for any sub-level being entered.
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/archive\/_home_season\.scss}line{font-family:\000037}}
 .season_row {
-  background-color: rgba(26, 128, 217, 0.5);
+  background-color: rgba(255, 255, 13, 0.5);
   width: 31.91489%;
   float: left;
   margin-right: -100%;
@@ -2965,28 +2976,28 @@ Flexslider
 /**
  * $blurb stylings (do not include conatiner stylings)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000039}}
 .pane-views-homepage-blurbs-block-1,
 .pane-views-homepage-blurbs-block-2,
 .pane-views-homepage-blurbs-block-3 {
   height: 320px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000311}}
   .pane-views-homepage-blurbs-block-1 .views-field-body,
   .pane-views-homepage-blurbs-block-2 .views-field-body,
   .pane-views-homepage-blurbs-block-3 .views-field-body {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000312}}
   .pane-views-homepage-blurbs-block-1 h2,
   .pane-views-homepage-blurbs-block-2 h2,
   .pane-views-homepage-blurbs-block-3 h2 {
     font-size: 1.5rem;
     padding-bottom: .5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000321}}
   .pane-views-homepage-blurbs-block-1 .view-content,
   .pane-views-homepage-blurbs-block-2 .view-content,
   .pane-views-homepage-blurbs-block-3 .view-content {
     display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000324}}
   .pane-views-homepage-blurbs-block-1 .view,
   .pane-views-homepage-blurbs-block-2 .view,
   .pane-views-homepage-blurbs-block-3 .view {
@@ -3007,10 +3018,10 @@ Flexslider
   .pane-news-feed .panels-flexible-region-inside-last {
     padding-right: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000310}}
-  .pane-news-feed .pane-block-29 {
+  .pane-news-feed .newsfeedheader {
     height: 150px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000311}}
-    .pane-news-feed .pane-block-29 button {
+    .pane-news-feed .newsfeedheader button {
       font-size: 1.1rem;
       padding: 0 .35rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000315}}
@@ -3025,10 +3036,10 @@ Flexslider
     text-align: left; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000323}}
-.pane-block-29, .s_art {
+.newsfeedheader, .s_art {
   padding: 2rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000325}}
-  .pane-block-29 h2, .s_art h2 {
+  .newsfeedheader h2, .s_art h2 {
     text-align: center; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_news\.scss}line{font-family:\0000328}}
@@ -3048,42 +3059,52 @@ Flexslider
 /**
  * $body styles, break them down if it gets too bike
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\000037}}
+/* move this later into the base folder?
+*************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000311}}
 .not-front {
+  background-color: #6cb1ed;
   /* using the below for blurbs inside */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000312}}
-  .not-front .field--name-field-picture {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000318}}
-    .not-front .field--name-field-picture img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-      min-width: 50%;
-      min-height: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000355}}
-  .not-front .pane-page-tabs, .not-front .field--name-body, .not-front .panel-pane.pane-page-title {
-    z-index: 3;
-    position: relative;
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000313}}
+  .not-front .bodycontent {
+    padding: 0.5% 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000346}}
   .not-front .node-type-homepage-blurbs {
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000348}}
   .not-front .field--name-body, .not-front .tabs a {
     color: white;
     text-shadow: 0 1px 1px #00267f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000352}}
   .not-front .tabs a {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 2px; }
+
+/**
+ * $blurb stylings (do not include conatiner stylings)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_blurbs_pages\.scss}line{font-family:\000037}}
+.node-type-blurbs .field--name-field-picture {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_blurbs_pages\.scss}line{font-family:\0000313}}
+  .node-type-blurbs .field--name-field-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_blurbs_pages\.scss}line{font-family:\0000324}}
+.node-type-blurbs .pane-page-tabs, .node-type-blurbs .field--name-body, .node-type-blurbs .panel-pane.pane-page-title {
+  z-index: 3;
+  position: relative;
+  text-align: center; }
 
 /**
  * $Fix default behaviours
@@ -3226,14 +3247,14 @@ box-shawdow:4px 4px 35px 5px $colouriii;
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000324}}
 .pager__item a:hover {
-  background-color: green;
-  border-color: green;
+  background-color: #80cc28;
+  border-color: #80cc28;
   color: #fff; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000331}}
 .pager__item--current {
-  border-color: green;
-  color: green; }
+  border-color: #80cc28;
+  color: #80cc28; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000337}}
 .pager__item--ellipsis {

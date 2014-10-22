@@ -2,7 +2,7 @@
  * Arrow up and other stuff
  */
 
-.pane-block-30 {
+.uparrow {
   display: none;
   @include breakpoint($breakii) {
   display: inline-block;

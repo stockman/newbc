@@ -8,11 +8,11 @@
   margin: 0;
   padding: 0 1.2em;
 
-  background-color: $buttonbak;
+  background-color: $colourv;
 
   border: none;
 
-  color:$link ;
+  color:$colouri ;
   font-weight: 700;
   font-family: inherit;
   font-size: 100%;
@@ -34,7 +34,7 @@
   }
 
   &:hover {
-    background-color: $buttonbak2;
+    background-color: $colourv;
   }
 
   &:active,
@@ -69,7 +69,7 @@
 
 /* Button Functions */
 .button--primary {
-  background-color: $link
+  background-color: $colouri
 ;
 }
 
@@ -87,16 +87,16 @@
 }
 
 .button--positive {
-  background-color: $buttonbak;
+  background-color: $colourv;
   &:hover {
-    background-color: darken($buttonbak, 10%);
+    background-color: darken($colourv, 10%);
   }
 }
 
 .button--negative {
-  background-color: $buttonbak2;
+  background-color: $colourv;
   &:hover {
-    background-color: darken($buttonbak2, 10%);
+    background-color: darken($colourv, 10%);
   }
 }
 

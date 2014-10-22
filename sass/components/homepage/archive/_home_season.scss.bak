@@ -51,8 +51,8 @@
 	//hide the stat counter
 	.statistics_counter{ display: none;}
 	//background colour it
-//	.pane-node {background-color:lighten($headerbackground,45%);
-//	color: $headerbackground;
+//	.pane-node {background-color:lighten($colourii,45%);
+//	color: $colourii;
 //		  @include filter(grayscale, 50%);
 //	}
 }

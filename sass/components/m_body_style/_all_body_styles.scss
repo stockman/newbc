@@ -2,30 +2,19 @@
  * $body styles, break them down if it gets too bike
  */
 
+
+/* move this later into the base folder?
+*************************/
+
 //blurb inside pages
 
 .not-front {
-//  body {background-color: blue}
-
+  background-color: lighten($colouriii, 20%);
+  .bodycontent {
+    padding: 0.5% 2%;
+  }
   /* using the below for blurbs inside */
 
-.field--name-field-picture {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-  img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-  }
-}
 
 /*
 
@@ -52,11 +41,7 @@
     z-index: 1
   }
   */
-  .pane-page-tabs, .field--name-body, .panel-pane.pane-page-title {
-    z-index: 3;
-    position: relative;
-    text-align: center;
-  }
+
   
   .node-type-homepage-blurbs {text-align: center;}
 

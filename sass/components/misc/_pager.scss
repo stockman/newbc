@@ -22,16 +22,16 @@
   text-decoration: none;
 }
 .pager__item a:hover {
-  background-color: $link
+  background-color: $colouri
 ;
-  border-color: $link
+  border-color: $colouri
 ;
   color: #fff;
 }
 .pager__item--current {
-  border-color: $link
+  border-color: $colouri
 ;
-  color: $link
+  color: $colouri
 ;
 }
 .pager__item--ellipsis {

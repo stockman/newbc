@@ -11,23 +11,21 @@
  */
 html {
   font-family: $ft-family;
-  color: $bcblue;
+  color: $colouriv;
 //  rt added oct 14
   font-weight: 300;
-
 }
-html,.bodycontent {background-color: $colouriii;}
 
 /**
- * $LINKS
+ * $colouriS
  */
 a {
-  @include link-colors($link, #000, $linkactive, $link, #000);
+  @include link-colors($colourii, #000, $h_hover_colour, $colouriv, #000);
   text-decoration: none;
 }
 //rt added
 a:hover {
-      color: $linkhover;
+      color: $colouri;
 }
 /**
  * $HEADINGS
@@ -50,7 +48,7 @@ h6, .zeta {
     text-decoration: none;
   }
   a:hover {
-    color: $bcgren;
+    color: $colouri;
   }
 }
 

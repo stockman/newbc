@@ -9,7 +9,7 @@
 html, .bodycontent {
     //show the grid as a background
 //    $gutter-styles: 'split';    
-    @include background-grid($color: $headerbackground);
+    @include background-grid($color: $colourii);
     width: 100%
 }
 

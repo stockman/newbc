@@ -45,7 +45,7 @@
 
 //could be called anything empty to add frontpage background 
 .headerrow {
-  background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
+  background: url("/files/_site_branding_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
   background-position: bottom;
   height: auto;
   width: 100%;
@@ -56,8 +56,8 @@
 //normalize header
 //?? what is this for?
 .header {
-    div, li, a {color:$headerlink;
-  &:hover {color:$headerlinkhover}
+    div, li, a {color:$colourv;
+  &:hover {color:$colourvhover}
   }
 }
 

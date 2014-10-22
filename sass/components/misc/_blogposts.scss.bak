@@ -3,12 +3,12 @@
 //first child of grid mode or first row of blog posts (unformatted)
 .views-view-grid td:first-child,.views-row-odd
 {
-	background-color:$headerbackground;
+	background-color:$colourii;
 }
 
 .views-view-grid td:nth-child(2n),.views-row-even
 {
-	background-color:darken($headerbackground,20%)
+	background-color:darken($colourii,20%)
 }
 
 /*.node--blog-content {

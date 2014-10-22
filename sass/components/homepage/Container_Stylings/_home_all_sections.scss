@@ -1,10 +1,15 @@
 /**
  * $home all sections
- */
+*/
+
+// front page stylings
+.front {
+	.bodycontent {background-color: $colouriii;}
+}
 
 //this is the body
 .panels-flexible-row-sitecontainer-main-row {
-	background-color: #d3d3d3;
+//	background-color: #d3d3d3;
 		
 	.s_art {
 		background-color: white;

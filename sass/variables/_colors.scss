@@ -1,11 +1,6 @@
 // - ohm theme colours:
 
-//Better variables
-$link  : green;
-$linkhover : #00267F; //$colouriv:#00267F;
-$headerlink: #FFFFFF; //aka $colourv:#FFFFFF;
-$headerlinkhover:#FFFF0D;
-$headerbackground:  #1A80D9; //blue aka $colouriii: #1A80D9;
+$colourvhover:#FFFF0D;
 $h2_colour :red; //is also table header, comment instruct
 $h_hover_colour: purple;
 $fontcolour: #222222;
@@ -15,31 +10,17 @@ $bakcolour: #ddd;
 $bordercolour: #6a7076;
 
 $msgs:#d6c460;
-$linkactive: #FFFFFF;   //Is this correct?
 $msgs     : #d6c460;
-
-//buttons
-//button back colour?
-$buttonbak: #FFFFFF;
-
-//button back hover colour?
-$buttonbak2: #FFFFFF;
-
-
-// BC Logo Colours:
-//green
-$bcgren:#80CC28; // aka $colouri:#80CC28;
-//blue
-$bcblue:$linkhover;
-
 
 
 //Even Better
 
+// BC Logo Colours:
+
 // main font colour
 $colouri:#80CC28;
 // main page background
-$colourii:$headerlinkhover;
+$colourii:$colourvhover;
 // header / contrast background
 $colouriii: #1A80D9;
 // header / contrast colour

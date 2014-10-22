@@ -28,7 +28,7 @@ also I like the thin arrows in the velocity header.
   border: solid;
   height: 7rem;
   width: 7rem;
-  border-color: $headerbackground;
+  border-color: $colourii;
 }
 .submitted {display: none;}
 

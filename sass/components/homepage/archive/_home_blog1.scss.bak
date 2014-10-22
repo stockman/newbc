@@ -40,7 +40,7 @@ padding: 0 .5rem;
   display: inline-block;
   background-color: white;
   @include circ;
-  &:hover {background-color: $bcgren;}
+  &:hover {background-color: $colouri;}
   z-index: 1;
   position: relative;
   top: -40px; //half the size of the .node--submitted div.
@@ -62,8 +62,8 @@ padding: 0 .5rem;
 }
 
 .blog .views-field-title a {
-  color: $headerlink;
-  &:hover {color:$headerlinkhover;}
+  color: $colourv;
+  &:hover {color:$colourvhover;}
   font-size: 120%;
   font-weight: 600;
   line-height: 1.2;
