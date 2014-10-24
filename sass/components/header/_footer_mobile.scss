@@ -2,6 +2,29 @@
  * _footer_mobile
  */
 
+// all the bottom pop up container
+.followpop, .pane-logintoboggan-logintoboggan-logged-in, .outer_search {
+	@include breakpoint($breakii){
+	display: none;
+	background-color: $colouriii;
+	position: absolute;
+	bottom: 3rem;
+	left: 0;
+	width: 100%;
+	padding: 0.5rem;
+	}
+}
+.pane-logintoboggan-logintoboggan-logged-in, .outer_search {
+	display: none;
+	float: right;
+	padding: .5rem 0; // 0 0;
+	margin: .25rem 0;
+}
+
+
+
+
+
 #mini-panel-followmenu .inside{
 	@include breakpoint($breakii){
 	display: flex;
@@ -34,8 +57,9 @@
 	width: 100%;
 	height: auto;
 	left: 0;
-	background-color: $colouriv;
+//	background-color: $colouriv;
 	.form-submit {background-color: $colouri;}	
 	.search_form {display: inline-flex;}
+	}
 }
-}
+

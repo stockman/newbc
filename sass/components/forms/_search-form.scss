@@ -1,19 +1,30 @@
 /**
  * $SEARCH-FORM
  */
- 
+
+
+.outer_search {
+	width: 100%;
+}
+
+
+
 .search_block {
    display: initial;
 }
 .search_form {
-	margin: .5rem 0;
+	display: flex;
 	width: 100%;
 	#edit-submit{width: 30%;
 		margin-left: 1rem;
+		margin-top: 0;
 		padding-left: 0;
 		padding-right: 0;
 	}
 	#input_box{width: 65%;height: 2rem;}
+	@include breakpoint($breakii) {
+	margin: .25rem;
+	}
 }
 
 
@@ -37,11 +48,5 @@
   color: grey;
   font-size: 1.5rem !important;
   margin-left: -1.7rem;
-  margin-top: 0;
-}
-
-element.style {
-  margin-left: 1rem;
-  padding-left: 0;
-  padding-right: 0;
+  margin-top: 0.23rem;
 }

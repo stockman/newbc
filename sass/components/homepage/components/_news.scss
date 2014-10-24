@@ -3,11 +3,13 @@
  */
 
   .pane-news-feed{
+
     // and now re-add ctools, fix this something is going on!!
     .panels-flexible-region-inside-last {
     padding-right: 0;
     }
-    .newsfeedheader {height: 150px;
+    .newsfeedheader {
+      height: 111px;
       button {font-size: 1.1rem;
       padding: 0 .35rem;
       }
@@ -21,7 +23,7 @@
       ul {text-align: left;}
     }
   .newsfeedheader, .s_art {
-    padding: 2rem;
+    padding: 1rem 2rem 0 2rem;
     h2 {text-align: center;}
   }
 
@@ -35,3 +37,13 @@
 
 //inital news 
 .news .pane-block {display: none}
+
+.news {
+      //links
+      a {
+        @include link-colors($colouri, #000, $h_hover_colour, $colourii, #000);
+        text-decoration: none;
+      }
+      .pane-title {font-size: 1.5rem;}
+      div {padding: 1rem;}
+}

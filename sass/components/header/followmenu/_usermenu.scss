@@ -3,18 +3,15 @@
  */
 
 .pane-logintoboggan-logintoboggan-logged-in {
-	display: none;
-	float: right;
-	padding: .5rem 2.5rem; // 0 0;
-	margin: .25rem 0;
-    @include shader;
-	@include breakpoint($breakii) {
- 		background: $colouriv;
-		width: 50%;
-		padding: .5rem;
-		text-align: center;
+	padding: 0 2.5rem;
+	margin: 1rem 0;
+	@include breakpoint($breakii){
+	padding: 1rem 0;
+	margin: 0;
+	text-align: center;
 	}
 }
+
 
 .userloginblok {display: inline-block;}
 
