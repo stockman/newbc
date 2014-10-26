@@ -7,6 +7,20 @@ Uses Font-Awesome for the directional arrows
 
 $font-sizer: 1.3rem;
 
+//menu button colours
+$dlcol: $colouri;
+$dlbak: $colouriv;
+	// button hover colours
+	$dlcolhover: $colouriv;
+	$dlbakhover: $colourii;
+
+//menu items colours
+$dlmenucol: $colourv;
+$dlmenubak: $colouriv;
+	//menu items hover colours
+	$dlmenuhovcol: $colouriv;
+	$dlmenuhovbak: $colourii;
+
 .dl-menuwrapper {
 	width: 100%;
 //	max-width: 300px;
@@ -26,7 +40,7 @@ $font-sizer: 1.3rem;
 }
 
 .dl-menuwrapper button {
-	background: $colouriv;
+	background: $dlbak;
 	border: none;
 	width: $menu_size2;
 	height: $menu_size2;
@@ -37,14 +51,15 @@ $font-sizer: 1.3rem;
 	outline: none;
 }
 .dl-menuwrapper button {
-	&:hover {background-color: $colourvhover;}
-	.dl-active {background:  $colourvhover;}
+//	&:hover {background-color: $dlcolhover;}
+//	.dl-active {background:  $dlcolhover;}
 }
 
-.dl-menuwrapper ul {background: $colouriv;}
+.dl-menuwrapper ul {background: $dlmenubak;}
 .dl-menuwrapper ul:active {
 	color:$colourvhover;
 }
+
 
 .dl-menuwrapper button:after {
 	content: '';
@@ -52,13 +67,26 @@ $font-sizer: 1.3rem;
 	width: 67%;
 	//this is the thickness of the lines.
 	height: $menu_size2/11;
-	background: $colourii;
+	background: $dlcol;
 	top: $menu_size2/4.8;
 	left: 16%;
 	box-shadow: 
-		0 $menu_size2/4 0 $colourii, 
-		0 $menu_size2/2 0 $colourii;
+		0 $menu_size2/4 0 $dlcol, 
+		0 $menu_size2/2 0 $dlcol;
 }
+// hover the menu
+.dl-menuwrapper {
+	button:hover {background-color:$dlbakhover}
+	button:hover:after	{
+		background: $dlcolhover;
+		box-shadow: 
+		0 $menu_size2/4 0 $dlcolhover,
+		0 $menu_size2/2 0 $dlcolhover;
+	}
+}
+
+
+
 .dl-menuwrapper ul {
 	padding: 0;
 	list-style: none;
@@ -70,10 +98,9 @@ $font-sizer: 1.3rem;
 
 .dl-menuwrapper li {
 	position: relative;
-	//what's going on? THAT is not the same colour!!
-	&:hover {background-color: $colourii;}
-	a {color: $colourv;}
-	a:hover {color:$colourvhover; }
+	&:hover {background-color: $dlmenuhovbak}
+	a {color: $dlmenucol;}
+	a:hover {color:$dlmenuhovcol; }
 }
 
 .dl-menuwrapper li a {
