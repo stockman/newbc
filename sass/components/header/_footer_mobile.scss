@@ -21,9 +21,9 @@
 	margin: .25rem 0;
 }
 
-
-
-
+.followpop {
+  display: none;
+}
 
 #mini-panel-followmenu .inside{
 	@include breakpoint($breakii){
@@ -31,8 +31,8 @@
 	> div {
 		display: inline-block;
 		width: 24.5%;
-		&:first-child {border-left: 1px solid;}
-		border-right: 1px solid;
+		&:first-child {border-left: 1px solid grey;}
+		border-right: 1px solid grey;
 			.fa {display: block;
 				text-align: center;
 			}

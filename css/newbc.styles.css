@@ -1083,6 +1083,10 @@ html[xmlns] .slides {
   padding: .5rem 0;
   margin: .25rem 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_footer_mobile\.scss}line{font-family:\0000324}}
+.followpop {
+  display: none; }
+
 @media (max-width: 1125px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_footer_mobile\.scss}line{font-family:\0000328}}
   #mini-panel-followmenu .inside {
@@ -1091,10 +1095,10 @@ html[xmlns] .slides {
     #mini-panel-followmenu .inside > div {
       display: inline-block;
       width: 24.5%;
-      border-right: 1px solid; }
+      border-right: 1px solid grey; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_footer_mobile\.scss}line{font-family:\0000334}}
       #mini-panel-followmenu .inside > div:first-child {
-        border-left: 1px solid; }
+        border-left: 1px solid grey; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_footer_mobile\.scss}line{font-family:\0000336}}
       #mini-panel-followmenu .inside > div .fa {
         display: block;
@@ -1136,7 +1140,7 @@ html[xmlns] .slides {
   @media (max-width: 1125px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000313}}
     .logged-in .pane-page-logo {
-      top: 4.2rem; } }
+      top: 3.3rem; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000321}}
 .header {
