@@ -10,8 +10,13 @@
     }
     .newsfeedheader {
       height: 111px;
-      button {font-size: 1.1rem;
-      padding: 0 .35rem;
+      padding-top: 2rem;
+      button {font-size: 0.8rem;
+        margin: 0;
+        height: 3rem;
+        width: 23%;
+        line-height: 1rem;
+        &:hover {border: 1px solid $colouriv;}
       }
     }
     .news_feeds {height: 510px;}
@@ -23,7 +28,7 @@
       ul {text-align: left;}
     }
   .newsfeedheader, .s_art {
-    padding: 1rem 2rem 0 2rem;
+//    padding: 1rem 2rem 0 2rem;
     h2 {text-align: center;}
   }
 

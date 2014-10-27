@@ -12,3 +12,8 @@
   float: left;
   margin-right: .5rem;
 }
+
+//override the default grey
+ul.vertical-tabs-list li {
+	background: none repeat scroll 0 0 !important;
+}

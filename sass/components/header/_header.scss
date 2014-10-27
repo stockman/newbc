@@ -9,15 +9,6 @@
   .panels-flexible-row {padding: 0;}
 }
 
-.logged-in {
-  .pane-page-logo {
-    top: 2.2rem;
-    @include breakpoint($breakii) {
-    top: 3.3rem;
-    }
-  }
-}
-
 .header {
   background: $colourvii;
   @include breakpoint($breakii){
@@ -61,25 +52,23 @@
   }
 }
 
-
-/* 
-********* Logo
-*/
-
-// re-posittion logo on mobile view
+//--- Logo ---
+.logged-in .pane-page-logo {
+    top: 1.9rem;
+    @include breakpoint ($breakii){
+    top: inherit;
+    }
+}
 .pane-page-logo {
   img {height: $menu_size;}
   display: inline;
   position: absolute;
   top: .3rem;
-//  top: $vert-spacing-unit/3;
   padding: 0 $horz-spacing-unit;
   z-index: 200;
   @include breakpoint ($breakii){
     left: 2rem;
-    top: 0;
-    img {height: $menu_size2;}
+    margin-top: .19rem;
+    top:inherit;
   }
 }
-
-
