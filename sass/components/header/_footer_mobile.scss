@@ -21,32 +21,30 @@
 	margin: .25rem 0;
 }
 
-.followpop {
-  display: none;
-}
-
-#mini-panel-followmenu .inside{
-	@include breakpoint($breakii){
-	display: flex;
-	> div {
-		display: inline-block;
-		width: 24.5%;
-		&:first-child {border-left: 1px solid grey;}
-		border-right: 1px solid grey;
-			.fa {display: block;
-				text-align: center;
+#mini-panel-followmenu {
+	text-align: center;
+	.inside{
+		@include breakpoint($breakii){
+		display: inline;
+		> div {
+			display: inline-block;
+			width: 23.5%;
+			&:first-child {border-left: 1px solid grey;}
+			border-right: 1px solid grey;
+				.fa {display: block;
+					text-align: center;
+				}
+	//		padding: 0;
+		}
+		.pane-logintoboggan-logintoboggan-logged-in, form {width: 100%}
+		
+		.pane-logintoboggan-logintoboggan-logged-in {
+			display: none;
+			border: none;
 			}
-//		padding: 0;
-	}
-	.pane-logintoboggan-logintoboggan-logged-in, form {width: 100%}
-	
-	.pane-logintoboggan-logintoboggan-logged-in {
-		display: none;
-		border: none;
 		}
 	}
 }
-
 
 
 .outer_search {

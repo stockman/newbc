@@ -1035,8 +1035,8 @@ html[xmlns] .slides {
   margin: .25rem 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_footer_mobile\.scss}line{font-family:\0000324}}
-.followpop {
-  display: none; }
+#mini-panel-followmenu {
+  text-align: center; }
 
 /**
  * Header
