@@ -8,7 +8,7 @@
 	display: none;
 	background-color: $colouriii;
 	position: absolute;
-	bottom: 3rem;
+	bottom: 2.9rem;
 	left: 0;
 	width: 100%;
 	padding: 0.5rem;
@@ -18,7 +18,7 @@
 	display: none;
 	float: right;
 	padding: .5rem 0; // 0 0;
-	margin: .25rem 0;
+//	margin: .25rem 0;
 }
 
 #mini-panel-followmenu {
@@ -51,7 +51,7 @@
 	@include breakpoint($breakii){
 	display: none;
 	position: absolute;
-	bottom: 2.92rem;
+//	bottom: 2.92rem;
 	width: 100%;
 	height: auto;
 	left: 0;

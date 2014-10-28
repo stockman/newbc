@@ -7,8 +7,6 @@
 	width: 100%;
 }
 
-
-
 .search_block {
    display: initial;
 }
@@ -16,14 +14,13 @@
 	display: flex;
 	width: 100%;
 	#edit-submit{width: 30%;
-		margin-left: 1rem;
-		margin-top: 0;
+		margin: 0 1rem;
 		padding-left: 0;
 		padding-right: 0;
 	}
 	#input_box{width: 65%;height: 2rem;}
 	@include breakpoint($breakii) {
-	margin: .25rem;
+	margin: 0 1rem;
 	}
 }
 

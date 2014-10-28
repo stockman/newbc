@@ -9,8 +9,9 @@
     padding-right: 0;
     }
     .newsfeedheader {
-      height: 111px;
-      padding-top: 2rem;
+//      height: 111px;
+//      padding-top: 2rem;
+      text-align: center;
       button {font-size: 0.8rem;
         margin: 0;
         height: 3rem;
@@ -19,8 +20,15 @@
         &:hover {border: 1px solid $colouriv;}
       }
     }
-    .news_feeds {height: 510px;}
+    .news_feeds {
+/*
+      min-height: 540px;
+      overflow: hidden;
+      padding-bottom: 1rem;
+      */
+    }
     background-color: $colourv;
+
 //    margin-top: 1rem;
     }
     //align the extra feeds cemter and internal feeds, left
@@ -28,12 +36,12 @@
       ul {text-align: left;}
     }
   .newsfeedheader, .s_art {
-//    padding: 1rem 2rem 0 2rem;
     h2 {text-align: center;}
   }
 
   .s_art {
     height: 320px;
+    padding: 2rem;
     //to align with the views-row set in the site containter
     //hide the page node counts etc
     article ul { display: none}
@@ -49,6 +57,8 @@
         @include link-colors($colouri, #000, $h_hover_colour, $colourii, #000);
         text-decoration: none;
       }
-      .pane-title {font-size: 1.5rem;}
-      div {padding: 1rem;}
+      .pane-title {font-size: 1.5rem;
+        padding: .5rem 0;
+      }
+//      div {padding: 1rem;}
 }
