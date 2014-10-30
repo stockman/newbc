@@ -8,9 +8,8 @@
 }
 
 //show a nicer login page.
-.not-logged-in.page-user, .page-user-login {
+.not-logged-in.page-user-login, .not-logged-in.section-user {
    .headerrow {
-  //  background: url("/sites/bc.localhost/files/_homepage_images/12milecouleeschoolbikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
     height: 876px;
     width: 100%;
   }
@@ -18,6 +17,43 @@
 
 .not-logged-in.page-user, .page-user-login{
   .toboggan-unified.login {
+   #login-message, #login-form, #login-links{
+    left: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    background: $colourvii;
+    margin-left: -160px;
+    max-width: 320px;
+    padding: 1rem;
+    }
+   #login-message {top: 15%;
+    padding: 1rem 0;}
+   #login-links {top: 25%;
+    padding: 1rem 0;}
+   #login-form {
+    top: 60%;
+    border-radius: $radius;
+    div {line-height: 1.5rem;
+      text-align: center;
+      color: $colourv;
+      a {color: $colouri;}
+      }
+    }
+    #register-form {
+      top: 50%;
+      width: 100%;
+      left:0;
+      transform: translateY(-0%);
+      background: $colourvii;
+      position: absolute;
+      padding: 1rem;
+      div {line-height: 1.5rem;
+      text-align: center;
+      color: $colourv;
+      a {color: $colouri;}
+      }
+    }
+    /*
     left: 50%;
     margin-left: -160px;
     max-width: 320px;
@@ -32,5 +68,18 @@
     color: $colourv;
     a {color: $colouri;}
     }
+    #login-form {
+
+    }
+    */
+
   }
 }
+/*
+.user-register-form {
+  width: 100%;
+  left: 0;
+  position: relative;
+  margin-left:0;
+}
+*/
