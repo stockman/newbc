@@ -9,18 +9,17 @@ $font-sizer: 1.3rem;
 
 //menu button colours
 $dlcol: $colouri;
-$dlbak: $colouriv;
+$dlbak: transparentize($colouriii, 1);
 	// button hover colours
 	$dlcolhover: $colouriv;
-	$dlbakhover: $colourii;
+	$dlbakhover: transparentize($colouriii, 1);
 
 //menu items colours
 $dlmenucol: $colourv;
 $dlmenubak: $colouriv;
 	//menu items hover colours
 	$dlmenuhovcol: $colouriv;
-	$dlmenuhovbak: $colourii;
-
+	$dlmenuhovbak: $colouriii;
 .dl-menuwrapper {
 	width: 100%;
 //	max-width: 300px;
@@ -76,7 +75,11 @@ $dlmenubak: $colouriv;
 }
 // hover the menu
 .dl-menuwrapper {
-	button:hover {background-color:$dlbakhover}
+	button:hover {
+	background-color:$dlbakhover;
+	border-left: 2px solid $colouriv;
+	border-right: 2px solid $colouriv;
+	}
 	button:hover:after	{
 		background: $dlcolhover;
 		box-shadow: 
@@ -100,7 +103,7 @@ $dlmenubak: $colouriv;
 	position: relative;
 	&:hover {background-color: $dlmenuhovbak}
 	a {color: $dlmenucol;}
-	a:hover {color:$dlmenuhovcol; }
+	li:hover, a:hover {color:$dlmenuhovcol; }
 }
 
 .dl-menuwrapper li a {
@@ -108,7 +111,7 @@ $dlmenubak: $colouriv;
 	position: relative;
 	padding: 1rem 2rem;
 	font-size: $font-sizer;
-	line-height: $font-sizer;
+	line-height: $font-sizer/2;
 	font-weight: 300;
 	outline: none;
 	text-decoration: none;
@@ -147,7 +150,7 @@ $dlmenubak: $colouriv;
 }
 
 .dl-menuwrapper .dl-menu {
-	margin: 5px 0 0 0;
+	margin: 0;
 	position: absolute;
 // 	rt width: auto;
 //	rt width: 100%;

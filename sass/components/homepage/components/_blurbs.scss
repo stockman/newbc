@@ -2,7 +2,6 @@
  * $blurb stylings (do not include conatiner stylings)
  */
 
-
 $iconsize:1rem;
 .pane-views-homepage-blurbs-block-1,
 .pane-views-homepage-blurbs-block-2,
@@ -22,13 +21,11 @@ $iconsize:1rem;
     display: inline-block;
   }
   .view {
-    // a bit hacky. fix.
     height: 30%;
-    left: 15%;
     margin: auto;
     position: relative;
-    top: 27%;
-    width: 100%;
+    top: 22%;
+    width: 75%;
   }
   $sizerton: 2rem;
   @include breakpoint($breakii) {
@@ -59,73 +56,3 @@ $other: 3.5;
   }
   
 }
-/*
-
-.pane-views-homepage-blurbs-block-1,
-.pane-views-homepage-blurbs-block-2,
-.pane-views-homepage-blurbs-block-3 {
-
-
-//  @include breakpoint($breaki) {
-    .fa {display: list-item;
-      list-style: none;
-      text-align: center;
-    //  font-size: 3rem;
-    }
-    h2 {text-align: center;}
-//  max-width: 33%;
-  .views-field-body {display: none;}
-//  .views-row {max-width: 100px;}
-  .view-content {
-//    border: medium solid yellow;
-  }
-  .views-row {
-    border-bottom:1px solid $colourv;
-    &:hover, &:active {
-    border-color:$colouri;
-    border-width: 2px;
-    h2 {color:$colouri}
-    }
-  }
-//looks ok, but would look much better with auto sizing divs and 
-//fittext type scaling
-$iconsize: 4.5rem;
-
-.view-content {
-//    border: 2px dashed #444;
-    height: $iconsize;
-    
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
-    
-}
-
-.view-content > div {
-    width:155px;
-//    height: 125px; 
-  height: $iconsize;
-    vertical-align: middle;
-    display: inline-block;
-    *display: inline;
-    zoom: 1
-}
-.view-content:after {
-    content: '';
-    width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0
-}
-
-  h2 {font-size: $iconsize/4.5;
-    color: $colourv;
-    vertical-align: middle;
-    padding: $iconsize/9  $iconsize/18;
-    box-sizing:border-box;
-  }
-  
-//  }
-}
-*/
-

@@ -2,11 +2,6 @@
  * $Buttons
  */
 
-//got from the css for bootflat
-//inplimenting was too much of a pain the ass
-//cause sass 3.4 doesn't work with some things in the bundle
-
-
 button, .form-submit {
   color:$colourv;
   -moz-user-select: none;
@@ -15,7 +10,7 @@ button, .form-submit {
     color: $colourvi;
     }
   border: 0 solid transparent;
-  border-radius: 4px;
+  border-radius: $radius;
   cursor: pointer;
   display: inline-block;
   line-height: 1.6rem;
