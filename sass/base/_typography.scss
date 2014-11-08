@@ -36,6 +36,7 @@ h3, .gamma,
 h4, .delta,
 h5, .epsilon,
 h6, .zeta {
+  line-height: 1.2;
   // was previously set to @include rhythm(0, 0, 0, 0.2);
   @include rhythm(0, 0, 0, 0);
   color: darken($bordercolour, 15%);
@@ -52,26 +53,22 @@ h6, .zeta {
   }
 }
 
+h1, .alpha,h2, .beta,h5, .epsilon {
+    font-weight: 700;
+}
+
 h1, .alpha {
-  @include font-size(67.773px);
-  font-weight: 700;
-}
+  font-size: 3.157em;}
 h2, .beta {
-  @include font-size(41.887px);
-  font-weight: 700;
-}
+  font-size: 2.369em;}
 h3, .gamma {
-  @include font-size(25.888px);
-}
+  font-size: 1.777em;}
 h4, .delta {
-  @include font-size(16px);
-}
+  font-size: 1.333em;}
 h5, .epsilon{
-  @include font-size(16px);
-  font-weight: 700;
-}
+  font-size: 1em;}
 h6, .zeta {
-  @include font-size(16px);
+  font-size: 1em;
   color: $colouriv;
 }
 
