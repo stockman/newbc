@@ -15,6 +15,9 @@
 		@include regioner(right, t);
 	}
 	@include blogstyle;
+	@include breakpoint($breakii){
+		@include blogstyle_m;
+	}	
 	@include breakspan;
 	
 }

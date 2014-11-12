@@ -8,5 +8,8 @@
 	@include grid-span(8, 1);
 	> .inside {@include regioner(left, top);}
 	@include blogstyle;
+	@include breakpoint($breakii){
+		@include blogstyle_m;
+	}
 	@include breakspan;
 }
