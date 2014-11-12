@@ -6,8 +6,8 @@
         attach: function(context, settings) {
             //code starts
 
-            /* testing fittext selectors */
-            $("h2").fitText(.8, { minFontSize: '15px', maxFontSize: '50px' });
+            /** Fitttex.js sexlector sizes **/
+            $("h2").fitText(1.2, { minFontSize: '15px', maxFontSize: '50px' });
             $("#fittext1").fitText();
             $("#fittext2").fitText(1.2);
             $("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });

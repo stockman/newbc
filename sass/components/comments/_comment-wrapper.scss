@@ -4,5 +4,10 @@
 
 .comment-wrapper {
   padding: $vert-spacing-unit $horz-spacing-unit;
-  background-color: $colouri;
+  background-color: lighten($colouriii,30%);
+}
+
+.indented {
+  border-top: 1px solid $colourii;
+  padding: 0.5rem 0;
 }
