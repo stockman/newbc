@@ -4,12 +4,15 @@
 @import "../components/*";
 
 .section_2	{
-//	$gutter-styles: 'split';
-	@include grid-span(8, 1);
-	> .inside {@include regioner(left, top);}
+	@include three-col(left,2);
+	
+	margin-top: 2rem;
 	@include blogstyle;
+	
 	@include breakpoint($breakii){
+		@include one-col;
 		@include blogstyle_m;
 	}
 	@include breakspan;
+
 }

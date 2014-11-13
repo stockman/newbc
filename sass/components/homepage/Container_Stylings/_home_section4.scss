@@ -9,58 +9,47 @@
 
 .section_4	{
 /** keeping in alll breaks ***/	
+	@include three-col(left);
+
+// rand fix this so the regioner looks like col-3
+//borders? remove white?
+
+	/*
 	@include grid-span(4, 1);
 		> .inside {
 			@include regioner(left);
 		}
+	*/
 	@include breakpoint($breakii) {
-		@include grid-span(6, 1);
-		> .inside {	
-		margin: 0 0.5rem 0 2rem;
-		}
+		@include two-col(left);
 	}
 	@include breakpoint($breaki) {
-		@include grid-span(12, 1);
-		margin-right: 1rem;
+		@include one-col();
 	}
 }
 
 .section_4_1	{
 /** hide in 2nd 3rd breaks ***/	
-	@include grid-span(4, 5);
-		> .inside {
-			@include regioner(middle);
-		}
+	@include three-col(center);
 	@include breakpoint($breakii) {
 		display: none;
 	}
 }
 
 .section_4_2	{
+//	@include three-col(right);
 	@include grid-span(4, 9);
 		> .inside {
 			@include regioner(right);
 		}
 	@include breakpoint($breakii) {
-		@include grid-span(6, 7);
 /** keeping in 2nd break ***/		
-		> .inside {	
-		margin: 0 2rem 0 0.5rem;
-		}
+		@include two-col(right);
 	}
 	@include breakpoint($breaki) {
 		display: none;
 	}
 }
-
-
-
-
-
-
-
-
-
 
 /*
 

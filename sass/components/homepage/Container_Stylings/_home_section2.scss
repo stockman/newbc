@@ -4,12 +4,17 @@
 @import "../components/*";
 
 .section_2_1	{
+	@include three-col(right);
+/*
 	@include grid-span(4, 9);
 	> .inside {
 	@include regioner(right, top);
-	height: 672px;
+
 	overflow: hidden;
 	padding: 2rem 1rem;
 	background-color: $colourv;
 	}
+	*/
+	height: 672px;
+	margin-top: 2rem;	
 }

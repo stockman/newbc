@@ -3,19 +3,14 @@
  */
 
 .section_3 {
-		@include grid-span(4, 1);
-	> .inside {
-		@include regioner(left, t);
-	}
+	@include three-col(left);
 }
-
 .section_3_1 {
-		@include grid-span(8, 5);
-	> .inside {
-		@include regioner(right, t);
-	}
+	@include three-col(right, 2);
+
 	@include blogstyle;
 	@include breakpoint($breakii){
+		@include one-col;
 		@include blogstyle_m;
 	}	
 	@include breakspan;
