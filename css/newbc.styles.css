@@ -215,36 +215,40 @@ img, media {
 /**
  * $TABLES
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\000038}}
 table {
   width: 100%;
   margin-bottom: 18px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000313}}
 th {
   padding: 0.5em 1em;
   background-color: #00267f;
-  color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000316}}
+  color: #1a80d9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000320}}
   th a,
   th a.active {
-    color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000319}}
+    color: #1a80d9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000323}}
     th a img,
     th a.active img {
       margin: 2px 3px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000328}}
 td {
   padding: 0.5em 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000332}}
 tr.odd {
   background: #238ae5; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000335}}
 tr.even {
   background: #3594e7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_tables\.scss}line{font-family:\0000343}}
+td.active {
+  background-color: #80cc28; }
 
 /**
  * $FONT-FACE
@@ -2808,78 +2812,17 @@ css for both instead of doing what you have done below.
 /**
  * $blurb stylings (do not include conatiner stylings)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000038}}
-.pane-views-homepage-blurbs-block-1,
-.pane-views-homepage-blurbs-block-2,
-.pane-views-homepage-blurbs-block-3 {
-  height: 320px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000310}}
-  .pane-views-homepage-blurbs-block-1 .views-field-body,
-  .pane-views-homepage-blurbs-block-2 .views-field-body,
-  .pane-views-homepage-blurbs-block-3 .views-field-body {
-    display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000311}}
-  .pane-views-homepage-blurbs-block-1 h2,
-  .pane-views-homepage-blurbs-block-2 h2,
-  .pane-views-homepage-blurbs-block-3 h2 {
-    font-size: 1.5rem;
-    padding-bottom: .5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000320}}
-  .pane-views-homepage-blurbs-block-1 .view-content,
-  .pane-views-homepage-blurbs-block-2 .view-content,
-  .pane-views-homepage-blurbs-block-3 .view-content {
-    display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000323}}
-  .pane-views-homepage-blurbs-block-1 .view,
-  .pane-views-homepage-blurbs-block-2 .view,
-  .pane-views-homepage-blurbs-block-3 .view {
-    height: 30%;
-    margin: auto;
-    position: relative;
-    top: 22%;
-    width: 75%; }
-  @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000332}}
-    .pane-views-homepage-blurbs-block-1 .view,
-    .pane-views-homepage-blurbs-block-2 .view,
-    .pane-views-homepage-blurbs-block-3 .view {
-      left: 0;
-      top: 0;
-      transform: translateY(0); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000337}}
-    .pane-views-homepage-blurbs-block-1 .view-content,
-    .pane-views-homepage-blurbs-block-2 .view-content,
-    .pane-views-homepage-blurbs-block-3 .view-content {
-      display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000338}}
-    .pane-views-homepage-blurbs-block-1 h2,
-    .pane-views-homepage-blurbs-block-2 h2,
-    .pane-views-homepage-blurbs-block-3 h2 {
-      font-size: 2rem;
-      padding-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000340}}
-    .pane-views-homepage-blurbs-block-1 .views-row,
-    .pane-views-homepage-blurbs-block-2 .views-row,
-    .pane-views-homepage-blurbs-block-3 .views-row {
-      border: 1rem solid #1a80d9;
-      background-color: white;
-      height: 8rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto; } }
-  @media (max-width: 640px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000352}}
-    .pane-views-homepage-blurbs-block-1 h2,
-    .pane-views-homepage-blurbs-block-2 h2,
-    .pane-views-homepage-blurbs-block-3 h2 {
-      font-size: 0.57143rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000353}}
-    .pane-views-homepage-blurbs-block-1 .views-row,
-    .pane-views-homepage-blurbs-block-2 .views-row,
-    .pane-views-homepage-blurbs-block-3 .views-row {
-      border: 0.38095rem solid #1a80d9;
-      height: 4rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000036}}
+.view-homepage-blurbs .view-content {
+  padding: 2rem; }
 
+/* maybe instead separate into rows
+then you could
+3-2-1 them for breakpoints and
+you could make the top ones the most
+important that would show on the mobile view.
+
+*/
 /**
  * $news stylings (do not include conatiner stylings)
  */
@@ -3082,7 +3025,8 @@ else on the page a good ratio or the same size or whatever.
         padding: 2rem;
         position: absolute;
         top: 20%;
-        width: 80%; } }
+        width: 60%;
+        left: 20%; } }
     @media (max-width: 1125px) and (max-width: 1125px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog_mobile\.scss}line{font-family:\0000310}}
       .section_2 .views-row {
@@ -3120,78 +3064,17 @@ css for both instead of doing what you have done below.
 /**
  * $blurb stylings (do not include conatiner stylings)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000038}}
-.pane-views-homepage-blurbs-block-1,
-.pane-views-homepage-blurbs-block-2,
-.pane-views-homepage-blurbs-block-3 {
-  height: 320px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000310}}
-  .pane-views-homepage-blurbs-block-1 .views-field-body,
-  .pane-views-homepage-blurbs-block-2 .views-field-body,
-  .pane-views-homepage-blurbs-block-3 .views-field-body {
-    display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000311}}
-  .pane-views-homepage-blurbs-block-1 h2,
-  .pane-views-homepage-blurbs-block-2 h2,
-  .pane-views-homepage-blurbs-block-3 h2 {
-    font-size: 1.5rem;
-    padding-bottom: .5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000320}}
-  .pane-views-homepage-blurbs-block-1 .view-content,
-  .pane-views-homepage-blurbs-block-2 .view-content,
-  .pane-views-homepage-blurbs-block-3 .view-content {
-    display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000323}}
-  .pane-views-homepage-blurbs-block-1 .view,
-  .pane-views-homepage-blurbs-block-2 .view,
-  .pane-views-homepage-blurbs-block-3 .view {
-    height: 30%;
-    margin: auto;
-    position: relative;
-    top: 22%;
-    width: 75%; }
-  @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000332}}
-    .pane-views-homepage-blurbs-block-1 .view,
-    .pane-views-homepage-blurbs-block-2 .view,
-    .pane-views-homepage-blurbs-block-3 .view {
-      left: 0;
-      top: 0;
-      transform: translateY(0); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000337}}
-    .pane-views-homepage-blurbs-block-1 .view-content,
-    .pane-views-homepage-blurbs-block-2 .view-content,
-    .pane-views-homepage-blurbs-block-3 .view-content {
-      display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000338}}
-    .pane-views-homepage-blurbs-block-1 h2,
-    .pane-views-homepage-blurbs-block-2 h2,
-    .pane-views-homepage-blurbs-block-3 h2 {
-      font-size: 2rem;
-      padding-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000340}}
-    .pane-views-homepage-blurbs-block-1 .views-row,
-    .pane-views-homepage-blurbs-block-2 .views-row,
-    .pane-views-homepage-blurbs-block-3 .views-row {
-      border: 1rem solid #1a80d9;
-      background-color: white;
-      height: 8rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto; } }
-  @media (max-width: 640px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000352}}
-    .pane-views-homepage-blurbs-block-1 h2,
-    .pane-views-homepage-blurbs-block-2 h2,
-    .pane-views-homepage-blurbs-block-3 h2 {
-      font-size: 0.57143rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000353}}
-    .pane-views-homepage-blurbs-block-1 .views-row,
-    .pane-views-homepage-blurbs-block-2 .views-row,
-    .pane-views-homepage-blurbs-block-3 .views-row {
-      border: 0.38095rem solid #1a80d9;
-      height: 4rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000036}}
+.view-homepage-blurbs .view-content {
+  padding: 2rem; }
 
+/* maybe instead separate into rows
+then you could
+3-2-1 them for breakpoints and
+you could make the top ones the most
+important that would show on the mobile view.
+
+*/
 /**
  * $news stylings (do not include conatiner stylings)
  */
@@ -3451,7 +3334,8 @@ else on the page a good ratio or the same size or whatever.
         padding: 2rem;
         position: absolute;
         top: 20%;
-        width: 80%; } }
+        width: 60%;
+        left: 20%; } }
     @media (max-width: 1125px) and (max-width: 1125px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog_mobile\.scss}line{font-family:\0000310}}
       .section_3_1 .views-row {
@@ -3474,12 +3358,13 @@ else on the page a good ratio or the same size or whatever.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000310}}
 .section_4 {
+  /** keeping in alll breaks ***/
   width: 31.91489%;
   float: left;
   margin-right: -100%;
   margin-left: 0%;
   clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000313}}
   .section_4 > .inside {
     margin-left: 2rem;
     margin-t: 1rem; }
@@ -3487,7 +3372,7 @@ else on the page a good ratio or the same size or whatever.
     .section_4 > .inside > div {
       margin-bottom: 2rem; }
     @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000313}}
       .section_4 > .inside {
         margin: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/_mixins\.scss}line{font-family:\0000340}}
@@ -3496,15 +3381,36 @@ else on the page a good ratio or the same size or whatever.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/_mixins\.scss}line{font-family:\0000342}}
         .section_4 > .inside > div {
           margin-bottom: 0; } }
+  @media (max-width: 1125px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000310}}
+    .section_4 {
+      width: 48.93617%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0%;
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000318}}
+      .section_4 > .inside {
+        margin: 0 0.5rem 0 2rem; } }
+  @media (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000310}}
+    .section_4 {
+      width: 100%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      margin-right: 1rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000328}}
 .section_4_1 {
+  /** hide in 2nd 3rd breaks ***/
   width: 31.91489%;
   float: left;
   margin-right: -100%;
   margin-left: 34.04255%;
   clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000331}}
   .section_4_1 > .inside {
     margin-middle: 2rem;
     margin-t: 1rem; }
@@ -3512,7 +3418,7 @@ else on the page a good ratio or the same size or whatever.
     .section_4_1 > .inside > div {
       margin-bottom: 2rem; }
     @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000331}}
       .section_4_1 > .inside {
         margin: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/_mixins\.scss}line{font-family:\0000340}}
@@ -3521,15 +3427,19 @@ else on the page a good ratio or the same size or whatever.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/_mixins\.scss}line{font-family:\0000342}}
         .section_4_1 > .inside > div {
           margin-bottom: 0; } }
+  @media (max-width: 1125px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000328}}
+    .section_4_1 {
+      display: none; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000339}}
 .section_4_2 {
   width: 31.91489%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000341}}
   .section_4_2 > .inside {
     margin-right: 2rem;
     margin-t: 1rem; }
@@ -3537,7 +3447,7 @@ else on the page a good ratio or the same size or whatever.
     .section_4_2 > .inside > div {
       margin-bottom: 2rem; }
     @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000341}}
       .section_4_2 > .inside {
         margin: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/_mixins\.scss}line{font-family:\0000340}}
@@ -3546,6 +3456,22 @@ else on the page a good ratio or the same size or whatever.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/_mixins\.scss}line{font-family:\0000342}}
         .section_4_2 > .inside > div {
           margin-bottom: 0; } }
+  @media (max-width: 1125px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000339}}
+    .section_4_2 {
+      width: 48.93617%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      /** keeping in 2nd break ***/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000347}}
+      .section_4_2 > .inside {
+        margin: 0 2rem 0 0.5rem; } }
+  @media (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000339}}
+    .section_4_2 {
+      display: none; } }
 
 /**
  * $home blurbs
@@ -3624,78 +3550,17 @@ css for both instead of doing what you have done below.
 /**
  * $blurb stylings (do not include conatiner stylings)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000038}}
-.pane-views-homepage-blurbs-block-1,
-.pane-views-homepage-blurbs-block-2,
-.pane-views-homepage-blurbs-block-3 {
-  height: 320px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000310}}
-  .pane-views-homepage-blurbs-block-1 .views-field-body,
-  .pane-views-homepage-blurbs-block-2 .views-field-body,
-  .pane-views-homepage-blurbs-block-3 .views-field-body {
-    display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000311}}
-  .pane-views-homepage-blurbs-block-1 h2,
-  .pane-views-homepage-blurbs-block-2 h2,
-  .pane-views-homepage-blurbs-block-3 h2 {
-    font-size: 1.5rem;
-    padding-bottom: .5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000320}}
-  .pane-views-homepage-blurbs-block-1 .view-content,
-  .pane-views-homepage-blurbs-block-2 .view-content,
-  .pane-views-homepage-blurbs-block-3 .view-content {
-    display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000323}}
-  .pane-views-homepage-blurbs-block-1 .view,
-  .pane-views-homepage-blurbs-block-2 .view,
-  .pane-views-homepage-blurbs-block-3 .view {
-    height: 30%;
-    margin: auto;
-    position: relative;
-    top: 22%;
-    width: 75%; }
-  @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000332}}
-    .pane-views-homepage-blurbs-block-1 .view,
-    .pane-views-homepage-blurbs-block-2 .view,
-    .pane-views-homepage-blurbs-block-3 .view {
-      left: 0;
-      top: 0;
-      transform: translateY(0); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000337}}
-    .pane-views-homepage-blurbs-block-1 .view-content,
-    .pane-views-homepage-blurbs-block-2 .view-content,
-    .pane-views-homepage-blurbs-block-3 .view-content {
-      display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000338}}
-    .pane-views-homepage-blurbs-block-1 h2,
-    .pane-views-homepage-blurbs-block-2 h2,
-    .pane-views-homepage-blurbs-block-3 h2 {
-      font-size: 2rem;
-      padding-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000340}}
-    .pane-views-homepage-blurbs-block-1 .views-row,
-    .pane-views-homepage-blurbs-block-2 .views-row,
-    .pane-views-homepage-blurbs-block-3 .views-row {
-      border: 1rem solid #1a80d9;
-      background-color: white;
-      height: 8rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto; } }
-  @media (max-width: 640px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000352}}
-    .pane-views-homepage-blurbs-block-1 h2,
-    .pane-views-homepage-blurbs-block-2 h2,
-    .pane-views-homepage-blurbs-block-3 h2 {
-      font-size: 0.57143rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\0000353}}
-    .pane-views-homepage-blurbs-block-1 .views-row,
-    .pane-views-homepage-blurbs-block-2 .views-row,
-    .pane-views-homepage-blurbs-block-3 .views-row {
-      border: 0.38095rem solid #1a80d9;
-      height: 4rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000036}}
+.view-homepage-blurbs .view-content {
+  padding: 2rem; }
 
+/* maybe instead separate into rows
+then you could
+3-2-1 them for breakpoints and
+you could make the top ones the most
+important that would show on the mobile view.
+
+*/
 /**
  * $news stylings (do not include conatiner stylings)
  */

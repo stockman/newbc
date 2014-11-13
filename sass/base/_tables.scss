@@ -1,6 +1,10 @@
 /**
  * $TABLES
  */
+
+$t_color:$colouriii;
+
+
 table {
   width: 100%;
   margin-bottom: $vert-spacing-unit;
@@ -10,11 +14,11 @@ th {
   padding: 0.5em 1em;
   background-color: $colouriv;
   //$colouriv
-  color: #fff;
+  color: $t_color;
 
   a,
   a.active {
-    color: #fff;
+    color: $t_color;
 
     img {
       margin: 2px 3px;
@@ -34,4 +38,8 @@ tr.even {
 
 caption {
   @extend .delta;
+}
+
+td.active {
+  background-color: $colouri;
 }

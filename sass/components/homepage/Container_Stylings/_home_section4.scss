@@ -8,23 +8,48 @@
 }
 
 .section_4	{
+/** keeping in alll breaks ***/	
 	@include grid-span(4, 1);
-	> .inside {
-		@include regioner(left);
+		> .inside {
+			@include regioner(left);
+		}
+	@include breakpoint($breakii) {
+		@include grid-span(6, 1);
+		> .inside {	
+		margin: 0 0.5rem 0 2rem;
+		}
+	}
+	@include breakpoint($breaki) {
+		@include grid-span(12, 1);
+		margin-right: 1rem;
 	}
 }
 
 .section_4_1	{
+/** hide in 2nd 3rd breaks ***/	
 	@include grid-span(4, 5);
-	> .inside {
-		@include regioner(middle);
+		> .inside {
+			@include regioner(middle);
+		}
+	@include breakpoint($breakii) {
+		display: none;
 	}
 }
 
 .section_4_2	{
 	@include grid-span(4, 9);
-	> .inside {
-		@include regioner(right);
+		> .inside {
+			@include regioner(right);
+		}
+	@include breakpoint($breakii) {
+		@include grid-span(6, 7);
+/** keeping in 2nd break ***/		
+		> .inside {	
+		margin: 0 2rem 0 0.5rem;
+		}
+	}
+	@include breakpoint($breaki) {
+		display: none;
 	}
 }
 

@@ -2,57 +2,17 @@
  * $blurb stylings (do not include conatiner stylings)
  */
 
-$iconsize:1rem;
-.pane-views-homepage-blurbs-block-1,
-.pane-views-homepage-blurbs-block-2,
-.pane-views-homepage-blurbs-block-3 {
-  height: 320px;
-  .views-field-body {display: none;}
-  h2 {
-    font-size: 1.5rem;
-//    font-size: 1rem;
-//    color: $colourv;
-//    vertical-align: middle;
-//    padding: 0 2rem;
-//    box-sizing:border-box;
-      padding-bottom: .5rem;
+.view-homepage-blurbs {
+ .view-content {
+//  margin: 2rem;
+  padding: 2rem;
+//  border: 1px solid red;
   }
-  .view-content {
-    display: inline-block;
-  }
-  .view {
-    height: 30%;
-    margin: auto;
-    position: relative;
-    top: 22%;
-    width: 75%;
-  }
-  $sizerton: 2rem;
-  @include breakpoint($breakii) {
-    .view {
-      left: 0;
-      top: 0;
-      transform: translateY(0);
-    }
-    .view-content {display: block;}
-    h2 {font-size: $sizerton;
-        padding-bottom: 0}
-    .views-row {
-      border: $sizerton/2 solid $colouriii;
-      background-color: $colourv;
-      height: 8rem;
-      @include center-block;
-    }
-
-
-  }
-$other: 3.5;
-
-  @include breakpoint($breaki) {
-    h2 {font-size: $sizerton/$other;}
-    .views-row {border: $sizerton/($other*1.5) solid $colouriii;
-    height: 4rem;
-    }
-  }
-  
 }
+/* maybe instead separate into rows
+then you could
+3-2-1 them for breakpoints and
+you could make the top ones the most
+important that would show on the mobile view.
+
+*/
