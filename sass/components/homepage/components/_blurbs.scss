@@ -4,9 +4,14 @@
 
 .view-homepage-blurbs {
  .view-content {
-//  margin: 2rem;
-  padding: 2rem;
-//  border: 1px solid red;
+	.views-row{
+	background-color:$colourv;
+	padding: 2rem;
+//    margin: 2rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem
+	}
+
   }
 }
 /* maybe instead separate into rows
@@ -16,3 +21,4 @@ you could make the top ones the most
 important that would show on the mobile view.
 
 */
+

@@ -2826,9 +2826,12 @@ css for both instead of doing what you have done below.
 /**
  * $blurb stylings (do not include conatiner stylings)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000036}}
-.view-homepage-blurbs .view-content {
-  padding: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000037}}
+.view-homepage-blurbs .view-content .views-row {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 /* maybe instead separate into rows
 then you could
@@ -3076,9 +3079,12 @@ css for both instead of doing what you have done below.
 /**
  * $blurb stylings (do not include conatiner stylings)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000036}}
-.view-homepage-blurbs .view-content {
-  padding: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000037}}
+.view-homepage-blurbs .view-content .views-row {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 /* maybe instead separate into rows
 then you could
@@ -3341,29 +3347,19 @@ else on the page a good ratio or the same size or whatever.
 /**
  * $home section 4 blurbs
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\000036}}
-.section_4 > .inside, .section_4_1 > .inside, .section_4_2 > .inside {
-  background-color: white; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\000035}}
 .section_4 {
-  /** keeping in alll breaks ***/
+  /** keeping in all breaks ***/
   width: 31.91489%;
   float: left;
   margin-right: -100%;
   margin-left: 0%;
-  clear: none;
-  /*
-  @include grid-span(4, 1);
-  	> .inside {
-  		@include regioner(left);
-  	}
-  */ }
+  clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/mixins\/_layout_mix\.scss}line{font-family:\0000341}}
   .section_4 > .inside {
     margin: 0 0.5rem 0 2rem; }
   @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\000035}}
     .section_4 {
       width: 48.93617%;
       float: left;
@@ -3374,7 +3370,7 @@ else on the page a good ratio or the same size or whatever.
       .section_4 > .inside {
         margin: 0 0.5rem 0 2rem; } }
   @media (max-width: 640px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\000035}}
     .section_4 {
       width: 100%;
       float: right;
@@ -3386,7 +3382,7 @@ else on the page a good ratio or the same size or whatever.
         margin-right: 2rem;
         margin-left: 2rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000316}}
 .section_4_1 {
   /** hide in 2nd 3rd breaks ***/
   width: 31.91489%;
@@ -3398,38 +3394,24 @@ else on the page a good ratio or the same size or whatever.
   .section_4_1 > .inside {
     margin: 0 0.5rem 0 0; }
   @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000316}}
     .section_4_1 {
       display: none; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000324}}
 .section_4_2 {
+  /** keeping in 2nd break ***/
   width: 31.91489%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/mixins\/_layout_mix\.scss}line{font-family:\0000359}}
   .section_4_2 > .inside {
-    margin-right: 2rem;
-    margin-t: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/mixins\/_mixins_misc\.scss}line{font-family:\0000338}}
-    .section_4_2 > .inside > div {
-      margin-bottom: 2rem; }
-    @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000342}}
-      .section_4_2 > .inside {
-        margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/mixins\/_mixins_misc\.scss}line{font-family:\0000340}}
-        .section_4_2 > .inside > .inside {
-          margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/mixins\/_mixins_misc\.scss}line{font-family:\0000342}}
-        .section_4_2 > .inside > div {
-          margin-bottom: 0; } }
+    margin: 0 2rem 0 0; }
   @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000324}}
     .section_4_2 {
-      /** keeping in 2nd break ***/
       width: 48.93617%;
       float: right;
       margin-left: 0;
@@ -3439,7 +3421,7 @@ else on the page a good ratio or the same size or whatever.
       .section_4_2 > .inside {
         margin: 0 2rem 0 0.5rem; } }
   @media (max-width: 640px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/Container_Stylings\/_home_section4\.scss}line{font-family:\0000324}}
     .section_4_2 {
       display: none; } }
 
@@ -3520,9 +3502,12 @@ css for both instead of doing what you have done below.
 /**
  * $blurb stylings (do not include conatiner stylings)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000036}}
-.view-homepage-blurbs .view-content {
-  padding: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blurbs\.scss}line{font-family:\000037}}
+.view-homepage-blurbs .view-content .views-row {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 /* maybe instead separate into rows
 then you could
