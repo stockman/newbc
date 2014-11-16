@@ -1,0 +1,62 @@
+/**
+ * $temp for development
+ */
+
+@import "singularitygs";
+@import "compass/layout/grid-background";
+@import "../variables/*";
+
+
+
+//compass grid variables
+$grid-background-column-color: rgba(100, 100, 225, 0.25);
+$grid-background-gutter-color: rgba(0, 0, 0, 0);
+$grid-background-total-columns: 24;
+$grid-background-column-width: 30px;
+$grid-background-gutter-width: 10px;
+$grid-background-offset: 0px;			
+$grid-background-baseline-color: rgba(0, 0, 0, 0.5);
+$grid-background-baseline-height: 1.5em;
+$show-column-grid-backgrounds: true;
+$show-baseline-grid-backgrounds: true;
+$show-grid-backgrounds: true;
+$grid-background-force-fluid: false;
+
+
+
+
+
+
+/** horizontal grid **/
+
+/* disabled */
+
+html, .bodycontent {
+    //show the grid as a background
+//    $gutter-styles: 'split';    
+//    @include background-grid($color: red);
+    width: 100%;
+    z-index: 99999999;
+//    @include baseline-grid-background(16px, red);
+
+
+//compass variables:
+ $total: $grid-background-total-columns;
+ $column: $grid-background-column-width;
+ $gutter: $grid-background-gutter-width;
+ $baseline: $grid-background-baseline-height;
+ $offset: $grid-background-offset;
+ $column-color: $grid-background-column-color;
+ $gutter-color: $grid-background-gutter-color;
+ $baseline-color: $grid-background-baseline-color;
+ $force-fluid: $grid-background-force-fluid;
+
+    @include grid-background($total, $column, $gutter, $baseline, $offset, $column-color, $gutter-color, $baseline-color, $force-fluid);
+}
+
+//*/
+
+//vertical grid
+
+//@import compass grid?
+
