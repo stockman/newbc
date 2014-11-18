@@ -3,36 +3,38 @@
  */
 
   .pane-news-feed{
+   background-color: $colourv;
 
     // and now re-add ctools, fix this something is going on!!
-    .panels-flexible-region-inside-last {
-    padding-right: 0;
-    }
+    .panels-flexible-region-inside-last {padding-right: 0;}
+
+    //Newsfeed header row
     .newsfeedheader {
-//      height: 111px;
-//      padding-top: 2rem;
+      padding-top: 2rem;
       text-align: center;
+      height: 9rem;
+      //set header height
+      h2 {height: 3rem}
       button {font-size: 0.8rem;
         margin: 0;
         height: 3rem;
         width: 23%;
         line-height: 1rem;
-        &:hover {border: 1px solid $colouriv;}
+        &:hover {border: 1px solid $colouri;}
+        &:active {border: 1px solid $colouriv;}
       }
+      .newsactive {background-color: $colouri;}
     }
-    .news_feeds {
-/*
-      min-height: 540px;
-      overflow: hidden;
-      padding-bottom: 1rem;
-      */
-    }
-    background-color: $colourv;
 
-//    margin-top: 1rem;
+    .news {
+      //set height of news results
+      min-height: 33rem;
     }
+  }
+
+
     //align the extra feeds cemter and internal feeds, left
-    .news {text-align: center;
+  .news {text-align: center;
       ul {text-align: left;}
     }
   .newsfeedheader, .s_art {
@@ -50,6 +52,7 @@
 
 //inital news 
 .news .pane-block {display: none}
+.twt_feed_bc {display: block}
 
 .news {
       //links

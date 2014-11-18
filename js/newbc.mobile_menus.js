@@ -2,22 +2,11 @@
 
 
 
-    Drupal.behaviors.myBehavior = {
+    Drupal.behaviors.mobileBehavior = {
         attach: function(context, settings) {
             //code starts
 
-            /** Fitttex.js sexlector sizes **/
-            $("h2").fitText(1.2, { minFontSize: '15px', maxFontSize: '50px' });
-            $("#fittext1").fitText();
-            $("#fittext2").fitText(1.2);
-            $("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
 
-            // for the user profiles
-            /*     $(".pane-user-login .form-submit").click(function() {
-                $(".form-item-name, .form-item-pass, .pane-user-login ul").toggle();
-            });
-
-*/
             // hide the responsive menu (when another menu is clicked)
             var hidedl = function(){
             $(".dl-menuwrapper button").removeClass('dl-active');
@@ -61,24 +50,6 @@
                      pop(toboggan);
                     }; 
                 });
-
-                //***** News feed ****** switch between news tabs
-                $('.twt_feed_yycbike').addClass('pop');
-                var recent = $('.newsfeedheader');
-                var sw = function(t){
-                    $('.news').find('.pop').removeClass('pop');
-                    $(t).addClass('pop');
-                }
-                var swit = function (r,j) {
-                recent.children(r).click(function(event) {
-                sw(j);
-                });
-                }
-                swit('.bikecalgary', '.twt_feed_bc');
-                swit('.yycbike', '.twt_feed_yycbike');
-                swit('.recentcomments', '.pane-comment-recent');
-                swit('.forumtopics', '.pane-forum-new');                                
-
 
         }
     };

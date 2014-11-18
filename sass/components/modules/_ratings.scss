@@ -1,0 +1,55 @@
+/**
+ * $COMMENT Rating
+ */
+
+//rating container
+.rate-widget-1 {
+  display: table-caption;
+  margin: 0 0.5rem;
+  background-color: lightgrey;
+  .rate-number-up-down-rating {font-weight: bold;}
+}
+
+//padding for arrows and 0 rating
+.rate-widget-1, .rate-widget-1 .neutral{padding: 0.5rem;}
+
+.comment__content {
+  display: inline-flex;
+}
+
+/*** setting for the number up/down widget ***/
+
+// hide the orginal off screen, but show arrow
+.rate-number-up-down-btn-up, .rate-number-up-down-btn-down {
+  text-indent: -9999px;
+  line-height:0;
+  &:after {
+    font-family: fontawesome;
+    font-size: 1.5rem;
+    text-indent:0;
+    display:block;
+    line-height: initial;
+   }
+}
+//up arrow
+.rate-number-up-down-btn-up:after {
+  content: "\f077";
+}
+//down arrow
+.rate-number-up-down-btn-down:after {
+  content: "\f078";
+}
+
+.rate-info {
+  padding-top: 0.5rem;
+}
+
+
+//override defaults
+.rate-number-up-down-btn-down, .rate-number-up-down-btn-up {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+//  text-indent: initial;
+  height: inherit;
+  width: inherit;
+  margin-top: inherit;
+}

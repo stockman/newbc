@@ -6,25 +6,22 @@
 @import "compass/layout/grid-background";
 @import "../variables/*";
 
+$gridon: n; //turn grid off is <> y; 
 
 
 //compass grid variables
 $grid-background-column-color: rgba(100, 100, 225, 0.25);
 $grid-background-gutter-color: rgba(0, 0, 0, 0);
-$grid-background-total-columns: 24;
-$grid-background-column-width: 30px;
+$grid-background-total-columns: 24;//$grids;
+//$grid-background-column-width: 4em; //auto; 100%//30px;
 $grid-background-gutter-width: 10px;
 $grid-background-offset: 0px;			
 $grid-background-baseline-color: rgba(0, 0, 0, 0.5);
-$grid-background-baseline-height: 1.5em;
+$grid-background-baseline-height: 1em;
 $show-column-grid-backgrounds: true;
 $show-baseline-grid-backgrounds: true;
 $show-grid-backgrounds: true;
-$grid-background-force-fluid: false;
-
-
-
-
+$grid-background-force-fluid: true; //set to false if you want not fluid
 
 
 /** horizontal grid **/
@@ -39,7 +36,6 @@ html, .bodycontent {
     z-index: 99999999;
 //    @include baseline-grid-background(16px, red);
 
-
 //compass variables:
  $total: $grid-background-total-columns;
  $column: $grid-background-column-width;
@@ -50,13 +46,15 @@ html, .bodycontent {
  $gutter-color: $grid-background-gutter-color;
  $baseline-color: $grid-background-baseline-color;
  $force-fluid: $grid-background-force-fluid;
-
+  @if $gridon == y {
     @include grid-background($total, $column, $gutter, $baseline, $offset, $column-color, $gutter-color, $baseline-color, $force-fluid);
+ }
 }
 
-//*/
+//uncomment to hide the header picture
 
-//vertical grid
-
-//@import compass grid?
-
+.headerrow {
+  @if $gridon == y {
+  background: url("/bikes.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0) !important;
+	}
+}

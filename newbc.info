@@ -17,11 +17,13 @@ stylesheets[all][] = css/font-awesome/font-awesome.css
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = js/jquery.fittext.js
-scripts[] = js/additional_theme_jquery.js
-scripts[] = js/jquery.slabtext.js
-scripts[] = js/newbc.behaviors.js
 
+scripts[] = js/additional_theme_jquery.js
+scripts[] = js/newbc.behaviors.js
+scripts[] = js/newbc.news_feed.js
+scripts[] = js/newbc.mobile_menus.js
+
+scripts[] = js/jquery.fittext.js
 
 ; ========================================
 ; Regions
