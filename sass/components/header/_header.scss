@@ -67,6 +67,8 @@
   padding: 0 $horz-spacing-unit;
   z-index: 200;
   @include breakpoint ($breakii){
+    img {height: 2rem;
+        margin-top: 0.25rem;}
     left: 2rem;
     margin-top: .19rem;
     top:inherit;

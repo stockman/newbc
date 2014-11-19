@@ -1269,7 +1269,11 @@ html[xmlns] .slides {
     .pane-page-logo {
       left: 2rem;
       margin-top: .19rem;
-      top: inherit; } }
+      top: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000370}}
+      .pane-page-logo img {
+        height: 2rem;
+        margin-top: 0.25rem; } }
 
 /**
  * Arrow up and other stuff
