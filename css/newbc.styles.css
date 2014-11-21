@@ -187,6 +187,10 @@ button, .form-submit {
   button:hover, .form-submit:hover {
     background-color: white;
     color: #00267f; }
+  @media (max-width: 1125px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_buttons\.scss}line{font-family:\000035}}
+    button, .form-submit {
+      padding: 0 0.5%; } }
 
 /**
  * $FONT-FACE
