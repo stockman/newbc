@@ -4,7 +4,9 @@
 
 // front page stylings
 .front {
-	.bodycontent {background-color: $colouriii;}
+	.bodycontent {background-color: $colouriii;
+	background-image: linear-gradient($colouriii, $colourvi);
+	}
 }
 
 //this is the body

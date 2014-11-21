@@ -7,8 +7,18 @@
 
 you should have a blog .css so taht you can give it the 
 css for both instead of doing what you have done below.
-
 */
+
+//test to get picture from inm posts
+
+// I changed in the blohhome view to skip 10 posts.
+// will need to change it back.
+
+
+
+
+// end test
+
 
 
 //temp
@@ -70,39 +80,4 @@ css for both instead of doing what you have done below.
   height: 0;
   }
 
-/*** media queries  ***/
-
-
-  @include breakpoint($breakii) {
-/*    .views-field-field-picture {
-    img {
-        height: auto;
-        width: 100%;
-    }
-
-  }
-
-    /*
-next thing to work on is to make the mobile header and blog posts and everything 
-else on the page a good ratio or the same size or whatever.
-
-    */
-/*
-    .views-row {
-      margin: 0;
-      padding: .5rem;
-      height: 80px;
-      h2 {font-size: 1.1rem;}
-      img {height: 65px}
-      border-bottom: 1px solid lighten($colourviii,30%);
-      section {padding-left: .5rem;}
-      text-align: left;
-    }
-    .views-field-name {font-size: .70rem}
-    .views-field-body,
-     //.views-field-name,
-     .more-link  {display: none;
-     }
-     */
-  }
 }

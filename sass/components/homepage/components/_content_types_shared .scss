@@ -1,9 +1,9 @@
 /**
- * $blurb stylings (do not include conatiner stylings)
+ * $Shared Content Types stylings
  */
 
 
-.node-type-blurbs {
+.node-type-blurbs, .node-type-seasonal  {
   .field--name-field-picture {
   position: fixed; 
   top: -50%; 
@@ -24,6 +24,6 @@
   .pane-page-tabs, .field--name-body, .panel-pane.pane-page-title {
     z-index: 3;
     position: relative;
-    text-align: center;
+    text-align: left;
   }
 }

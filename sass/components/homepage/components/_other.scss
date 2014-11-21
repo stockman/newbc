@@ -8,3 +8,19 @@
     display: none;
   }
 }
+
+//winter temp
+
+.view-id-seasons_view {
+	// good 
+	.field-content img {
+	  position: relative;
+	  margin-top: -233px;
+	  height: 20rem;
+	  z-index: 1;
+	  width: 100%;
+	}
+	.views-field-body {
+		z-index: 2;
+	}
+}
