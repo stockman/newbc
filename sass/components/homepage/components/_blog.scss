@@ -28,6 +28,9 @@ css for both instead of doing what you have done below.
   max-width: 70%;
   height: auto;
   vertical-align: top;
+    @include breakpoint($breakii){
+    max-width: 100%;
+    }
   }
 }
 
@@ -40,7 +43,7 @@ css for both instead of doing what you have done below.
   // this should be calculated with the picture sized to
   //match the size of the row
   //but I think the picture size is set by the medium blog image handler.
-  height: 320px;
+  height: 20rem;
   overflow: hidden;
   text-align: center;
   background-color: white;
@@ -58,12 +61,14 @@ css for both instead of doing what you have done below.
       width: 100%;
       z-index: 1;
       padding: 0;
+      padding-left: 0;
       }    
     }
 
     .views-field-field-picture {
     box-sizing: border-box;
     float: left;
+    text-align: left;
     margin-bottom: 0;
     width: 33.66%;
     @include breakpoint($breakii) {

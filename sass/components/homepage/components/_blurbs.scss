@@ -5,14 +5,18 @@
 .view-homepage-blurbs {
  .view-content {
 	.views-row{
-	background-color:$colourv;
-	padding: 2rem;
-    margin-bottom: 2rem;
-    //set container height
-	height: 20rem;
+		background-color:$colourv;
+		padding: 2rem;
+	    margin-bottom: 2rem;
+	    //set container height
+		height: 20rem;
+	}
+	@include breakpoint($breakii) {
+		@include blogstyle_m2
 	}
 
   }
+
 }
 /* maybe instead separate into rows
 then you could
