@@ -77,11 +77,17 @@ css for both instead of doing what you have done below.
     height: 16rem;
     line-height: 1.2rem;
     @include breakpoint($breakii) {
+      height: 9rem;
+      padding: 0.5rem;
       width: 100%;
       z-index: 1;
-      padding: 0;
-      padding-left: 0;
+//      padding: 0;
+//      padding-left: 0;
+//      background-color: $colourv;
       background: lighten($colouriii, 25%);
+      }
+      @include breakpoint($breaki){
+        height: 5.5rem;
       }    
     }
 

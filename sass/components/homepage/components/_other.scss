@@ -13,6 +13,7 @@
 
 .view-id-seasons_view {
 	// good 
+	background-color: $colouriv;
 	.field-content img {
 		/*
 	  position: relative;
@@ -21,11 +22,16 @@
 	  z-index: 1;
 	  width: 100%;
 	  */
+	  display: none;
+	  /*
   	  position: relative;
 	  width: auto;
 	  height: 18rem;
+	  margin-top: -12.5rem;
 	  background-position: center center;
       background-repeat: no-repeat;  
+      z-index: 1;
+     */
 	}
 	.views-field-body {
 		z-index: 2;
