@@ -17,8 +17,6 @@
 //             $("#permissions").dataTable().columnFilter();
 
 
-
-
         }
     };
 })(jQuery);

@@ -1252,39 +1252,47 @@ html[xmlns] .slides {
   background-position: bottom;
   height: auto;
   width: 100%; }
+  @media (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000338}}
+    .headerrow {
+      background-position: bottom 10rem center; } }
+  @media (max-width: 1125px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000338}}
+    .headerrow {
+      background-position: bottom 8rem center; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000356}}
 .header div, .header li, .header a {
   color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000357}}
   .header div:hover, .header li:hover, .header a:hover {
     color: #ffff0d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000362}}
 .logged-in .pane-page-logo {
   top: 1.9rem; }
   @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000362}}
     .logged-in .pane-page-logo {
       top: inherit; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000368}}
 .pane-page-logo {
   display: inline;
   position: absolute;
   top: .3rem;
   padding: 0 1em;
   z-index: 200; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000369}}
   .pane-page-logo img {
     height: 2.5rem; }
   @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000368}}
     .pane-page-logo {
       left: 2rem;
       margin-top: .19rem;
       top: inherit; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/header\/_header\.scss}line{font-family:\0000376}}
       .pane-page-logo img {
         height: 2rem;
         margin-top: 0.25rem; } }
@@ -2776,18 +2784,29 @@ All this is done for any sub-level being entered.
 /**
  * $blog stylings (do not include conatiner stylings)
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\000037}}
+.blog .views-field-body img {
+  display: none; }
+
 /*********** Rand *************
 
 you should have a blog .css so taht you can give it the 
 css for both instead of doing what you have done below.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000335}}
 .view-frontpage img, .view-frontpage media {
-  max-width: 70%;
-  height: auto;
-  vertical-align: top; }
+  /*
+max-width: 70%;
+height: 16rem;
+width: auto;
+vertical-align: top;
+*/
+  width: auto;
+  height: 16rem;
+  background-position: center center;
+  background-repeat: no-repeat; }
   @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000335}}
     .view-frontpage img, .view-frontpage media {
       max-width: 100%; } }
 
@@ -2940,12 +2959,19 @@ important that would show on the mobile view.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_other\.scss}line{font-family:\0000316}}
 .view-id-seasons_view .field-content img {
+  	/*
+    position: relative;
+    margin-top: -233px;
+    height: 20rem;
+    z-index: 1;
+    width: 100%;
+    */
   position: relative;
-  margin-top: -233px;
-  height: 20rem;
-  z-index: 1;
-  width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_other\.scss}line{font-family:\0000323}}
+  width: auto;
+  height: 18rem;
+  background-position: center center;
+  background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_other\.scss}line{font-family:\0000330}}
 .view-id-seasons_view .views-field-body {
   z-index: 2; }
 
@@ -2960,7 +2986,7 @@ important that would show on the mobile view.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/mixins\/_layout_mix\.scss}line{font-family:\0000341}}
   .section_2 > .inside {
     margin: 0 0.5rem 0 2rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000356}}
   .section_2 .views-row {
     padding: 2rem;
     height: 20rem;
@@ -2970,20 +2996,25 @@ important that would show on the mobile view.
     border-bottom: 1px solid black;
     box-sizing: border-box;
     margin-bottom: 2rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000370}}
     .section_2 .views-row section {
       box-sizing: border-box;
       float: right;
       padding-left: 30px;
-      width: 66.34%; }
+      width: 66.34%;
+      text-align: left;
+      overflow: hidden;
+      height: 16rem;
+      line-height: 1.2rem; }
       @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000370}}
         .section_2 .views-row section {
           width: 100%;
           z-index: 1;
           padding: 0;
-          padding-left: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000368}}
+          padding-left: 0;
+          background: #82bdf0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000388}}
     .section_2 .views-row .views-field-field-picture {
       box-sizing: border-box;
       float: left;
@@ -2991,11 +3022,11 @@ important that would show on the mobile view.
       margin-bottom: 0;
       width: 33.66%; }
       @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000388}}
         .section_2 .views-row .views-field-field-picture {
           width: 100%;
           z-index: -1; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\00003101}}
   .section_2 .more-link {
     top: -4rem;
     position: relative;
@@ -3026,7 +3057,7 @@ important that would show on the mobile view.
           border: 1px solid #80cc28; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog_mobile\.scss}line{font-family:\0000332}}
         .section_2 .views-row h2, .section_2 .views-row a, .section_2 .views-row .views-field-title {
-          color: white; }
+          color: none repeat scroll 0 0 rgba(126, 126, 126, 0.6); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog_mobile\.scss}line{font-family:\0000334}}
           .section_2 .views-row h2 :hover, .section_2 .views-row a :hover, .section_2 .views-row .views-field-title :hover {
             color: #ffff0d; }
@@ -3061,18 +3092,29 @@ important that would show on the mobile view.
 /**
  * $blog stylings (do not include conatiner stylings)
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\000037}}
+.blog .views-field-body img {
+  display: none; }
+
 /*********** Rand *************
 
 you should have a blog .css so taht you can give it the 
 css for both instead of doing what you have done below.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000335}}
 .view-frontpage img, .view-frontpage media {
-  max-width: 70%;
-  height: auto;
-  vertical-align: top; }
+  /*
+max-width: 70%;
+height: 16rem;
+width: auto;
+vertical-align: top;
+*/
+  width: auto;
+  height: 16rem;
+  background-position: center center;
+  background-repeat: no-repeat; }
   @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000335}}
     .view-frontpage img, .view-frontpage media {
       max-width: 100%; } }
 
@@ -3225,12 +3267,19 @@ important that would show on the mobile view.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_other\.scss}line{font-family:\0000316}}
 .view-id-seasons_view .field-content img {
+  	/*
+    position: relative;
+    margin-top: -233px;
+    height: 20rem;
+    z-index: 1;
+    width: 100%;
+    */
   position: relative;
-  margin-top: -233px;
-  height: 20rem;
-  z-index: 1;
-  width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_other\.scss}line{font-family:\0000323}}
+  width: auto;
+  height: 18rem;
+  background-position: center center;
+  background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_other\.scss}line{font-family:\0000330}}
 .view-id-seasons_view .views-field-body {
   z-index: 2; }
 
@@ -3281,7 +3330,7 @@ important that would show on the mobile view.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/variables\/mixins\/_layout_mix\.scss}line{font-family:\0000359}}
   .section_3_1 > .inside {
     margin: 0 2rem 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000356}}
   .section_3_1 .views-row {
     padding: 2rem;
     height: 20rem;
@@ -3291,20 +3340,25 @@ important that would show on the mobile view.
     border-bottom: 1px solid black;
     box-sizing: border-box;
     margin-bottom: 2rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000370}}
     .section_3_1 .views-row section {
       box-sizing: border-box;
       float: right;
       padding-left: 30px;
-      width: 66.34%; }
+      width: 66.34%;
+      text-align: left;
+      overflow: hidden;
+      height: 16rem;
+      line-height: 1.2rem; }
       @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000370}}
         .section_3_1 .views-row section {
           width: 100%;
           z-index: 1;
           padding: 0;
-          padding-left: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000368}}
+          padding-left: 0;
+          background: #82bdf0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000388}}
     .section_3_1 .views-row .views-field-field-picture {
       box-sizing: border-box;
       float: left;
@@ -3312,11 +3366,11 @@ important that would show on the mobile view.
       margin-bottom: 0;
       width: 33.66%; }
       @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000388}}
         .section_3_1 .views-row .views-field-field-picture {
           width: 100%;
           z-index: -1; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\00003101}}
   .section_3_1 .more-link {
     top: -4rem;
     position: relative;
@@ -3347,7 +3401,7 @@ important that would show on the mobile view.
           border: 1px solid #80cc28; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog_mobile\.scss}line{font-family:\0000332}}
         .section_3_1 .views-row h2, .section_3_1 .views-row a, .section_3_1 .views-row .views-field-title {
-          color: white; }
+          color: none repeat scroll 0 0 rgba(126, 126, 126, 0.6); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog_mobile\.scss}line{font-family:\0000334}}
           .section_3_1 .views-row h2 :hover, .section_3_1 .views-row a :hover, .section_3_1 .views-row .views-field-title :hover {
             color: #ffff0d; }
@@ -3516,18 +3570,29 @@ Flexslider
 /**
  * $blog stylings (do not include conatiner stylings)
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\000037}}
+.blog .views-field-body img {
+  display: none; }
+
 /*********** Rand *************
 
 you should have a blog .css so taht you can give it the 
 css for both instead of doing what you have done below.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000335}}
 .view-frontpage img, .view-frontpage media {
-  max-width: 70%;
-  height: auto;
-  vertical-align: top; }
+  /*
+max-width: 70%;
+height: 16rem;
+width: auto;
+vertical-align: top;
+*/
+  width: auto;
+  height: 16rem;
+  background-position: center center;
+  background-repeat: no-repeat; }
   @media (max-width: 1125px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000335}}
     .view-frontpage img, .view-frontpage media {
       max-width: 100%; } }
 
@@ -3680,12 +3745,19 @@ important that would show on the mobile view.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_other\.scss}line{font-family:\0000316}}
 .view-id-seasons_view .field-content img {
+  	/*
+    position: relative;
+    margin-top: -233px;
+    height: 20rem;
+    z-index: 1;
+    width: 100%;
+    */
   position: relative;
-  margin-top: -233px;
-  height: 20rem;
-  z-index: 1;
-  width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_other\.scss}line{font-family:\0000323}}
+  width: auto;
+  height: 18rem;
+  background-position: center center;
+  background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_other\.scss}line{font-family:\0000330}}
 .view-id-seasons_view .views-field-body {
   z-index: 2; }
 

@@ -3,6 +3,14 @@
  */
 
 
+//hide the image in the body
+.blog .views-field-body img {
+  display: none;
+}
+
+
+
+
 /*********** Rand *************
 
 you should have a blog .css so taht you can give it the 
@@ -25,15 +33,22 @@ css for both instead of doing what you have done below.
 
 .view-frontpage {
   img, media {
+    /*
   max-width: 70%;
-  height: auto;
+  height: 16rem;
+  width: auto;
   vertical-align: top;
+  */
+//  width: 100px;
+  width: auto;
+  height: 16rem;
+  background-position: center center;
+  background-repeat: no-repeat;  
     @include breakpoint($breakii){
     max-width: 100%;
     }
   }
 }
-
 
 //blog mixin 
 @mixin blogstyle {
@@ -57,11 +72,16 @@ css for both instead of doing what you have done below.
     float: right;
     padding-left: 30px;
     width: 66.34%;
+    text-align: left;
+    overflow: hidden;
+    height: 16rem;
+    line-height: 1.2rem;
     @include breakpoint($breakii) {
       width: 100%;
       z-index: 1;
       padding: 0;
       padding-left: 0;
+      background: lighten($colouriii, 25%);
       }    
     }
 

@@ -40,6 +40,12 @@
   background-position: bottom;
   height: auto;
   width: 100%;
+  @include breakpoint($breaki){
+   background-position: bottom 10rem center;
+   }
+  @include breakpoint($breakii){
+   background-position: bottom 8rem center;
+   }
 }
 
 //--- Header ---
