@@ -54,12 +54,3 @@
 	}
 	}
 }
-//working out shared stuff
-@mixin blogstyle_m2 {
-	.views-row {
-	@include breakpoint($breakii) {
-			padding: 5%;
-			height: 20%;
-		}
-	}
-}

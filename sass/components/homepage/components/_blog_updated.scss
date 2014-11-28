@@ -1,0 +1,45 @@
+/**
+ * $blog mobile stylings
+ */
+
+
+//rt rebuild this from the existing blog sypels
+//cut and paste in
+
+@mixin blogstyle_breakii {
+  .views-row {
+    padding: 5%;
+    height: 20%;
+    max-height: 20rem;
+    position: relative;
+    h2 {min-height: 5rem;}
+  }
+}
+
+@mixin blogstyle_breaki {
+	.blog .views-row {
+    section {position: absolute;
+    bottom: 0;
+    left: 0;
+    min-height: 8rem;
+    }
+
+		.views-field-field-picture img {
+		@include center-block;
+  		}
+    .views-field-body {
+        display: none;
+    }
+  }
+}
+
+
+//working out shared stuff keep this?
+@mixin blogstyle_m2 {
+  .views-row {
+  @include breakpoint($breakii) {
+      padding: 5%;
+      height: 20%;
+    }
+  }
+}

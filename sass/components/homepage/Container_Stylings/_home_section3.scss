@@ -11,8 +11,12 @@
 	@include blogstyle;
 	@include breakpoint($breakii){
 		@include one-col;
-		@include blogstyle_m;
-	}	
+		@include blogstyle_breakii;
+	}
+	@include breakpoint($breaki){
+		@include one-col;
+		@include blogstyle_breaki;
+	}
 	@include breakspan;
 	
 }

@@ -3,6 +3,11 @@
  */
 
 
+//General settings
+
+
+
+
 //hide the image in the body
 .blog .views-field-body img {
   display: none;
@@ -44,7 +49,7 @@ css for both instead of doing what you have done below.
   height: 16rem;
   background-position: center center;
   background-repeat: no-repeat;  
-    @include breakpoint($breakii){
+    @include breakpoint($breaki){
     max-width: 100%;
     }
   }
@@ -76,7 +81,7 @@ css for both instead of doing what you have done below.
     overflow: hidden;
     height: 16rem;
     line-height: 1.2rem;
-    @include breakpoint($breakii) {
+    @include breakpoint($breaki) {
       height: 9rem;
       padding: 0.5rem;
       width: 100%;
@@ -97,7 +102,7 @@ css for both instead of doing what you have done below.
     text-align: left;
     margin-bottom: 0;
     width: 33.66%;
-    @include breakpoint($breakii) {
+    @include breakpoint($breaki) {
       width: 100%;
 //      display: none;
       z-index: -1;
