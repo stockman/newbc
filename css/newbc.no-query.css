@@ -3420,8 +3420,7 @@ important that would show on the mobile view.
     text-align: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000348}}
   .not-front .field--name-body, .not-front .tabs a {
-    color: white;
-    text-shadow: 0 1px 1px #00267f; }
+    color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/m_body_style\/_all_body_styles\.scss}line{font-family:\0000352}}
   .not-front .tabs a {
     background-color: rgba(0, 0, 0, 0.5);
@@ -3762,6 +3761,9 @@ box-shawdow:4px 4px 35px 5px $colouriii;
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/user\/_user\.scss}line{font-family:\0000310}}
 .user-picture {
   padding: 0 0 1rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/user\/_user\.scss}line{font-family:\0000311}}
+  .user-picture img {
+    border-radius: 3px; }
 
 /*!
  *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
