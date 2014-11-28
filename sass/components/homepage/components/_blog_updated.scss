@@ -19,14 +19,13 @@
 @mixin blogstyle_breaki {
 	.blog .views-row {
     section {position: absolute;
-    bottom: 0;
-    left: 0;
-    min-height: 8rem;
+      bottom: 0;
+      left: 0;
+      min-height: 8rem;
     }
-
-		.views-field-field-picture img {
-		@include center-block;
-  		}
+		.views-field-field-picture{
+       width: 100%;
+    }
     .views-field-body {
         display: none;
     }

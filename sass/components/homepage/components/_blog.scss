@@ -97,16 +97,12 @@ css for both instead of doing what you have done below.
     }
 
     .views-field-field-picture {
-    box-sizing: border-box;
-    float: left;
-    text-align: left;
-    margin-bottom: 0;
-    width: 33.66%;
-    @include breakpoint($breaki) {
-      width: 100%;
-//      display: none;
-      z-index: -1;
-      }
+      box-sizing: border-box;
+      float: left;
+      text-align: left;
+      margin-bottom: 0;
+      width: 33.66%;
+      img {  @include center-block; }
     }
   }
   .more-link {
