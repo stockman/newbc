@@ -20,7 +20,7 @@ button, .form-submit {
   white-space: nowrap;
   font-size: 1.3rem;
   height: 1.6em;
-  margin: 0.2rem;
+  margin: 0.2rem 0;
   @include breakpoint ($breakii) {
   padding: 0 0.5%;    
   }

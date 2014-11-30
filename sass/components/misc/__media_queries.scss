@@ -7,3 +7,9 @@ body {
 		background-color: $colouriii;
 	}
 }
+
+/* Responsive Tables  for bikeshops*/
+.view-calgary-area-bicycle-shops-mechanics-and-rental-services- .view-content {
+	@include boottable; //see variables folder
+}
+

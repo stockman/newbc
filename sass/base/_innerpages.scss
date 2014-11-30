@@ -1,0 +1,31 @@
+//
+// Inner pages
+// --------------------------------------------------
+
+
+// Node Content
+// -------------------------
+
+
+.node__content {
+  background-color: white;
+  border-radius:$radius;
+  padding: 1.5%;
+  p {color: black}
+  a {color: $colouriii}
+  a:hover {color: $colouri}
+}
+
+//temp to see look
+.comment__content {
+  border-radius: $radius;
+}
+
+
+//service links , place this in sass/module/service links
+//also general comment
+//make sure your overall look matches / is consistent
+//border radius on inner pages bu squares in mobile front page view
+.links--inline {
+  margin-top: $vert-spacing-unit/2;
+}
