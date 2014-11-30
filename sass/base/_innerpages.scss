@@ -7,8 +7,14 @@
 // -------------------------
 
 
+
+//###### also a general comment ####
+//make sure your overall look matches / is consistent
+//border radius on inner pages bu squares in mobile front page view
+
+
 .node__content {
-  background-color: white;
+  background-color: $colourv;
   border-radius:$radius;
   padding: 1.5%;
   p {color: black}
@@ -21,11 +27,3 @@
   border-radius: $radius;
 }
 
-
-//service links , place this in sass/module/service links
-//also general comment
-//make sure your overall look matches / is consistent
-//border radius on inner pages bu squares in mobile front page view
-.links--inline {
-  margin-top: $vert-spacing-unit/2;
-}
