@@ -1607,6 +1607,16 @@ html[xmlns] .slides {
  * $home Section 1
  */
 /**
+ * $bikeshop stylings
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_bike\%20shops\.scss}line{font-family:\000037}}
+.light-table-filter {
+  border-radius: 3px;
+  line-height: 2rem;
+  margin: 0.2rem 0;
+  padding: 0 1%; }
+
+/**
  * $blog stylings (do not include conatiner stylings)
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_blog\.scss}line{font-family:\0000312}}
@@ -1850,6 +1860,16 @@ important that would show on the mobile view.
 /**
  * $home section 2.1
  */
+/**
+ * $bikeshop stylings
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_bike\%20shops\.scss}line{font-family:\000037}}
+.light-table-filter {
+  border-radius: 3px;
+  line-height: 2rem;
+  margin: 0.2rem 0;
+  padding: 0 1%; }
+
 /**
  * $blog stylings (do not include conatiner stylings)
  */
@@ -3347,6 +3367,16 @@ All this is done for any sub-level being entered.
   top: 2.6rem;
 }
 */
+/**
+ * $bikeshop stylings
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_bike\%20shops\.scss}line{font-family:\000037}}
+.light-table-filter {
+  border-radius: 3px;
+  line-height: 2rem;
+  margin: 0.2rem 0;
+  padding: 0 1%; }
+
 /**
  * $blog stylings (do not include conatiner stylings)
  */
