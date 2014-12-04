@@ -34,9 +34,9 @@
                     pop(sf);
                     //search autofocus
                     sf.children('.textarea').focus();
-                    $('.fa-times-circle-o').click(function() {
-                       $(this).closest('form').find("input[type=text], textarea").val("");
-                    });
+//                    $('.fa-times-circle-o').click(function() {
+  //                     $(this).closest('form').find("input[type=text], textarea").val("");
+    //                });
                 });
 
                 //share menu

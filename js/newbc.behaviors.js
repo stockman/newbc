@@ -13,9 +13,11 @@
             $("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
 
 
-            // this is for the table sorter
-//             $("#permissions").dataTable().columnFilter();
-
+        // generic reset button for input boxes
+            var resetter = $('.fa-times-circle-o')
+                 resetter.click(function() {
+                   $(this).parent().find('input[type=text]').val("");
+            });
 
         }
     };

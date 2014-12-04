@@ -10,5 +10,5 @@
 
 .links--inline li {
   float: left;
-  margin-right: .5rem;
+  @include item-spacing;
 }

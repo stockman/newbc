@@ -119,7 +119,8 @@ html, .bodycontent {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/__drupal_base\.scss}line{font-family:\0000311}}
 .links--inline li {
   float: left;
-  margin-right: .5rem; }
+  margin-right: 0.5rem;
+  margin-top: 0.5rem; }
 
 /**
  * $drupal Styling
@@ -171,7 +172,8 @@ button, .form-submit {
   white-space: nowrap;
   font-size: 1.3rem;
   height: 1.6em;
-  margin: 0.2rem 0; }
+  margin-right: 0.5rem;
+  margin-top: 0.5rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/base\/_buttons\.scss}line{font-family:\000039}}
   button:hover, .form-submit:hover {
     background-color: white;
@@ -1782,6 +1784,10 @@ html[xmlns] .slides {
   margin: 0.2rem 0;
   padding: 0 1%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_bike\%20shops\.scss}line{font-family:\0000313}}
+.bike-shop-reset {
+  vertical-align: sub; }
+
 /**
  * $blog stylings (do not include conatiner stylings)
  */
@@ -2114,6 +2120,10 @@ important that would show on the mobile view.
   line-height: 2rem;
   margin: 0.2rem 0;
   padding: 0 1%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_bike\%20shops\.scss}line{font-family:\0000313}}
+.bike-shop-reset {
+  vertical-align: sub; }
 
 /**
  * $blog stylings (do not include conatiner stylings)
@@ -3754,6 +3764,10 @@ All this is done for any sub-level being entered.
   line-height: 2rem;
   margin: 0.2rem 0;
   padding: 0 1%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/components\/homepage\/components\/_bike\%20shops\.scss}line{font-family:\0000313}}
+.bike-shop-reset {
+  vertical-align: sub; }
 
 /**
  * $blog stylings (do not include conatiner stylings)
