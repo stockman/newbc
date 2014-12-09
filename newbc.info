@@ -22,9 +22,13 @@ scripts[] = js/additional_theme_jquery.js
 scripts[] = js/newbc.behaviors.js
 scripts[] = js/newbc.news_feed.js
 scripts[] = js/newbc.mobile_menus.js
+; what is this for? bike shops?
 scripts[] = js/newbc.inputfilter.js
-; permissions table sort.
-scripts[] = js/jquery.tablesorter.min.js
+;dec 5 permissions table sort
+;scripts[] = js/list.js
+
+; older permissions table sort.
+; scripts[] = js/jquery.tablesorter.min.js
 
 scripts[] = js/jquery.fittext.js
 
