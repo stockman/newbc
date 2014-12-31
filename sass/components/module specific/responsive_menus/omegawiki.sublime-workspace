@@ -1,0 +1,1155 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"backgo",
+				"background-color"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"ba",
+				"border-image"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"clou",
+				"colourvii"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"pane",
+				"pane-block-27"
+			],
+			[
+				"chi",
+				"nth-child"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"to",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"t",
+				"text	.text()"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"hid",
+				"hidedl"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"col",
+				"colourvii"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"ch",
+				"children	.children()"
+			],
+			[
+				"T",
+				"toggle"
+			],
+			[
+				"tog",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"cl",
+				"click	.click()"
+			],
+			[
+				"c",
+				"cust"
+			],
+			[
+				"fea",
+				"fearMessage"
+			],
+			[
+				"fear",
+				"fearMessage"
+			],
+			[
+				"Fea",
+				"fearGenerated"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"ver",
+				"vert-spacing-unit"
+			],
+			[
+				"menu",
+				"menu_size"
+			],
+			[
+				"fa",
+				"fa-times-circle-o"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
+				"fo",
+				"focus	.focus()"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"show",
+				"showinline"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"coffe",
+				"coffeeList"
+			],
+			[
+				"NEW",
+				"newStyle"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"tabe",
+				"table-cell"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"Fon",
+				"font-family"
+			],
+			[
+				"tri",
+				"trigger	.trigger()"
+			],
+			[
+				"tr",
+				"trigger	.trigger()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"clo",
+				"closest	.closest()"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/_module_specific/_toolbar.scss",
+			"settings":
+			{
+				"buffer_size": 1105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/base/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 1841,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/**\n * $content layout\n */\n\n /*\n//Gutters?\n\n/** Mixins!!!\n**/\n\n@mixin center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n@mixin padder { //temp padding one.\n	padding: 2rem;\n}\n\n//center header cool text\n@mixin center-styler {\n  .pane-title {text-align: center;}\n  //shrinking this to look really neat inside\n  .field__item.even {\n  @include center-block;\n  max-width: 50%;\n  }\n  //hide the stat counter\n  .statistics_counter{ display: none;}\n}\n\n// to share the h2 with other things.\n@mixin h2 {\n  color: $h2_colour;\n  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);\n  line-height: 2.2rem;\n}\n\n@mixin headercol {\n    color: $headerlink;\n    text-shadow:0 1px 2px rgba(0,0,0,0.6);\n}\n@mixin backgro {\n  //change this to blur.\n  background-color: rgba($headerbackground, .5);\n}\n\n@mixin backgrund {\n  background-color: $bodycolor;\n  opacity: 0.7;\n  border-radius: $radius;\n}",
+			"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/variables/_mixins.scss",
+			"file_size": 890,
+			"file_write_time": 1419554438000000,
+			"settings":
+			{
+				"buffer_size": 890,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/node/_node.scss",
+			"settings":
+			{
+				"buffer_size": 221,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/user/_user.scss",
+			"settings":
+			{
+				"buffer_size": 205,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Coffee: Run Script"
+			],
+			[
+				"htm",
+				"Tidy HTML"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"bea",
+				"Javascript Beautify"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/_module_specific/_projects.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/header/menus/__right_menu.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/functionality_specific/_projects.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/_module_specific/_superfish.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/_module_specific/_toolbar.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/base/__drupal_overrides.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/header/_header.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/forms/_search-form.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/base/omega_system_overrides/_form.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/js/omega-wiki.behaviors.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/components/module specific/responsive_menus/_google_nexus_menu.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/bc.localhost/modules/navbar/css/navbar.icons.css",
+		"/Volumes/Backup/T Drive/Downloads Shared/management-export.txt",
+		"/Users/tandoori/Sites/Drupal7Development/sites/bc.localhost/modules/responsive_menus/responsive_menus.module",
+		"/Volumes/Backup/T Drive/Downloads Shared/GoogleNexusWebsiteMenu/js/gnmenu.js",
+		"/Volumes/Backup/T Drive/Downloads Shared/GoogleNexusWebsiteMenu/js/classie.js",
+		"/Volumes/Backup/T Drive/Downloads Shared/Responsive-Off-Canvas-Menu-master/src/_base.scss",
+		"/Volumes/Backup/T Drive/Downloads Shared/Responsive-Off-Canvas-Menu-master/js/main.jquery.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/js/main.jquery.js",
+		"/Volumes/Backup/T Drive/Downloads Shared/Responsive-Off-Canvas-Menu-master/js/main.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/components/module specific/_google_nexus_menu.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/components/header/_header.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/components/header/_logo.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/components/module specific/_bettermenus.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/newbc.info",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/components/module specific/_responsive_menus.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/.sass-cache/840702ef9963638e5bc5c8297e9cca06ceaab5f4/_responsive_menus.scssc",
+		"/Users/tandoori/Sites/Drupal7Development/sites/bc.localhost/libraries/sidr/README.md",
+		"/Users/tandoori/Sites/Drupal7Development/sites/bc.localhost/modules/responsive_menus/styles/ResponsiveMultiLevelMenu/js/responsive_menus_codrops_responsive_multi.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/components/module specific/_google_nexus_menu_navbar.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/bc.localhost/modules/navbar/css/navbar-overlay-child.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/Gemfile",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/package.json",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/Guardfile",
+		"/Users/tandoori/Downloads/omega/ohm/Gruntfile.js",
+		"/Users/tandoori/Downloads/omega/omega/starterkits/default/config.rb",
+		"/Users/tandoori/Downloads/omega/ohm/Gemfile.lock",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/config.rb",
+		"/Users/tandoori/Downloads/omega/omega/starterkits/default/Guardfile",
+		"/Users/tandoori/Downloads/omega/omega/starterkits/default/Gemfile",
+		"/Users/tandoori/Sites/Drupal7Development/sites/bc.localhost/libraries/GoogleNexusWebsiteMenu/css/normalize.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/bc.localhost/libraries/GoogleNexusWebsiteMenu/css/demo.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/bc.localhost/libraries/GoogleNexusWebsiteMenu/css/component.css",
+		"/Users/tandoori/appe/client/app/main/main.controller.spec.js",
+		"/Users/tandoori/appe/client/app/app.js",
+		"/Users/tandoori/appe/client/app/main/main.js",
+		"/Users/tandoori/appe/client/app/main/main.controller.js",
+		"/Users/tandoori/Desktop/sublimer",
+		"/Users/tandoori/.bash_profile",
+		"/Applications/Google Chrome.app/Contents/Resources/com.google.Chrome.manifest/Contents/Resources/com.google.Chrome.manifest",
+		"/Users/tandoori/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/tandoori/appe/protractor.conf.js",
+		"/Users/tandoori/appe/Gruntfile.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/default/libraries/ckeditor/CHANGES.md",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/variables/_colors.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/variables/_colors.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/css/omega-wiki.hacks.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/css/omega-wiki.no-query.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/css/omega-wiki.normalize.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/css/omega-wiki.styles.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/js/newbc.news_feed.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/js/newbc.behaviors.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/js/omega-wiki.find_content_type.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/js/omega-wiki.freelinkingfix.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega/omega/omega/theme/system-themes-page.theme.inc",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega/omega/omega/templates/node/node.tpl.php",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega/omega/omega/templates/system/page.tpl.php",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega/omega/omega/templates/system/html.tpl.php",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega/omega/omega/css/modules/system/system.theme.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega/omega/omega/preprocess/field.preprocess.inc",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega/omega/omega/templates/search/search-result.tpl.php",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega/omega/omega/templates/search/search-results.tpl.php",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/header/menus/_responsive_menus.scss",
+		"/Volumes/Backup/T Drive/Downloads Shared/Sub Macro1().7.vbs",
+		"/Volumes/Backup/T Drive/Downloads Shared/Sub Macro1().8.vbs",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/misc/itunes.bas",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/components/homepage/cee_here_for_modules/_ratings.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/omega_wiki.info",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/header/menus/_superfish.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/default/modules/navbar/css/navbar.icons.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/css/font-awesome/font-awesome.css",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/_module_specific/_responsive_menus.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/_module_specific/_toolbar.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/_module_specific/_toolbar.scss",
+		"/Volumes/Backup/T Drive/Downloads Shared/itunes.xml",
+		"/Users/tandoori/Music/iTunes/iTunes Library.xml",
+		"/Users/tandoori/Music/iTunes/iTunes Library.itl",
+		"/Users/tandoori/appe/client/app/main/main.html",
+		"/Users/tandoori/appe/server/routes.js",
+		"/Users/tandoori/appe/server/app.js",
+		"/Users/tandoori/appe/client/components/modal/modal.service.js",
+		"/Users/tandoori/appe/client/components/socket/socket.service.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/misc/_site-branding.scss",
+		"/Volumes/Backup/T Drive/_Projects/iTunes/Notes.haml",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/base/_buttons.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/misc/_full-calendar.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/variables/_grid.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/variables/mixins/_mixins_misc.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/variables/mixins/_layout_mix.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/variables/_mixins.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/user/_user.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/node/_node.scss",
+		"/Users/tandoori/appe/client/app/app.scss",
+		"/Users/tandoori/appe/client/app/main/main.checkboxer.js",
+		"/Users/tandoori/appe/client/app/main/main-container.scss",
+		"/Users/tandoori/appe/client/app/main/main-top.scss",
+		"/Users/tandoori/appe/client/app/main/main.scss",
+		"/Users/tandoori/appe/client/index.html",
+		"/Users/tandoori/appe/client/components/mongoose-error/mongoose-error.directive.js",
+		"/Users/tandoori/server/api/thing/thing.spec.js",
+		"/Users/tandoori/server/api/thing/thing.controller.js",
+		"/Users/tandoori/server/api/thing/index.js",
+		"/Users/tandoori/server/app.js",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/variables/mixins/_elements_mixins.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/comments/_comment-wrapper.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/forms/_form-items.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/comments/_comment.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/newbc.hacks.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/newbc.no-query.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/newbc.normalize.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/variables/_grid.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/base/_buttons.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/variables/mixins/_mixins_misc.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/variables/mixins/_layout_mix.scss",
+		"/Users/tandoori/Sites/Drupal7Development/sites/all/themes/newbc/sass/variables/mixins/_elements_mixins.scss",
+		"/Users/tandoori/appe/client/components/navbar/navbar.html",
+		"/Users/tandoori/appe/README.md",
+		"/Users/tandoori/appe/.travis.yml"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".block",
+			"#nav",
+			"request",
+			"Hello",
+			"readable",
+			"listen",
+			"$scope",
+			"value2",
+			"edit-search-block-form--2",
+			"search-box",
+			"hello",
+			"\"\\",
+			"dl-trigger",
+			"dl-trigge",
+			"dl-trigge3r",
+			"rm-dl",
+			"ham",
+			"$colourvhover",
+			"colourvhover",
+			"Album Rating</key><integer>",
+			"blue moon rising",
+			">here<",
+			"luscious",
+			"Jackson",
+			"lucious",
+			"message",
+			"messages",
+			"message",
+			"question",
+			"newthing",
+			"newthings",
+			"playground lo",
+			"rating",
+			"bootstrap",
+			"boots",
+			"seaso",
+			"seasob",
+			"blue",
+			"-",
+			"regioner_l",
+			"sandbox.",
+			"sectio 4",
+			"grid-back",
+			"grid-bacl",
+			"\n.",
+			"z-index: 500",
+			"500",
+			"z-in",
+			"z-ind",
+			"frontpage",
+			"breakii",
+			"content",
+			"$rhovecol",
+			"$rcol",
+			"$rcolour",
+			"$rback",
+			"$rhover",
+			"$rhover_color",
+			"$rhover",
+			"$menu_size",
+			"$menu_size2",
+			"$headerlink",
+			"$linkhover",
+			"$headerlinkhover",
+			"$headerbackground",
+			"$headerlink",
+			"$colourii",
+			"$headerbackground",
+			"$border",
+			"$msgs",
+			"$border",
+			"$colourii2",
+			"$buttonbak",
+			"$headerlinkhover",
+			"$markerbak",
+			"$h2_colour",
+			"$h_hover_colour",
+			"$colourivactive",
+			"$h2_colour",
+			"$colourivhover",
+			"#dl-menu",
+			"dl-menu ",
+			"dl-menu",
+			"$light-grey",
+			"$bordercolour",
+			"$bakcolour",
+			"$link",
+			"$bodycolor",
+			"$fontcolour",
+			"coffee",
+			"cofee",
+			"#container",
+			"$menu_size",
+			"box",
+			"!global;",
+			"globa",
+			"@at-root &",
+			"-link",
+			"0.12.2",
+			"3.2.19",
+			"priceify",
+			"pricify",
+			"result",
+			"$fa-css-prefix"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#bettermenus .inside",
+			"#bettermenus",
+			"edit-search-block-form--2",
+			"colourv",
+			"question",
+			"questions",
+			"answer",
+			" ",
+			"regioner(left)",
+			"rtrawick_randwicked.",
+			"z-index: 150",
+			"frontpage1",
+			"$rcol",
+			"$rbak",
+			"$rhovecol",
+			"$rbak",
+			"$rback2",
+			"$rsize",
+			"$rsize2",
+			"$rhover_color",
+			"$rhover",
+			"$rcolour",
+			"$rback",
+			"$colouri",
+			"$colouriii",
+			"$colourii",
+			"$colourvii",
+			"$colouriii",
+			"$colourii",
+			"$colourvii",
+			"$colouri",
+			"$colourii",
+			"$colouriv",
+			"$colourv",
+			"$colourvii",
+			"$colourviii",
+			"$colourvii",
+			"$colouriv",
+			"$colourii",
+			"$colourvi",
+			".view-content",
+			"$menu_size2",
+			"; //!global;",
+			"button",
+			"1.0.1",
+			"photofy",
+			"response"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/_module_specific/_toolbar.scss",
+					"settings":
+					{
+						"buffer_size": 1105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/base/_typography.scss",
+					"settings":
+					{
+						"buffer_size": 1841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1068.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/variables/_mixins.scss",
+					"settings":
+					{
+						"buffer_size": 890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/node/_node.scss",
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/tandoori/Sites/Drupal7Development/sites/all/themes/omega_wiki/sass/components/user/_user.scss",
+					"settings":
+					{
+						"buffer_size": 205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"_resp",
+				".sass-cache/840702ef9963638e5bc5c8297e9cca06ceaab5f4/_responsive_menus.scssc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true
+}

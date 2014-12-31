@@ -58,25 +58,4 @@
   }
 }
 
-//--- Logo ---
-.logged-in .pane-page-logo {
-    top: 1.9rem;
-    @include breakpoint ($breakii){
-    top: inherit;
-    }
-}
-.pane-page-logo {
-  img {height: $menu_size;}
-  display: inline;
-  position: absolute;
-  top: .3rem;
-  padding: 0 $horz-spacing-unit;
-  z-index: 200;
-  @include breakpoint ($breakii){
-    img {height: 2rem;
-        margin-top: 0.25rem;}
-    left: 2rem;
-    margin-top: .19rem;
-    top:inherit;
-  }
-}
+

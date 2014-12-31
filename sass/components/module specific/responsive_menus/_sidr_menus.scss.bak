@@ -1,0 +1,20 @@
+/**
+ * $BetterMenus
+ */
+
+/// change this to sidr module
+
+#sidr-wrapper-0 {
+  .fa-align-left {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    z-index: 99999;
+  }
+  .sidr-class-textarea {
+    background-color: white;
+  }
+
+}
+
+//.pane-page-logo {display: none}

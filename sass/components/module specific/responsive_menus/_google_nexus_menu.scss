@@ -1,0 +1,59 @@
+/**
+ * $_google_nexus_menu
+ */
+
+//** temp
+/*
+#logo {
+margin-left: 3rem;
+}
+
+*/
+
+// this is the line 
+.gn-menu-main {
+ height: 3rem;
+ width: 3rem;
+}
+
+//** end temp
+.gn-menu {
+    .fa {
+    font-size: 2rem;
+    color: red;
+  }
+}
+
+//overrides
+.gn-menu-main, .gn-menu-main ul {
+background: none;
+}
+
+.gn-icon, .gn-icon-menu {
+	line-height: $menu_size2
+}
+
+// this is the menu icon, wanted no hamburger
+.gn-icon-menu::before,
+.no-touch .gn-icon-menu:hover::before,
+.no-touch .gn-icon-menu.gn-selected:hover::before,
+.gn-icon-menu.gn-selected::before {
+		background: none;
+		font-family: fontawesome;
+		content: "\f036";
+		box-shadow: none;
+		font-size: 2rem;
+		margin-top: .5rem
+}
+
+
+
+
+.gn-icon:before {
+	width: 3rem	
+}
+
+.gn-submenu > .gn-submenu {
+	position: absolute;
+	left: 20rem;
+}
