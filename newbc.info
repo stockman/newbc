@@ -22,11 +22,18 @@ scripts[] = js/additional_theme_jquery.js
 scripts[] = js/newbc.behaviors.js
 scripts[] = js/newbc.news_feed.js
 scripts[] = js/newbc.mobile_menus.js
-scripts[] = js/snap.js
-scripts[] = js/demo.js
+; snap js ---
+;	scripts[] = js/snap.js
+;	scripts[] = js/demo.js
 
-; scripts[] = js/main.jquery.js
-; scripts[] = js/main.js
+;jpanel ---
+	;scripts[] = js/jpanel/jquery.jpanelmenu.js
+
+; responsive off canvas
+scripts[] = js/resp_off_canvas/main.jquery.js
+scripts[] = js/resp_off_canvas/main.js
+
+
 ; what is this for? bike shops?
 scripts[] = js/newbc.inputfilter.js
 ;dec 5 permissions table sort
@@ -35,6 +42,7 @@ scripts[] = js/newbc.inputfilter.js
 ; older permissions table sort.
 ; scripts[] = js/jquery.tablesorter.min.js
 
+;fittext
 scripts[] = js/jquery.fittext.js
 
 ; ========================================

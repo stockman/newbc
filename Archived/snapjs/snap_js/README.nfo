@@ -1,0 +1,16 @@
+My Snap JS notes
+===========================
+
+things are here
+
+## and you are there
+
+created a new custom element in the panels-pages bodycontent with this html:
+<a href="#" id="open-left"><i class="fa fa-align-left"></i></a>
+        <script type="text/javascript">
+            var snapper = new Snap({
+                element: document.getElementsByClassName('bodycontent')
+            });
+            
+        </script>
+I'm thinking I should put the js in a different file.
