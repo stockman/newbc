@@ -21,11 +21,12 @@
 
   .featurette-item {
     margin-bottom: 15px;
+    .field-content {text-align: center;}
   }
 
   .featurette-item i {
     // border: 3px solid #ffffff;
-    border: 3px solid green;    
+    border: 3px solid $colouriii;    
     border-radius: 50%;
     display: inline-block;
     font-size: 56px;
@@ -40,4 +41,37 @@
     font-size: 68px;
   }
 
+.featurette-title {
+  padding-top: 1.2rem;
+}
 
+// testing look of contrast
+.section_6 .featurette-item i {
+    border: 3px solid #ffffff;
+    color: white;
+    &:hover {
+      color: $colouri;
+    }
+    .featurette-title:hover {
+      color: $colouri;
+    }
+    // border: 3px solid $colouriii;    
+}
+
+.section_6 .featurette-title {
+  color: white;
+}
+
+// footer
+.section_7 .nav {
+  text-align: center;
+  }
+
+.section_7 ul li {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+.footer_logo {
+  text-align: center;
+}
