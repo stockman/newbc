@@ -1,0 +1,43 @@
+// featurette
+// -------------------------
+
+
+
+// see boostrap compiled col-md-offset-2 where I added 
+// .featurette-container views-row-first
+
+.section_5 {
+  background-color: white;
+}
+
+.featurette-container {
+  li {list-style: none;}
+}
+  .featurette {
+    background: #545455;
+    padding: 50px 0;
+    color: #ffffff;
+  }
+
+  .featurette-item {
+    margin-bottom: 15px;
+  }
+
+  .featurette-item i {
+    // border: 3px solid #ffffff;
+    border: 3px solid green;    
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 56px;
+    width: 140px;
+    height: 140px;
+    line-height: 136px;
+    vertical-align: middle; 
+    text-align: center;
+  }
+
+  .featurette-item i:hover {
+    font-size: 68px;
+  }
+
+
