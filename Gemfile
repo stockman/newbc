@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 group :development do
   #fonts
-  gem 'font-awesome-sass'       # font-Awesome
+    # would rather cdn or download font-awesome then use gem
+    #gem 'font-awesome-sass'       # font-Awesome
   # Sass, Compass and extensions.
   gem 'sass'                    # Sass.
   gem 'sass-globbing'           # Import Sass files based on globbing pattern.

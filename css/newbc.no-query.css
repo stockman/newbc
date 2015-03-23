@@ -5080,12 +5080,13 @@ All this is done for any sub-level being entered.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000322}}
 .featurette-item {
-  margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000324}}
+  margin-top: 40px;
+  margin-bottom: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000325}}
   .featurette-item .field-content {
     text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000328}}
 .featurette-item i {
   border: 3px solid #1a80d9;
   border-radius: 50%;
@@ -5097,39 +5098,32 @@ All this is done for any sub-level being entered.
   vertical-align: middle;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000341}}
 .featurette-item i:hover {
   font-size: 68px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000345}}
 .featurette-title {
   padding-top: 1.2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000350}}
 .section_6 .featurette-item i {
-  border: 3px solid #ffffff;
-  color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000352}}
-  .section_6 .featurette-item i:hover {
-    color: #80cc28; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000355}}
-  .section_6 .featurette-item i .featurette-title:hover {
-    color: #80cc28; }
+  border: 3px solid #ffffff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000361}}
-.section_6 .featurette-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000353}}
+.section_6 h2 {
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000358}}
 .section_7 .nav {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000362}}
 .section_7 ul li {
   display: inline-block;
   padding: 0 2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_greenfield\/_featurette\.scss}line{font-family:\0000367}}
 .footer_logo {
   text-align: center; }
 
