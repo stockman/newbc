@@ -1,0 +1,139 @@
+// footer
+// -------------------------
+
+.section_7 {
+	color: white;
+	a {color: white;}
+	background: none repeat scroll 0 0 $colouri;
+}
+
+.footer_logo {
+	margin-top: 75px;
+}
+
+$sizer: 0.3;
+.networks .fa {
+// border: 3px solid #ffffff;
+border: 3px * $sizer solid $colourv;    
+border-radius: 50%;
+display: inline-block;
+font-size: 56px * $sizer;
+width: 140px * $sizer;
+height: 140px * $sizer;
+line-height: 136px * $sizer;
+vertical-align: middle; 
+text-align: center;
+}
+
+.networks .fa:hover {
+  font-size: 68px * $sizer;
+  color: $colouriv;
+}
+
+
+#pbfooter {
+    // background: none repeat scroll 0 0 $colouri;
+    font-family: "Open Sans",sans-serif;
+    left: 0;
+    overflow: visible;
+    padding: 33px 0;
+    // position: absolute;
+    width: 100%;
+}
+#pbfooter .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    min-width: 1020px;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1095px;
+}
+
+.left-box {
+    // float: left;
+    font-size: 12px;
+    // margin: 8px 0 0 20px;
+    // width: 207px;
+}
+.footer-info {
+    color: #fff;
+    overflow: hidden;
+}
+.footer-info h6 {
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 0 0 3px;
+}
+.footer-info .links a {
+    color: #fff;
+}
+.socials {
+    // float: left;
+    font-family: "Open Sans",sans-serif;
+    // margin: 0 0 0 246px;
+    text-align: center;
+    // width: 185px;
+}
+.socials ul {
+    // list-style: outside none none;
+    // margin: 0 0 13px;
+    overflow: hidden;
+    // padding: 0;
+}
+.socials ul li {
+    float: left;
+    padding: 0 0 0 10px;
+}
+.socials ul li:first-child {
+    padding: 0;
+}
+// .socials ul li a {
+//     background: url("../pbimages/socials.png") no-repeat scroll 0 0 / 166px 35px rgba(0, 0, 0, 0);
+//     display: block;
+//     height: 35px;
+//     overflow: hidden;
+//     text-indent: -9999px;
+//     width: 34px;
+// }
+.socials ul li.facebook a {
+    background-position: -44px 0;
+}
+.socials ul li.instagram a {
+    background-position: -88px 0;
+}
+.socials ul li.twitter a {
+    background-position: -132px 0;
+}
+.socials p {
+    color: #fff;
+    margin: 0;
+}
+.socials p a {
+    color: #fff;
+}
+.networks {
+    margin-left: 30px;
+}
+.right-col {
+    color: #fff;
+    // float: right;
+    font-family: "Open Sans",sans-serif;
+    // margin-right: 20px;
+    text-align: right;
+    // width: 283px;
+}
+.right-col p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+.hbl_txt_wrapper textarea {
+    max-height: 25px;
+    min-height: 25px;
+}
