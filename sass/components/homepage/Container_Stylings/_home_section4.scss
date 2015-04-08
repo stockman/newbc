@@ -2,32 +2,32 @@
  * $home section 4 blurbs
  */
 
-.section_4	{
+// .section_4	{
 /** keeping in all breaks ***/	
-	@include three-col(left);
+/* 	@include three-col(left);
 	@include breakpoint($breakii) {
 		@include two-col(left);
 	}
 	@include breakpoint($breaki) {
 		@include one-col();
 	}
-}
+} */
 
-.section_4_1	{
+// .section_4_1	{
 /** hide in 2nd 3rd breaks ***/	
-	@include three-col(center);
+/* 	@include three-col(center);
 	@include breakpoint($breakii) {
 		display: none;
 	}
-}
+} */
 
-.section_4_2	{
+// .section_4_2	{
 /** keeping in 2nd break ***/
-	@include three-col(right);
+/* 	@include three-col(right);
 	@include breakpoint($breakii) {
 		@include two-col(right);
 	}
 	@include breakpoint($breaki) {
 		display: none;
 	}
-}
+} */

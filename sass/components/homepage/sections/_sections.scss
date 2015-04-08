@@ -1,0 +1,51 @@
+// sections
+// -------------------------
+
+
+
+// for the works/segments
+section {
+  padding-bottom: 120px;
+  padding-top: 80px;
+}
+
+.section_4 {
+	background: #ffffff;
+}
+.section_4 .featurette-item {
+  a { color: $colouriii;}
+  :hover {color: $colouri;
+    text-decoration: none;}
+}
+
+.section_5 {
+  background-color: $colouri;
+}
+
+
+// contrast featurette colours
+.section_6 .featurette-item i {
+    border: 3px solid #ffffff;
+}
+.section_6 .featurette-item {
+   a {color: white;}
+  :hover {color: $colouri;
+    text-decoration: none;}
+}
+
+// footer
+.section_7 {
+	color: white;
+	a {color: white;}
+	background: none repeat scroll 0 0 $colouri;
+}
+
+.section_7 .nav {
+  text-align: center;
+  }
+
+.section_7 ul li {
+  display: inline-block;
+  // padding: 0 2rem;
+}
+
