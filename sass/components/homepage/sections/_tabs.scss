@@ -1,0 +1,16 @@
+// tabs
+// -------------------------
+
+.blognews_section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.blognews_section .nav-tabs li {
+	margin-top: 20px;
+	border-radius: 0;
+	a {line-height: 2;
+		font-size: 35px; // this should be checked with your normalize type settngs
+	}
+
+}

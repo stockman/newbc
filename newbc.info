@@ -23,6 +23,10 @@ scripts[] = js/additional_theme_jquery.js
 scripts[] = js/newbc.behaviors.js
 scripts[] = js/newbc.news_feed.js
 scripts[] = js/newbc.mobile_menus.js
+; bootstrap
+scripts[] = js/bootstrap.js
+
+
 ; snap js ---
 ;	scripts[] = js/snap.js
 ;	scripts[] = js/demo.js
