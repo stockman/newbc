@@ -12,6 +12,13 @@ section {
 .section_1, .section_4 {
 	background: #ffffff;
 }
+
+.section_1 {
+  height: 900px;
+  // temporary
+  overflow: hidden;
+}
+
 .section_4 .featurette-item {
   a { color: $colouriii;}
   :hover {color: $colouri;
@@ -27,6 +34,7 @@ section {
 .section_6 .featurette-item i {
     border: 3px solid #ffffff;
 }
+
 .section_6 .featurette-item {
    a {color: white;}
   :hover {color: $colouri;

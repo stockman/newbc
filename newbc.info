@@ -21,7 +21,7 @@ stylesheets[all][] = css/font-awesome/css/font-awesome.min.css
 
 scripts[] = js/additional_theme_jquery.js
 scripts[] = js/newbc.behaviors.js
-scripts[] = js/newbc.news_feed.js
+;scripts[] = js/newbc.news_feed.js
 scripts[] = js/newbc.mobile_menus.js
 ; bootstrap
 scripts[] = js/bootstrap.js
@@ -35,8 +35,8 @@ scripts[] = js/bootstrap.js
 	;scripts[] = js/jpanel/jquery.jpanelmenu.js
 
 ; responsive off canvas
-scripts[] = js/resp_off_canvas/main.jquery.js
-scripts[] = js/resp_off_canvas/main.js
+;scripts[] = js/resp_off_canvas/main.jquery.js
+;scripts[] = js/resp_off_canvas/main.js
 
 
 ; what is this for? bike shops?

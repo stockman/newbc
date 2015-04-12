@@ -9,11 +9,7 @@
 
 
 //hide the image in the body
-.blog .views-field-body img {
-  display: none;
-}
-
-
+/* s */
 
 
 /*********** Rand *************
@@ -36,8 +32,8 @@ css for both instead of doing what you have done below.
 
 //temp
 
-.view-frontpage {
-  img, media {
+/* .view-frontpage {
+  img, media { */
     /*
   max-width: 70%;
   height: 16rem;
@@ -45,7 +41,7 @@ css for both instead of doing what you have done below.
   vertical-align: top;
   */
 //  width: 100px;
-  width: auto;
+/*   width: auto;
   height: 16rem;
   background-position: center center;
   background-repeat: no-repeat;  
@@ -53,9 +49,10 @@ css for both instead of doing what you have done below.
     max-width: 100%;
     }
   }
-}
+} */
 
 //blog mixin 
+/* 
 @mixin blogstyle {
 
   .views-row {
@@ -112,4 +109,4 @@ css for both instead of doing what you have done below.
   height: 0;
   }
 
-}
+} */
