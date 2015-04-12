@@ -22,9 +22,6 @@
 	// display: none;
 }
 
-.nav .nav-tabs li {
-text-align: center;
-}
 
 .blog_news{
 	margin-top: 80px;
@@ -35,15 +32,19 @@ text-align: center;
 
 }
 
-.nav-tabs > li > a, .tab-pane {
-    border-radius: 0;
+// tab borders
+
+.section_1 .nav-tabs > li > a
+   {
+  border-radius: 0;
+  text-align: center;
+  @include h2;
 }
 
-.tab-pane {
-    // text-align: center;
-}
-
-// temp
+// temp hide extra
 .panels-flexible-row.panels-flexible-row-16-main-row.clearfix {
+  display: none;
+}
+.inside.panels-flexible-row-inside.panels-flexible-row-16-3-inside.clearfix {
   display: none;
 }

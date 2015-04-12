@@ -14186,21 +14186,23 @@ section {
 #blog, #news {
   position: absolute; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_custom\/sections\/_tabs\.scss}line{font-family:\0000325}}
-.nav .nav-tabs li {
-  text-align: center; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_custom\/sections\/_tabs\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_custom\/sections\/_tabs\.scss}line{font-family:\0000326}}
 .blog_news {
   margin-top: 80px;
   margin-bottom: 80px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_custom\/sections\/_tabs\.scss}line{font-family:\0000338}}
-.nav-tabs > li > a, .tab-pane {
-  border-radius: 0; }
+.section_1 .nav-tabs > li > a {
+  border-radius: 0;
+  text-align: center;
+  font-size: 2.369em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_custom\/sections\/_tabs\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_custom\/sections\/_tabs\.scss}line{font-family:\0000345}}
 .panels-flexible-row.panels-flexible-row-16-main-row.clearfix {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_custom\/sections\/_tabs\.scss}line{font-family:\0000348}}
+.inside.panels-flexible-row-inside.panels-flexible-row-16-3-inside.clearfix {
   display: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/newbc\/sass\/bootstrap_custom\/sections\/_works\.scss}line{font-family:\000034}}
