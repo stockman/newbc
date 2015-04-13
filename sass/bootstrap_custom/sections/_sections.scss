@@ -9,7 +9,7 @@ section {
   padding-top: 80px;
 }
 
-.section_1, .section_4 {
+.section_1, .section_6 {
 	background: #ffffff;
 }
 
@@ -19,26 +19,9 @@ section {
   overflow: hidden;
 }
 
-.section_4 .featurette-item {
-  a { color: $colouriii;}
-  :hover {color: $colouri;
-    text-decoration: none;}
-}
 
 .section_5 {
   background-color: $colouri;
-}
-
-
-// contrast featurette colours
-.section_6 .featurette-item i {
-    border: 3px solid #ffffff;
-}
-
-.section_6 .featurette-item {
-   a {color: white;}
-  :hover {color: $colouri;
-    text-decoration: none;}
 }
 
 // footer

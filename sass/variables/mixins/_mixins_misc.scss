@@ -11,18 +11,35 @@
 /* positioning
 *********************************/
 
-//float center block
-@mixin center-block {
+// horizontal align center
+@mixin center-horz{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-@mixin center-block2 {
+@mixin center-horz2{
   position: absolute;
   left: 50%;
+  transform: translateX(-50%);
+}
+
+// vertical align center
+
+@mixin center-vert2 {
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+//float center block
+@mixin center-block {
+  @include center-horz;
+}
+
+@mixin center-block2 {
+  @include center-horz2;
+  @include center-vert2;
 }
 
 //other center block

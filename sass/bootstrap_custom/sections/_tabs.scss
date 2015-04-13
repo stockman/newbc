@@ -15,13 +15,20 @@
 
 } */
 
-#blog, #news {
-	position: absolute;
-}
-#news {
-	// display: none;
+//  #blog, #news {
+// 	position: absolute;
+// }
+.active {
+	z-index: 2;
 }
 
+.tab-pane {
+	position: absolute;
+}
+
+#mini-panel-news_feed .nav-pills{
+	
+}
 
 .blog_news{
 	margin-top: 80px;
