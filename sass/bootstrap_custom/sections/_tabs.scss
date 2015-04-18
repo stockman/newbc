@@ -45,8 +45,25 @@
    {
   border-radius: 0;
   text-align: center;
-  @include h2;
+  // @include h2;
 }
+
+.section_1 .nav-tabs > li.active > a,
+ // .section_1 .nav-tabs > li.active > a:hover,
+  .section_1 .nav-tabs > li.active > a:focus {
+	background-color: aliceblue;
+}
+
+.section_1 .nav-tabs > li .fa {
+	@include h2;
+	display: block;
+}
+
+.section_1 .tab-pane {
+	background-color: aliceblue;
+	height: 700px;
+	}
+
 
 // temp hide extra
 .panels-flexible-row.panels-flexible-row-16-main-row.clearfix {
@@ -54,4 +71,11 @@
 }
 .inside.panels-flexible-row-inside.panels-flexible-row-16-3-inside.clearfix {
   display: none;
+}
+
+.panel-col-first.panel-panel, .panel-col-last.panel-panel {
+  display: none;
+}
+.panel-2col-stacked .panel-col-top .inside {
+ // margin-bottom: 0;
 }

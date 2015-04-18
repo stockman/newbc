@@ -7,7 +7,8 @@
 .logged-in .pane-page-logo {
     top: 1.9rem;
     @include breakpoint ($breakii){
-    top: inherit;
+    // top: inherit;
+    top: 1rem;
     }
 }
 .pane-page-logo {
@@ -16,7 +17,7 @@
   display: inline;
   position: absolute;
   margin-left: 4rem;
-  top: 1rem;
+  top: .3rem;
 	}
 //  top: .3rem;
 //  padding: 0 $horz-spacing-unit;
