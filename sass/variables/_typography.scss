@@ -17,6 +17,8 @@ $base-line-height: 20px;
 }
 
 // mixinable font sizes
+// @mixin h0 {font-size: 7.481em;}
+@mixin h0 {font-size: 4.481em;}
 @mixin h1 {font-size: 3.157em;}
 @mixin h2 {font-size: 2.369em;}
 @mixin h3 {font-size: 1.777em;}
